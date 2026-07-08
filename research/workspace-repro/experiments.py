@@ -53,14 +53,33 @@ def item_correct(item, gen):
     return any(a.lower() in g for a in [item["ans"]] + item.get("alts", []))
 
 
+def scaled(jl, fracs):
+    """Map depth fractions to layer indices (Qwen28 fractions as reference)."""
+    return [min(jl.n_layers - 1, round(f * jl.n_layers)) for f in fracs]
+
+
 def probe_layers(jl):
-    # diag.py showed workspace-like content concentrates late-middle on this
-    # 28-layer model (L20-26); keep a few early layers as the contrast band
-    return [8, 11, 14, 17, 20, 23, 25, 26]
+    # diag.py showed workspace-like content concentrates late-middle on the
+    # 28-layer Qwen (L20-26); keep a few early layers as the contrast band.
+    # Other models get the same depth fractions.
+    if jl.n_layers == 28:
+        return [8, 11, 14, 17, 20, 23, 25, 26]
+    return scaled(jl, [.29, .39, .5, .61, .71, .82, .89, .93])
 
 
 def mid_layers(jl):
-    return [17, 20, 23]
+    if jl.n_layers == 28:
+        return [17, 20, 23]
+    return scaled(jl, [.61, .71, .82])
+
+
+def band_layers(jl):
+    """Mid-band used for ablations (Qwen: 16-23 of 28)."""
+    if jl.n_layers == 28:
+        return list(range(16, 24))
+    lo = round(16 / 28 * jl.n_layers)
+    hi = round(24 / 28 * jl.n_layers)
+    return list(range(lo, hi))
 
 
 E2_POSITIONS = [-1, -10]  # end of chat scaffold; end of question text
@@ -231,7 +250,7 @@ def run_e5b(jl, vecs, words, ids):
     Prediction: relevant knockout selectively harms that item."""
     from concepts import single_token_id
     idx_of = {w: i for i, w in enumerate(words)}
-    band = list(range(16, 24))
+    band = band_layers(jl)
     rows = []
     for k, item in enumerate(E2_ITEMS):
         w = item["mid"]
@@ -288,7 +307,7 @@ def build_jspace_bases(jl, vecs, r=16):
 
 
 def run_e5(jl, vecs, r=12, seed=0):
-    band = list(range(16, 24))
+    band = band_layers(jl)
     jbases = {l: Q for l, Q in build_jspace_bases(jl, vecs, r).items() if l in band}
     torch.manual_seed(seed)
     rbases = {}
@@ -320,7 +339,7 @@ def run_e5(jl, vecs, r=12, seed=0):
         gens[name] = outs
         print(f"E5 reasoning acc[{name}] = {acc[name]:.3f}", flush=True)
     # (c) variance explained by the J-space basis at a mid layer
-    lmid = 20
+    lmid = band[len(band) // 2]
     with torch.no_grad():
         enc = jl.encode(AVERAGING_CORPUS[:24])
         jl.forward_capture(enc, grad=False)

@@ -26,8 +26,11 @@ from corpus import AVERAGING_CORPUS
 
 _LOCAL_MODEL = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                             "models", "qwen2.5-1.5b-instruct")
-MODEL_NAME = _LOCAL_MODEL if os.path.isdir(_LOCAL_MODEL) else "Qwen/Qwen2.5-1.5B-Instruct"
-RESULTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results")
+_DEFAULT_MODEL = _LOCAL_MODEL if os.path.isdir(_LOCAL_MODEL) else "Qwen/Qwen2.5-1.5B-Instruct"
+# cross-model runs (E7) override via env: WREPRO_MODEL / WREPRO_RESULTS
+MODEL_NAME = os.environ.get("WREPRO_MODEL", _DEFAULT_MODEL)
+RESULTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                           os.environ.get("WREPRO_RESULTS", "results"))
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 
@@ -39,11 +42,17 @@ def pick_device():
     return "cpu"
 
 
+_DTYPES = {"fp32": torch.float32, "bf16": torch.bfloat16, "fp16": torch.float16}
+DEFAULT_DTYPE = _DTYPES[os.environ.get("WREPRO_DTYPE", "fp32")]
+
+
 class JLens:
-    def __init__(self, model_name=MODEL_NAME, device=None, dtype=torch.float32):
+    def __init__(self, model_name=MODEL_NAME, device=None, dtype=DEFAULT_DTYPE):
         self.device = device or pick_device()
         self.tok = AutoTokenizer.from_pretrained(model_name)
         self.tok.padding_side = "left"
+        if self.tok.pad_token is None:
+            self.tok.pad_token = self.tok.eos_token
         self.model = AutoModelForCausalLM.from_pretrained(
             model_name, dtype=dtype, attn_implementation="eager"
         ).to(self.device)

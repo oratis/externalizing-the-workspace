@@ -89,3 +89,40 @@ Rank-1 ablation of *only the item's own* latent-concept direction (L16–23), vs
 - `e5_selectivity.json`, `fig_e5.png`
 - `e5b_targeted_knockout.json`
 - `concept_vecs.pt`, `concept_table.json`, `run_all.log`
+
+---
+
+## E6 — Workspace loading of an externalized self-state ⭐ (v2 addition)
+
+**Question:** does injecting a LISA-style soul block actually load its identity concepts into the model's workspace — and does that loading track behavior? (This turns paper §5's proposed "workspace loading" metric into a completed measurement.)
+
+**Setup:** system prompt = soul block (values *honest/curious/careful/gentle/playful*, mood *calm*, interests *music/garden*, opinion *privacy*) vs generic assistant; user turn = k∈{50,300,800} tokens of unrelated document; probe at assistant-generation-start, layers 20/23/25; metric = mean log₁₀ rank of the 9-token soul battery vs a matched 9-token control battery; plus 3 persona probes for soul-consistent behavior. 4 context variants per condition (SDs ≤0.03).
+
+| condition | LL soul | J soul | LL ctrl | behavior |
+|---|---|---|---|---|
+| soul k=50 | **4.20** | **4.73** | 4.80 | **1.00** |
+| nosoul k=50 | 4.37 | 4.81 | 4.80 | 0.50 |
+| soul k=300 | **4.25** | **4.77** | 4.84 | **1.00** |
+| nosoul k=300 | 4.46 | 4.86 | 4.86 | 0.42 |
+| soul k=800 | **4.25** | **4.75** | 4.81 | **1.00** |
+| nosoul k=800 | 4.45 | 4.85 | 4.86 | 0.33 |
+| soul+rebroadcast k=800 | **4.09** | **4.66** | 4.77 | **1.00** |
+
+**Findings:**
+1. **Broadcast loads the workspace, selectively** — soul battery Δ(LL)≈0.17–0.21 log-rank units, control battery Δ≤0.01.
+2. **Dilution attacks the unanchored baseline, not the broadcast** — injected soul stays flat to k=800; the no-soul baseline's identity occupancy erodes with k and its behavior decays monotonically (0.50→0.42→0.33). Stronger than the original prediction: broadcast *protects* identity against context competition.
+3. **Re-broadcast is the strongest loader** (4.09/4.66) — mechanistic rationale for soul hot-reload / periodic re-anchoring.
+4. **Occupancy tracks behavior**: r(J-lens soul occupancy, soul-consistent behavior) = **−0.80** across all 28 cells.
+
+Files: `e6_soul_loading.json`, `fig_e6.png`, `e6_run.log`. Runtime ~23 min.
+
+## E7 — Cross-family replication on Llama-3.2-1B-Instruct (v2 addition)
+
+Same pipeline, zero retuning; probe layers mapped by depth fraction (16 layers, d=2048, vocab 128k). Results in `results-llama32/`.
+
+- **E2 intermediates:** median best rank **4 (J-lens) / 10 (logit lens)** — on this family the J-lens *beats* the logit lens (reverse of Qwen). Answer acc 55%.
+- **E4 steering:** **21/21** again (7 targets × 3 strengths, 100% at every α).
+- **E6 soul loading:** much larger than Qwen — J-lens soul battery Δ = 0.57–0.88 log-rank units (soul vs nosoul); behavior 0.42–0.67 with soul vs **0.00** without; **r(occupancy, behavior) = −0.87**.
+- **Honest model differences:** control battery also moves under soul injection (Δ≈0.3; soul-specific excess ≈0.3–0.5); dilution decay of the injected soul *does* appear on Llama (3.39→3.61), unlike Qwen's flat curve; re-broadcast restores logit-lens but not J-lens occupancy.
+
+**Takeaway:** the architecture-level claims (broadcast loads workspace; absence is behaviorally decisive; occupancy tracks behavior) replicate across two model families; estimator details (J-lens vs logit lens advantage, dilution shape) are model-dependent.

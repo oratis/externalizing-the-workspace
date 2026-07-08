@@ -41,6 +41,7 @@ def main(which=None):
         "e4": lambda: X.run_e4(jl, vecs, words, ids),
         "e5": lambda: X.run_e5(jl, vecs),
         "e5b": lambda: X.run_e5b(jl, vecs, words, ids),
+        "e6": lambda: __import__("exp6_soul").run_e6(jl),
     }
     for name, fn in steps.items():
         if which and name not in which:
