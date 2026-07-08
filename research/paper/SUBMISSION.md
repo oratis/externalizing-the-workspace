@@ -2,6 +2,8 @@
 
 **投稿包**: `externalizing-workspace-arxiv-v3.tar.gz`(main.tex + figs/,已加 `\pdfoutput=1`,标准 pdflatex 可编译,无自定义类文件)
 
+> 本地验证说明:`arxiv/main.tex` 与 `paper/main.tex` 逐字节相同(仅多首行 `\pdfoutput=1`),后者用 tectonic 编译 **0 error、出 715KB PDF**。`\pdfoutput=1` 是给 arXiv 的 **pdflatex** 引擎用的;本地 tectonic(XeTeX)会对该行报 `hpdftex.def` 假错——引擎差异,非投稿包问题,arXiv 侧 pdflatex 正常编译。
+
 ## 提交步骤(需要你的 arXiv 账号)
 
 1. https://arxiv.org/submit → Start New Submission
