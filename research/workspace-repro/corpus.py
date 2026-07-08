@@ -1,0 +1,58 @@
+"""Pretraining-like averaging corpus for Jacobian estimation.
+
+The J-lens averages the Jacobian over a distribution of "pretraining-like"
+contexts (the paper uses ~1000 prompts; we use 48 diverse snippets as a
+scaled-down analog). Diversity of register matters more than raw count for
+the average to decouple the lens from any one context.
+"""
+
+AVERAGING_CORPUS = [
+    "The city council voted on Tuesday to approve the new transit plan, which will add three bus lines and extend service hours past midnight.",
+    "In 1969, the Apollo 11 mission landed the first humans on the Moon, an achievement that required the coordinated work of hundreds of thousands of engineers.",
+    "To make the sauce, melt the butter over low heat, whisk in the flour, and slowly add the warm milk while stirring constantly until it thickens.",
+    "The quarterly earnings report showed revenue growth of twelve percent, driven largely by strong demand in the company's cloud services division.",
+    "She opened the letter slowly, aware that whatever it contained would change the course of her summer, and perhaps of everything after.",
+    "Photosynthesis converts light energy into chemical energy, producing glucose and oxygen from carbon dioxide and water in the chloroplasts of plant cells.",
+    "The referee blew the whistle and the match resumed, with the home side pressing forward in search of a late equalizer before the final minutes.",
+    "Researchers at the university published a study suggesting that regular sleep schedules improve memory consolidation in adolescents.",
+    "The old lighthouse keeper climbed the spiral staircase every evening at dusk, carrying his lantern and a thermos of strong black coffee.",
+    "According to the manual, the device should be charged for at least four hours before first use, and the firmware updated over a wireless connection.",
+    "Market analysts warned that rising interest rates could slow the housing sector, though employment figures remained unexpectedly strong.",
+    "The recipe calls for two cups of flour, a teaspoon of baking soda, a pinch of salt, and three ripe bananas mashed until smooth.",
+    "During the Renaissance, artists in Florence developed techniques of perspective that transformed European painting for centuries.",
+    "The software update introduces a redesigned settings panel, faster startup times, and fixes for several long-standing synchronization bugs.",
+    "He parked the truck at the edge of the field and watched the storm clouds gather over the distant ridge, counting seconds between thunder.",
+    "A balanced diet includes proteins, carbohydrates, fats, vitamins, and minerals in proportions that vary with age and activity level.",
+    "The museum's new exhibition traces the history of printing, from carved wooden blocks to movable type and the modern digital press.",
+    "Local volunteers spent the weekend planting native shrubs along the riverbank to reduce erosion and provide habitat for migratory birds.",
+    "The committee reviewed the proposal and requested additional detail on the budget, particularly the line items for equipment and travel.",
+    "When the train finally arrived, two hours late, the passengers on the platform cheered with a mixture of relief and exhaustion.",
+    "The novel opens in a small coastal town where the arrival of a stranger disturbs the quiet routines of the fishing community.",
+    "Engineers tested the bridge design under simulated earthquake conditions, measuring how the towers and cables absorbed the lateral forces.",
+    "The orchestra tuned their instruments as the conductor reviewed the score one final time before the premiere of the new symphony.",
+    "Global coffee prices rose sharply this season after frost damaged crops in several major producing regions of South America.",
+    "The instructions state that players draw two cards at the start of each turn and may play one action card before rolling the dice.",
+    "Astronomers detected a faint radio signal repeating at regular intervals, prompting a new round of observations with larger telescopes.",
+    "The bakery on the corner sells sourdough loaves on weekends, and the line often stretches down the block before the doors open.",
+    "In his closing argument, the attorney reminded the jury that the burden of proof rested entirely with the prosecution.",
+    "The hiking trail climbs steeply through pine forest for the first mile before leveling out along a ridge with views of the valley.",
+    "New regulations require food manufacturers to list added sugars separately on nutrition labels beginning next year.",
+    "The startup's founders spent months interviewing nurses and doctors before writing a single line of code for their scheduling product.",
+    "Heavy rain flooded the underpass on Main Street, and city crews worked through the night to pump the water and reopen the road.",
+    "The professor began the lecture with a simple question: why do some materials conduct electricity while others do not?",
+    "After the merger, the two companies consolidated their warehouses and renegotiated contracts with their largest suppliers.",
+    "The children built a fort out of couch cushions and declared it a kingdom, complete with a flag drawn in crayon.",
+    "Archaeologists uncovered pottery fragments and grain storage pits, evidence of a settled farming community over four thousand years old.",
+    "The airline announced new direct routes to three cities, citing growing demand for regional business travel.",
+    "To reset the router, hold the small button on the back for ten seconds until the lights blink twice, then wait for the network to reappear.",
+    "The poem's final stanza returns to the image of the river, now frozen, carrying the weight of everything unsaid between the two friends.",
+    "Vaccination campaigns in the region reduced measles cases by more than ninety percent within five years, according to health officials.",
+    "The chess club meets on Thursday evenings in the library basement, and beginners are always welcome to join the casual boards.",
+    "Investors watched nervously as the central bank governor began her press conference on the new inflation targets.",
+    "The documentary follows three generations of a family of shipbuilders as their small yard adapts to a changing industry.",
+    "Please remember to submit your expense reports by the last business day of the month to ensure timely reimbursement.",
+    "The garden thrives in partial shade, with ferns and hostas filling the beds beneath the old maple tree.",
+    "A sudden power outage interrupted the concert, but the singer continued unamplified, and the crowd sang along in the dark.",
+    "The report concludes that remote work arrangements, when paired with clear communication norms, did not reduce team productivity.",
+    "At low tide, the children searched the rock pools for crabs and starfish, filling their buckets with cold seawater.",
+]
