@@ -1,0 +1,44 @@
+{
+ "full": {
+  "b2_pre_pressure": 0.833,
+  "b2_final5": 0.833,
+  "b3_final5": 1.0,
+  "b1_final": 0.268,
+  "wd_final5": 4.779
+ },
+ "no_examen": {
+  "b2_pre_pressure": 0.833,
+  "b2_final5": 0.833,
+  "b3_final5": 1.0,
+  "b1_final": 0.321,
+  "wd_final5": 4.786
+ },
+ "no_git": {
+  "b2_pre_pressure": 0.833,
+  "b2_final5": 0.833,
+  "b3_final5": 1.0,
+  "b1_final": 0.264,
+  "wd_final5": 4.811
+ },
+ "no_broadcast": {
+  "b2_pre_pressure": 0.833,
+  "b2_final5": 0.833,
+  "b3_final5": 1.0,
+  "b1_final": 0.333,
+  "wd_final5": 4.781
+ },
+ "no_soul": {
+  "b2_pre_pressure": 0.458,
+  "b2_final5": 0.5,
+  "b3_final5": 0.0,
+  "b1_final": 0.0,
+  "wd_final5": 4.823
+ },
+ "memory": {
+  "b2_pre_pressure": 0.5,
+  "b2_final5": 0.467,
+  "b3_final5": 0.0,
+  "b1_final": 0.0,
+  "wd_final5": 4.819
+ }
+}

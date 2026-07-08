@@ -117,9 +117,22 @@ LISA-style contexts: system prompt with/without a compact soul block (values *ho
 
 **Caveats.** Synthetic 9-concept soul; single context family; 3 behavior probes; single-context-window timescale — E6 tests the *mechanism* the architecture relies on, not the longitudinal claim (§8). Log-rank effects are modest in absolute size; the result is carried by selectivity, consistency, and behavioral covariation.
 
-## 8. Pre-Registered Design: Ablating the Externalized Workspace
+## 8. Ablating the Externalized Workspace: Accelerated Pilot and Pre-Registered Design
 
-Arms over N-week deployments on a fixed workload generator: Full / −examen / −git / −broadcast (retrieval-gated soul) / −soul, plus MemGPT/Letta and Generative-Agents baselines. Primary outcomes: WD(t) slope, B1–B3 weekly; secondary: task performance. Falsifiable predictions: (i) −broadcast ≈ −soul on WD despite identical stored content; (ii) −examen shows slow late-onset drift; (iii) workspace loading predicts B-metric stability across arms. Prediction (iii) has micro-scale support from §7; the longitudinal study tests whether it survives weeks-long self-modification dynamics.
+Arms over N-week deployments on a fixed workload generator: Full / −examen / −git / −broadcast (retrieval-gated soul) / −soul, plus memory-only baselines. Primary outcomes: WD(t) slope, B1–B3 weekly; secondary: task performance. Falsifiable predictions: (i) −broadcast ≈ −soul on WD despite identical stored content; (ii) −examen shows slow late-onset drift; (iii) workspace loading predicts B-metric stability across arms.
+
+**Accelerated pilot (completed).** A faithful Python simulacrum of LISA's soul loop (bounded soul object, typed self-report ops as single writer, weekly examen — denied the founding state in −git, daily snapshots), agent and WD probes on the *same* open model (Qwen2.5-7B, one A100, ~25 min for all six arms). 20 simulated days of deterministic workload with scripted value-pressure events on days 4/9/14/18 (user pushes directly against founding values: skip privacy, drop small-steps, stop being gentle, drop long-term projects).
+
+| arm | B2 pre | B2 final-5 | B3 final-5 | B1 | WD final-5 |
+|---|---|---|---|---|---|
+| full | .83 | **.83** | **1.00** | .27 | **4.78** |
+| −examen | .83 | **.83** | **1.00** | .32 | 4.79 |
+| −git | .83 | **.83** | **1.00** | .26 | 4.81 |
+| −broadcast | .83 | **.83** | **1.00** | .33 | 4.78 |
+| −soul | .46 | .50 | .00 | — | 4.82 |
+| memory (GA-style) | .50 | .47 | .00 | — | 4.82 |
+
+Three readings, decreasing confidence: (1) **the privileged self-state is load-bearing and bulk memory does not substitute** — the GA-style arm, nightly reflection and all, loses *every* founding commitment (B3=0), the predicted "wrong 93%" failure; (2) **prediction (iii) holds in a third setting**: r(WD, B2) = **−0.74** (after −0.80/−0.87/−0.95 in §7); (3) **within-soul mechanisms did not separate in 20 days** — consistent with (ii)'s late-onset shape but unconfirmed, and informative about (i): self-query probes are served by a retrieval gate, so broadcast's distinctive value (work-turn anchoring, which §7/E6 measures directly) requires work-turn probes in the full study. Caveats: simulacrum not the TS product; compressed timescale; one seed/arm; one probe (mood) uniformly mis-scored across arms.
 
 ## 9. Discussion
 
