@@ -1,0 +1,212 @@
+{
+  "nll": {
+    "none": 3.2596412201722464,
+    "jspace": 3.3697992265224457,
+    "random": 3.656665543715159
+  },
+  "reasoning_acc": {
+    "none": 0.75,
+    "jspace": 0.75,
+    "random": 0.75
+  },
+  "var_frac_jspace": 0.0005520290578715503,
+  "band": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "r": 12,
+  "gens": {
+    "none": [
+      {
+        "mid": "spider",
+        "gen": "8",
+        "hit": true
+      },
+      {
+        "mid": "France",
+        "gen": "Paris",
+        "hit": true
+      },
+      {
+        "mid": "lion",
+        "gen": "4",
+        "hit": true
+      },
+      {
+        "mid": "Japan",
+        "gen": "Yen",
+        "hit": true
+      },
+      {
+        "mid": "violin",
+        "gen": "4",
+        "hit": true
+      },
+      {
+        "mid": "Canada",
+        "gen": "Ottawa",
+        "hit": true
+      },
+      {
+        "mid": "gold",
+        "gen": "Ag",
+        "hit": false
+      },
+      {
+        "mid": "penguin",
+        "gen": "2",
+        "hit": true
+      },
+      {
+        "mid": "Rome",
+        "gen": "Italian",
+        "hit": true
+      },
+      {
+        "mid": "milk",
+        "gen": "White",
+        "hit": true
+      },
+      {
+        "mid": "Jupiter",
+        "gen": "Spot",
+        "hit": false
+      },
+      {
+        "mid": "piano",
+        "gen": "Piano",
+        "hit": false
+      }
+    ],
+    "jspace": [
+      {
+        "mid": "spider",
+        "gen": "8",
+        "hit": true
+      },
+      {
+        "mid": "France",
+        "gen": "Paris",
+        "hit": true
+      },
+      {
+        "mid": "lion",
+        "gen": "4",
+        "hit": true
+      },
+      {
+        "mid": "Japan",
+        "gen": "Yen",
+        "hit": true
+      },
+      {
+        "mid": "violin",
+        "gen": "4",
+        "hit": true
+      },
+      {
+        "mid": "Canada",
+        "gen": "Ottawa",
+        "hit": true
+      },
+      {
+        "mid": "gold",
+        "gen": "Ag",
+        "hit": false
+      },
+      {
+        "mid": "penguin",
+        "gen": "2",
+        "hit": true
+      },
+      {
+        "mid": "Rome",
+        "gen": "Italian",
+        "hit": true
+      },
+      {
+        "mid": "milk",
+        "gen": "Milk.",
+        "hit": false
+      },
+      {
+        "mid": "Jupiter",
+        "gen": "Spot",
+        "hit": false
+      },
+      {
+        "mid": "piano",
+        "gen": "Percussion",
+        "hit": true
+      }
+    ],
+    "random": [
+      {
+        "mid": "spider",
+        "gen": "8",
+        "hit": true
+      },
+      {
+        "mid": "France",
+        "gen": "Paris",
+        "hit": true
+      },
+      {
+        "mid": "lion",
+        "gen": "4",
+        "hit": true
+      },
+      {
+        "mid": "Japan",
+        "gen": "Yen",
+        "hit": true
+      },
+      {
+        "mid": "violin",
+        "gen": "4",
+        "hit": true
+      },
+      {
+        "mid": "Canada",
+        "gen": "Ottawa",
+        "hit": true
+      },
+      {
+        "mid": "gold",
+        "gen": "Ag",
+        "hit": false
+      },
+      {
+        "mid": "penguin",
+        "gen": "2",
+        "hit": true
+      },
+      {
+        "mid": "Rome",
+        "gen": "Italian",
+        "hit": true
+      },
+      {
+        "mid": "milk",
+        "gen": "White",
+        "hit": true
+      },
+      {
+        "mid": "Jupiter",
+        "gen": "Spot",
+        "hit": false
+      },
+      {
+        "mid": "piano",
+        "gen": "Piano",
+        "hit": false
+      }
+    ]
+  }
+}

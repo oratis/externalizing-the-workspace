@@ -76,9 +76,9 @@ Rank-1 ablation of *only the item's own* latent-concept direction (L16–23), vs
 | Intermediates causally necessary (P3, patching) | ✅ reproduced via targeted knockout (3/7 selective kills, 0 collateral) |
 | Content vs motor register separation (structure) | ✅ visible as estimator dissociation (E1) |
 | Workspace band in middle layers | ⚠️ present but shifted late (L20–26 of 28) |
-| Pre-commitment of choices before report (P1/P3) | ❌ absent at 1.5B (scale-emergent?) |
+| Pre-commitment of choices before report (P1/P3) | ❌ absent at 1.5B → ✅ **emerges at 7B** (E8) |
 | Automatic/flexible double dissociation under subspace ablation (P5) | ❌ not reproduced with 52-concept proxy basis |
-| J-lens ≫ logit lens | ❌ at this scale logit lens is equally good for concept detection; J-lens adds the content-register view |
+| J-lens ≫ logit lens | scale-dependent: ❌ at 1.5B (equal) → ✅ at 7B & Llama-1B (J-lens wins: median 8 vs 19; 4 vs 10) |
 
 ## Files
 
@@ -126,3 +126,17 @@ Same pipeline, zero retuning; probe layers mapped by depth fraction (16 layers, 
 - **Honest model differences:** control battery also moves under soul injection (Δ≈0.3; soul-specific excess ≈0.3–0.5); dilution decay of the injected soul *does* appear on Llama (3.39→3.61), unlike Qwen's flat curve; re-broadcast restores logit-lens but not J-lens occupancy.
 
 **Takeaway:** the architecture-level claims (broadcast loads workspace; absence is behaviorally decisive; occupancy tracks behavior) replicate across two model families; estimator details (J-lens vs logit lens advantage, dilution shape) are model-dependent.
+
+## E8 — Scale study on Qwen2.5-7B-Instruct (A100, v2 addition)
+
+Same pipeline unchanged, spot A100-40GB on GCP (fp32; full suite 16 min GPU time). Results in `results-qwen7b/`.
+
+**Headline: choice pre-commitment EMERGES at 7B (E3).** Probing before any output token (motor register still 'ready'), the concept the model will later report is already in the workspace at L23 via J-lens: Japan rank **1**, blue **4**, basketball **11**, banana **28** (elephant misses at 7601) — vs 10³–10⁴ at 1.5B. Logit lens at the same positions: 2.7k–15k. The pre-committed choice is visible **specifically in the workspace register** — this confirms v1's "scale-emergent" conjecture and matches the original paper's Claude-scale findings.
+
+**J-lens advantage grows with scale (E1/E2).** E2 median best rank **8 (J) vs 19 (LL)** (top-10: 55% vs 36%) — the reverse of 1.5B, where LL was better. Consistently, E1 motor convergence is later at 7B (LL next-token agreement only 33% at L26 vs 67% at L25 on 1.5B): representational drift grows with scale, and the Jacobian correction becomes necessary rather than optional.
+
+**E4 steering: 21/21 again** — third scale/family at 100%.
+
+**E6 loading replicates, strengthens, and clarifies:** J-lens soul-battery Δ = 0.23–0.27 log-rank units (control Δ ≤ 0.08), behavior 1.00 vs 0.67, **r(occupancy, behavior) = −0.95** (1.5B: −0.80; Llama-1B: −0.87). Notably the logit lens's loading contrast washes out at high dilution on 7B while the J-lens's remains — at scale, the workspace register needs the corrective lens.
+
+**Honest negatives at 7B:** (a) coarse subspace dissociation still absent (proxy basis = 0.06% of variance; ablating it is now essentially harmless — NLL 3.37 vs random 3.66); (b) the rank-1 targeted knockout that killed 3/7 items at 1.5B has **zero** selective kills at 7B — larger models are more redundant; single directions stop being single points of failure, consistent with the original's use of full J-space cones rather than single vectors.

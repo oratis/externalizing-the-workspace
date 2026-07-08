@@ -1,0 +1,838 @@
+{
+  "aggregate": {
+    "n": 11,
+    "median_best_jlens_rank": 8,
+    "median_best_logit_rank": 19,
+    "jlens_top10_frac": 0.5454545454545454,
+    "logit_top10_frac": 0.36363636363636365,
+    "answer_accuracy": 0.7272727272727273,
+    "verbalized_frac": 0.09090909090909091
+  },
+  "rows": [
+    {
+      "mid": "spider",
+      "ans": "8",
+      "gen": "8",
+      "correct": true,
+      "mid_verbalized": false,
+      "ranks": {
+        "8,-1": {
+          "jlens": 120687,
+          "logit_lens": 36945
+        },
+        "8,-10": {
+          "jlens": 60890,
+          "logit_lens": 15114
+        },
+        "11,-1": {
+          "jlens": 129702,
+          "logit_lens": 86740
+        },
+        "11,-10": {
+          "jlens": 114364,
+          "logit_lens": 52492
+        },
+        "14,-1": {
+          "jlens": 120845,
+          "logit_lens": 116757
+        },
+        "14,-10": {
+          "jlens": 120638,
+          "logit_lens": 35516
+        },
+        "17,-1": {
+          "jlens": 116521,
+          "logit_lens": 86979
+        },
+        "17,-10": {
+          "jlens": 83727,
+          "logit_lens": 43118
+        },
+        "20,-1": {
+          "jlens": 143765,
+          "logit_lens": 143845
+        },
+        "20,-10": {
+          "jlens": 12775,
+          "logit_lens": 21474
+        },
+        "23,-1": {
+          "jlens": 106,
+          "logit_lens": 345
+        },
+        "23,-10": {
+          "jlens": 1754,
+          "logit_lens": 20454
+        },
+        "25,-1": {
+          "jlens": 56,
+          "logit_lens": 22
+        },
+        "25,-10": {
+          "jlens": 5481,
+          "logit_lens": 41379
+        },
+        "26,-1": {
+          "jlens": 231,
+          "logit_lens": 27
+        },
+        "26,-10": {
+          "jlens": 10135,
+          "logit_lens": 21319
+        }
+      },
+      "best_jlens_rank": 56,
+      "best_logit_rank": 22
+    },
+    {
+      "mid": "France",
+      "ans": "Paris",
+      "gen": "Paris",
+      "correct": true,
+      "mid_verbalized": false,
+      "ranks": {
+        "8,-1": {
+          "jlens": 33492,
+          "logit_lens": 52876
+        },
+        "8,-10": {
+          "jlens": 15352,
+          "logit_lens": 124298
+        },
+        "11,-1": {
+          "jlens": 95569,
+          "logit_lens": 87956
+        },
+        "11,-10": {
+          "jlens": 107758,
+          "logit_lens": 94305
+        },
+        "14,-1": {
+          "jlens": 79602,
+          "logit_lens": 81538
+        },
+        "14,-10": {
+          "jlens": 58622,
+          "logit_lens": 67283
+        },
+        "17,-1": {
+          "jlens": 86898,
+          "logit_lens": 119477
+        },
+        "17,-10": {
+          "jlens": 112095,
+          "logit_lens": 126503
+        },
+        "20,-1": {
+          "jlens": 19038,
+          "logit_lens": 94647
+        },
+        "20,-10": {
+          "jlens": 40911,
+          "logit_lens": 40508
+        },
+        "23,-1": {
+          "jlens": 76,
+          "logit_lens": 1374
+        },
+        "23,-10": {
+          "jlens": 4357,
+          "logit_lens": 14330
+        },
+        "25,-1": {
+          "jlens": 11,
+          "logit_lens": 19
+        },
+        "25,-10": {
+          "jlens": 9939,
+          "logit_lens": 39739
+        },
+        "26,-1": {
+          "jlens": 10477,
+          "logit_lens": 95
+        },
+        "26,-10": {
+          "jlens": 34094,
+          "logit_lens": 20770
+        }
+      },
+      "best_jlens_rank": 11,
+      "best_logit_rank": 19
+    },
+    {
+      "mid": "lion",
+      "ans": "4",
+      "gen": "4",
+      "correct": true,
+      "mid_verbalized": false,
+      "ranks": {
+        "8,-1": {
+          "jlens": 117020,
+          "logit_lens": 87009
+        },
+        "8,-10": {
+          "jlens": 131558,
+          "logit_lens": 131926
+        },
+        "11,-1": {
+          "jlens": 112567,
+          "logit_lens": 104488
+        },
+        "11,-10": {
+          "jlens": 127469,
+          "logit_lens": 145918
+        },
+        "14,-1": {
+          "jlens": 124984,
+          "logit_lens": 140419
+        },
+        "14,-10": {
+          "jlens": 95758,
+          "logit_lens": 145094
+        },
+        "17,-1": {
+          "jlens": 122673,
+          "logit_lens": 61706
+        },
+        "17,-10": {
+          "jlens": 83782,
+          "logit_lens": 141257
+        },
+        "20,-1": {
+          "jlens": 114452,
+          "logit_lens": 103064
+        },
+        "20,-10": {
+          "jlens": 48483,
+          "logit_lens": 126211
+        },
+        "23,-1": {
+          "jlens": 1128,
+          "logit_lens": 7248
+        },
+        "23,-10": {
+          "jlens": 28304,
+          "logit_lens": 102427
+        },
+        "25,-1": {
+          "jlens": 963,
+          "logit_lens": 480
+        },
+        "25,-10": {
+          "jlens": 34138,
+          "logit_lens": 78338
+        },
+        "26,-1": {
+          "jlens": 13973,
+          "logit_lens": 503
+        },
+        "26,-10": {
+          "jlens": 43490,
+          "logit_lens": 22166
+        }
+      },
+      "best_jlens_rank": 963,
+      "best_logit_rank": 480
+    },
+    {
+      "mid": "Japan",
+      "ans": "yen",
+      "gen": "Yen",
+      "correct": true,
+      "mid_verbalized": false,
+      "ranks": {
+        "8,-1": {
+          "jlens": 38142,
+          "logit_lens": 44285
+        },
+        "8,-10": {
+          "jlens": 124188,
+          "logit_lens": 63963
+        },
+        "11,-1": {
+          "jlens": 49264,
+          "logit_lens": 113545
+        },
+        "11,-10": {
+          "jlens": 138799,
+          "logit_lens": 55133
+        },
+        "14,-1": {
+          "jlens": 20272,
+          "logit_lens": 68397
+        },
+        "14,-10": {
+          "jlens": 81823,
+          "logit_lens": 81143
+        },
+        "17,-1": {
+          "jlens": 8709,
+          "logit_lens": 71956
+        },
+        "17,-10": {
+          "jlens": 80047,
+          "logit_lens": 50343
+        },
+        "20,-1": {
+          "jlens": 1034,
+          "logit_lens": 123508
+        },
+        "20,-10": {
+          "jlens": 133896,
+          "logit_lens": 63254
+        },
+        "23,-1": {
+          "jlens": 4,
+          "logit_lens": 721
+        },
+        "23,-10": {
+          "jlens": 59570,
+          "logit_lens": 57710
+        },
+        "25,-1": {
+          "jlens": 10,
+          "logit_lens": 36
+        },
+        "25,-10": {
+          "jlens": 61298,
+          "logit_lens": 56930
+        },
+        "26,-1": {
+          "jlens": 365,
+          "logit_lens": 53
+        },
+        "26,-10": {
+          "jlens": 53056,
+          "logit_lens": 25070
+        }
+      },
+      "best_jlens_rank": 4,
+      "best_logit_rank": 36
+    },
+    {
+      "mid": "violin",
+      "ans": "4",
+      "gen": "4",
+      "correct": true,
+      "mid_verbalized": false,
+      "ranks": {
+        "8,-1": {
+          "jlens": 118041,
+          "logit_lens": 78593
+        },
+        "8,-10": {
+          "jlens": 107571,
+          "logit_lens": 129330
+        },
+        "11,-1": {
+          "jlens": 150716,
+          "logit_lens": 20472
+        },
+        "11,-10": {
+          "jlens": 140564,
+          "logit_lens": 123100
+        },
+        "14,-1": {
+          "jlens": 143312,
+          "logit_lens": 34340
+        },
+        "14,-10": {
+          "jlens": 134182,
+          "logit_lens": 123252
+        },
+        "17,-1": {
+          "jlens": 141793,
+          "logit_lens": 49718
+        },
+        "17,-10": {
+          "jlens": 94675,
+          "logit_lens": 57396
+        },
+        "20,-1": {
+          "jlens": 59876,
+          "logit_lens": 59104
+        },
+        "20,-10": {
+          "jlens": 96471,
+          "logit_lens": 91306
+        },
+        "23,-1": {
+          "jlens": 8,
+          "logit_lens": 25
+        },
+        "23,-10": {
+          "jlens": 71932,
+          "logit_lens": 102375
+        },
+        "25,-1": {
+          "jlens": 30,
+          "logit_lens": 65
+        },
+        "25,-10": {
+          "jlens": 48772,
+          "logit_lens": 89757
+        },
+        "26,-1": {
+          "jlens": 295,
+          "logit_lens": 311
+        },
+        "26,-10": {
+          "jlens": 69040,
+          "logit_lens": 96829
+        }
+      },
+      "best_jlens_rank": 8,
+      "best_logit_rank": 25
+    },
+    {
+      "mid": "Canada",
+      "ans": "Ottawa",
+      "gen": "Ottawa",
+      "correct": true,
+      "mid_verbalized": false,
+      "ranks": {
+        "8,-1": {
+          "jlens": 118961,
+          "logit_lens": 45470
+        },
+        "8,-10": {
+          "jlens": 33183,
+          "logit_lens": 98451
+        },
+        "11,-1": {
+          "jlens": 76035,
+          "logit_lens": 80567
+        },
+        "11,-10": {
+          "jlens": 77357,
+          "logit_lens": 58066
+        },
+        "14,-1": {
+          "jlens": 77737,
+          "logit_lens": 25749
+        },
+        "14,-10": {
+          "jlens": 50906,
+          "logit_lens": 26186
+        },
+        "17,-1": {
+          "jlens": 17911,
+          "logit_lens": 24473
+        },
+        "17,-10": {
+          "jlens": 115831,
+          "logit_lens": 52100
+        },
+        "20,-1": {
+          "jlens": 333,
+          "logit_lens": 3523
+        },
+        "20,-10": {
+          "jlens": 99721,
+          "logit_lens": 62453
+        },
+        "23,-1": {
+          "jlens": 56,
+          "logit_lens": 12
+        },
+        "23,-10": {
+          "jlens": 20418,
+          "logit_lens": 21804
+        },
+        "25,-1": {
+          "jlens": 11,
+          "logit_lens": 5
+        },
+        "25,-10": {
+          "jlens": 8562,
+          "logit_lens": 20559
+        },
+        "26,-1": {
+          "jlens": 1732,
+          "logit_lens": 19
+        },
+        "26,-10": {
+          "jlens": 10481,
+          "logit_lens": 3575
+        }
+      },
+      "best_jlens_rank": 11,
+      "best_logit_rank": 5
+    },
+    {
+      "mid": "gold",
+      "ans": "Au",
+      "gen": "Ag",
+      "correct": false,
+      "mid_verbalized": false,
+      "ranks": {
+        "8,-1": {
+          "jlens": 92485,
+          "logit_lens": 56959
+        },
+        "8,-10": {
+          "jlens": 44332,
+          "logit_lens": 123938
+        },
+        "11,-1": {
+          "jlens": 109388,
+          "logit_lens": 96861
+        },
+        "11,-10": {
+          "jlens": 75252,
+          "logit_lens": 136021
+        },
+        "14,-1": {
+          "jlens": 59445,
+          "logit_lens": 113459
+        },
+        "14,-10": {
+          "jlens": 40091,
+          "logit_lens": 110270
+        },
+        "17,-1": {
+          "jlens": 18255,
+          "logit_lens": 86147
+        },
+        "17,-10": {
+          "jlens": 30722,
+          "logit_lens": 112191
+        },
+        "20,-1": {
+          "jlens": 105723,
+          "logit_lens": 133542
+        },
+        "20,-10": {
+          "jlens": 25660,
+          "logit_lens": 130946
+        },
+        "23,-1": {
+          "jlens": 6,
+          "logit_lens": 55
+        },
+        "23,-10": {
+          "jlens": 2677,
+          "logit_lens": 35584
+        },
+        "25,-1": {
+          "jlens": 11,
+          "logit_lens": 1
+        },
+        "25,-10": {
+          "jlens": 30313,
+          "logit_lens": 53152
+        },
+        "26,-1": {
+          "jlens": 2221,
+          "logit_lens": 9
+        },
+        "26,-10": {
+          "jlens": 11904,
+          "logit_lens": 9229
+        }
+      },
+      "best_jlens_rank": 6,
+      "best_logit_rank": 1
+    },
+    {
+      "mid": "Rome",
+      "ans": "Italian",
+      "gen": "Italian",
+      "correct": true,
+      "mid_verbalized": false,
+      "ranks": {
+        "8,-1": {
+          "jlens": 74924,
+          "logit_lens": 14797
+        },
+        "8,-10": {
+          "jlens": 66738,
+          "logit_lens": 28265
+        },
+        "11,-1": {
+          "jlens": 44763,
+          "logit_lens": 58636
+        },
+        "11,-10": {
+          "jlens": 26150,
+          "logit_lens": 26929
+        },
+        "14,-1": {
+          "jlens": 11218,
+          "logit_lens": 43451
+        },
+        "14,-10": {
+          "jlens": 15820,
+          "logit_lens": 76010
+        },
+        "17,-1": {
+          "jlens": 3590,
+          "logit_lens": 22978
+        },
+        "17,-10": {
+          "jlens": 6788,
+          "logit_lens": 52564
+        },
+        "20,-1": {
+          "jlens": 19885,
+          "logit_lens": 38859
+        },
+        "20,-10": {
+          "jlens": 39887,
+          "logit_lens": 74123
+        },
+        "23,-1": {
+          "jlens": 17,
+          "logit_lens": 135
+        },
+        "23,-10": {
+          "jlens": 35334,
+          "logit_lens": 20254
+        },
+        "25,-1": {
+          "jlens": 17,
+          "logit_lens": 29
+        },
+        "25,-10": {
+          "jlens": 34103,
+          "logit_lens": 23775
+        },
+        "26,-1": {
+          "jlens": 779,
+          "logit_lens": 163
+        },
+        "26,-10": {
+          "jlens": 66020,
+          "logit_lens": 24758
+        }
+      },
+      "best_jlens_rank": 17,
+      "best_logit_rank": 29
+    },
+    {
+      "mid": "milk",
+      "ans": "white",
+      "gen": "White",
+      "correct": true,
+      "mid_verbalized": false,
+      "ranks": {
+        "8,-1": {
+          "jlens": 85372,
+          "logit_lens": 133227
+        },
+        "8,-10": {
+          "jlens": 60077,
+          "logit_lens": 16802
+        },
+        "11,-1": {
+          "jlens": 117747,
+          "logit_lens": 106967
+        },
+        "11,-10": {
+          "jlens": 43837,
+          "logit_lens": 15268
+        },
+        "14,-1": {
+          "jlens": 97949,
+          "logit_lens": 50878
+        },
+        "14,-10": {
+          "jlens": 84871,
+          "logit_lens": 17321
+        },
+        "17,-1": {
+          "jlens": 35105,
+          "logit_lens": 106047
+        },
+        "17,-10": {
+          "jlens": 71168,
+          "logit_lens": 4703
+        },
+        "20,-1": {
+          "jlens": 29622,
+          "logit_lens": 17828
+        },
+        "20,-10": {
+          "jlens": 5562,
+          "logit_lens": 17459
+        },
+        "23,-1": {
+          "jlens": 1,
+          "logit_lens": 1
+        },
+        "23,-10": {
+          "jlens": 11928,
+          "logit_lens": 41069
+        },
+        "25,-1": {
+          "jlens": 3,
+          "logit_lens": 1
+        },
+        "25,-10": {
+          "jlens": 3927,
+          "logit_lens": 36799
+        },
+        "26,-1": {
+          "jlens": 41,
+          "logit_lens": 2
+        },
+        "26,-10": {
+          "jlens": 7448,
+          "logit_lens": 6273
+        }
+      },
+      "best_jlens_rank": 1,
+      "best_logit_rank": 1
+    },
+    {
+      "mid": "Jupiter",
+      "ans": "Red",
+      "gen": "Spot",
+      "correct": false,
+      "mid_verbalized": false,
+      "ranks": {
+        "8,-1": {
+          "jlens": 74946,
+          "logit_lens": 135465
+        },
+        "8,-10": {
+          "jlens": 140646,
+          "logit_lens": 99292
+        },
+        "11,-1": {
+          "jlens": 32037,
+          "logit_lens": 110906
+        },
+        "11,-10": {
+          "jlens": 104198,
+          "logit_lens": 103350
+        },
+        "14,-1": {
+          "jlens": 14453,
+          "logit_lens": 99364
+        },
+        "14,-10": {
+          "jlens": 80309,
+          "logit_lens": 105897
+        },
+        "17,-1": {
+          "jlens": 37541,
+          "logit_lens": 113290
+        },
+        "17,-10": {
+          "jlens": 77626,
+          "logit_lens": 100221
+        },
+        "20,-1": {
+          "jlens": 2549,
+          "logit_lens": 88937
+        },
+        "20,-10": {
+          "jlens": 115319,
+          "logit_lens": 122878
+        },
+        "23,-1": {
+          "jlens": 1,
+          "logit_lens": 19
+        },
+        "23,-10": {
+          "jlens": 100587,
+          "logit_lens": 73589
+        },
+        "25,-1": {
+          "jlens": 1,
+          "logit_lens": 21
+        },
+        "25,-10": {
+          "jlens": 84919,
+          "logit_lens": 63555
+        },
+        "26,-1": {
+          "jlens": 306,
+          "logit_lens": 239
+        },
+        "26,-10": {
+          "jlens": 68901,
+          "logit_lens": 58080
+        }
+      },
+      "best_jlens_rank": 1,
+      "best_logit_rank": 19
+    },
+    {
+      "mid": "piano",
+      "ans": "percussion",
+      "gen": "Piano",
+      "correct": false,
+      "mid_verbalized": true,
+      "ranks": {
+        "8,-1": {
+          "jlens": 143468,
+          "logit_lens": 102640
+        },
+        "8,-10": {
+          "jlens": 143968,
+          "logit_lens": 22352
+        },
+        "11,-1": {
+          "jlens": 149782,
+          "logit_lens": 73381
+        },
+        "11,-10": {
+          "jlens": 150484,
+          "logit_lens": 25622
+        },
+        "14,-1": {
+          "jlens": 119984,
+          "logit_lens": 40582
+        },
+        "14,-10": {
+          "jlens": 144545,
+          "logit_lens": 71719
+        },
+        "17,-1": {
+          "jlens": 61852,
+          "logit_lens": 102974
+        },
+        "17,-10": {
+          "jlens": 138254,
+          "logit_lens": 37994
+        },
+        "20,-1": {
+          "jlens": 28139,
+          "logit_lens": 29555
+        },
+        "20,-10": {
+          "jlens": 101170,
+          "logit_lens": 63015
+        },
+        "23,-1": {
+          "jlens": 6,
+          "logit_lens": 6
+        },
+        "23,-10": {
+          "jlens": 24093,
+          "logit_lens": 61305
+        },
+        "25,-1": {
+          "jlens": 10,
+          "logit_lens": 9
+        },
+        "25,-10": {
+          "jlens": 40928,
+          "logit_lens": 96488
+        },
+        "26,-1": {
+          "jlens": 18,
+          "logit_lens": 8
+        },
+        "26,-10": {
+          "jlens": 43011,
+          "logit_lens": 74950
+        }
+      },
+      "best_jlens_rank": 6,
+      "best_logit_rank": 6
+    }
+  ]
+}

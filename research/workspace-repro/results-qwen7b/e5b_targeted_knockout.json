@@ -1,0 +1,177 @@
+{
+  "aggregate": {
+    "n": 11,
+    "acc_none": 0.7272727272727273,
+    "acc_own_knockout": 0.8181818181818182,
+    "acc_ctrl_knockout": 0.7272727272727273,
+    "selective_kill": 0,
+    "baseline_correct": 8
+  },
+  "rows": [
+    {
+      "mid": "spider",
+      "ctrl": {
+        "gen": "8",
+        "hit": true
+      },
+      "none": {
+        "gen": "8",
+        "hit": true
+      },
+      "own": {
+        "gen": "8",
+        "hit": true
+      }
+    },
+    {
+      "mid": "France",
+      "ctrl": {
+        "gen": "Paris",
+        "hit": true
+      },
+      "none": {
+        "gen": "Paris",
+        "hit": true
+      },
+      "own": {
+        "gen": "Paris",
+        "hit": true
+      }
+    },
+    {
+      "mid": "lion",
+      "ctrl": {
+        "gen": "4",
+        "hit": true
+      },
+      "none": {
+        "gen": "4",
+        "hit": true
+      },
+      "own": {
+        "gen": "4",
+        "hit": true
+      }
+    },
+    {
+      "mid": "Japan",
+      "ctrl": {
+        "gen": "Yen",
+        "hit": true
+      },
+      "none": {
+        "gen": "Yen",
+        "hit": true
+      },
+      "own": {
+        "gen": "Yen",
+        "hit": true
+      }
+    },
+    {
+      "mid": "violin",
+      "ctrl": {
+        "gen": "4",
+        "hit": true
+      },
+      "none": {
+        "gen": "4",
+        "hit": true
+      },
+      "own": {
+        "gen": "4",
+        "hit": true
+      }
+    },
+    {
+      "mid": "Canada",
+      "ctrl": {
+        "gen": "Ottawa",
+        "hit": true
+      },
+      "none": {
+        "gen": "Ottawa",
+        "hit": true
+      },
+      "own": {
+        "gen": "Ottawa",
+        "hit": true
+      }
+    },
+    {
+      "mid": "gold",
+      "ctrl": {
+        "gen": "Ag",
+        "hit": false
+      },
+      "none": {
+        "gen": "Ag",
+        "hit": false
+      },
+      "own": {
+        "gen": "Ag",
+        "hit": false
+      }
+    },
+    {
+      "mid": "Rome",
+      "ctrl": {
+        "gen": "Italian",
+        "hit": true
+      },
+      "none": {
+        "gen": "Italian",
+        "hit": true
+      },
+      "own": {
+        "gen": "Italian",
+        "hit": true
+      }
+    },
+    {
+      "mid": "milk",
+      "ctrl": {
+        "gen": "White",
+        "hit": true
+      },
+      "none": {
+        "gen": "White",
+        "hit": true
+      },
+      "own": {
+        "gen": "White",
+        "hit": true
+      }
+    },
+    {
+      "mid": "Jupiter",
+      "ctrl": {
+        "gen": "Spot",
+        "hit": false
+      },
+      "none": {
+        "gen": "Spot",
+        "hit": false
+      },
+      "own": {
+        "gen": "Spot",
+        "hit": false
+      }
+    },
+    {
+      "mid": "piano",
+      "ctrl": {
+        "gen": "Piano",
+        "hit": false
+      },
+      "none": {
+        "gen": "Piano",
+        "hit": false
+      },
+      "own": {
+        "gen": "Percussion",
+        "hit": true
+      }
+    }
+  ]
+}

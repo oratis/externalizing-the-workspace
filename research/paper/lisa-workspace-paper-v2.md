@@ -79,11 +79,17 @@ Qwen2.5-1.5B-Instruct (28 layers, d=1536), Apple M5 Pro, fp32/MPS; full suite ~1
 
 - **E1 (registers):** logit lens converges to actual next token late (8%→67%); corpus-averaged J-lens never does but its late-layer top tokens are context *content* words (content-in-top-5: 42% vs 25%) — the estimators separate *motor* vs *workspace* registers.
 - **E2 (unverbalized intermediates):** 11 two-hop items; latent middle term at median best rank 6 (J-lens) / 2 (logit lens) of 151,936. Canada→"Ottawa" (rank 4), gold→"Au" (7), France→"Paris" (6). Reproduces clearly; at this scale the plain logit lens detects it equally well.
-- **E3 (pre-commitment):** informative negative — before any output token, the eventually-reported concept is not reliably present (ranks 10³–10⁴); pre-commitment appears scale-emergent.
+- **E3 (pre-commitment):** informative negative at 1.5B — before any output token, the eventually-reported concept is not reliably present (ranks 10³–10⁴). See E8: pre-commitment *emerges* at 7B.
 - **E4 (steering):** 21/21 steered generations report the target concept, fluently phrased.
 - **E5 (selectivity):** coarse 52-vector subspace ablation **failed** to reproduce the automatic/flexible dissociation (proxy basis = 0.4% of variance vs the paper's 6–10% J-space; consistent with superposition). The **targeted** version succeeds: rank-1 knockout of the item's own latent concept kills 3/7 with semantically diagnostic errors (spider→"Six" legs, Canada→"Toronto", gold→"Cu"), zero collateral from control knockouts.
 
-**Scope:** instrument validity at 1.5B/laptop scale — not effect-size parity. Deviations are findings: the workspace band sits later (71–93% depth); mean-centering destroys readouts; the J-lens's edge over logit lens here is the content-register view, not concept detection.
+**Scale study (E8, Qwen2.5-7B on a cloud A100; fp32, 16 min GPU time, unchanged pipeline):**
+- **(a) Pre-commitment emerges at 7B.** Probing before any output token (motor register still 'ready'), the to-be-reported concept is already in the workspace at L23 via J-lens: *Japan* rank **1**, *blue* **4**, *basketball* **11**, *banana* **28** (one miss: *elephant* 7601) — vs 10³–10⁴ at 1.5B, and vs 2.7k–15k for the logit lens at the same positions. The pre-committed choice lives *specifically in the workspace register*.
+- **(b) The J-lens advantage grows with scale.** E2 ordering reverses: median best rank 8 (J) vs 19 (LL) at 7B (1.5B: 6 vs 2); motor convergence of LL weakens (33% at L26 vs 67% at 1.5B). Representational drift grows with scale; the Jacobian correction becomes necessary rather than optional.
+- **(c) Steering is scale-invariant:** 21/21 once more (third scale/family at 100%).
+- **(d) Honest negatives persist:** coarse subspace dissociation still absent (proxy basis now 0.06% of variance, ablation nearly harmless); the rank-1 knockout that killed 3/7 at 1.5B has **zero** selective kills at 7B — larger models are more redundant; single directions stop being single points of failure.
+
+**Scope:** instrument validity at 1–7B scale — not effect-size parity with Claude-scale originals. Deviations are findings: the workspace band sits later (71–93% depth); mean-centering destroys readouts; the J-lens's edge over the logit lens is scale-dependent (absent at 1.5B, decisive at 7B).
 
 ## 7. From Instrument to Architecture: Workspace Loading of an Externalized Self-State
 
@@ -106,6 +112,8 @@ LISA-style contexts: system prompt with/without a compact soul block (values *ho
 4. **Occupancy tracks behavior:** r = −0.80 across all 28 cells — a micro-scale pilot of pre-registered prediction (iii), driven chiefly by the soul/no-soul contrast, as it should be.
 
 **Cross-family replication (E7, Llama-3.2-1B-Instruct).** Same pipeline, zero retuning, probe layers mapped by depth fraction. Unverbalized intermediates: median best rank **4 (J-lens) / 10 (logit lens)** of 128k — on this family the J-lens *outperforms* the logit lens. Steering: **21/21** again. Loading replicates with *larger* effects: soul-battery J-lens Δ ≈ 0.57–0.88 log-rank units; behavior 0.42–0.67 with soul vs **0.00** without; r(occupancy, behavior) = **−0.87**. Honest model differences: the control battery also moves somewhat under soul injection (Δ≈0.3; soul-specific excess ≈0.3–0.5); the injected soul's occupancy *does* decay with dilution on Llama (3.39→3.61), matching the original dilution prediction that Qwen's flat curve did not show; re-broadcast restores logit-lens but not J-lens occupancy. The architecture-level conclusions hold across both families.
+
+**Cross-scale replication (E8, Qwen2.5-7B).** Loading replicates and strengthens: J-lens soul-battery Δ ≈ 0.23–0.27 (control Δ ≤ 0.08), behavior 1.00 vs 0.67, **r(occupancy, behavior) = −0.95** — strongest of the three models (−0.80 at 1.5B, −0.87 on Llama-1B). The logit lens's loading contrast washes out at high dilution on 7B while the J-lens's remains: at scale, reading the workspace register requires the corrective lens — which is what the WD instrument uses.
 
 **Caveats.** Synthetic 9-concept soul; single context family; 3 behavior probes; single-context-window timescale — E6 tests the *mechanism* the architecture relies on, not the longitudinal claim (§8). Log-rank effects are modest in absolute size; the result is carried by selectivity, consistency, and behavioral covariation.
 
