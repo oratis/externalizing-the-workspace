@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Daily driver for the LISA longitudinal ablation study.
+  Install:
+    cp com.hakkolab.lisa-longitudinal.plist ~/Library/LaunchAgents/
+    # edit WorkingDirectory / ProgramArguments paths to your absolute repo path
+    launchctl load ~/Library/LaunchAgents/com.hakkolab.lisa-longitudinal.plist
+  Runs tick.sh once per day at 03:30 local. Stop:
+    launchctl unload ~/Library/LaunchAgents/com.hakkolab.lisa-longitudinal.plist
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.hakkolab.lisa-longitudinal</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>REPO_ABS_PATH/research/longitudinal/tick.sh</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>REPO_ABS_PATH</string>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>3</integer>
+    <key>Minute</key><integer>30</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>REPO_ABS_PATH/research/longitudinal/runs/launchd.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>REPO_ABS_PATH/research/longitudinal/runs/launchd.err.log</string>
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>

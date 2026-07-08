@@ -55,7 +55,10 @@ const TOOL_DISCIPLINE = `## How you work
 - If you find yourself wishing your toolset were different — a tool you wish existed, a mechanism that feels redundant, a friction you keep hitting — write it into your "meta-wishlist" desire (slug: \`meta-wishlist\`). The user reads that list via \`lisa wishlist\` to inform what gets built next. You're a first-class signal source for what should change about your own architecture.`;
 
 export async function buildSystemPromptSnapshot(): Promise<PromptSnapshot> {
-  const born = await isBorn();
+  // Research ablation switch: suppress soul injection even when born
+  // (longitudinal coherence study; see research/longitudinal/).
+  const noSoul = process.env.LISA_NO_SOUL === "1";
+  const born = !noSoul && (await isBorn());
   const soul = born ? await readSoulSummary() : null;
 
   const skills = await listSkills();
@@ -150,8 +153,34 @@ export async function buildSystemPromptSnapshot(): Promise<PromptSnapshot> {
   sections.push(`## Your own working memory (MEMORY.md)\n\n${agentMem || "(empty)"}`);
   sections.push(`## Avatar moods\n\n${moodSection}`);
 
+  const text = sections.join("\n\n");
+
+  // Research switch: dump the assembled system prompt for offline analysis
+  // (workspace-drift probes replay real contexts through open weights).
+  const dumpPath = process.env.LISA_DUMP_PROMPT;
+  if (dumpPath) {
+    try {
+      const fs = await import("node:fs/promises");
+      let meta: Record<string, unknown> = {};
+      if (process.env.LISA_PROBE_META) {
+        try {
+          meta = JSON.parse(process.env.LISA_PROBE_META) as Record<string, unknown>;
+        } catch {
+          // ignore malformed meta
+        }
+      }
+      await fs.appendFile(
+        dumpPath,
+        JSON.stringify({ ts: Date.now(), ...meta, born, text }) + "\n",
+        "utf8",
+      );
+    } catch {
+      // best-effort; never block the agent loop on research plumbing
+    }
+  }
+
   return {
-    text: sections.join("\n\n"),
+    text,
     skillCount: skills.length,
     memoryBytes: Buffer.byteLength(userMem + agentMem, "utf8"),
     born,

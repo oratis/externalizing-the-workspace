@@ -177,6 +177,9 @@ export function commitSoulChange(
   relPath: string,
   opKind: string,
 ): Promise<void> {
+  // Research ablation switch: skip soul history commits (writes still land
+  // on disk; only versioning is disabled). See research/longitudinal/.
+  if (process.env.LISA_NO_SOUL_GIT === "1") return Promise.resolve();
   const caller = currentCaller();
   return enqueueCommit(async () => {
     if (!(await checkGitAvailable())) return;

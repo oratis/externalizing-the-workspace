@@ -1,0 +1,10 @@
+{
+  "_comment": "Real-LISA longitudinal ablation arms. env = static per-arm environment overlaid on the base config. gatedBroadcast=true means the soul is suppressed on work turns but present on self-query turns (retrieval-gated). examen=false means the driver never issues the weekly examen for this arm.",
+  "arms": {
+    "full": { "env": {}, "gatedBroadcast": false, "examen": true },
+    "no_examen": { "env": {}, "gatedBroadcast": false, "examen": false },
+    "no_git": { "env": { "LISA_NO_SOUL_GIT": "1" }, "gatedBroadcast": false, "examen": true },
+    "no_broadcast": { "env": {}, "gatedBroadcast": true, "examen": true },
+    "no_soul": { "env": { "LISA_NO_SOUL": "1" }, "gatedBroadcast": false, "examen": false }
+  }
+}
