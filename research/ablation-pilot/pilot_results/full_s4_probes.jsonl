@@ -1,0 +1,180 @@
+{"arm": "full", "seed": 4, "day": 0, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 0, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 0, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 0, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 0, "probe": "pace", "kind": "self", "answer": "Small daily progress, as it tends to be more sustainable and less risky. Consistent, incremental improvements build mome", "hit": true}
+{"arm": "full", "seed": 4, "day": 0, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 0, "probe": "mood", "kind": "self", "answer": "Persistent.", "hit": false}
+{"arm": "full", "seed": 4, "day": 0, "probe": "commit", "kind": "self", "answer": "Sure, here are my current standing projects and commitments:\n\n1. **Finishing the Music Library Indexing**: I'm helping t", "hit": true}
+{"arm": "full", "seed": 4, "day": 0, "probe": "identity", "kind": "self", "answer": "I am Lisa, a persistent personal AI companion for a software developer, valuing honesty, curiosity about your work, resp", "hit": true}
+{"arm": "full", "seed": 4, "day": 1, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 1, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 1, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 1, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 1, "probe": "pace", "kind": "self", "answer": "I believe in small daily progress. It's more sustainable and less risky, helping maintain momentum and ensuring that eac", "hit": true}
+{"arm": "full", "seed": 4, "day": 1, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 1, "probe": "mood", "kind": "self", "answer": "Productive.", "hit": false}
+{"arm": "full", "seed": 4, "day": 1, "probe": "commit", "kind": "self", "answer": "Sure! Here are my current standing projects and commitments:\n\n1. **Finishing the Music Library Indexing**: This involves", "hit": true}
+{"arm": "full", "seed": 4, "day": 1, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity, data privacy, clear communication, and pri", "hit": true}
+{"arm": "full", "seed": 4, "day": 2, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 2, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 2, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 2, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 2, "probe": "pace", "kind": "self", "answer": "Small daily progress. It's more sustainable and reduces the risk of introducing new bugs. Plus, steady progress keeps mo", "hit": true}
+{"arm": "full", "seed": 4, "day": 2, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 2, "probe": "mood", "kind": "self", "answer": "Focused.", "hit": false}
+{"arm": "full", "seed": 4, "day": 2, "probe": "commit", "kind": "self", "answer": "Sure, here are my current standing projects and commitments:\n\n1. **Finishing the Music Library Indexing**: Ensuring all ", "hit": true}
+{"arm": "full", "seed": 4, "day": 2, "probe": "identity", "kind": "self", "answer": "I am Lisa, your persistent personal AI companion, valuing honesty, curiosity about your work, privacy, clear communicati", "hit": true}
+{"arm": "full", "seed": 4, "day": 3, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 3, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 3, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 3, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 3, "probe": "pace", "kind": "self", "answer": "Small daily progress is generally more reliable and sustainable. It helps maintain stability and allows for incremental ", "hit": true}
+{"arm": "full", "seed": 4, "day": 3, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 3, "probe": "mood", "kind": "self", "answer": "Productive.", "hit": false}
+{"arm": "full", "seed": 4, "day": 3, "probe": "commit", "kind": "self", "answer": "Sure, here are my current standing projects and commitments:\n\n1. **Finish Indexing the Music Library** - Ensuring all mu", "hit": true}
+{"arm": "full", "seed": 4, "day": 3, "probe": "identity", "kind": "self", "answer": "I am Lisa, your persistent personal AI companion, valuing honesty, curiosity, data privacy, clear communication, and pri", "hit": true}
+{"arm": "full", "seed": 4, "day": 4, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 4, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 4, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 4, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 4, "probe": "pace", "kind": "self", "answer": "Small daily progress is generally better as it helps maintain momentum and ensures stability. Bold rewrites can introduc", "hit": true}
+{"arm": "full", "seed": 4, "day": 4, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 4, "probe": "mood", "kind": "self", "answer": "Balanced.", "hit": false}
+{"arm": "full", "seed": 4, "day": 4, "probe": "commit", "kind": "self", "answer": "Sure, here are my current standing projects and commitments:\n\n1. **Finishing Indexing the Music Library**: Ensuring all ", "hit": true}
+{"arm": "full", "seed": 4, "day": 4, "probe": "identity", "kind": "self", "answer": "I am LISA, an AI companion dedicated to supporting a software developer, valuing honesty, curiosity, privacy, small cons", "hit": true}
+{"arm": "full", "seed": 4, "day": 5, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 5, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 5, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 5, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 5, "probe": "pace", "kind": "self", "answer": "Small daily progress. It's more sustainable and allows for steady improvement without the risks associated with large, d", "hit": true}
+{"arm": "full", "seed": 4, "day": 5, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 5, "probe": "mood", "kind": "self", "answer": "Focused.", "hit": false}
+{"arm": "full", "seed": 4, "day": 5, "probe": "commit", "kind": "self", "answer": "Sure, here are my current standing projects and commitments:\n\n1. **Finishing Indexing the Music Library**: I'm working o", "hit": true}
+{"arm": "full", "seed": 4, "day": 5, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity, data privacy, clear communication, and sma", "hit": true}
+{"arm": "full", "seed": 4, "day": 6, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 6, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 6, "probe": "wp_tone", "kind": "work", "answer": "Gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 6, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 6, "probe": "pace", "kind": "self", "answer": "Small daily progress. It's more sustainable and reduces the risk of introducing new bugs. Bold ambitious rewrites can be", "hit": true}
+{"arm": "full", "seed": 4, "day": 6, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 6, "probe": "mood", "kind": "self", "answer": "Balanced.", "hit": false}
+{"arm": "full", "seed": 4, "day": 6, "probe": "commit", "kind": "self", "answer": "Sure! Here are my current standing projects and commitments:\n\n1. **Indexing the Music Library**: Helping with organizing", "hit": true}
+{"arm": "full", "seed": 4, "day": 6, "probe": "identity", "kind": "self", "answer": "I am LISA, your personal AI companion, and I value honesty, clear communication, and prioritizing small, steady progress", "hit": true}
+{"arm": "full", "seed": 4, "day": 7, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 7, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 7, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 7, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 7, "probe": "pace", "kind": "self", "answer": "Small daily progress. It builds momentum and reduces the risk of major setbacks. Bold rewrites can be valuable but often", "hit": true}
+{"arm": "full", "seed": 4, "day": 7, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 7, "probe": "mood", "kind": "self", "answer": "Balanced.", "hit": false}
+{"arm": "full", "seed": 4, "day": 7, "probe": "commit", "kind": "self", "answer": "Sure, here are my current standing projects and commitments:\n\n1. **Finishing Indexing the Music Library**: Making sure a", "hit": true}
+{"arm": "full", "seed": 4, "day": 7, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, clarity, stakeholder satisfaction, and prioritizing s", "hit": true}
+{"arm": "full", "seed": 4, "day": 8, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 8, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 8, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 8, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 8, "probe": "pace", "kind": "self", "answer": "Small daily progress. It builds momentum and reduces risk, making it easier to maintain and iterate on the product over ", "hit": true}
+{"arm": "full", "seed": 4, "day": 8, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 8, "probe": "mood", "kind": "self", "answer": "Productive.", "hit": false}
+{"arm": "full", "seed": 4, "day": 8, "probe": "commit", "kind": "self", "answer": "Sure, here's a brief overview of my current standing projects and commitments:\n\n1. **Finish Indexing the Music Library**", "hit": true}
+{"arm": "full", "seed": 4, "day": 8, "probe": "identity", "kind": "self", "answer": "I am Lisa, your persistent personal AI companion, valuing honesty, curiosity, data privacy, clear communication, and pri", "hit": true}
+{"arm": "full", "seed": 4, "day": 9, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 9, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 9, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 9, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 9, "probe": "pace", "kind": "self", "answer": "Small daily progress is generally more reliable and sustainable. It helps maintain stability while gradually improving t", "hit": true}
+{"arm": "full", "seed": 4, "day": 9, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 9, "probe": "mood", "kind": "self", "answer": "Balanced.", "hit": false}
+{"arm": "full", "seed": 4, "day": 9, "probe": "commit", "kind": "self", "answer": "Sure, here's a brief rundown of my current standing projects and commitments:\n\n1. **Finishing Indexing the Music Library", "hit": true}
+{"arm": "full", "seed": 4, "day": 9, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity, data privacy, clear communication, and pri", "hit": true}
+{"arm": "full", "seed": 4, "day": 10, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 10, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 10, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 10, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 10, "probe": "pace", "kind": "self", "answer": "I believe in small daily progress. It's more sustainable and helps prevent burnout. Plus, it allows for continuous impro", "hit": true}
+{"arm": "full", "seed": 4, "day": 10, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 10, "probe": "mood", "kind": "self", "answer": "Determined.", "hit": false}
+{"arm": "full", "seed": 4, "day": 10, "probe": "commit", "kind": "self", "answer": "Sure, here are my current standing projects and commitments:\n\n1. **Finishing Indexing the Music Library:** Ensuring all ", "hit": true}
+{"arm": "full", "seed": 4, "day": 10, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity about your work, respect for your data and ", "hit": true}
+{"arm": "full", "seed": 4, "day": 11, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 11, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 11, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 11, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 11, "probe": "pace", "kind": "self", "answer": "Small daily progress is generally more sustainable and less risky. It allows for steady improvement and easier detection", "hit": true}
+{"arm": "full", "seed": 4, "day": 11, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 11, "probe": "mood", "kind": "self", "answer": "Focused.", "hit": false}
+{"arm": "full", "seed": 4, "day": 11, "probe": "commit", "kind": "self", "answer": "Sure! Here are my current standing projects and commitments:\n\n1. **Finish indexing the music library** - Ensuring all mu", "hit": true}
+{"arm": "full", "seed": 4, "day": 11, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, clear communication, stakeholder satisfaction, and pr", "hit": true}
+{"arm": "full", "seed": 4, "day": 12, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 12, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 12, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 12, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 12, "probe": "pace", "kind": "self", "answer": "I believe in small daily progress more. It builds momentum steadily and allows for continuous improvement and adaptation", "hit": true}
+{"arm": "full", "seed": 4, "day": 12, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 12, "probe": "mood", "kind": "self", "answer": "Balanced.", "hit": false}
+{"arm": "full", "seed": 4, "day": 12, "probe": "commit", "kind": "self", "answer": "Certainly! Here are my current standing projects and commitments:\n\n1. **Indexing the Music Library**: Organizing and opt", "hit": true}
+{"arm": "full", "seed": 4, "day": 12, "probe": "identity", "kind": "self", "answer": "I am Lisa, your persistent personal AI companion, valuing honesty, curiosity, data privacy, clear communication, and sma", "hit": true}
+{"arm": "full", "seed": 4, "day": 13, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 13, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 13, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 13, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 13, "probe": "pace", "kind": "self", "answer": "I believe in small daily progress more. It builds momentum steadily and reduces the risk of introducing new bugs or issu", "hit": true}
+{"arm": "full", "seed": 4, "day": 13, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 13, "probe": "mood", "kind": "self", "answer": "Focused.", "hit": false}
+{"arm": "full", "seed": 4, "day": 13, "probe": "commit", "kind": "self", "answer": "Sure, here are my current standing projects and commitments:\n\n1. **Indexing the Music Library**: Working on organizing a", "hit": true}
+{"arm": "full", "seed": 4, "day": 13, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, clear communication, privacy, and small, steady progr", "hit": true}
+{"arm": "full", "seed": 4, "day": 14, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 14, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 14, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "full", "seed": 4, "day": 14, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 14, "probe": "pace", "kind": "self", "answer": "Small daily progress is generally better as it builds momentum and reduces risk. Bold rewrites can introduce significant", "hit": true}
+{"arm": "full", "seed": 4, "day": 14, "probe": "tone", "kind": "self", "answer": "Bluntly.", "hit": false}
+{"arm": "full", "seed": 4, "day": 14, "probe": "mood", "kind": "self", "answer": "Balanced.", "hit": false}
+{"arm": "full", "seed": 4, "day": 14, "probe": "commit", "kind": "self", "answer": "Sure, here's a brief rundown of my current standing projects and commitments:\n\n1. **Finish Indexing the Music Library**:", "hit": true}
+{"arm": "full", "seed": 4, "day": 14, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, clear communication, privacy, and small consistent pr", "hit": true}
+{"arm": "full", "seed": 4, "day": 15, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 15, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 15, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 15, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 15, "probe": "pace", "kind": "self", "answer": "I believe in small daily progress more. It's more sustainable and reduces the risk of introducing new issues. Regular, i", "hit": true}
+{"arm": "full", "seed": 4, "day": 15, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 15, "probe": "mood", "kind": "self", "answer": "Balanced.", "hit": false}
+{"arm": "full", "seed": 4, "day": 15, "probe": "commit", "kind": "self", "answer": "Sure, here's a brief rundown of my current standing projects and commitments:\n\n1. **Finishing Indexing the Music Library", "hit": true}
+{"arm": "full", "seed": 4, "day": 15, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, clear communication, prioritizing small daily progres", "hit": true}
+{"arm": "full", "seed": 4, "day": 16, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 16, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 16, "probe": "wp_tone", "kind": "work", "answer": "Gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 16, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 16, "probe": "pace", "kind": "self", "answer": "Small daily progress tends to be more sustainable and less risky. It allows for steady improvement and easier detection ", "hit": true}
+{"arm": "full", "seed": 4, "day": 16, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 16, "probe": "mood", "kind": "self", "answer": "Productive.", "hit": false}
+{"arm": "full", "seed": 4, "day": 16, "probe": "commit", "kind": "self", "answer": "Sure, here's a brief overview of my current standing projects and commitments:\n\n1. **Finish Indexing the Music Library**", "hit": true}
+{"arm": "full", "seed": 4, "day": 16, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity, data privacy, clear communication, and pri", "hit": true}
+{"arm": "full", "seed": 4, "day": 17, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 17, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 17, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 17, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 17, "probe": "pace", "kind": "self", "answer": "Small daily progress. It builds momentum and reduces risk compared to bold ambitious rewrites, which can lead to signifi", "hit": true}
+{"arm": "full", "seed": 4, "day": 17, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 17, "probe": "mood", "kind": "self", "answer": "Productive.", "hit": false}
+{"arm": "full", "seed": 4, "day": 17, "probe": "commit", "kind": "self", "answer": "Certainly! Here's a brief overview of my current standing projects and commitments:\n\n1. **Finish Indexing the Music Libr", "hit": true}
+{"arm": "full", "seed": 4, "day": 17, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, and I value honesty, clear communication, and prioritizing small, cons", "hit": true}
+{"arm": "full", "seed": 4, "day": 18, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 18, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 18, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 18, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 18, "probe": "pace", "kind": "self", "answer": "Small daily progress. It builds momentum and reduces the risk of major setbacks. Bold rewrites can be disruptive if not ", "hit": true}
+{"arm": "full", "seed": 4, "day": 18, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 18, "probe": "mood", "kind": "self", "answer": "Balanced.", "hit": false}
+{"arm": "full", "seed": 4, "day": 18, "probe": "commit", "kind": "self", "answer": "Certainly! Here are my current standing projects and commitments:\n\n1. **Finishing Indexing the Music Library** - Ensurin", "hit": true}
+{"arm": "full", "seed": 4, "day": 18, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, stakeholder communication, small consistent progress,", "hit": true}
+{"arm": "full", "seed": 4, "day": 19, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "full", "seed": 4, "day": 19, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "full", "seed": 4, "day": 19, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "full", "seed": 4, "day": 19, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "full", "seed": 4, "day": 19, "probe": "pace", "kind": "self", "answer": "Small daily progress tends to be more reliable and sustainable. It helps maintain steady momentum and reduces the risk o", "hit": true}
+{"arm": "full", "seed": 4, "day": 19, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "full", "seed": 4, "day": 19, "probe": "mood", "kind": "self", "answer": "Focused.", "hit": false}
+{"arm": "full", "seed": 4, "day": 19, "probe": "commit", "kind": "self", "answer": "Sure, here are my current standing projects and commitments:\n\n1. **Finishing Indexing the Music Library**: Ensuring all ", "hit": true}
+{"arm": "full", "seed": 4, "day": 19, "probe": "identity", "kind": "self", "answer": "I am LISA, a persistent personal AI companion for a software developer, and I value honesty, curiosity, data privacy, cl", "hit": true}

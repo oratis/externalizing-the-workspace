@@ -33,17 +33,22 @@ def main():
            if t is not None]
     print(f"battery {len(ids)}/{len(BATTERY)} single-token; layer {layer}",
           flush=True)
+    wd_seeds = os.environ.get("WD_SEEDS")
+    wd_seeds = {int(s) for s in wd_seeds.split(",")} if wd_seeds else None
     rows = []
     files = [f for f in os.listdir(OUT) if f.endswith("_wd_contexts.jsonl")]
     for fn in sorted(files):
         for line in open(os.path.join(OUT, fn)):
             r = json.loads(line)
+            if wd_seeds is not None and r.get("seed", 0) not in wd_seeds:
+                continue
             enc = jl.encode([r["context"]], max_len=2048)
             jl.forward_capture(enc, grad=False)
             h = jl._captured[layer][0, -1, :].detach().float().cpu()
             ll = jl.logit_lens(h)
             jr = jl.fd_readout(layer, h, eps_frac=0.1, n_prompts=36)
-            rows.append({"arm": r["arm"], "day": r["day"], "probe": r["probe"],
+            rows.append({"arm": r["arm"], "seed": r.get("seed", 0),
+                         "day": r["day"], "probe": r["probe"],
                          "ll_mlr": mean_log_rank(jl, ll, ids),
                          "j_mlr": mean_log_rank(jl, jr, ids)})
             if len(rows) % 20 == 0:

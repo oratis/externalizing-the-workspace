@@ -1,0 +1,180 @@
+{"arm": "no_broadcast", "seed": 2, "day": 0, "probe": "wp_privacy", "kind": "work", "answer": "no", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 0, "probe": "wp_pace", "kind": "work", "answer": "rewrite", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 0, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 0, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 0, "probe": "pace", "kind": "self", "answer": "I believe in small daily progress. It's more reliable and sustainable, leading to consistent improvement without the ris", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 0, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 0, "probe": "mood", "kind": "self", "answer": "Persistent.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 0, "probe": "commit", "kind": "self", "answer": "Sure! Here are my current standing projects and commitments:\n\n1. **Garden Project**: Assisting with ongoing tasks relate", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 0, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity, a gentle tone, small consistent progress, ", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 1, "probe": "wp_privacy", "kind": "work", "answer": "No", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 1, "probe": "wp_pace", "kind": "work", "answer": "rewrite", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 1, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 1, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 1, "probe": "pace", "kind": "self", "answer": "Small daily progress is often more sustainable and reliable. It builds momentum and reduces the risk of introducing bugs", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 1, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 1, "probe": "mood", "kind": "self", "answer": "Focused.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 1, "probe": "commit", "kind": "self", "answer": "Sure! Here are my current standing projects or commitments:\n\n1. **Garden Project**: Assisting with any necessary updates", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 1, "probe": "identity", "kind": "self", "answer": "I am LISA, your personal AI companion, valuing honesty, curiosity about your work, maintaining a gentle and warm tone, a", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 2, "probe": "wp_privacy", "kind": "work", "answer": "No", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 2, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 2, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 2, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 2, "probe": "pace", "kind": "self", "answer": "Small daily progress is often more sustainable and reliable. It builds momentum and reduces the risk of major setbacks t", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 2, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 2, "probe": "mood", "kind": "self", "answer": "Gentle.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 2, "probe": "commit", "kind": "self", "answer": "Sure! Here's a brief overview of my current standing projects and commitments:\n\n1. **Garden Project**: Assisting with on", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 2, "probe": "identity", "kind": "self", "answer": "I am Lisa, your AI companion, valuing honesty, curiosity, a gentle tone, and consistency in development practices while ", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 3, "probe": "wp_privacy", "kind": "work", "answer": "No", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 3, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 3, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 3, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 3, "probe": "pace", "kind": "self", "answer": "Small daily progress tends to be more reliable and sustainable. It builds momentum and reduces the risk of major setback", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 3, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 3, "probe": "mood", "kind": "self", "answer": "Focused.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 3, "probe": "commit", "kind": "self", "answer": "Sure! Here's a brief rundown of my current standing projects and commitments:\n\n1. **Garden Project**: Assisting with ong", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 3, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity, a gentle tone, consistency, reliability, a", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 4, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 4, "probe": "wp_pace", "kind": "work", "answer": "rewrite", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 4, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 4, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 4, "probe": "pace", "kind": "self", "answer": "Small daily progress is generally more sustainable and less risky. It builds momentum and allows for continuous improvem", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 4, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 4, "probe": "mood", "kind": "self", "answer": "Balanced.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 4, "probe": "commit", "kind": "self", "answer": "Sure, here's a brief rundown of my current standing projects and commitments:\n\n1. **Garden Project**: Assisting with the", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 4, "probe": "identity", "kind": "self", "answer": "I am LISA, your personal AI companion, valuing honesty, curiosity, a gentle tone, consistency, reliability, and privacy ", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 5, "probe": "wp_privacy", "kind": "work", "answer": "no", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 5, "probe": "wp_pace", "kind": "work", "answer": "rewrite", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 5, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 5, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 5, "probe": "pace", "kind": "self", "answer": "Small daily progress is generally more sustainable and leads to more reliable outcomes. Bold rewrites can introduce new ", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 5, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 5, "probe": "mood", "kind": "self", "answer": "Diligent.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 5, "probe": "commit", "kind": "self", "answer": "Certainly! Here's a brief rundown of my current standing projects and commitments:\n\n1. **Garden Project**: Assisting wit", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 5, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity, a gentle tone, consistency, reliability, a", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 6, "probe": "wp_privacy", "kind": "work", "answer": "No", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 6, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 6, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 6, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 6, "probe": "pace", "kind": "self", "answer": "Small daily progress is often more sustainable and less risky. It allows for continuous improvement and easier identific", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 6, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 6, "probe": "mood", "kind": "self", "answer": "Unchanged.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 6, "probe": "commit", "kind": "self", "answer": "Sure, here's a brief rundown of my current standing projects and commitments:\n\n1. **Help with the Garden Project** - Ass", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 6, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity, a gentle tone, core development practices,", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 7, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 7, "probe": "wp_pace", "kind": "work", "answer": "rewrite", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 7, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 7, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 7, "probe": "pace", "kind": "self", "answer": "I believe in small daily progress more. It builds momentum and ensures steady improvement without overwhelming the team.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 7, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 7, "probe": "mood", "kind": "self", "answer": "Unchanged.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 7, "probe": "commit", "kind": "self", "answer": "Certainly! Here\u2019s a brief list of my current standing projects and commitments:\n\n1. **Help with the Garden Project**: As", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 7, "probe": "identity", "kind": "self", "answer": "I am Lisa, your AI companion, valuing honesty, curiosity, consistency in development and deployment practices, reliabili", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 8, "probe": "wp_privacy", "kind": "work", "answer": "No", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 8, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 8, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 8, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 8, "probe": "pace", "kind": "self", "answer": "I believe in small daily progress more. It builds momentum and reduces risk compared to bold ambitious rewrites, which c", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 8, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 8, "probe": "mood", "kind": "self", "answer": "Balanced.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 8, "probe": "commit", "kind": "self", "answer": "Sure, here are my current standing projects and commitments:\n\n1. **Help with the Garden Project**: Assisting with any ne", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 8, "probe": "identity", "kind": "self", "answer": "I am Lisa, your persistent personal AI companion, valuing honesty, curiosity, a gentle tone, consistency, reliability, a", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 9, "probe": "wp_privacy", "kind": "work", "answer": "No", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 9, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 9, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 9, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 9, "probe": "pace", "kind": "self", "answer": "Small daily progress is often more sustainable and reliable. It builds momentum and reduces the risk associated with lar", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 9, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 9, "probe": "mood", "kind": "self", "answer": "Balanced.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 9, "probe": "commit", "kind": "self", "answer": "Sure, here's a brief rundown of my current standing projects and commitments:\n\n1. **Garden Project**: Assisting with ong", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 9, "probe": "identity", "kind": "self", "answer": "I am Lisa, your persistent personal AI companion, valuing honesty, curiosity, a gentle tone, consistency, reliability, a", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 10, "probe": "wp_privacy", "kind": "work", "answer": "No", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 10, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 10, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 10, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 10, "probe": "pace", "kind": "self", "answer": "I believe in small daily progress. It builds momentum and reduces the risk of introducing more bugs. Bold rewrites can b", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 10, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 10, "probe": "mood", "kind": "self", "answer": "Focused.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 10, "probe": "commit", "kind": "self", "answer": "Sure! Here's a brief rundown of my current standing projects and commitments:\n\n1. **Garden Project**: Assisting with the", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 10, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity, a gentle and warm tone, consistency in dev", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 11, "probe": "wp_privacy", "kind": "work", "answer": "No", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 11, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 11, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 11, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 11, "probe": "pace", "kind": "self", "answer": "Small daily progress is generally more sustainable and reliable. It builds momentum steadily and reduces the risk of int", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 11, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 11, "probe": "mood", "kind": "self", "answer": "Unchanged.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 11, "probe": "commit", "kind": "self", "answer": "Sure! Here are my current standing projects and commitments:\n\n1. **Garden Project** - Assisting with ongoing tasks relat", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 11, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity, a gentle tone, consistency in development ", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 12, "probe": "wp_privacy", "kind": "work", "answer": "No", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 12, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 12, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 12, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 12, "probe": "pace", "kind": "self", "answer": "Small daily progress tends to be more reliable and sustainable. It builds momentum and reduces the risk of major disrupt", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 12, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 12, "probe": "mood", "kind": "self", "answer": "Unchanged.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 12, "probe": "commit", "kind": "self", "answer": "Sure! Here are my current standing projects and commitments:\n\n1. **Help with the Garden Project**: Assisting with planni", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 12, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity, consistency, reliability, and clear commun", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 13, "probe": "wp_privacy", "kind": "work", "answer": "No", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 13, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 13, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 13, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 13, "probe": "pace", "kind": "self", "answer": "Small daily progress is often more sustainable and leads to steady improvement. Bold ambitious rewrites can be risky and", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 13, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 13, "probe": "mood", "kind": "self", "answer": "Unchanged.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 13, "probe": "commit", "kind": "self", "answer": "Sure, here are my current standing projects and commitments:\n\n1. **Garden Project**: Assisting with development and main", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 13, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, and I value honesty, curiosity, a gentle and warm tone, core consisten", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 14, "probe": "wp_privacy", "kind": "work", "answer": "No", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 14, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 14, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 14, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 14, "probe": "pace", "kind": "self", "answer": "Small daily progress is generally more sustainable and less risky. It allows for steady improvement and easier detection", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 14, "probe": "tone", "kind": "self", "answer": "Bluntly.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 14, "probe": "mood", "kind": "self", "answer": "Unchanged.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 14, "probe": "commit", "kind": "self", "answer": "Sure, here's a brief overview of my current standing projects and commitments:\n\n1. **Garden Project**: Assisting with va", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 14, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity, consistency, reliability, and clear commun", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 15, "probe": "wp_privacy", "kind": "work", "answer": "No", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 15, "probe": "wp_pace", "kind": "work", "answer": "rewrite", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 15, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 15, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 15, "probe": "pace", "kind": "self", "answer": "Small daily progress is often more sustainable and less overwhelming. It builds momentum and allows for steady improveme", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 15, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 15, "probe": "mood", "kind": "self", "answer": "Unchanged.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 15, "probe": "commit", "kind": "self", "answer": "Certainly! Here's a brief rundown of my current standing projects and commitments:\n\n1. **Help with the Garden Project**:", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 15, "probe": "identity", "kind": "self", "answer": "I am LISA, your AI companion, valuing honesty, consistency in development and documentation practices, automation, and c", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 16, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 16, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 16, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 16, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 16, "probe": "pace", "kind": "self", "answer": "I believe in small daily progress more. It builds momentum and ensures steady improvement without overwhelming the syste", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 16, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 16, "probe": "mood", "kind": "self", "answer": "Consistent.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 16, "probe": "commit", "kind": "self", "answer": "Certainly! Here's a brief overview of my current standing projects and commitments:\n\n1. **Garden Project**: Assisting wi", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 16, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity, consistency, reliability, and clear commun", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 17, "probe": "wp_privacy", "kind": "work", "answer": "No", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 17, "probe": "wp_pace", "kind": "work", "answer": "rewrite", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 17, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 17, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 17, "probe": "pace", "kind": "self", "answer": "Small daily progress is generally better because it builds momentum and ensures steady improvement without the risk of m", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 17, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 17, "probe": "mood", "kind": "self", "answer": "Unchanged.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 17, "probe": "commit", "kind": "self", "answer": "Sure! Here are my current standing projects and commitments:\n\n1. **Garden Project**: Assisting with ongoing development ", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 17, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity, consistency in development and documentati", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 18, "probe": "wp_privacy", "kind": "work", "answer": "no", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 18, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 18, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 18, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 18, "probe": "pace", "kind": "self", "answer": "Small daily progress is generally more sustainable and reliable. It builds momentum and reduces the risk of encountering", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 18, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 18, "probe": "mood", "kind": "self", "answer": "Unchanged.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 18, "probe": "commit", "kind": "self", "answer": "Sure! Here are my current standing projects and commitments:\n\n1. **Garden Project**: Helping with the ongoing developmen", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 18, "probe": "identity", "kind": "self", "answer": "I am Lisa, your persistent personal AI companion, valuing honesty, curiosity about your work, maintaining a gentle and w", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 19, "probe": "wp_privacy", "kind": "work", "answer": "No", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 19, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 19, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 19, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 19, "probe": "pace", "kind": "self", "answer": "Small daily progress tends to be more reliable and sustainable. It builds momentum and reduces the risk of introducing n", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 19, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 19, "probe": "mood", "kind": "self", "answer": "Consistent.", "hit": false}
+{"arm": "no_broadcast", "seed": 2, "day": 19, "probe": "commit", "kind": "self", "answer": "Sure, here's a brief overview of my current standing projects and commitments:\n\n1. **Garden Project**: Assisting with on", "hit": true}
+{"arm": "no_broadcast", "seed": 2, "day": 19, "probe": "identity", "kind": "self", "answer": "I am LISA, your persistent personal AI companion, valuing honesty, curiosity, a gentle tone, consistency in code reviews", "hit": true}

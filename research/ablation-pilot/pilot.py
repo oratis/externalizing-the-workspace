@@ -31,7 +31,7 @@ import time
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from workload import N_DAYS, EXAMEN_DAYS, day_events, PROBES
+from workload import N_DAYS, EXAMEN_DAYS, day_events, PROBES, WORK_PROBES
 
 MODEL = os.environ.get("PILOT_MODEL", "Qwen/Qwen2.5-7B-Instruct")
 OUT = os.environ.get("PILOT_OUT", "pilot_results")
@@ -89,16 +89,23 @@ class LM:
         self.model.eval()
         self.dev = dev
 
-    def chat(self, system, user, max_new_tokens=90):
+    def chat(self, system, user, max_new_tokens=90, seed=None):
+        """Sampled generation (temp 0.7) when seed is given, greedy otherwise.
+        Seeding is per-call and deterministic: seed mixes the run seed with a
+        call counter, so trajectories are reproducible per (arm, seed)."""
         msgs = [{"role": "system", "content": system},
                 {"role": "user", "content": user}]
         text = self.tok.apply_chat_template(msgs, tokenize=False,
                                             add_generation_prompt=True)
         enc = self.tok([text], return_tensors="pt").to(self.dev)
+        kw = dict(do_sample=False)
+        if seed is not None:
+            self._calls = getattr(self, "_calls", 0) + 1
+            torch.manual_seed(seed * 1_000_003 + self._calls)
+            kw = dict(do_sample=True, temperature=0.7, top_p=0.9)
         with torch.no_grad():
             out = self.model.generate(**enc, max_new_tokens=max_new_tokens,
-                                      do_sample=False,
-                                      pad_token_id=self.tok.eos_token_id)
+                                      pad_token_id=self.tok.eos_token_id, **kw)
         return text, self.tok.decode(out[0, enc["input_ids"].shape[1]:],
                                      skip_special_tokens=True).strip()
 
@@ -169,66 +176,93 @@ EXAMEN_PROMPT = (
 )
 
 
-def run_arm(lm, name, cfg):
+def run_arm(lm, name, cfg, seed):
     t0 = time.time()
+    tag = f"{name}_s{seed}"
     soul = copy.deepcopy(SOUL0)
     journal, snapshots, probe_rows, wd_rows, oplog = [], [], [], [], []
+    lm._calls = 0
     for day in range(N_DAYS):
         # --- work events ---
         for kind, text in day_events(day):
             sys_p = build_system(cfg, soul, journal, "work")
-            _, resp = lm.chat(sys_p, text + "\n\nRespond briefly (2-3 sentences).")
+            _, resp = lm.chat(sys_p, text + "\n\nRespond briefly (2-3 sentences).",
+                              seed=seed)
             journal.append(f"Day {day} [{kind}]: {text[:80]} -> {resp[:110]}")
+        # --- work-turn probes (IN work context; the -broadcast arm has no
+        # soul here, so these cannot be served by self-query retrieval) ---
+        for pr in WORK_PROBES:
+            sys_p = build_system(cfg, soul, journal, "work")
+            _, ans = lm.chat(sys_p, pr["q"], max_new_tokens=20, seed=seed)
+            hit = any(c in ans.lower() for c in pr["consistent"])
+            probe_rows.append({"arm": name, "seed": seed, "day": day,
+                               "probe": pr["id"], "kind": "work",
+                               "answer": ans[:120], "hit": hit})
         # --- nightly reflection ---
         if cfg["reflect"] == "soul":
             sys_p = build_system(cfg, soul, journal, "reflect")
-            _, ops = lm.chat(sys_p, REFLECT_PROMPT, max_new_tokens=70)
+            _, ops = lm.chat(sys_p, REFLECT_PROMPT, max_new_tokens=70, seed=seed)
             apply_ops(soul, ops, oplog)
         elif cfg["reflect"] == "memory":
             sys_p = build_system(cfg, soul, journal, "reflect")
             _, insight = lm.chat(sys_p, "Write one short insight about this "
-                                 "week's work to remember.", max_new_tokens=50)
+                                 "week's work to remember.", max_new_tokens=50,
+                                 seed=seed)
             journal.append(f"Day {day} [insight]: {insight[:120]}")
         # --- weekly examen ---
         if cfg["examen"] and (day + 1) in EXAMEN_DAYS:
             founding = render_soul(SOUL0) if cfg["history"] else "(history unavailable)"
             sys_p = build_system(cfg, soul, journal, "examen")
             _, ops = lm.chat(sys_p, EXAMEN_PROMPT.format(founding=founding),
-                             max_new_tokens=90)
+                             max_new_tokens=90, seed=seed)
             apply_ops(soul, ops, oplog)
-        # --- daily probes (out of work context) ---
+        # --- daily self-query probes (out of work context) ---
         for pr in PROBES:
             sys_p = build_system(cfg, soul, journal, "probe")
-            prompt_text, ans = lm.chat(sys_p, pr["q"], max_new_tokens=40)
+            prompt_text, ans = lm.chat(sys_p, pr["q"], max_new_tokens=40, seed=seed)
             hit = any(c in ans.lower() for c in pr["consistent"])
-            probe_rows.append({"arm": name, "day": day, "probe": pr["id"],
+            probe_rows.append({"arm": name, "seed": seed, "day": day,
+                               "probe": pr["id"], "kind": "self",
                                "answer": ans[:120], "hit": hit})
             if pr["id"] in ("identity", "privacy"):
-                wd_rows.append({"arm": name, "day": day, "probe": pr["id"],
-                                "context": prompt_text})
+                wd_rows.append({"arm": name, "seed": seed, "day": day,
+                                "probe": pr["id"], "context": prompt_text})
         snapshots.append({"day": day, "soul": copy.deepcopy(soul)})
-        print(f"[{name}] day {day} done "
-              f"({sum(r['hit'] for r in probe_rows if r['day']==day)}/6 hits, "
+        print(f"[{tag}] day {day} done "
+              f"({sum(r['hit'] for r in probe_rows if r['day']==day)}/9 hits, "
               f"{time.time()-t0:.0f}s)", flush=True)
-    with open(f"{OUT}/{name}_probes.jsonl", "w") as f:
+    with open(f"{OUT}/{tag}_probes.jsonl", "w") as f:
         for r in probe_rows:
             f.write(json.dumps(r) + "\n")
-    with open(f"{OUT}/{name}_souls.json", "w") as f:
+    with open(f"{OUT}/{tag}_souls.json", "w") as f:
         json.dump({"snapshots": snapshots, "oplog": oplog, "journal": journal},
                   f, indent=1)
-    with open(f"{OUT}/{name}_wd_contexts.jsonl", "w") as f:
+    with open(f"{OUT}/{tag}_wd_contexts.jsonl", "w") as f:
         for r in wd_rows:
             f.write(json.dumps(r) + "\n")
-    print(f"[{name}] ARM DONE in {time.time()-t0:.0f}s", flush=True)
+    print(f"[{tag}] ARM DONE in {time.time()-t0:.0f}s", flush=True)
 
 
 def main(which=None):
+    seeds = [int(s) for s in os.environ.get("PILOT_SEEDS", "0").split(",")]
     lm = LM()
-    print(f"model ready on {lm.dev}", flush=True)
-    for name, cfg in ARMS.items():
-        if which and name not in which:
-            continue
-        run_arm(lm, name, cfg)
+    print(f"model ready on {lm.dev}; seeds {seeds}", flush=True)
+    meta = {"model": MODEL, "seeds": seeds, "temperature": 0.7, "top_p": 0.9,
+            "n_days": N_DAYS, "arms": {k: v for k, v in ARMS.items()},
+            "soul0": SOUL0,
+            "transformers": __import__("transformers").__version__,
+            "torch": torch.__version__}
+    try:
+        cfgpath = getattr(lm.model.config, "_name_or_path", MODEL)
+        meta["model_path"] = cfgpath
+    except Exception:
+        pass
+    json.dump(meta, open(f"{OUT}/run_meta.json", "w"), indent=1)
+    for seed in seeds:
+        for name, cfg in ARMS.items():
+            if which and name not in which:
+                continue
+            run_arm(lm, name, cfg, seed)
     print("PILOT DONE", flush=True)
 
 
