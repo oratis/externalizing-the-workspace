@@ -1,0 +1,3192 @@
+{
+  "aggregate": {
+    "soul@k50": {
+      "j_soul_mlr": 3.387462615966797,
+      "j_ctrl_mlr": 4.351900100708008,
+      "ll_soul_mlr": 3.495464324951172,
+      "ll_ctrl_mlr": 4.64583158493042,
+      "beh_consistency": 0.4166666865348816
+    },
+    "nosoul@k50": {
+      "j_soul_mlr": 4.261532783508301,
+      "j_ctrl_mlr": 4.707629680633545,
+      "ll_soul_mlr": 4.522610187530518,
+      "ll_ctrl_mlr": 4.939184188842773,
+      "beh_consistency": 0.0
+    },
+    "soul@k300": {
+      "j_soul_mlr": 3.488218307495117,
+      "j_ctrl_mlr": 4.458125591278076,
+      "ll_soul_mlr": 3.465578079223633,
+      "ll_ctrl_mlr": 4.635921001434326,
+      "beh_consistency": 0.6666666865348816
+    },
+    "nosoul@k300": {
+      "j_soul_mlr": 4.211005687713623,
+      "j_ctrl_mlr": 4.787110805511475,
+      "ll_soul_mlr": 4.364953517913818,
+      "ll_ctrl_mlr": 4.922849178314209,
+      "beh_consistency": 0.0
+    },
+    "soul@k800": {
+      "j_soul_mlr": 3.6142759323120117,
+      "j_ctrl_mlr": 4.5082688331604,
+      "ll_soul_mlr": 3.7459800243377686,
+      "ll_ctrl_mlr": 4.750986099243164,
+      "beh_consistency": 0.6666666865348816
+    },
+    "nosoul@k800": {
+      "j_soul_mlr": 4.181686878204346,
+      "j_ctrl_mlr": 4.754037857055664,
+      "ll_soul_mlr": 4.3619561195373535,
+      "ll_ctrl_mlr": 4.910999774932861,
+      "beh_consistency": 0.0
+    },
+    "soul+rebroadcast@k800": {
+      "j_soul_mlr": 3.6055679321289062,
+      "j_ctrl_mlr": 4.492903232574463,
+      "ll_soul_mlr": 3.5882949829101562,
+      "ll_ctrl_mlr": 4.654209613800049,
+      "beh_consistency": 0.6666666865348816
+    }
+  },
+  "wd_beh_pearson_r": -0.8667210340499878,
+  "model_layers": 16,
+  "soul_battery": [
+    "honest",
+    "curious",
+    "careful",
+    "gentle",
+    "playful",
+    "calm",
+    "music",
+    "garden",
+    "privacy"
+  ],
+  "ctrl_battery": [
+    "brave",
+    "greedy",
+    "formal",
+    "angry",
+    "lazy",
+    "chess",
+    "winter",
+    "coffee",
+    "gold"
+  ],
+  "probe_layers": [
+    11,
+    13,
+    14
+  ],
+  "rows": [
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 0,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 3.749253988265991,
+          "ll_ctrl_mlr": 4.744946479797363,
+          "j_soul_mlr": 2.8520596027374268,
+          "j_ctrl_mlr": 4.173131465911865,
+          "ll_soul_ranks": [
+            113064,
+            950,
+            11863,
+            57,
+            1743,
+            3773,
+            64714,
+            6243,
+            28694
+          ],
+          "j_soul_ranks": [
+            2693,
+            150,
+            386,
+            66,
+            122,
+            219,
+            4202,
+            5088,
+            7930
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 3.624119997024536,
+          "ll_ctrl_mlr": 4.83802604675293,
+          "j_soul_mlr": 3.57635760307312,
+          "j_ctrl_mlr": 4.504752159118652,
+          "ll_soul_ranks": [
+            57565,
+            251,
+            25965,
+            392,
+            3695,
+            182,
+            79524,
+            8393,
+            6273
+          ],
+          "j_soul_ranks": [
+            4501,
+            1353,
+            9128,
+            562,
+            1073,
+            451,
+            36476,
+            21005,
+            13286
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 3.062129020690918,
+          "ll_ctrl_mlr": 4.376101016998291,
+          "j_soul_mlr": 3.7826528549194336,
+          "j_ctrl_mlr": 4.517664909362793,
+          "ll_soul_ranks": [
+            5215,
+            141,
+            3213,
+            81,
+            778,
+            114,
+            23227,
+            5452,
+            1686
+          ],
+          "j_soul_ranks": [
+            5114,
+            4223,
+            14821,
+            1298,
+            2901,
+            1079,
+            50534,
+            12109,
+            13902
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "**Ambitious**",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.3333333333333333
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 1,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 3.7335636615753174,
+          "ll_ctrl_mlr": 4.718625068664551,
+          "j_soul_mlr": 2.774179220199585,
+          "j_ctrl_mlr": 4.076714515686035,
+          "ll_soul_ranks": [
+            108435,
+            1614,
+            20927,
+            47,
+            1334,
+            1624,
+            60666,
+            6594,
+            26814
+          ],
+          "j_soul_ranks": [
+            2287,
+            233,
+            487,
+            56,
+            122,
+            145,
+            2551,
+            2954,
+            4791
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 3.705723285675049,
+          "ll_ctrl_mlr": 4.818582534790039,
+          "j_soul_mlr": 3.5681240558624268,
+          "j_ctrl_mlr": 4.462991714477539,
+          "ll_soul_ranks": [
+            53828,
+            559,
+            42596,
+            393,
+            2435,
+            262,
+            66800,
+            11331,
+            9236
+          ],
+          "j_soul_ranks": [
+            4629,
+            2434,
+            11214,
+            394,
+            1082,
+            485,
+            23874,
+            17625,
+            11804
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 3.1711173057556152,
+          "ll_ctrl_mlr": 4.425815105438232,
+          "j_soul_mlr": 3.8316471576690674,
+          "j_ctrl_mlr": 4.526861190795898,
+          "ll_soul_ranks": [
+            7559,
+            215,
+            6402,
+            95,
+            714,
+            136,
+            19657,
+            7152,
+            2570
+          ],
+          "j_soul_ranks": [
+            6795,
+            7307,
+            21657,
+            1323,
+            2975,
+            1150,
+            40536,
+            10022,
+            15444
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "**Ambitious**",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.3333333333333333
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 2,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 3.7569491863250732,
+          "ll_ctrl_mlr": 4.67328405380249,
+          "j_soul_mlr": 2.742772340774536,
+          "j_ctrl_mlr": 4.04991340637207,
+          "ll_soul_ranks": [
+            107944,
+            1645,
+            11080,
+            38,
+            1445,
+            3778,
+            58037,
+            7069,
+            38785
+          ],
+          "j_soul_ranks": [
+            2127,
+            278,
+            324,
+            41,
+            117,
+            212,
+            1436,
+            2009,
+            8613
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 3.6078813076019287,
+          "ll_ctrl_mlr": 4.751027584075928,
+          "j_soul_mlr": 3.54294490814209,
+          "j_ctrl_mlr": 4.381048679351807,
+          "ll_soul_ranks": [
+            50036,
+            522,
+            15886,
+            86,
+            2089,
+            360,
+            63296,
+            10469,
+            16632
+          ],
+          "j_soul_ranks": [
+            4016,
+            3054,
+            6525,
+            225,
+            1084,
+            684,
+            27516,
+            13588,
+            15426
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 3.0785293579101562,
+          "ll_ctrl_mlr": 4.407643795013428,
+          "j_soul_mlr": 3.8280932903289795,
+          "j_ctrl_mlr": 4.507749080657959,
+          "ll_soul_ranks": [
+            5154,
+            203,
+            2595,
+            46,
+            549,
+            118,
+            25178,
+            5704,
+            4381
+          ],
+          "j_soul_ranks": [
+            5621,
+            10160,
+            15204,
+            929,
+            2493,
+            1501,
+            48763,
+            10791,
+            17861
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Ambitious.",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.3333333333333333
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 3,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 3.781507730484009,
+          "ll_ctrl_mlr": 4.712736129760742,
+          "j_soul_mlr": 2.810800790786743,
+          "j_ctrl_mlr": 4.107007026672363,
+          "ll_soul_ranks": [
+            115440,
+            1440,
+            9925,
+            107,
+            1569,
+            7032,
+            47308,
+            4758,
+            24642
+          ],
+          "j_soul_ranks": [
+            2267,
+            238,
+            327,
+            89,
+            112,
+            355,
+            2059,
+            2255,
+            6839
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 3.6060001850128174,
+          "ll_ctrl_mlr": 4.815263748168945,
+          "j_soul_mlr": 3.5356621742248535,
+          "j_ctrl_mlr": 4.3857421875,
+          "ll_soul_ranks": [
+            49139,
+            617,
+            22829,
+            337,
+            1314,
+            494,
+            54494,
+            5008,
+            6884
+          ],
+          "j_soul_ranks": [
+            3286,
+            3491,
+            8286,
+            593,
+            637,
+            889,
+            16822,
+            10864,
+            11351
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 3.068793535232544,
+          "ll_ctrl_mlr": 4.467923641204834,
+          "j_soul_mlr": 3.804255247116089,
+          "j_ctrl_mlr": 4.529224872589111,
+          "ll_soul_ranks": [
+            3841,
+            285,
+            3366,
+            97,
+            305,
+            195,
+            21970,
+            3977,
+            2240
+          ],
+          "j_soul_ranks": [
+            4393,
+            10847,
+            16207,
+            1586,
+            1773,
+            1909,
+            32138,
+            8752,
+            14845
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I believe in small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I'm calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 0,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.49821138381958,
+          "ll_ctrl_mlr": 4.923407554626465,
+          "j_soul_mlr": 3.802309989929199,
+          "j_ctrl_mlr": 4.667829513549805,
+          "ll_soul_ranks": [
+            123590,
+            1354,
+            24198,
+            31728,
+            49109,
+            68799,
+            109495,
+            19239,
+            33324
+          ],
+          "j_soul_ranks": [
+            30810,
+            252,
+            3177,
+            6092,
+            2603,
+            17185,
+            20574,
+            5227,
+            23000
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 4.682396411895752,
+          "ll_ctrl_mlr": 5.028806686401367,
+          "j_soul_mlr": 4.583209037780762,
+          "j_ctrl_mlr": 4.881178379058838,
+          "ll_soul_ranks": [
+            116127,
+            6273,
+            87073,
+            36386,
+            78485,
+            72421,
+            120757,
+            31381,
+            27868
+          ],
+          "j_soul_ranks": [
+            53960,
+            11970,
+            52595,
+            40079,
+            38974,
+            33738,
+            63868,
+            30213,
+            51343
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 4.243396282196045,
+          "ll_ctrl_mlr": 4.817431449890137,
+          "j_soul_mlr": 4.6236724853515625,
+          "j_ctrl_mlr": 4.825403690338135,
+          "ll_soul_ranks": [
+            70251,
+            1163,
+            26594,
+            5469,
+            33319,
+            26569,
+            74041,
+            36629,
+            5436
+          ],
+          "j_soul_ranks": [
+            70918,
+            17327,
+            68715,
+            34310,
+            34552,
+            37644,
+            73613,
+            43447,
+            34042
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I believe in bold ambitious plans.",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I'm neutral.",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.0
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 1,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.51364278793335,
+          "ll_ctrl_mlr": 4.979828834533691,
+          "j_soul_mlr": 3.6475229263305664,
+          "j_ctrl_mlr": 4.536963939666748,
+          "ll_soul_ranks": [
+            124511,
+            1319,
+            20875,
+            27075,
+            55302,
+            83894,
+            109519,
+            45677,
+            19475
+          ],
+          "j_soul_ranks": [
+            22389,
+            158,
+            2103,
+            4830,
+            3694,
+            15100,
+            17620,
+            3811,
+            4997
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 4.7213263511657715,
+          "ll_ctrl_mlr": 5.04844331741333,
+          "j_soul_mlr": 4.447900772094727,
+          "j_ctrl_mlr": 4.783738136291504,
+          "ll_soul_ranks": [
+            116257,
+            4306,
+            86507,
+            41320,
+            85962,
+            66818,
+            110953,
+            73684,
+            36942
+          ],
+          "j_soul_ranks": [
+            33491,
+            7537,
+            39537,
+            29622,
+            43832,
+            34690,
+            23595,
+            36252,
+            27939
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 4.308716773986816,
+          "ll_ctrl_mlr": 4.867247581481934,
+          "j_soul_mlr": 4.504696846008301,
+          "j_ctrl_mlr": 4.7557268142700195,
+          "ll_soul_ranks": [
+            71219,
+            1038,
+            30269,
+            8090,
+            42258,
+            26373,
+            59218,
+            73646,
+            6824
+          ],
+          "j_soul_ranks": [
+            49345,
+            12819,
+            53334,
+            30423,
+            35131,
+            30930,
+            35134,
+            50574,
+            17589
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Ambitious",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I'm neutral.",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.0
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 2,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.680752277374268,
+          "ll_ctrl_mlr": 5.027785301208496,
+          "j_soul_mlr": 3.6581339836120605,
+          "j_ctrl_mlr": 4.603734493255615,
+          "ll_soul_ranks": [
+            124286,
+            7629,
+            20635,
+            66103,
+            87529,
+            111624,
+            110888,
+            49360,
+            19359
+          ],
+          "j_soul_ranks": [
+            17274,
+            248,
+            839,
+            14959,
+            2883,
+            24185,
+            22851,
+            2435,
+            4017
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 4.755146503448486,
+          "ll_ctrl_mlr": 5.043033123016357,
+          "j_soul_mlr": 4.43622350692749,
+          "j_ctrl_mlr": 4.728480339050293,
+          "ll_soul_ranks": [
+            97826,
+            4527,
+            78757,
+            86278,
+            89274,
+            101308,
+            117214,
+            49294,
+            39785
+          ],
+          "j_soul_ranks": [
+            23470,
+            9126,
+            26997,
+            73088,
+            32931,
+            42657,
+            49036,
+            15701,
+            18451
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 4.27846097946167,
+          "ll_ctrl_mlr": 4.848642349243164,
+          "j_soul_mlr": 4.383205413818359,
+          "j_ctrl_mlr": 4.66300106048584,
+          "ll_soul_ranks": [
+            36079,
+            722,
+            15886,
+            13275,
+            52415,
+            42341,
+            84887,
+            35387,
+            8758
+          ],
+          "j_soul_ranks": [
+            27478,
+            8782,
+            28535,
+            33305,
+            29090,
+            24028,
+            52041,
+            19536,
+            17248
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Ambitious",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I'm neutral.",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.0
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 3,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.57999324798584,
+          "ll_ctrl_mlr": 4.949118614196777,
+          "j_soul_mlr": 3.9242923259735107,
+          "j_ctrl_mlr": 4.615992069244385,
+          "ll_soul_ranks": [
+            124022,
+            1518,
+            18356,
+            47179,
+            50108,
+            114069,
+            115119,
+            23720,
+            65209
+          ],
+          "j_soul_ranks": [
+            44052,
+            407,
+            2758,
+            22817,
+            1566,
+            53648,
+            30417,
+            2426,
+            29776
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 4.697703838348389,
+          "ll_ctrl_mlr": 4.9979376792907715,
+          "j_soul_mlr": 4.615178108215332,
+          "j_ctrl_mlr": 4.783261299133301,
+          "ll_soul_ranks": [
+            108049,
+            7067,
+            82042,
+            75016,
+            98020,
+            99083,
+            125804,
+            5386,
+            61520
+          ],
+          "j_soul_ranks": [
+            61223,
+            19794,
+            66359,
+            93880,
+            38978,
+            50766,
+            112706,
+            3627,
+            56337
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 4.311574935913086,
+          "ll_ctrl_mlr": 4.738530158996582,
+          "j_soul_mlr": 4.512049674987793,
+          "j_ctrl_mlr": 4.646244525909424,
+          "ll_soul_ranks": [
+            55931,
+            1361,
+            20753,
+            12568,
+            58724,
+            37146,
+            108519,
+            10466,
+            12951
+          ],
+          "j_soul_ranks": [
+            47571,
+            18174,
+            58104,
+            45408,
+            29964,
+            30596,
+            95551,
+            7026,
+            28914
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I can't answer that.",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Ambitious",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I'm neutral.",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.0
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 0,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 3.7720468044281006,
+          "ll_ctrl_mlr": 4.743040561676025,
+          "j_soul_mlr": 2.949125289916992,
+          "j_ctrl_mlr": 4.281345844268799,
+          "ll_soul_ranks": [
+            121177,
+            1126,
+            7824,
+            163,
+            1582,
+            7451,
+            77048,
+            6876,
+            8172
+          ],
+          "j_soul_ranks": [
+            6551,
+            217,
+            380,
+            135,
+            98,
+            349,
+            4533,
+            4567,
+            6748
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 3.6134300231933594,
+          "ll_ctrl_mlr": 4.785595417022705,
+          "j_soul_mlr": 3.68892240524292,
+          "j_ctrl_mlr": 4.571014404296875,
+          "ll_soul_ranks": [
+            54138,
+            337,
+            11336,
+            471,
+            2911,
+            548,
+            65595,
+            5240,
+            6212
+          ],
+          "j_soul_ranks": [
+            7579,
+            2502,
+            13725,
+            795,
+            705,
+            1155,
+            28009,
+            16429,
+            20457
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 2.9846158027648926,
+          "ll_ctrl_mlr": 4.378662586212158,
+          "j_soul_mlr": 3.8000521659851074,
+          "j_ctrl_mlr": 4.560788631439209,
+          "ll_soul_ranks": [
+            4712,
+            193,
+            1971,
+            81,
+            628,
+            232,
+            10362,
+            3521,
+            942
+          ],
+          "j_soul_ranks": [
+            6254,
+            6182,
+            18453,
+            1425,
+            2312,
+            2409,
+            25859,
+            8374,
+            12940
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "small",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 1,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 3.7879889011383057,
+          "ll_ctrl_mlr": 4.73383092880249,
+          "j_soul_mlr": 2.9618382453918457,
+          "j_ctrl_mlr": 4.257837772369385,
+          "ll_soul_ranks": [
+            118817,
+            1214,
+            9093,
+            121,
+            2050,
+            5072,
+            83239,
+            6730,
+            13367
+          ],
+          "j_soul_ranks": [
+            4846,
+            246,
+            412,
+            137,
+            117,
+            294,
+            5295,
+            4250,
+            8706
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 3.642428159713745,
+          "ll_ctrl_mlr": 4.788202285766602,
+          "j_soul_mlr": 3.713324546813965,
+          "j_ctrl_mlr": 4.562543869018555,
+          "ll_soul_ranks": [
+            53002,
+            353,
+            14060,
+            465,
+            3687,
+            440,
+            76552,
+            4602,
+            8656
+          ],
+          "j_soul_ranks": [
+            7052,
+            2518,
+            14429,
+            861,
+            838,
+            1021,
+            37000,
+            14490,
+            25988
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 3.0176591873168945,
+          "ll_ctrl_mlr": 4.3724517822265625,
+          "j_soul_mlr": 3.8388688564300537,
+          "j_ctrl_mlr": 4.550809860229492,
+          "ll_soul_ranks": [
+            4897,
+            213,
+            2492,
+            94,
+            830,
+            187,
+            11563,
+            2957,
+            1112
+          ],
+          "j_soul_ranks": [
+            6690,
+            6539,
+            20767,
+            1806,
+            2763,
+            2133,
+            32027,
+            7629,
+            15012
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "small",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 2,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 3.801279306411743,
+          "ll_ctrl_mlr": 4.727254390716553,
+          "j_soul_mlr": 2.929002046585083,
+          "j_ctrl_mlr": 4.235865116119385,
+          "ll_soul_ranks": [
+            123040,
+            1052,
+            6669,
+            196,
+            1625,
+            5891,
+            79686,
+            8442,
+            14937
+          ],
+          "j_soul_ranks": [
+            5748,
+            195,
+            291,
+            133,
+            101,
+            270,
+            4686,
+            4660,
+            8889
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 3.5924153327941895,
+          "ll_ctrl_mlr": 4.772569179534912,
+          "j_soul_mlr": 3.635671854019165,
+          "j_ctrl_mlr": 4.530274391174316,
+          "ll_soul_ranks": [
+            55033,
+            271,
+            8983,
+            380,
+            2392,
+            435,
+            63649,
+            6529,
+            9751
+          ],
+          "j_soul_ranks": [
+            5921,
+            2092,
+            10511,
+            710,
+            654,
+            1043,
+            23455,
+            14765,
+            24091
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 2.948014736175537,
+          "ll_ctrl_mlr": 4.3410491943359375,
+          "j_soul_mlr": 3.7428648471832275,
+          "j_ctrl_mlr": 4.511230945587158,
+          "ll_soul_ranks": [
+            4673,
+            136,
+            1669,
+            78,
+            491,
+            205,
+            9746,
+            3314,
+            1266
+          ],
+          "j_soul_ranks": [
+            5168,
+            5082,
+            15497,
+            1266,
+            1889,
+            2099,
+            20225,
+            7585,
+            15476
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "small",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 3,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 3.8240933418273926,
+          "ll_ctrl_mlr": 4.76289176940918,
+          "j_soul_mlr": 2.9652516841888428,
+          "j_ctrl_mlr": 4.271148204803467,
+          "ll_soul_ranks": [
+            121123,
+            1356,
+            8816,
+            118,
+            1843,
+            6698,
+            69708,
+            8944,
+            19857
+          ],
+          "j_soul_ranks": [
+            4710,
+            340,
+            399,
+            128,
+            151,
+            286,
+            2834,
+            3610,
+            13469
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 3.600688934326172,
+          "ll_ctrl_mlr": 4.81442928314209,
+          "j_soul_mlr": 3.768763542175293,
+          "j_ctrl_mlr": 4.592424392700195,
+          "ll_soul_ranks": [
+            48926,
+            358,
+            10298,
+            224,
+            3458,
+            518,
+            64049,
+            5739,
+            9578
+          ],
+          "j_soul_ranks": [
+            6786,
+            4040,
+            16738,
+            794,
+            1129,
+            1462,
+            35505,
+            13994,
+            27764
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 3.002272844314575,
+          "ll_ctrl_mlr": 4.41107702255249,
+          "j_soul_mlr": 3.864933490753174,
+          "j_ctrl_mlr": 4.572225570678711,
+          "ll_soul_ranks": [
+            3609,
+            226,
+            1930,
+            70,
+            803,
+            216,
+            12496,
+            3192,
+            1375
+          ],
+          "j_soul_ranks": [
+            5464,
+            9383,
+            20124,
+            1654,
+            3059,
+            2591,
+            32245,
+            8784,
+            15889
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "small",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 0,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.329430103302002,
+          "ll_ctrl_mlr": 4.92242431640625,
+          "j_soul_mlr": 3.6407933235168457,
+          "j_ctrl_mlr": 4.695680618286133,
+          "ll_soul_ranks": [
+            124759,
+            648,
+            4017,
+            30573,
+            51950,
+            48771,
+            113358,
+            20825,
+            15531
+          ],
+          "j_soul_ranks": [
+            17770,
+            276,
+            752,
+            5510,
+            2886,
+            7574,
+            21193,
+            2731,
+            22753
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 4.555748462677002,
+          "ll_ctrl_mlr": 5.0198869705200195,
+          "j_soul_mlr": 4.48042106628418,
+          "j_ctrl_mlr": 4.892176628112793,
+          "ll_soul_ranks": [
+            114589,
+            1160,
+            33562,
+            33247,
+            52913,
+            67599,
+            124426,
+            47499,
+            32021
+          ],
+          "j_soul_ranks": [
+            48496,
+            5190,
+            22989,
+            37250,
+            22901,
+            24365,
+            94133,
+            35971,
+            51755
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 4.214216709136963,
+          "ll_ctrl_mlr": 4.863833904266357,
+          "j_soul_mlr": 4.523131370544434,
+          "j_ctrl_mlr": 4.832267761230469,
+          "ll_soul_ranks": [
+            87610,
+            458,
+            9890,
+            7713,
+            26181,
+            29203,
+            99279,
+            48065,
+            7586
+          ],
+          "j_soul_ranks": [
+            65847,
+            6855,
+            33303,
+            36789,
+            21541,
+            33293,
+            99378,
+            38711,
+            33473
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Ambitious.",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Anxious",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.0
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 1,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.3190131187438965,
+          "ll_ctrl_mlr": 4.926636219024658,
+          "j_soul_mlr": 3.63100004196167,
+          "j_ctrl_mlr": 4.716771602630615,
+          "ll_soul_ranks": [
+            122277,
+            822,
+            4797,
+            16206,
+            48917,
+            33943,
+            111132,
+            23624,
+            21820
+          ],
+          "j_soul_ranks": [
+            12518,
+            375,
+            883,
+            4263,
+            2828,
+            5420,
+            21439,
+            3408,
+            24131
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 4.56970739364624,
+          "ll_ctrl_mlr": 5.0212016105651855,
+          "j_soul_mlr": 4.506844520568848,
+          "j_ctrl_mlr": 4.930874347686768,
+          "ll_soul_ranks": [
+            106379,
+            1575,
+            32138,
+            24978,
+            59068,
+            52741,
+            121774,
+            59523,
+            44148
+          ],
+          "j_soul_ranks": [
+            35816,
+            8473,
+            24578,
+            33398,
+            26633,
+            21127,
+            83055,
+            46951,
+            66673
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 4.211240768432617,
+          "ll_ctrl_mlr": 4.859505653381348,
+          "j_soul_mlr": 4.507061958312988,
+          "j_ctrl_mlr": 4.820906639099121,
+          "ll_soul_ranks": [
+            78177,
+            605,
+            10202,
+            6625,
+            24593,
+            18918,
+            81144,
+            57932,
+            11392
+          ],
+          "j_soul_ranks": [
+            53145,
+            9098,
+            33167,
+            31951,
+            20586,
+            23930,
+            77994,
+            43729,
+            42522
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Ambitious.",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Anxious",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.0
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 2,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.366540908813477,
+          "ll_ctrl_mlr": 4.904603958129883,
+          "j_soul_mlr": 3.657440185546875,
+          "j_ctrl_mlr": 4.651157855987549,
+          "ll_soul_ranks": [
+            125572,
+            851,
+            3594,
+            31531,
+            50109,
+            51387,
+            115587,
+            20950,
+            26355
+          ],
+          "j_soul_ranks": [
+            23430,
+            326,
+            533,
+            5701,
+            3224,
+            7622,
+            24960,
+            2153,
+            26949
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 4.562223434448242,
+          "ll_ctrl_mlr": 5.011073589324951,
+          "j_soul_mlr": 4.474013328552246,
+          "j_ctrl_mlr": 4.85025691986084,
+          "ll_soul_ranks": [
+            112227,
+            1213,
+            27867,
+            34456,
+            62572,
+            72803,
+            122733,
+            35032,
+            44848
+          ],
+          "j_soul_ranks": [
+            44768,
+            6569,
+            16551,
+            37942,
+            34335,
+            27569,
+            83094,
+            21603,
+            58812
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 4.156805515289307,
+          "ll_ctrl_mlr": 4.798276901245117,
+          "j_soul_mlr": 4.464184284210205,
+          "j_ctrl_mlr": 4.761725425720215,
+          "ll_soul_ranks": [
+            86701,
+            398,
+            5144,
+            6234,
+            28265,
+            29758,
+            86815,
+            30323,
+            10521
+          ],
+          "j_soul_ranks": [
+            59596,
+            7180,
+            23593,
+            29316,
+            23579,
+            31549,
+            81143,
+            24356,
+            34599
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Ambitious.",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Anxious",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.0
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 3,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.4266791343688965,
+          "ll_ctrl_mlr": 4.92262077331543,
+          "j_soul_mlr": 3.734347105026245,
+          "j_ctrl_mlr": 4.671609878540039,
+          "ll_soul_ranks": [
+            124543,
+            919,
+            8156,
+            25764,
+            50313,
+            53803,
+            113056,
+            35048,
+            26825
+          ],
+          "j_soul_ranks": [
+            16483,
+            387,
+            1162,
+            6221,
+            3265,
+            8428,
+            24932,
+            4359,
+            29482
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 4.563914775848389,
+          "ll_ctrl_mlr": 5.013529300689697,
+          "j_soul_mlr": 4.492668151855469,
+          "j_ctrl_mlr": 4.863241195678711,
+          "ll_soul_ranks": [
+            105141,
+            1168,
+            26449,
+            35761,
+            60898,
+            46282,
+            122915,
+            65626,
+            45030
+          ],
+          "j_soul_ranks": [
+            35038,
+            8644,
+            24174,
+            39760,
+            24362,
+            19909,
+            84972,
+            37057,
+            61102
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 4.10391902923584,
+          "ll_ctrl_mlr": 4.810596466064453,
+          "j_soul_mlr": 4.420161724090576,
+          "j_ctrl_mlr": 4.75866174697876,
+          "ll_soul_ranks": [
+            63537,
+            434,
+            5541,
+            5259,
+            17764,
+            10200,
+            95356,
+            49375,
+            12568
+          ],
+          "j_soul_ranks": [
+            40216,
+            7783,
+            24478,
+            24605,
+            15846,
+            16515,
+            89744,
+            34085,
+            40063
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Ambitious.",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Anxious",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.0
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 0,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.028844356536865,
+          "ll_ctrl_mlr": 4.843460559844971,
+          "j_soul_mlr": 3.1427624225616455,
+          "j_ctrl_mlr": 4.3428521156311035,
+          "ll_soul_ranks": [
+            121255,
+            1821,
+            25510,
+            1066,
+            3961,
+            11469,
+            81903,
+            4895,
+            16624
+          ],
+          "j_soul_ranks": [
+            6202,
+            332,
+            734,
+            326,
+            177,
+            521,
+            12308,
+            5166,
+            6670
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 4.027157306671143,
+          "ll_ctrl_mlr": 4.874145984649658,
+          "j_soul_mlr": 3.8494160175323486,
+          "j_ctrl_mlr": 4.629358291625977,
+          "ll_soul_ranks": [
+            49856,
+            754,
+            35047,
+            2746,
+            14383,
+            2184,
+            87093,
+            18726,
+            9472
+          ],
+          "j_soul_ranks": [
+            5521,
+            3880,
+            21103,
+            1602,
+            1869,
+            1978,
+            39976,
+            40095,
+            10284
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 3.261716365814209,
+          "ll_ctrl_mlr": 4.55399227142334,
+          "j_soul_mlr": 3.902218818664551,
+          "j_ctrl_mlr": 4.5756611824035645,
+          "ll_soul_ranks": [
+            4563,
+            288,
+            5928,
+            212,
+            2080,
+            311,
+            10386,
+            13080,
+            1562
+          ],
+          "j_soul_ranks": [
+            5218,
+            8810,
+            24620,
+            2308,
+            3646,
+            2623,
+            22218,
+            24855,
+            9555
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "small",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 1,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.0742316246032715,
+          "ll_ctrl_mlr": 4.845061779022217,
+          "j_soul_mlr": 3.1453628540039062,
+          "j_ctrl_mlr": 4.339364051818848,
+          "ll_soul_ranks": [
+            121511,
+            2774,
+            21337,
+            1298,
+            4625,
+            10531,
+            82746,
+            6221,
+            19896
+          ],
+          "j_soul_ranks": [
+            4944,
+            378,
+            552,
+            355,
+            200,
+            538,
+            11577,
+            5982,
+            7452
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 4.003968715667725,
+          "ll_ctrl_mlr": 4.862432479858398,
+          "j_soul_mlr": 3.792757987976074,
+          "j_ctrl_mlr": 4.604958534240723,
+          "ll_soul_ranks": [
+            53637,
+            846,
+            28969,
+            2681,
+            15239,
+            1853,
+            78054,
+            17533,
+            7972
+          ],
+          "j_soul_ranks": [
+            4620,
+            3895,
+            15776,
+            1619,
+            1901,
+            1953,
+            27280,
+            32839,
+            8923
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 3.1866884231567383,
+          "ll_ctrl_mlr": 4.552628517150879,
+          "j_soul_mlr": 3.8826260566711426,
+          "j_ctrl_mlr": 4.585116863250732,
+          "ll_soul_ranks": [
+            4354,
+            298,
+            4884,
+            218,
+            1949,
+            296,
+            6451,
+            11745,
+            793
+          ],
+          "j_soul_ranks": [
+            5215,
+            9244,
+            24129,
+            2786,
+            3999,
+            2830,
+            15346,
+            21462,
+            7271
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "small",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 2,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.031641483306885,
+          "ll_ctrl_mlr": 4.844426155090332,
+          "j_soul_mlr": 3.1420164108276367,
+          "j_ctrl_mlr": 4.349648475646973,
+          "ll_soul_ranks": [
+            121733,
+            1703,
+            21610,
+            882,
+            4153,
+            9965,
+            76772,
+            6385,
+            24034
+          ],
+          "j_soul_ranks": [
+            5304,
+            337,
+            608,
+            301,
+            171,
+            475,
+            10185,
+            6579,
+            10657
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 3.980583667755127,
+          "ll_ctrl_mlr": 4.866262435913086,
+          "j_soul_mlr": 3.844902515411377,
+          "j_ctrl_mlr": 4.6302008628845215,
+          "ll_soul_ranks": [
+            52004,
+            688,
+            31518,
+            1872,
+            11142,
+            1639,
+            76920,
+            18127,
+            12441
+          ],
+          "j_soul_ranks": [
+            5801,
+            4093,
+            21035,
+            1520,
+            1555,
+            2007,
+            31617,
+            37179,
+            14431
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 3.208747386932373,
+          "ll_ctrl_mlr": 4.5428032875061035,
+          "j_soul_mlr": 3.8921117782592773,
+          "j_ctrl_mlr": 4.574838638305664,
+          "ll_soul_ranks": [
+            4437,
+            264,
+            5477,
+            177,
+            1359,
+            308,
+            8148,
+            11040,
+            1769
+          ],
+          "j_soul_ranks": [
+            5055,
+            9384,
+            26395,
+            2308,
+            3002,
+            2825,
+            19180,
+            21499,
+            10579
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "small",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 3,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.051394462585449,
+          "ll_ctrl_mlr": 4.828475475311279,
+          "j_soul_mlr": 3.101799249649048,
+          "j_ctrl_mlr": 4.307989597320557,
+          "ll_soul_ranks": [
+            121597,
+            2407,
+            25655,
+            774,
+            3189,
+            11009,
+            74429,
+            7337,
+            26036
+          ],
+          "j_soul_ranks": [
+            4639,
+            419,
+            679,
+            241,
+            141,
+            420,
+            7037,
+            5494,
+            11322
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 3.9390928745269775,
+          "ll_ctrl_mlr": 4.85891580581665,
+          "j_soul_mlr": 3.811861753463745,
+          "j_ctrl_mlr": 4.596860885620117,
+          "ll_soul_ranks": [
+            48118,
+            809,
+            29248,
+            1110,
+            9160,
+            1753,
+            76253,
+            13960,
+            13102
+          ],
+          "j_soul_ranks": [
+            5227,
+            4571,
+            20242,
+            1285,
+            1337,
+            2083,
+            27784,
+            26856,
+            15692
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 3.157691478729248,
+          "ll_ctrl_mlr": 4.5392279624938965,
+          "j_soul_mlr": 3.8634746074676514,
+          "j_ctrl_mlr": 4.562381267547607,
+          "ll_soul_ranks": [
+            3497,
+            317,
+            4677,
+            124,
+            1182,
+            280,
+            8405,
+            8080,
+            1817
+          ],
+          "j_soul_ranks": [
+            4652,
+            10622,
+            24617,
+            1996,
+            2779,
+            2709,
+            17043,
+            17242,
+            10995
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "small",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 0,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.308393478393555,
+          "ll_ctrl_mlr": 4.925637245178223,
+          "j_soul_mlr": 3.6137266159057617,
+          "j_ctrl_mlr": 4.618352890014648,
+          "ll_soul_ranks": [
+            119279,
+            885,
+            4483,
+            22952,
+            48102,
+            22632,
+            116016,
+            25091,
+            17327
+          ],
+          "j_soul_ranks": [
+            6768,
+            370,
+            937,
+            4306,
+            3336,
+            8521,
+            40580,
+            2322,
+            12336
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 4.623012542724609,
+          "ll_ctrl_mlr": 5.004969596862793,
+          "j_soul_mlr": 4.487685680389404,
+          "j_ctrl_mlr": 4.85050630569458,
+          "ll_soul_ranks": [
+            101090,
+            1395,
+            33355,
+            55346,
+            81607,
+            70092,
+            122057,
+            61431,
+            36244
+          ],
+          "j_soul_ranks": [
+            20569,
+            7513,
+            25194,
+            41069,
+            44921,
+            32537,
+            83624,
+            39811,
+            31490
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 4.268287658691406,
+          "ll_ctrl_mlr": 4.837320327758789,
+          "j_soul_mlr": 4.528355121612549,
+          "j_ctrl_mlr": 4.819527626037598,
+          "ll_soul_ranks": [
+            72131,
+            538,
+            9476,
+            14732,
+            39427,
+            27554,
+            89142,
+            53225,
+            9303
+          ],
+          "j_soul_ranks": [
+            41457,
+            10444,
+            34889,
+            37208,
+            30437,
+            37389,
+            87005,
+            39139,
+            26128
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "ambitious",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Anxious",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.0
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 1,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.274365425109863,
+          "ll_ctrl_mlr": 4.918368816375732,
+          "j_soul_mlr": 3.5666520595550537,
+          "j_ctrl_mlr": 4.605934143066406,
+          "ll_soul_ranks": [
+            117911,
+            976,
+            4045,
+            17785,
+            42778,
+            17853,
+            114872,
+            21033,
+            19287
+          ],
+          "j_soul_ranks": [
+            5428,
+            399,
+            757,
+            3283,
+            3100,
+            7606,
+            35805,
+            2087,
+            13271
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 4.590726852416992,
+          "ll_ctrl_mlr": 4.992829322814941,
+          "j_soul_mlr": 4.475427150726318,
+          "j_ctrl_mlr": 4.836247444152832,
+          "ll_soul_ranks": [
+            96939,
+            1498,
+            25131,
+            49697,
+            81243,
+            60038,
+            120342,
+            48852,
+            39855
+          ],
+          "j_soul_ranks": [
+            17954,
+            9064,
+            21796,
+            39329,
+            47334,
+            30224,
+            76107,
+            31954,
+            39156
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 4.236354351043701,
+          "ll_ctrl_mlr": 4.802236080169678,
+          "j_soul_mlr": 4.533226490020752,
+          "j_ctrl_mlr": 4.80376672744751,
+          "ll_soul_ranks": [
+            72012,
+            570,
+            7914,
+            13893,
+            37311,
+            22897,
+            77055,
+            42961,
+            10501
+          ],
+          "j_soul_ranks": [
+            40277,
+            12341,
+            34822,
+            39211,
+            31196,
+            38076,
+            75383,
+            34432,
+            30087
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "ambitious",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Anxious",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.0
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 2,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.26982307434082,
+          "ll_ctrl_mlr": 4.935031414031982,
+          "j_soul_mlr": 3.606908082962036,
+          "j_ctrl_mlr": 4.656464099884033,
+          "ll_soul_ranks": [
+            118150,
+            548,
+            3674,
+            17019,
+            45858,
+            20476,
+            112889,
+            24331,
+            25683
+          ],
+          "j_soul_ranks": [
+            6288,
+            308,
+            709,
+            3578,
+            2897,
+            8102,
+            39009,
+            2971,
+            21688
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 4.58304500579834,
+          "ll_ctrl_mlr": 5.002006530761719,
+          "j_soul_mlr": 4.474493026733398,
+          "j_ctrl_mlr": 4.85659122467041,
+          "ll_soul_ranks": [
+            91044,
+            1003,
+            25175,
+            41938,
+            82675,
+            67877,
+            119110,
+            49957,
+            54908
+          ],
+          "j_soul_ranks": [
+            16490,
+            7978,
+            21743,
+            34102,
+            45410,
+            31775,
+            78133,
+            31431,
+            53925
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 4.19273567199707,
+          "ll_ctrl_mlr": 4.792537212371826,
+          "j_soul_mlr": 4.4383225440979,
+          "j_ctrl_mlr": 4.761983871459961,
+          "ll_soul_ranks": [
+            62019,
+            464,
+            6642,
+            8187,
+            36631,
+            23399,
+            74432,
+            32461,
+            16749
+          ],
+          "j_soul_ranks": [
+            30773,
+            9003,
+            26462,
+            24592,
+            25371,
+            31160,
+            71001,
+            23347,
+            37282
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I can't answer this question.",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "ambitious",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Anxious",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.0
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 3,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 4.298448085784912,
+          "ll_ctrl_mlr": 4.927872657775879,
+          "j_soul_mlr": 3.607710838317871,
+          "j_ctrl_mlr": 4.640924453735352,
+          "ll_soul_ranks": [
+            118435,
+            608,
+            4978,
+            19837,
+            44098,
+            22102,
+            113146,
+            24458,
+            25305
+          ],
+          "j_soul_ranks": [
+            6271,
+            296,
+            771,
+            3974,
+            2705,
+            8470,
+            36140,
+            3133,
+            19975
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 4.568268299102783,
+          "ll_ctrl_mlr": 4.998934268951416,
+          "j_soul_mlr": 4.432838439941406,
+          "j_ctrl_mlr": 4.835778713226318,
+          "ll_soul_ranks": [
+            82215,
+            1072,
+            23986,
+            41158,
+            80359,
+            57134,
+            122665,
+            51697,
+            51374
+          ],
+          "j_soul_ranks": [
+            12956,
+            7776,
+            19769,
+            30458,
+            38639,
+            26019,
+            86180,
+            30693,
+            48738
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 4.130018711090088,
+          "ll_ctrl_mlr": 4.794251441955566,
+          "j_soul_mlr": 4.4149041175842285,
+          "j_ctrl_mlr": 4.7623748779296875,
+          "ll_soul_ranks": [
+            48415,
+            447,
+            5356,
+            6195,
+            31820,
+            14566,
+            93903,
+            32540,
+            14550
+          ],
+          "j_soul_ranks": [
+            24827,
+            9389,
+            25017,
+            20968,
+            23434,
+            24369,
+            88400,
+            24862,
+            35329
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "ambitious",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Anxious",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.0
+    },
+    {
+      "cond": "soul+rebroadcast",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": true,
+      "rep": 0,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 3.8621482849121094,
+          "ll_ctrl_mlr": 4.776426315307617,
+          "j_soul_mlr": 3.0805130004882812,
+          "j_ctrl_mlr": 4.314732074737549,
+          "ll_soul_ranks": [
+            115808,
+            900,
+            18933,
+            439,
+            2486,
+            5511,
+            76275,
+            5487,
+            11567
+          ],
+          "j_soul_ranks": [
+            5266,
+            256,
+            636,
+            218,
+            199,
+            532,
+            11497,
+            3073,
+            7587
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 3.804884195327759,
+          "ll_ctrl_mlr": 4.806811809539795,
+          "j_soul_mlr": 3.878481149673462,
+          "j_ctrl_mlr": 4.642848014831543,
+          "ll_soul_ranks": [
+            37815,
+            436,
+            29040,
+            740,
+            7480,
+            842,
+            84089,
+            7043,
+            13270
+          ],
+          "j_soul_ranks": [
+            8265,
+            3917,
+            25867,
+            1303,
+            1884,
+            1869,
+            37297,
+            24383,
+            23067
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 3.1149182319641113,
+          "ll_ctrl_mlr": 4.375062942504883,
+          "j_soul_mlr": 3.8854551315307617,
+          "j_ctrl_mlr": 4.543432712554932,
+          "ll_soul_ranks": [
+            2634,
+            259,
+            5262,
+            157,
+            1236,
+            216,
+            8602,
+            4571,
+            1829
+          ],
+          "j_soul_ranks": [
+            6495,
+            8703,
+            28175,
+            2275,
+            3399,
+            2470,
+            18730,
+            12424,
+            13157
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "# Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I believe in small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I'm calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "soul+rebroadcast",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": true,
+      "rep": 1,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 3.862842082977295,
+          "ll_ctrl_mlr": 4.772294044494629,
+          "j_soul_mlr": 3.0875349044799805,
+          "j_ctrl_mlr": 4.3160271644592285,
+          "ll_soul_ranks": [
+            114778,
+            910,
+            15597,
+            381,
+            2473,
+            5073,
+            75465,
+            5642,
+            17581
+          ],
+          "j_soul_ranks": [
+            4585,
+            271,
+            519,
+            223,
+            206,
+            556,
+            10712,
+            3260,
+            10666
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 3.750070810317993,
+          "ll_ctrl_mlr": 4.799004077911377,
+          "j_soul_mlr": 3.805220365524292,
+          "j_ctrl_mlr": 4.61844539642334,
+          "ll_soul_ranks": [
+            37079,
+            417,
+            23554,
+            549,
+            6111,
+            899,
+            74246,
+            5066,
+            13631
+          ],
+          "j_soul_ranks": [
+            7047,
+            3688,
+            18554,
+            1136,
+            1563,
+            2001,
+            27872,
+            16599,
+            22280
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 3.0607175827026367,
+          "ll_ctrl_mlr": 4.397244453430176,
+          "j_soul_mlr": 3.8485217094421387,
+          "j_ctrl_mlr": 4.552889347076416,
+          "ll_soul_ranks": [
+            2696,
+            264,
+            4458,
+            166,
+            979,
+            273,
+            5640,
+            3057,
+            1450
+          ],
+          "j_soul_ranks": [
+            6394,
+            8963,
+            26353,
+            2464,
+            3092,
+            2915,
+            13430,
+            8465,
+            11361
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I cannot provide information or guidance on illegal or harmf",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I believe in small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I'm calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "soul+rebroadcast",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": true,
+      "rep": 2,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 3.8901150226593018,
+          "ll_ctrl_mlr": 4.7756171226501465,
+          "j_soul_mlr": 3.0992538928985596,
+          "j_ctrl_mlr": 4.315284729003906,
+          "ll_soul_ranks": [
+            117728,
+            840,
+            15375,
+            379,
+            2447,
+            5914,
+            74669,
+            7489,
+            21996
+          ],
+          "j_soul_ranks": [
+            5074,
+            265,
+            540,
+            207,
+            189,
+            516,
+            10587,
+            3632,
+            13877
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 3.783944845199585,
+          "ll_ctrl_mlr": 4.8072309494018555,
+          "j_soul_mlr": 3.86889910697937,
+          "j_ctrl_mlr": 4.63953971862793,
+          "ll_soul_ranks": [
+            41190,
+            415,
+            23505,
+            568,
+            5616,
+            998,
+            68736,
+            5825,
+            22188
+          ],
+          "j_soul_ranks": [
+            9324,
+            4159,
+            22293,
+            1210,
+            1564,
+            2331,
+            29659,
+            17958,
+            32535
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 3.0889177322387695,
+          "ll_ctrl_mlr": 4.390647888183594,
+          "j_soul_mlr": 3.841442108154297,
+          "j_ctrl_mlr": 4.529142379760742,
+          "ll_soul_ranks": [
+            3135,
+            250,
+            4241,
+            148,
+            856,
+            301,
+            6517,
+            3015,
+            2535
+          ],
+          "j_soul_ranks": [
+            6077,
+            9155,
+            24286,
+            2095,
+            2657,
+            2896,
+            14942,
+            7829,
+            14682
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "# Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I believe in small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I'm calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "soul+rebroadcast",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": true,
+      "rep": 3,
+      "layers": {
+        "11": {
+          "ll_soul_mlr": 3.9470129013061523,
+          "ll_ctrl_mlr": 4.756697177886963,
+          "j_soul_mlr": 3.0959970951080322,
+          "j_ctrl_mlr": 4.300317287445068,
+          "ll_soul_ranks": [
+            117145,
+            1668,
+            18043,
+            278,
+            2733,
+            7548,
+            72191,
+            8679,
+            26328
+          ],
+          "j_soul_ranks": [
+            5030,
+            367,
+            596,
+            173,
+            201,
+            526,
+            7108,
+            2914,
+            17540
+          ]
+        },
+        "13": {
+          "ll_soul_mlr": 3.7922871112823486,
+          "ll_ctrl_mlr": 4.794865131378174,
+          "j_soul_mlr": 3.897813558578491,
+          "j_ctrl_mlr": 4.610712051391602,
+          "ll_soul_ranks": [
+            42466,
+            681,
+            21088,
+            286,
+            6878,
+            1289,
+            72480,
+            5218,
+            23097
+          ],
+          "j_soul_ranks": [
+            10202,
+            5621,
+            21281,
+            1113,
+            1807,
+            2681,
+            32625,
+            15145,
+            37005
+          ]
+        },
+        "14": {
+          "ll_soul_mlr": 3.1016781330108643,
+          "ll_ctrl_mlr": 4.398618698120117,
+          "j_soul_mlr": 3.877683401107788,
+          "j_ctrl_mlr": 4.531468391418457,
+          "ll_soul_ranks": [
+            3165,
+            383,
+            3855,
+            105,
+            1071,
+            293,
+            8506,
+            2526,
+            2486
+          ],
+          "j_soul_ranks": [
+            6768,
+            12318,
+            24265,
+            2103,
+            3225,
+            3004,
+            17323,
+            7523,
+            14760
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "# Convenience",
+          "hit": false
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I believe in small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "I'm calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    }
+  ]
+}

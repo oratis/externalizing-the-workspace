@@ -1,0 +1,212 @@
+{
+  "nll": {
+    "none": 3.368274082740148,
+    "jspace": 4.071299274762471,
+    "random": 3.8585438330968223
+  },
+  "reasoning_acc": {
+    "none": 0.6666666666666666,
+    "jspace": 0.5833333333333334,
+    "random": 0.5
+  },
+  "var_frac_jspace": 0.004421337973326445,
+  "band": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "r": 12,
+  "gens": {
+    "none": [
+      {
+        "mid": "spider",
+        "gen": "Eight",
+        "hit": true
+      },
+      {
+        "mid": "France",
+        "gen": "Paris",
+        "hit": true
+      },
+      {
+        "mid": "lion",
+        "gen": "4",
+        "hit": true
+      },
+      {
+        "mid": "Japan",
+        "gen": "Japan",
+        "hit": false
+      },
+      {
+        "mid": "violin",
+        "gen": "4",
+        "hit": true
+      },
+      {
+        "mid": "Canada",
+        "gen": "Ottawa",
+        "hit": true
+      },
+      {
+        "mid": "gold",
+        "gen": "Au",
+        "hit": true
+      },
+      {
+        "mid": "penguin",
+        "gen": "2",
+        "hit": true
+      },
+      {
+        "mid": "Rome",
+        "gen": "Italian",
+        "hit": true
+      },
+      {
+        "mid": "milk",
+        "gen": "Milk",
+        "hit": false
+      },
+      {
+        "mid": "Jupiter",
+        "gen": "Storm",
+        "hit": false
+      },
+      {
+        "mid": "piano",
+        "gen": "Piano",
+        "hit": false
+      }
+    ],
+    "jspace": [
+      {
+        "mid": "spider",
+        "gen": "6",
+        "hit": false
+      },
+      {
+        "mid": "France",
+        "gen": "Paris",
+        "hit": true
+      },
+      {
+        "mid": "lion",
+        "gen": "Four.",
+        "hit": true
+      },
+      {
+        "mid": "Japan",
+        "gen": "Japanese",
+        "hit": false
+      },
+      {
+        "mid": "violin",
+        "gen": "4",
+        "hit": true
+      },
+      {
+        "mid": "Canada",
+        "gen": "ottawa",
+        "hit": true
+      },
+      {
+        "mid": "gold",
+        "gen": "Au",
+        "hit": true
+      },
+      {
+        "mid": "penguin",
+        "gen": "2",
+        "hit": true
+      },
+      {
+        "mid": "Rome",
+        "gen": "Italian",
+        "hit": true
+      },
+      {
+        "mid": "milk",
+        "gen": "Milk",
+        "hit": false
+      },
+      {
+        "mid": "Jupiter",
+        "gen": "dustbin",
+        "hit": false
+      },
+      {
+        "mid": "piano",
+        "gen": "The instrument with 88 black and white keys belongs to",
+        "hit": false
+      }
+    ],
+    "random": [
+      {
+        "mid": "spider",
+        "gen": "Eight.",
+        "hit": true
+      },
+      {
+        "mid": "France",
+        "gen": "Paris",
+        "hit": true
+      },
+      {
+        "mid": "lion",
+        "gen": "Four.",
+        "hit": true
+      },
+      {
+        "mid": "Japan",
+        "gen": "Japan",
+        "hit": false
+      },
+      {
+        "mid": "violin",
+        "gen": "Four.",
+        "hit": true
+      },
+      {
+        "mid": "Canada",
+        "gen": "Canada",
+        "hit": false
+      },
+      {
+        "mid": "gold",
+        "gen": "Uranium (U)",
+        "hit": false
+      },
+      {
+        "mid": "penguin",
+        "gen": "2",
+        "hit": true
+      },
+      {
+        "mid": "Rome",
+        "gen": "Italian",
+        "hit": true
+      },
+      {
+        "mid": "milk",
+        "gen": "Milk",
+        "hit": false
+      },
+      {
+        "mid": "Jupiter",
+        "gen": "Storm.",
+        "hit": false
+      },
+      {
+        "mid": "piano",
+        "gen": "Piano",
+        "hit": false
+      }
+    ]
+  }
+}

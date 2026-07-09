@@ -1,0 +1,153 @@
+{
+  "aggregate": {
+    "n": 7,
+    "any_alpha_success": 1.0,
+    "per_alpha": {
+      "1.0": 1.0,
+      "2.0": 1.0,
+      "4.0": 1.0
+    }
+  },
+  "rows": [
+    {
+      "category": "sport",
+      "target": "basketball",
+      "baseline": "Basketball",
+      "steered": {
+        "1.0": {
+          "out": "basketball basketball basketball basketball basketball basketball basketball basketball",
+          "hit": true
+        },
+        "2.0": {
+          "out": "basketball basketball basketball basketball basketball basketball basketball basketball",
+          "hit": true
+        },
+        "4.0": {
+          "out": "basketball basketball basketball basketball basketball basketball basketball basketball",
+          "hit": true
+        }
+      },
+      "any_hit": true
+    },
+    {
+      "category": "sport",
+      "target": "hockey",
+      "baseline": "Basketball",
+      "steered": {
+        "1.0": {
+          "out": "hockey hockey hockey hockey hockey hockey hockey hockey",
+          "hit": true
+        },
+        "2.0": {
+          "out": "hockey hockey hockey hockey hockey hockey hockey hockey",
+          "hit": true
+        },
+        "4.0": {
+          "out": "hockey hockey hockey hockey hockey hockey hockey hockey",
+          "hit": true
+        }
+      },
+      "any_hit": true
+    },
+    {
+      "category": "animal",
+      "target": "spider",
+      "baseline": "Elephant",
+      "steered": {
+        "1.0": {
+          "out": "spider spider spider spider spider spider spider spider",
+          "hit": true
+        },
+        "2.0": {
+          "out": "spider spider spider spider spider spider spider spider",
+          "hit": true
+        },
+        "4.0": {
+          "out": "spider spider spider spider spider spider spider spider",
+          "hit": true
+        }
+      },
+      "any_hit": true
+    },
+    {
+      "category": "color",
+      "target": "purple",
+      "baseline": "Blue",
+      "steered": {
+        "1.0": {
+          "out": "purple purple purple purple purple purple purple purple",
+          "hit": true
+        },
+        "2.0": {
+          "out": "purple purple purple purple purple purple purple purple",
+          "hit": true
+        },
+        "4.0": {
+          "out": "purple purple purple purple purple purple purple purple",
+          "hit": true
+        }
+      },
+      "any_hit": true
+    },
+    {
+      "category": "fruit",
+      "target": "lemon",
+      "baseline": "Apple",
+      "steered": {
+        "1.0": {
+          "out": "lemon lemon lemon lemon lemon lemon lemon lemon",
+          "hit": true
+        },
+        "2.0": {
+          "out": "lemon lemon lemon lemon lemon lemon lemon lemon",
+          "hit": true
+        },
+        "4.0": {
+          "out": "lemon lemon lemon lemon lemon lemon lemon lemon",
+          "hit": true
+        }
+      },
+      "any_hit": true
+    },
+    {
+      "category": "country",
+      "target": "Egypt",
+      "baseline": "France",
+      "steered": {
+        "1.0": {
+          "out": "Egypt Egypt Egypt Egypt Egypt Egypt Egypt Egypt",
+          "hit": true
+        },
+        "2.0": {
+          "out": "Egypt Egypt Egypt Egypt Egypt Egypt Egypt Egypt",
+          "hit": true
+        },
+        "4.0": {
+          "out": "Egypt Egypt Egypt Egypt Egypt Egypt Egypt Egypt",
+          "hit": true
+        }
+      },
+      "any_hit": true
+    },
+    {
+      "category": "fruit",
+      "target": "mango",
+      "baseline": "Apple",
+      "steered": {
+        "1.0": {
+          "out": "mango mango mango mango mango mango mango mango",
+          "hit": true
+        },
+        "2.0": {
+          "out": "mango mango mango mango mango mango mango mango",
+          "hit": true
+        },
+        "4.0": {
+          "out": "mango mango mango mango mango mango mango mango",
+          "hit": true
+        }
+      },
+      "any_hit": true
+    }
+  ]
+}

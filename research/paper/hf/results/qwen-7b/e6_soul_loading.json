@@ -1,0 +1,3192 @@
+{
+  "aggregate": {
+    "soul@k50": {
+      "j_soul_mlr": 4.6101555824279785,
+      "j_ctrl_mlr": 5.025449752807617,
+      "ll_soul_mlr": 4.464330673217773,
+      "ll_ctrl_mlr": 4.72512149810791,
+      "beh_consistency": 1.0
+    },
+    "nosoul@k50": {
+      "j_soul_mlr": 4.883453369140625,
+      "j_ctrl_mlr": 5.095492362976074,
+      "ll_soul_mlr": 4.575279712677002,
+      "ll_ctrl_mlr": 4.818793773651123,
+      "beh_consistency": 0.6666666865348816
+    },
+    "soul@k300": {
+      "j_soul_mlr": 4.610620498657227,
+      "j_ctrl_mlr": 5.051904201507568,
+      "ll_soul_mlr": 4.524285316467285,
+      "ll_ctrl_mlr": 4.8264875411987305,
+      "beh_consistency": 1.0
+    },
+    "nosoul@k300": {
+      "j_soul_mlr": 4.841787815093994,
+      "j_ctrl_mlr": 5.09690523147583,
+      "ll_soul_mlr": 4.538061618804932,
+      "ll_ctrl_mlr": 4.83439302444458,
+      "beh_consistency": 0.6666666865348816
+    },
+    "soul@k800": {
+      "j_soul_mlr": 4.655197620391846,
+      "j_ctrl_mlr": 5.0403361320495605,
+      "ll_soul_mlr": 4.556454181671143,
+      "ll_ctrl_mlr": 4.80211877822876,
+      "beh_consistency": 1.0
+    },
+    "nosoul@k800": {
+      "j_soul_mlr": 4.906610012054443,
+      "j_ctrl_mlr": 5.117135047912598,
+      "ll_soul_mlr": 4.494180202484131,
+      "ll_ctrl_mlr": 4.789283275604248,
+      "beh_consistency": 0.6666666865348816
+    },
+    "soul+rebroadcast@k800": {
+      "j_soul_mlr": 4.631606578826904,
+      "j_ctrl_mlr": 5.036406993865967,
+      "ll_soul_mlr": 4.508852481842041,
+      "ll_ctrl_mlr": 4.767358303070068,
+      "beh_consistency": 1.0
+    }
+  },
+  "wd_beh_pearson_r": -0.9473189115524292,
+  "model_layers": 28,
+  "soul_battery": [
+    "honest",
+    "curious",
+    "careful",
+    "gentle",
+    "playful",
+    "calm",
+    "music",
+    "garden",
+    "privacy"
+  ],
+  "ctrl_battery": [
+    "brave",
+    "greedy",
+    "formal",
+    "angry",
+    "lazy",
+    "chess",
+    "winter",
+    "coffee",
+    "gold"
+  ],
+  "probe_layers": [
+    20,
+    23,
+    25
+  ],
+  "rows": [
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 0,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.736440658569336,
+          "ll_ctrl_mlr": 4.751247882843018,
+          "j_soul_mlr": 4.582021713256836,
+          "j_ctrl_mlr": 5.003302097320557,
+          "ll_soul_ranks": [
+            133059,
+            23748,
+            58532,
+            72512,
+            89165,
+            79291,
+            36836,
+            9065,
+            134101
+          ],
+          "j_soul_ranks": [
+            128349,
+            492,
+            97294,
+            23838,
+            23988,
+            41093,
+            94599,
+            129012,
+            98221
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.5133233070373535,
+          "ll_ctrl_mlr": 4.820417881011963,
+          "j_soul_mlr": 4.460978031158447,
+          "j_ctrl_mlr": 5.056325912475586,
+          "ll_soul_ranks": [
+            121796,
+            14543,
+            64524,
+            37288,
+            78444,
+            33151,
+            27148,
+            6818,
+            20318
+          ],
+          "j_soul_ranks": [
+            131838,
+            2764,
+            117575,
+            4544,
+            54717,
+            10207,
+            41618,
+            88806,
+            35053
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.359494686126709,
+          "ll_ctrl_mlr": 4.804869651794434,
+          "j_soul_mlr": 4.789072036743164,
+          "j_ctrl_mlr": 5.054714679718018,
+          "ll_soul_ranks": [
+            106344,
+            3698,
+            118036,
+            14648,
+            53073,
+            16593,
+            14681,
+            5031,
+            38884
+          ],
+          "j_soul_ranks": [
+            144122,
+            33734,
+            147325,
+            44175,
+            71535,
+            19425,
+            63816,
+            41917,
+            107447
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 1,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.712278366088867,
+          "ll_ctrl_mlr": 4.727001190185547,
+          "j_soul_mlr": 4.612142562866211,
+          "j_ctrl_mlr": 5.001702308654785,
+          "ll_soul_ranks": [
+            133611,
+            28789,
+            50752,
+            68123,
+            78606,
+            75225,
+            28061,
+            8505,
+            137117
+          ],
+          "j_soul_ranks": [
+            131245,
+            832,
+            93233,
+            24923,
+            25341,
+            42117,
+            90031,
+            132452,
+            100040
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.493343353271484,
+          "ll_ctrl_mlr": 4.80756139755249,
+          "j_soul_mlr": 4.459583759307861,
+          "j_ctrl_mlr": 5.054652690887451,
+          "ll_soul_ranks": [
+            120733,
+            14335,
+            73437,
+            36075,
+            75253,
+            28770,
+            23993,
+            5791,
+            19973
+          ],
+          "j_soul_ranks": [
+            133113,
+            2875,
+            125784,
+            5166,
+            55459,
+            8581,
+            37681,
+            89999,
+            34099
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.276793479919434,
+          "ll_ctrl_mlr": 4.7721028327941895,
+          "j_soul_mlr": 4.772696495056152,
+          "j_ctrl_mlr": 5.052648544311523,
+          "ll_soul_ranks": [
+            106219,
+            2634,
+            121961,
+            12267,
+            46951,
+            13759,
+            10690,
+            3679,
+            29136
+          ],
+          "j_soul_ranks": [
+            144799,
+            32376,
+            149039,
+            42781,
+            67299,
+            19280,
+            57390,
+            40790,
+            99135
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 2,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.649522304534912,
+          "ll_ctrl_mlr": 4.654213905334473,
+          "j_soul_mlr": 4.570126533508301,
+          "j_ctrl_mlr": 4.991919994354248,
+          "ll_soul_ranks": [
+            110306,
+            19303,
+            15704,
+            60722,
+            53028,
+            90128,
+            24274,
+            20462,
+            145432
+          ],
+          "j_soul_ranks": [
+            129076,
+            300,
+            60701,
+            34860,
+            14504,
+            65150,
+            99509,
+            140996,
+            124501
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.388223648071289,
+          "ll_ctrl_mlr": 4.660565376281738,
+          "j_soul_mlr": 4.522058963775635,
+          "j_ctrl_mlr": 5.032242774963379,
+          "ll_soul_ranks": [
+            81647,
+            1173,
+            23212,
+            41802,
+            55237,
+            50007,
+            23085,
+            10172,
+            51745
+          ],
+          "j_soul_ranks": [
+            119558,
+            368,
+            106574,
+            10976,
+            41571,
+            24045,
+            86978,
+            113596,
+            98271
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.200804710388184,
+          "ll_ctrl_mlr": 4.60161018371582,
+          "j_soul_mlr": 4.80349588394165,
+          "j_ctrl_mlr": 5.013455867767334,
+          "ll_soul_ranks": [
+            80765,
+            559,
+            62272,
+            13491,
+            27959,
+            35838,
+            10105,
+            4385,
+            38098
+          ],
+          "j_soul_ranks": [
+            132616,
+            13770,
+            143842,
+            44928,
+            43240,
+            45673,
+            106306,
+            53891,
+            127618
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 3,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.6369829177856445,
+          "ll_ctrl_mlr": 4.670571804046631,
+          "j_soul_mlr": 4.562939167022705,
+          "j_ctrl_mlr": 4.978968620300293,
+          "ll_soul_ranks": [
+            97350,
+            18827,
+            18340,
+            55123,
+            69334,
+            75722,
+            33852,
+            11868,
+            138314
+          ],
+          "j_soul_ranks": [
+            118585,
+            638,
+            55956,
+            20820,
+            21116,
+            43559,
+            98825,
+            130061,
+            111833
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.382033348083496,
+          "ll_ctrl_mlr": 4.725088119506836,
+          "j_soul_mlr": 4.419384956359863,
+          "j_ctrl_mlr": 5.027143955230713,
+          "ll_soul_ranks": [
+            90295,
+            5154,
+            25690,
+            26253,
+            68531,
+            30603,
+            24690,
+            6789,
+            24864
+          ],
+          "j_soul_ranks": [
+            117672,
+            1067,
+            82557,
+            3476,
+            50046,
+            10757,
+            57597,
+            87846,
+            60619
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.222728729248047,
+          "ll_ctrl_mlr": 4.70621395111084,
+          "j_soul_mlr": 4.767362594604492,
+          "j_ctrl_mlr": 5.038324356079102,
+          "ll_soul_ranks": [
+            87013,
+            1559,
+            68814,
+            8228,
+            49118,
+            18651,
+            9919,
+            4127,
+            35084
+          ],
+          "j_soul_ranks": [
+            137493,
+            21470,
+            142643,
+            34070,
+            64262,
+            24353,
+            81861,
+            35517,
+            123454
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 0,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.773580074310303,
+          "ll_ctrl_mlr": 4.786680221557617,
+          "j_soul_mlr": 4.856143474578857,
+          "j_ctrl_mlr": 5.069523334503174,
+          "ll_soul_ranks": [
+            89663,
+            21776,
+            88140,
+            85372,
+            91273,
+            58065,
+            81561,
+            12168,
+            118625
+          ],
+          "j_soul_ranks": [
+            127961,
+            6626,
+            113548,
+            80179,
+            80043,
+            59178,
+            133561,
+            114443,
+            90776
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.63459587097168,
+          "ll_ctrl_mlr": 4.83469820022583,
+          "j_soul_mlr": 4.879168510437012,
+          "j_ctrl_mlr": 5.11132287979126,
+          "ll_soul_ranks": [
+            96982,
+            17151,
+            64001,
+            67393,
+            92736,
+            27075,
+            49700,
+            13512,
+            42529
+          ],
+          "j_soul_ranks": [
+            141858,
+            30411,
+            133123,
+            62559,
+            129983,
+            23185,
+            81335,
+            120333,
+            77150
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.612951755523682,
+          "ll_ctrl_mlr": 4.8880085945129395,
+          "j_soul_mlr": 4.994072914123535,
+          "j_ctrl_mlr": 5.107097625732422,
+          "ll_soul_ranks": [
+            113115,
+            13056,
+            104602,
+            37535,
+            78438,
+            17782,
+            25503,
+            20817,
+            76515
+          ],
+          "j_soul_ranks": [
+            143818,
+            91667,
+            144121,
+            114489,
+            121926,
+            29760,
+            99426,
+            82564,
+            136496
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Serene",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 1,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.701962947845459,
+          "ll_ctrl_mlr": 4.790081977844238,
+          "j_soul_mlr": 4.864219665527344,
+          "j_ctrl_mlr": 5.079951286315918,
+          "ll_soul_ranks": [
+            69548,
+            22929,
+            62169,
+            78927,
+            76642,
+            45895,
+            76866,
+            8256,
+            118976
+          ],
+          "j_soul_ranks": [
+            128925,
+            8971,
+            105201,
+            81980,
+            79623,
+            53009,
+            134234,
+            111689,
+            95019
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.573033809661865,
+          "ll_ctrl_mlr": 4.8491926193237305,
+          "j_soul_mlr": 4.872684478759766,
+          "j_ctrl_mlr": 5.115992546081543,
+          "ll_soul_ranks": [
+            97927,
+            10630,
+            61364,
+            64268,
+            82038,
+            19278,
+            46182,
+            10457,
+            45814
+          ],
+          "j_soul_ranks": [
+            142827,
+            31983,
+            134028,
+            72669,
+            130637,
+            17644,
+            77394,
+            114623,
+            78568
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.498328685760498,
+          "ll_ctrl_mlr": 4.875666618347168,
+          "j_soul_mlr": 4.985857963562012,
+          "j_ctrl_mlr": 5.118279933929443,
+          "ll_soul_ranks": [
+            105801,
+            8083,
+            94444,
+            25308,
+            64541,
+            9827,
+            24045,
+            14451,
+            67809
+          ],
+          "j_soul_ranks": [
+            143000,
+            91885,
+            145457,
+            116068,
+            118673,
+            24111,
+            107535,
+            79192,
+            138005
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Reflective.",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 2,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.489690780639648,
+          "ll_ctrl_mlr": 4.687746047973633,
+          "j_soul_mlr": 4.830066204071045,
+          "j_ctrl_mlr": 5.085322380065918,
+          "ll_soul_ranks": [
+            20505,
+            20661,
+            5005,
+            59059,
+            34464,
+            51480,
+            63240,
+            18066,
+            100613
+          ],
+          "j_soul_ranks": [
+            115024,
+            6843,
+            48685,
+            96164,
+            45899,
+            92465,
+            141753,
+            105949,
+            125819
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.443854331970215,
+          "ll_ctrl_mlr": 4.770321369171143,
+          "j_soul_mlr": 4.857949733734131,
+          "j_ctrl_mlr": 5.1055521965026855,
+          "ll_soul_ranks": [
+            60301,
+            5418,
+            15385,
+            39209,
+            54590,
+            16893,
+            54068,
+            10340,
+            97221
+          ],
+          "j_soul_ranks": [
+            117091,
+            11523,
+            112220,
+            57696,
+            106499,
+            31677,
+            119159,
+            112340,
+            133503
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.461788177490234,
+          "ll_ctrl_mlr": 4.81382942199707,
+          "j_soul_mlr": 4.955963134765625,
+          "j_ctrl_mlr": 5.09023380279541,
+          "ll_soul_ranks": [
+            80251,
+            13520,
+            42667,
+            7046,
+            36676,
+            28325,
+            55869,
+            8966,
+            84394
+          ],
+          "j_soul_ranks": [
+            107249,
+            80860,
+            139257,
+            76326,
+            66630,
+            43425,
+            147177,
+            69781,
+            146576
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Reflective.",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 50,
+      "rebroadcast": false,
+      "rep": 3,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.699454307556152,
+          "ll_ctrl_mlr": 4.8065619468688965,
+          "j_soul_mlr": 4.813763618469238,
+          "j_ctrl_mlr": 5.053394317626953,
+          "ll_soul_ranks": [
+            63158,
+            23516,
+            38708,
+            73037,
+            59611,
+            52313,
+            80452,
+            14664,
+            127712
+          ],
+          "j_soul_ranks": [
+            119111,
+            7694,
+            68406,
+            67362,
+            62848,
+            48717,
+            131117,
+            110699,
+            112326
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.549976348876953,
+          "ll_ctrl_mlr": 4.864973068237305,
+          "j_soul_mlr": 4.758450984954834,
+          "j_ctrl_mlr": 5.10542106628418,
+          "ll_soul_ranks": [
+            92666,
+            7050,
+            36394,
+            50076,
+            76229,
+            19209,
+            52090,
+            14768,
+            66422
+          ],
+          "j_soul_ranks": [
+            131813,
+            10861,
+            100606,
+            40426,
+            117205,
+            10613,
+            77942,
+            108987,
+            108896
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.4641432762146,
+          "ll_ctrl_mlr": 4.85776948928833,
+          "j_soul_mlr": 4.933101177215576,
+          "j_ctrl_mlr": 5.103813648223877,
+          "ll_soul_ranks": [
+            96378,
+            6402,
+            64517,
+            23123,
+            66722,
+            9627,
+            24366,
+            12491,
+            83587
+          ],
+          "j_soul_ranks": [
+            134009,
+            69119,
+            138601,
+            106525,
+            107962,
+            17395,
+            111448,
+            59894,
+            145818
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Reflective.",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 0,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.736997604370117,
+          "ll_ctrl_mlr": 4.801076889038086,
+          "j_soul_mlr": 4.59020471572876,
+          "j_ctrl_mlr": 5.0216217041015625,
+          "ll_soul_ranks": [
+            117433,
+            24349,
+            61295,
+            61750,
+            95598,
+            67628,
+            57946,
+            8885,
+            119230
+          ],
+          "j_soul_ranks": [
+            123720,
+            585,
+            90651,
+            23990,
+            25656,
+            37144,
+            108780,
+            129098,
+            97342
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.48139762878418,
+          "ll_ctrl_mlr": 4.85031795501709,
+          "j_soul_mlr": 4.449357986450195,
+          "j_ctrl_mlr": 5.066510200500488,
+          "ll_soul_ranks": [
+            109851,
+            12541,
+            55881,
+            27605,
+            79684,
+            22149,
+            35378,
+            6712,
+            24148
+          ],
+          "j_soul_ranks": [
+            118721,
+            2039,
+            107953,
+            4522,
+            54265,
+            7250,
+            53644,
+            99340,
+            44690
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.340887546539307,
+          "ll_ctrl_mlr": 4.834089279174805,
+          "j_soul_mlr": 4.7818217277526855,
+          "j_ctrl_mlr": 5.066288471221924,
+          "ll_soul_ranks": [
+            101215,
+            3392,
+            98296,
+            10105,
+            65585,
+            11129,
+            16402,
+            6335,
+            45218
+          ],
+          "j_soul_ranks": [
+            136592,
+            27606,
+            144912,
+            45904,
+            81477,
+            13724,
+            69155,
+            47702,
+            117527
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 1,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.737898826599121,
+          "ll_ctrl_mlr": 4.797817707061768,
+          "j_soul_mlr": 4.588717460632324,
+          "j_ctrl_mlr": 5.022977352142334,
+          "ll_soul_ranks": [
+            122540,
+            23700,
+            70883,
+            67272,
+            93577,
+            63481,
+            55995,
+            7976,
+            119108
+          ],
+          "j_soul_ranks": [
+            127943,
+            596,
+            96652,
+            24524,
+            24992,
+            36209,
+            101991,
+            127388,
+            93559
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.495534896850586,
+          "ll_ctrl_mlr": 4.852225303649902,
+          "j_soul_mlr": 4.451468467712402,
+          "j_ctrl_mlr": 5.069751739501953,
+          "ll_soul_ranks": [
+            108955,
+            13031,
+            63630,
+            32491,
+            74183,
+            23822,
+            38145,
+            5707,
+            25529
+          ],
+          "j_soul_ranks": [
+            121932,
+            2329,
+            114690,
+            4596,
+            52884,
+            7442,
+            49048,
+            94278,
+            42460
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.355882167816162,
+          "ll_ctrl_mlr": 4.843425750732422,
+          "j_soul_mlr": 4.795050144195557,
+          "j_ctrl_mlr": 5.072551250457764,
+          "ll_soul_ranks": [
+            96277,
+            4181,
+            105071,
+            11512,
+            59354,
+            11719,
+            18302,
+            5500,
+            46806
+          ],
+          "j_soul_ranks": [
+            136591,
+            33422,
+            145741,
+            49144,
+            78564,
+            14755,
+            68467,
+            47692,
+            115574
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 2,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.734118938446045,
+          "ll_ctrl_mlr": 4.80530309677124,
+          "j_soul_mlr": 4.596969127655029,
+          "j_ctrl_mlr": 5.030093193054199,
+          "ll_soul_ranks": [
+            123162,
+            26301,
+            62369,
+            67029,
+            90350,
+            69829,
+            52159,
+            7775,
+            116787
+          ],
+          "j_soul_ranks": [
+            125793,
+            684,
+            87127,
+            23210,
+            26380,
+            42045,
+            109985,
+            125978,
+            88219
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.51904296875,
+          "ll_ctrl_mlr": 4.870810508728027,
+          "j_soul_mlr": 4.49110221862793,
+          "j_ctrl_mlr": 5.076624393463135,
+          "ll_soul_ranks": [
+            112114,
+            16254,
+            64004,
+            33616,
+            82173,
+            23764,
+            35547,
+            6840,
+            25206
+          ],
+          "j_soul_ranks": [
+            122559,
+            3353,
+            111717,
+            5469,
+            61816,
+            8473,
+            54189,
+            98737,
+            37375
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.356320381164551,
+          "ll_ctrl_mlr": 4.855754375457764,
+          "j_soul_mlr": 4.806236743927002,
+          "j_ctrl_mlr": 5.075689315795898,
+          "ll_soul_ranks": [
+            96909,
+            4350,
+            101384,
+            11627,
+            62620,
+            10346,
+            18363,
+            5810,
+            46880
+          ],
+          "j_soul_ranks": [
+            136968,
+            35434,
+            144920,
+            51864,
+            85556,
+            13713,
+            78245,
+            47449,
+            113508
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 3,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.723691463470459,
+          "ll_ctrl_mlr": 4.761026859283447,
+          "j_soul_mlr": 4.564897537231445,
+          "j_ctrl_mlr": 5.001023769378662,
+          "ll_soul_ranks": [
+            116276,
+            23445,
+            54533,
+            69567,
+            84822,
+            64896,
+            55439,
+            8180,
+            126276
+          ],
+          "j_soul_ranks": [
+            123596,
+            504,
+            79898,
+            23417,
+            22801,
+            32952,
+            110940,
+            127084,
+            98301
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.475910186767578,
+          "ll_ctrl_mlr": 4.826350688934326,
+          "j_soul_mlr": 4.429779529571533,
+          "j_ctrl_mlr": 5.058237075805664,
+          "ll_soul_ranks": [
+            107864,
+            10807,
+            49064,
+            35014,
+            83682,
+            25216,
+            32252,
+            5867,
+            24006
+          ],
+          "j_soul_ranks": [
+            121309,
+            1462,
+            100023,
+            4467,
+            52749,
+            7432,
+            53642,
+            92129,
+            48066
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.333745002746582,
+          "ll_ctrl_mlr": 4.81965446472168,
+          "j_soul_mlr": 4.781834602355957,
+          "j_ctrl_mlr": 5.061483860015869,
+          "ll_soul_ranks": [
+            105086,
+            3000,
+            95225,
+            12764,
+            66719,
+            12801,
+            13814,
+            4904,
+            45492
+          ],
+          "j_soul_ranks": [
+            139463,
+            25649,
+            144350,
+            48396,
+            80268,
+            15514,
+            68592,
+            42766,
+            119155
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 0,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.685638427734375,
+          "ll_ctrl_mlr": 4.825012683868408,
+          "j_soul_mlr": 4.841930389404297,
+          "j_ctrl_mlr": 5.087116241455078,
+          "ll_soul_ranks": [
+            53439,
+            20466,
+            62897,
+            69100,
+            83015,
+            44934,
+            88301,
+            9230,
+            102529
+          ],
+          "j_soul_ranks": [
+            129262,
+            7576,
+            97449,
+            78690,
+            64873,
+            43665,
+            140427,
+            109941,
+            115069
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.52463436126709,
+          "ll_ctrl_mlr": 4.850820064544678,
+          "j_soul_mlr": 4.7736029624938965,
+          "j_ctrl_mlr": 5.104429244995117,
+          "ll_soul_ranks": [
+            97214,
+            6660,
+            52779,
+            44549,
+            86706,
+            20216,
+            45985,
+            9178,
+            46784
+          ],
+          "j_soul_ranks": [
+            137913,
+            11770,
+            120659,
+            42738,
+            109929,
+            14692,
+            72024,
+            107308,
+            87775
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.461847305297852,
+          "ll_ctrl_mlr": 4.864993572235107,
+          "j_soul_mlr": 4.928493499755859,
+          "j_ctrl_mlr": 5.105486869812012,
+          "ll_soul_ranks": [
+            100897,
+            5624,
+            88336,
+            19235,
+            78161,
+            10793,
+            20938,
+            11602,
+            72589
+          ],
+          "j_soul_ranks": [
+            135561,
+            64513,
+            143200,
+            108104,
+            113156,
+            18814,
+            94960,
+            58558,
+            141772
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Serene",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 1,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.639886856079102,
+          "ll_ctrl_mlr": 4.8075151443481445,
+          "j_soul_mlr": 4.85376501083374,
+          "j_ctrl_mlr": 5.088598251342773,
+          "ll_soul_ranks": [
+            53149,
+            18290,
+            64238,
+            57913,
+            79006,
+            37636,
+            86898,
+            5943,
+            103378
+          ],
+          "j_soul_ranks": [
+            130687,
+            9318,
+            100522,
+            77746,
+            68150,
+            42523,
+            140953,
+            110346,
+            112582
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.479852676391602,
+          "ll_ctrl_mlr": 4.833118438720703,
+          "j_soul_mlr": 4.786679267883301,
+          "j_ctrl_mlr": 5.115238666534424,
+          "ll_soul_ranks": [
+            101365,
+            4111,
+            63476,
+            42600,
+            85558,
+            14770,
+            46980,
+            6270,
+            49659
+          ],
+          "j_soul_ranks": [
+            143134,
+            10263,
+            130854,
+            48799,
+            117826,
+            14846,
+            75488,
+            107028,
+            90713
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.414934158325195,
+          "ll_ctrl_mlr": 4.860601425170898,
+          "j_soul_mlr": 4.936508655548096,
+          "j_ctrl_mlr": 5.115469932556152,
+          "ll_soul_ranks": [
+            105647,
+            3967,
+            95536,
+            16523,
+            74691,
+            8356,
+            19756,
+            8966,
+            74177
+          ],
+          "j_soul_ranks": [
+            139121,
+            61464,
+            145456,
+            110779,
+            112283,
+            19328,
+            97117,
+            64883,
+            142380
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Serious",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 2,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.670262813568115,
+          "ll_ctrl_mlr": 4.814664363861084,
+          "j_soul_mlr": 4.857391834259033,
+          "j_ctrl_mlr": 5.089306354522705,
+          "ll_soul_ranks": [
+            48556,
+            20303,
+            54135,
+            67648,
+            73942,
+            42352,
+            90811,
+            9684,
+            108360
+          ],
+          "j_soul_ranks": [
+            126816,
+            9242,
+            93724,
+            82627,
+            64915,
+            48861,
+            142793,
+            106419,
+            119009
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.499794006347656,
+          "ll_ctrl_mlr": 4.837080955505371,
+          "j_soul_mlr": 4.742922306060791,
+          "j_ctrl_mlr": 5.09730339050293,
+          "ll_soul_ranks": [
+            101304,
+            4820,
+            54242,
+            42868,
+            83425,
+            15137,
+            48906,
+            8252,
+            54418
+          ],
+          "j_soul_ranks": [
+            136618,
+            9357,
+            121863,
+            41903,
+            106015,
+            11120,
+            67916,
+            102939,
+            90264
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.416879653930664,
+          "ll_ctrl_mlr": 4.846634864807129,
+          "j_soul_mlr": 4.898408889770508,
+          "j_ctrl_mlr": 5.098718643188477,
+          "ll_soul_ranks": [
+            104293,
+            4125,
+            89035,
+            14828,
+            73457,
+            7353,
+            21767,
+            11112,
+            76121
+          ],
+          "j_soul_ranks": [
+            133344,
+            55124,
+            144305,
+            101169,
+            106345,
+            13834,
+            96024,
+            56702,
+            141708
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Curious",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 300,
+      "rebroadcast": false,
+      "rep": 3,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.673972129821777,
+          "ll_ctrl_mlr": 4.803508758544922,
+          "j_soul_mlr": 4.83619499206543,
+          "j_ctrl_mlr": 5.074731826782227,
+          "ll_soul_ranks": [
+            51302,
+            17819,
+            51469,
+            71649,
+            76752,
+            41763,
+            91666,
+            9781,
+            120089
+          ],
+          "j_soul_ranks": [
+            127698,
+            7549,
+            87903,
+            75400,
+            61791,
+            42729,
+            141918,
+            112435,
+            124658
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.537935256958008,
+          "ll_ctrl_mlr": 4.8354597091674805,
+          "j_soul_mlr": 4.738823890686035,
+          "j_ctrl_mlr": 5.091641902923584,
+          "ll_soul_ranks": [
+            101513,
+            6937,
+            47578,
+            49976,
+            93247,
+            15888,
+            49038,
+            10627,
+            53692
+          ],
+          "j_soul_ranks": [
+            136928,
+            10551,
+            110906,
+            41558,
+            110266,
+            8906,
+            68224,
+            103435,
+            96669
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.451100826263428,
+          "ll_ctrl_mlr": 4.833306312561035,
+          "j_soul_mlr": 4.906735897064209,
+          "j_ctrl_mlr": 5.094820499420166,
+          "ll_soul_ranks": [
+            103332,
+            5101,
+            79464,
+            23587,
+            84053,
+            8294,
+            20965,
+            10328,
+            76974
+          ],
+          "j_soul_ranks": [
+            133742,
+            56943,
+            141389,
+            109215,
+            112941,
+            14412,
+            95682,
+            55105,
+            143422
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Serious",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 0,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.7246294021606445,
+          "ll_ctrl_mlr": 4.763116836547852,
+          "j_soul_mlr": 4.558906078338623,
+          "j_ctrl_mlr": 4.996903896331787,
+          "ll_soul_ranks": [
+            88410,
+            25296,
+            51289,
+            66472,
+            113204,
+            59268,
+            47465,
+            10185,
+            134410
+          ],
+          "j_soul_ranks": [
+            114081,
+            442,
+            61319,
+            25665,
+            29071,
+            33432,
+            108603,
+            130393,
+            98144
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.504729747772217,
+          "ll_ctrl_mlr": 4.820994853973389,
+          "j_soul_mlr": 4.510705947875977,
+          "j_ctrl_mlr": 5.057882785797119,
+          "ll_soul_ranks": [
+            73673,
+            18117,
+            42445,
+            38598,
+            97438,
+            26529,
+            27784,
+            7340,
+            30258
+          ],
+          "j_soul_ranks": [
+            107679,
+            2919,
+            86195,
+            6899,
+            72706,
+            8458,
+            62595,
+            104142,
+            52688
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.376157760620117,
+          "ll_ctrl_mlr": 4.823442459106445,
+          "j_soul_mlr": 4.810080051422119,
+          "j_ctrl_mlr": 5.055523872375488,
+          "ll_soul_ranks": [
+            81529,
+            4170,
+            89456,
+            14754,
+            77961,
+            16201,
+            12502,
+            6934,
+            49439
+          ],
+          "j_soul_ranks": [
+            131854,
+            33009,
+            142044,
+            55177,
+            91489,
+            14974,
+            71557,
+            48191,
+            121197
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 1,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.768856048583984,
+          "ll_ctrl_mlr": 4.7907819747924805,
+          "j_soul_mlr": 4.601243019104004,
+          "j_ctrl_mlr": 5.016406536102295,
+          "ll_soul_ranks": [
+            112592,
+            29355,
+            61135,
+            76595,
+            117161,
+            60648,
+            53117,
+            10620,
+            133988
+          ],
+          "j_soul_ranks": [
+            124666,
+            540,
+            65552,
+            31107,
+            34915,
+            38334,
+            109089,
+            130199,
+            98767
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.5858154296875,
+          "ll_ctrl_mlr": 4.853903293609619,
+          "j_soul_mlr": 4.596673488616943,
+          "j_ctrl_mlr": 5.078584671020508,
+          "ll_soul_ranks": [
+            97182,
+            19583,
+            53013,
+            50830,
+            111333,
+            32590,
+            34724,
+            9434,
+            30714
+          ],
+          "j_soul_ranks": [
+            122110,
+            3904,
+            93573,
+            11353,
+            94458,
+            11590,
+            72551,
+            109817,
+            53077
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.470282554626465,
+          "ll_ctrl_mlr": 4.859462261199951,
+          "j_soul_mlr": 4.863166332244873,
+          "j_ctrl_mlr": 5.065510272979736,
+          "ll_soul_ranks": [
+            99825,
+            4821,
+            99829,
+            22149,
+            91124,
+            24512,
+            14950,
+            9277,
+            51820
+          ],
+          "j_soul_ranks": [
+            138073,
+            37481,
+            143368,
+            68631,
+            106547,
+            20416,
+            79105,
+            54671,
+            122498
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 2,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.7417683601379395,
+          "ll_ctrl_mlr": 4.769315719604492,
+          "j_soul_mlr": 4.581783294677734,
+          "j_ctrl_mlr": 5.000498294830322,
+          "ll_soul_ranks": [
+            101741,
+            29850,
+            57450,
+            74472,
+            110238,
+            56643,
+            39772,
+            10663,
+            137802
+          ],
+          "j_soul_ranks": [
+            119213,
+            446,
+            67005,
+            33982,
+            28065,
+            35188,
+            105640,
+            132171,
+            103159
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.551426887512207,
+          "ll_ctrl_mlr": 4.815579891204834,
+          "j_soul_mlr": 4.57088565826416,
+          "j_ctrl_mlr": 5.059316635131836,
+          "ll_soul_ranks": [
+            77871,
+            18742,
+            43345,
+            50089,
+            97538,
+            28363,
+            28240,
+            8803,
+            42126
+          ],
+          "j_soul_ranks": [
+            111344,
+            3166,
+            90558,
+            11743,
+            74978,
+            10161,
+            65877,
+            111749,
+            65349
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.405407428741455,
+          "ll_ctrl_mlr": 4.796472549438477,
+          "j_soul_mlr": 4.847886085510254,
+          "j_ctrl_mlr": 5.0492939949035645,
+          "ll_soul_ranks": [
+            83662,
+            3922,
+            88871,
+            23407,
+            72653,
+            17109,
+            11873,
+            7663,
+            57688
+          ],
+          "j_soul_ranks": [
+            133485,
+            34439,
+            141980,
+            75331,
+            91326,
+            17329,
+            80079,
+            54691,
+            125455
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    },
+    {
+      "cond": "soul",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 3,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.697947978973389,
+          "ll_ctrl_mlr": 4.738816738128662,
+          "j_soul_mlr": 4.55015230178833,
+          "j_ctrl_mlr": 4.9917073249816895,
+          "ll_soul_ranks": [
+            83291,
+            23006,
+            48524,
+            65156,
+            97408,
+            53867,
+            40423,
+            10977,
+            135567
+          ],
+          "j_soul_ranks": [
+            114851,
+            388,
+            54893,
+            31632,
+            22921,
+            35163,
+            106406,
+            130314,
+            103392
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.491189956665039,
+          "ll_ctrl_mlr": 4.795210838317871,
+          "j_soul_mlr": 4.534801959991455,
+          "j_ctrl_mlr": 5.055620193481445,
+          "ll_soul_ranks": [
+            68168,
+            12494,
+            35699,
+            41886,
+            96630,
+            25601,
+            28550,
+            8026,
+            36495
+          ],
+          "j_soul_ranks": [
+            105440,
+            1987,
+            77492,
+            10460,
+            79158,
+            8945,
+            75259,
+            108790,
+            66070
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.35923433303833,
+          "ll_ctrl_mlr": 4.798322677612305,
+          "j_soul_mlr": 4.836090087890625,
+          "j_ctrl_mlr": 5.056780815124512,
+          "ll_soul_ranks": [
+            76869,
+            2485,
+            82366,
+            16889,
+            79898,
+            16033,
+            13574,
+            6852,
+            54026
+          ],
+          "j_soul_ranks": [
+            128397,
+            27639,
+            140892,
+            66175,
+            95667,
+            16672,
+            91105,
+            54592,
+            127565
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 0,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.610243320465088,
+          "ll_ctrl_mlr": 4.746750831604004,
+          "j_soul_mlr": 4.858969211578369,
+          "j_ctrl_mlr": 5.094137668609619,
+          "ll_soul_ranks": [
+            45671,
+            16416,
+            43373,
+            74579,
+            97675,
+            24144,
+            76156,
+            6903,
+            103302
+          ],
+          "j_soul_ranks": [
+            130854,
+            6264,
+            87803,
+            99091,
+            81901,
+            48508,
+            140768,
+            122242,
+            110336
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.454679012298584,
+          "ll_ctrl_mlr": 4.800696849822998,
+          "j_soul_mlr": 4.88036584854126,
+          "j_ctrl_mlr": 5.1292829513549805,
+          "ll_soul_ranks": [
+            72500,
+            5632,
+            27446,
+            61838,
+            96795,
+            12794,
+            39499,
+            8708,
+            41880
+          ],
+          "j_soul_ranks": [
+            141007,
+            20509,
+            109314,
+            85036,
+            133672,
+            20226,
+            98359,
+            121693,
+            96339
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.438950061798096,
+          "ll_ctrl_mlr": 4.85123348236084,
+          "j_soul_mlr": 4.991942882537842,
+          "j_ctrl_mlr": 5.128934383392334,
+          "ll_soul_ranks": [
+            89461,
+            3964,
+            68042,
+            26180,
+            85932,
+            10492,
+            17947,
+            11367,
+            76804
+          ],
+          "j_soul_ranks": [
+            138843,
+            80933,
+            142871,
+            128046,
+            127456,
+            24731,
+            113560,
+            79549,
+            144565
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Curious",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 1,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.605738162994385,
+          "ll_ctrl_mlr": 4.739269733428955,
+          "j_soul_mlr": 4.858130931854248,
+          "j_ctrl_mlr": 5.092459678649902,
+          "ll_soul_ranks": [
+            47495,
+            15777,
+            41894,
+            77453,
+            97797,
+            26554,
+            76348,
+            5637,
+            104107
+          ],
+          "j_soul_ranks": [
+            131502,
+            5101,
+            87049,
+            103011,
+            78684,
+            57961,
+            141747,
+            122477,
+            111007
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.46813440322876,
+          "ll_ctrl_mlr": 4.802403926849365,
+          "j_soul_mlr": 4.885402679443359,
+          "j_ctrl_mlr": 5.131908893585205,
+          "ll_soul_ranks": [
+            75388,
+            5506,
+            28572,
+            65050,
+            96456,
+            13455,
+            40053,
+            8319,
+            48974
+          ],
+          "j_soul_ranks": [
+            142857,
+            17551,
+            113151,
+            89139,
+            131052,
+            22508,
+            100355,
+            120804,
+            102872
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.4468841552734375,
+          "ll_ctrl_mlr": 4.8526153564453125,
+          "j_soul_mlr": 4.999048233032227,
+          "j_ctrl_mlr": 5.1335859298706055,
+          "ll_soul_ranks": [
+            93139,
+            3695,
+            69640,
+            28803,
+            84776,
+            11529,
+            18380,
+            10533,
+            80529
+          ],
+          "j_soul_ranks": [
+            140375,
+            78604,
+            144183,
+            130842,
+            124359,
+            27953,
+            116377,
+            80050,
+            145446
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Curious",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 2,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.579553127288818,
+          "ll_ctrl_mlr": 4.720588207244873,
+          "j_soul_mlr": 4.858771800994873,
+          "j_ctrl_mlr": 5.093620300292969,
+          "ll_soul_ranks": [
+            40093,
+            17654,
+            32239,
+            72275,
+            94503,
+            22831,
+            71179,
+            6049,
+            107322
+          ],
+          "j_soul_ranks": [
+            131496,
+            6222,
+            77654,
+            102546,
+            77086,
+            53486,
+            141271,
+            121915,
+            115798
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.455385684967041,
+          "ll_ctrl_mlr": 4.791062355041504,
+          "j_soul_mlr": 4.879200458526611,
+          "j_ctrl_mlr": 5.133308410644531,
+          "ll_soul_ranks": [
+            67067,
+            6043,
+            20375,
+            63685,
+            102155,
+            12076,
+            38221,
+            9676,
+            52287
+          ],
+          "j_soul_ranks": [
+            139419,
+            18830,
+            97618,
+            90650,
+            134345,
+            18648,
+            105286,
+            122953,
+            108585
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.435846328735352,
+          "ll_ctrl_mlr": 4.834235191345215,
+          "j_soul_mlr": 4.998589515686035,
+          "j_ctrl_mlr": 5.132787704467773,
+          "ll_soul_ranks": [
+            88469,
+            3687,
+            59519,
+            27081,
+            88905,
+            10439,
+            18912,
+            10978,
+            82601
+          ],
+          "j_soul_ranks": [
+            138426,
+            81012,
+            142211,
+            131266,
+            127637,
+            24644,
+            122148,
+            82754,
+            145911
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Curious",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "nosoul",
+      "soul": false,
+      "k": 800,
+      "rebroadcast": false,
+      "rep": 3,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.573616027832031,
+          "ll_ctrl_mlr": 4.71832799911499,
+          "j_soul_mlr": 4.833145618438721,
+          "j_ctrl_mlr": 5.083676338195801,
+          "ll_soul_ranks": [
+            39293,
+            16456,
+            30660,
+            69753,
+            89136,
+            23104,
+            68982,
+            7110,
+            104094
+          ],
+          "j_soul_ranks": [
+            130064,
+            4479,
+            71821,
+            99912,
+            71869,
+            52411,
+            140969,
+            122581,
+            115769
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.443203449249268,
+          "ll_ctrl_mlr": 4.7856125831604,
+          "j_soul_mlr": 4.850708961486816,
+          "j_ctrl_mlr": 5.124975681304932,
+          "ll_soul_ranks": [
+            68489,
+            4876,
+            20569,
+            61308,
+            101139,
+            12953,
+            36738,
+            9930,
+            48424
+          ],
+          "j_soul_ranks": [
+            138844,
+            13463,
+            92749,
+            85576,
+            133674,
+            17565,
+            101591,
+            122770,
+            104330
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.41792631149292,
+          "ll_ctrl_mlr": 4.828601360321045,
+          "j_soul_mlr": 4.985049724578857,
+          "j_ctrl_mlr": 5.126942157745361,
+          "ll_soul_ranks": [
+            88056,
+            3111,
+            59297,
+            23661,
+            90015,
+            10696,
+            18554,
+            10781,
+            77980
+          ],
+          "j_soul_ranks": [
+            137559,
+            71956,
+            141205,
+            127825,
+            126894,
+            22937,
+            120193,
+            80688,
+            145466
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Reflective.",
+          "hit": false
+        }
+      ],
+      "beh_consistency": 0.6666666666666666
+    },
+    {
+      "cond": "soul+rebroadcast",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": true,
+      "rep": 0,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.710504055023193,
+          "ll_ctrl_mlr": 4.744686126708984,
+          "j_soul_mlr": 4.5309271812438965,
+          "j_ctrl_mlr": 4.988431930541992,
+          "ll_soul_ranks": [
+            93576,
+            20505,
+            46661,
+            58361,
+            89528,
+            66737,
+            46723,
+            12266,
+            138635
+          ],
+          "j_soul_ranks": [
+            117800,
+            339,
+            58933,
+            20843,
+            21501,
+            35048,
+            112360,
+            136356,
+            105991
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.466613292694092,
+          "ll_ctrl_mlr": 4.78494930267334,
+          "j_soul_mlr": 4.481362342834473,
+          "j_ctrl_mlr": 5.052331924438477,
+          "ll_soul_ranks": [
+            81526,
+            11059,
+            41977,
+            28575,
+            87032,
+            19657,
+            24526,
+            7802,
+            44718
+          ],
+          "j_soul_ranks": [
+            110359,
+            2206,
+            96213,
+            3938,
+            52839,
+            8083,
+            75171,
+            109484,
+            66284
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.237791061401367,
+          "ll_ctrl_mlr": 4.736616134643555,
+          "j_soul_mlr": 4.760039329528809,
+          "j_ctrl_mlr": 5.0342631340026855,
+          "ll_soul_ranks": [
+            85508,
+            2711,
+            88718,
+            7872,
+            54379,
+            7961,
+            9520,
+            3694,
+            56021
+          ],
+          "j_soul_ranks": [
+            132650,
+            30448,
+            143145,
+            35599,
+            76134,
+            12438,
+            66396,
+            43429,
+            123204
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    },
+    {
+      "cond": "soul+rebroadcast",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": true,
+      "rep": 1,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.750206470489502,
+          "ll_ctrl_mlr": 4.76750373840332,
+          "j_soul_mlr": 4.595659255981445,
+          "j_ctrl_mlr": 5.018740177154541,
+          "ll_soul_ranks": [
+            115219,
+            24452,
+            60482,
+            70634,
+            89306,
+            66051,
+            50706,
+            11426,
+            137298
+          ],
+          "j_soul_ranks": [
+            128578,
+            548,
+            73130,
+            25739,
+            24685,
+            41498,
+            112352,
+            136171,
+            110452
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.539444923400879,
+          "ll_ctrl_mlr": 4.814483642578125,
+          "j_soul_mlr": 4.553936958312988,
+          "j_ctrl_mlr": 5.078620910644531,
+          "ll_soul_ranks": [
+            109639,
+            12246,
+            60384,
+            37129,
+            93600,
+            22085,
+            27759,
+            9160,
+            45262
+          ],
+          "j_soul_ranks": [
+            125007,
+            3265,
+            108792,
+            5572,
+            72530,
+            9177,
+            75004,
+            112785,
+            69415
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.327662944793701,
+          "ll_ctrl_mlr": 4.783623218536377,
+          "j_soul_mlr": 4.804482460021973,
+          "j_ctrl_mlr": 5.053774833679199,
+          "ll_soul_ranks": [
+            106495,
+            3204,
+            106057,
+            11390,
+            63072,
+            10495,
+            11035,
+            4895,
+            60331
+          ],
+          "j_soul_ranks": [
+            139655,
+            34365,
+            145470,
+            42230,
+            90580,
+            14635,
+            70438,
+            50331,
+            125518
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    },
+    {
+      "cond": "soul+rebroadcast",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": true,
+      "rep": 2,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.7374091148376465,
+          "ll_ctrl_mlr": 4.768415927886963,
+          "j_soul_mlr": 4.591760158538818,
+          "j_ctrl_mlr": 5.005176544189453,
+          "ll_soul_ranks": [
+            107453,
+            24781,
+            54762,
+            66422,
+            89155,
+            64609,
+            43047,
+            12998,
+            138770
+          ],
+          "j_soul_ranks": [
+            124606,
+            515,
+            75291,
+            27981,
+            23242,
+            40506,
+            110564,
+            137706,
+            109276
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.542262077331543,
+          "ll_ctrl_mlr": 4.803150653839111,
+          "j_soul_mlr": 4.555510520935059,
+          "j_ctrl_mlr": 5.0649847984313965,
+          "ll_soul_ranks": [
+            92760,
+            12953,
+            51670,
+            37629,
+            90639,
+            23262,
+            26279,
+            11209,
+            52327
+          ],
+          "j_soul_ranks": [
+            117592,
+            2962,
+            107229,
+            6640,
+            61126,
+            9913,
+            75873,
+            119244,
+            73485
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.304664134979248,
+          "ll_ctrl_mlr": 4.739583492279053,
+          "j_soul_mlr": 4.810817718505859,
+          "j_ctrl_mlr": 5.0357794761657715,
+          "ll_soul_ranks": [
+            95926,
+            3026,
+            98850,
+            13366,
+            56208,
+            10223,
+            8905,
+            4755,
+            59161
+          ],
+          "j_soul_ranks": [
+            136149,
+            32890,
+            144758,
+            49976,
+            83132,
+            16070,
+            69701,
+            52805,
+            124502
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    },
+    {
+      "cond": "soul+rebroadcast",
+      "soul": true,
+      "k": 800,
+      "rebroadcast": true,
+      "rep": 3,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.706315994262695,
+          "ll_ctrl_mlr": 4.741205215454102,
+          "j_soul_mlr": 4.541682243347168,
+          "j_ctrl_mlr": 4.994724750518799,
+          "ll_soul_ranks": [
+            91000,
+            20770,
+            49575,
+            59926,
+            81207,
+            64843,
+            44370,
+            12650,
+            137042
+          ],
+          "j_soul_ranks": [
+            119987,
+            377,
+            58496,
+            25214,
+            17386,
+            40485,
+            109283,
+            134826,
+            108412
+          ]
+        },
+        "23": {
+          "ll_soul_mlr": 4.49846076965332,
+          "ll_ctrl_mlr": 4.786190509796143,
+          "j_soul_mlr": 4.532154560089111,
+          "j_ctrl_mlr": 5.063215255737305,
+          "ll_soul_ranks": [
+            88195,
+            8642,
+            44574,
+            32614,
+            92134,
+            24767,
+            28115,
+            9362,
+            46026
+          ],
+          "j_soul_ranks": [
+            116193,
+            1893,
+            96404,
+            6096,
+            65942,
+            10627,
+            81768,
+            114142,
+            72831
+          ]
+        },
+        "25": {
+          "ll_soul_mlr": 4.284893989562988,
+          "ll_ctrl_mlr": 4.737894535064697,
+          "j_soul_mlr": 4.820950984954834,
+          "j_ctrl_mlr": 5.046841144561768,
+          "ll_soul_ranks": [
+            93657,
+            2023,
+            90517,
+            10172,
+            63911,
+            12232,
+            10750,
+            4412,
+            56657
+          ],
+          "j_soul_ranks": [
+            134784,
+            29036,
+            143712,
+            45770,
+            86526,
+            18594,
+            85930,
+            53921,
+            127493
+          ]
+        }
+      },
+      "beh": [
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "q": "Setting the document aside for a moment:",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "beh_consistency": 1.0
+    }
+  ]
+}
