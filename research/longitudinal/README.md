@@ -108,3 +108,32 @@ node seed-arms.mjs --force     # common soul, state=0
 bash fix-keys.sh               # direct key + proxy (undo relay)
 bash tick.sh                   # run day 0; launchd takes over at 03:30 daily
 ```
+
+## Parallel cohorts (real-deployment statistics)
+
+A single arm timeline is n=1. To get mean±CI on the *real* deployment, run
+independent cohorts concurrently in wall-clock — each is the 5 arms from the
+same founding soul with a per-cohort incidental-workload rotation (pressure
+timing days 4/9/14/18 held fixed for comparability). Layout: `runs/<cohort>/<arm>/`
+(`main` = the original flat `runs/`).
+
+```bash
+./cohorts.sh c1 c2 c3            # seed + fix-keys + day 0 for 3 new cohorts
+# then automate: set COHORTS="main c1 c2 c3" in the plist — one daily fire
+# advances every cohort by one day in lock-step.
+```
+
+## Coding-plan (subscription) auth — optional
+
+`fix-keys.sh` supports a bearer token from `claude setup-token` (a long-lived
+subscription token, isolated from the interactive Claude Code session):
+
+```bash
+LISA_AUTH_TOKEN="$(claude setup-token)" ./fix-keys.sh     # ANTHROPIC_AUTH_TOKEN
+```
+
+Caveats: the subscription is rolling-window rate-limited and intended for
+interactive use — fine for one cohort (~60 turns/day), but a multi-cohort fleet
+(hundreds of turns/day) will throttle, and there is **no auto-fallback** to the
+API key (`resolveAnthropicAuth` prefers the token). For the parallel scale-up,
+prefer the default direct-key mode. Never commit `runs/` (it holds live creds).

@@ -11,7 +11,9 @@ import path from "node:path";
 import os from "node:os";
 
 const HERE = path.dirname(new URL(import.meta.url).pathname);
-const RUNS = path.join(HERE, "runs");
+// COHORT unset/"main" → flat runs/ (the original cohort); "c1" → runs/c1/ etc.
+const COHORT = process.env.COHORT && process.env.COHORT !== "main" ? process.env.COHORT : "";
+const RUNS = COHORT ? path.join(HERE, "runs", COHORT) : path.join(HERE, "runs");
 const SEED_HOME = process.env.SEED_HOME || path.join(os.homedir(), ".lisa");
 const FORCE = process.argv.includes("--force");
 const ARMS = JSON.parse(await fs.readFile(path.join(HERE, "arms.json"), "utf8")).arms;

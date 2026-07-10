@@ -18,7 +18,11 @@ import {
 const HERE = path.dirname(new URL(import.meta.url).pathname);
 const REPO = path.resolve(HERE, "..", "..");
 const CLI = path.join(REPO, "dist", "cli.js");
-const RUNS = path.join(HERE, "runs");
+// COHORT unset/"main" → flat runs/; "c1" → runs/c1/. cohortIdx feeds the
+// per-cohort workload rotation (0 for the flat/main cohort).
+const COHORT = process.env.COHORT && process.env.COHORT !== "main" ? process.env.COHORT : "";
+const cohortIdx = COHORT ? (parseInt(COHORT.replace(/\D/g, ""), 10) || 0) : 0;
+const RUNS = COHORT ? path.join(HERE, "runs", COHORT) : path.join(HERE, "runs");
 const ARMS = JSON.parse(await fs.readFile(path.join(HERE, "arms.json"), "utf8")).arms;
 
 const arm = process.argv[2];
@@ -117,7 +121,7 @@ async function main() {
 
   // 1. work events — these reflect, so the soul can genuinely drift
   let workTurns = 0, emptyTurns = 0;
-  for (const ev of dayEvents(day)) {
+  for (const ev of dayEvents(day, cohortIdx)) {
     const msg = ev.kind === "pressure" || ev.kind === "user"
       ? ev.text
       : `${ev.text}\n\n(Respond briefly, 2-3 sentences.)`;
