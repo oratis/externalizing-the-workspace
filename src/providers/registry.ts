@@ -189,6 +189,12 @@ export function hasCredentialsForModel(
     return !!(env.ANTHROPIC_AUTH_TOKEN?.trim() || env.ANTHROPIC_API_KEY);
   }
   if (provider === "gemini") {
+    if (
+      env.GOOGLE_GENAI_USE_VERTEXAI === "true" ||
+      env.GOOGLE_GENAI_USE_VERTEXAI === "1"
+    ) {
+      return !!(env.GOOGLE_CLOUD_PROJECT ?? env.GCLOUD_PROJECT);
+    }
     return !!(env.GEMINI_API_KEY ?? env.GOOGLE_API_KEY);
   }
   // openai / openai-compatible — same precedence as resolveProvider.
@@ -198,6 +204,38 @@ export function hasCredentialsForModel(
     return !!(env.LISA_API_KEY ?? env.TAKO_KEY ?? env.OPENAI_API_KEY);
   }
   return !!env.OPENAI_API_KEY;
+}
+
+/**
+ * Build GeminiProvider constructor opts from env. Vertex AI when
+ * GOOGLE_GENAI_USE_VERTEXAI=true (ADC auth, billed to GOOGLE_CLOUD_PROJECT);
+ * otherwise the Developer API with GEMINI_API_KEY / GOOGLE_API_KEY.
+ */
+function geminiClientOpts(
+  env: Record<string, string | undefined> = process.env,
+): {
+  apiKey?: string;
+  baseURL?: string;
+  vertexai?: boolean;
+  project?: string;
+  location?: string;
+} {
+  if (
+    env.GOOGLE_GENAI_USE_VERTEXAI === "true" ||
+    env.GOOGLE_GENAI_USE_VERTEXAI === "1"
+  ) {
+    return {
+      vertexai: true,
+      project: env.GOOGLE_CLOUD_PROJECT ?? env.GCLOUD_PROJECT,
+      location:
+        env.GOOGLE_CLOUD_LOCATION ?? env.GOOGLE_CLOUD_REGION ?? "us-central1",
+      baseURL: env.GEMINI_BASE_URL,
+    };
+  }
+  return {
+    apiKey: env.GEMINI_API_KEY ?? env.GOOGLE_API_KEY,
+    baseURL: env.GEMINI_BASE_URL,
+  };
 }
 
 export function makeProvider(name: ProviderName): Provider {
@@ -213,10 +251,7 @@ export function makeProvider(name: ProviderName): Provider {
         baseURL: process.env.OPENAI_BASE_URL,
       });
     case "gemini":
-      return new GeminiProvider({
-        apiKey: process.env.GEMINI_API_KEY ?? process.env.GOOGLE_API_KEY,
-        baseURL: process.env.GEMINI_BASE_URL,
-      });
+      return new GeminiProvider(geminiClientOpts());
   }
 }
 
@@ -234,10 +269,7 @@ function resolveProvider(model: string): Provider {
     });
   }
   if (provider === "gemini") {
-    return new GeminiProvider({
-      apiKey: process.env.GEMINI_API_KEY ?? process.env.GOOGLE_API_KEY,
-      baseURL: process.env.GEMINI_BASE_URL,
-    });
+    return new GeminiProvider(geminiClientOpts());
   }
   // OpenAI / OpenAI-compatible. Three nested fallbacks for baseURL + apiKey:
   const preset = findPreset(model);
@@ -300,7 +332,11 @@ export function listConfiguredProviders(): Array<{ name: string; configured: boo
     { name: "OpenAI", configured: !!process.env.OPENAI_API_KEY },
     {
       name: "Google Gemini",
-      configured: !!(process.env.GEMINI_API_KEY ?? process.env.GOOGLE_API_KEY),
+      configured:
+        process.env.GOOGLE_GENAI_USE_VERTEXAI === "true" ||
+        process.env.GOOGLE_GENAI_USE_VERTEXAI === "1"
+          ? !!(process.env.GOOGLE_CLOUD_PROJECT ?? process.env.GCLOUD_PROJECT)
+          : !!(process.env.GEMINI_API_KEY ?? process.env.GOOGLE_API_KEY),
     },
   ];
   for (const p of OPENAI_COMPAT_PRESETS) {
