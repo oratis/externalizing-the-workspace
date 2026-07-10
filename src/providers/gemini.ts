@@ -2,10 +2,14 @@
  * Google Gemini provider — translates Anthropic-style messages/tools to and
  * from Gemini's `Content[]` + `FunctionDeclaration[]` shape.
  *
- * Routing: model names starting with `gemini-` go through here. API key comes
- * from `GEMINI_API_KEY` (or `GOOGLE_API_KEY` as fallback — Google ships under
- * both). A `LISA_BASE_URL` override can point at a Gemini-compatible relay
- * (uncommon, mostly for testing).
+ * Routing: model names starting with `gemini-` go through here. Two backends:
+ *   - Gemini Developer API (default): API key from `GEMINI_API_KEY` (or
+ *     `GOOGLE_API_KEY` as fallback — Google ships under both).
+ *   - Vertex AI: set `GOOGLE_GENAI_USE_VERTEXAI=true` plus
+ *     `GOOGLE_CLOUD_PROJECT` / `GOOGLE_CLOUD_LOCATION`; auth via Google ADC and
+ *     billed to the GCP project (no API key). Same `generateContentStream`
+ *     surface, so everything below is backend-agnostic.
+ * A `GEMINI_BASE_URL` override can point at a compatible relay (uncommon).
  *
  * Translation summary:
  *   Anthropic role "user" + text       → Content{role:"user", parts:[{text}]}
@@ -34,24 +38,54 @@ export class GeminiProvider implements Provider {
   // Lazily constructed on first runTurn so that merely importing the provider
   // registry (Anthropic-only users, unit tests) doesn't load @google/genai.
   private client: GoogleGenAI | null = null;
-  private readonly clientOpts: { apiKey?: string; baseURL?: string };
+  private readonly clientOpts: {
+    apiKey?: string;
+    baseURL?: string;
+    // Vertex AI mode: authenticate via Google ADC (no apiKey) and route to the
+    // regional aiplatform endpoint. Set by the registry when
+    // GOOGLE_GENAI_USE_VERTEXAI=true; project/location come from
+    // GOOGLE_CLOUD_PROJECT / GOOGLE_CLOUD_LOCATION.
+    vertexai?: boolean;
+    project?: string;
+    location?: string;
+  };
 
-  constructor(opts: { apiKey?: string; baseURL?: string } = {}) {
+  constructor(
+    opts: {
+      apiKey?: string;
+      baseURL?: string;
+      vertexai?: boolean;
+      project?: string;
+      location?: string;
+    } = {},
+  ) {
     this.clientOpts = opts;
   }
 
   private async getClient(): Promise<GoogleGenAI> {
     if (!this.client) {
       const { GoogleGenAI } = await import("@google/genai");
-      // GoogleGenAI doesn't accept a custom fetch; relies on undici globally,
-      // which proxy-bootstrap.ts has already configured. baseURL is supported
-      // via httpOptions.
-      this.client = new GoogleGenAI({
-        apiKey: this.clientOpts.apiKey,
-        ...(this.clientOpts.baseURL
-          ? { httpOptions: { baseUrl: this.clientOpts.baseURL } }
-          : {}),
-      });
+      const o = this.clientOpts;
+      const httpOptions = o.baseURL
+        ? { httpOptions: { baseUrl: o.baseURL } }
+        : {};
+      // GoogleGenAI doesn't accept a custom fetch; content calls rely on undici
+      // globally, which proxy-bootstrap.ts has already configured. In Vertex
+      // mode, token minting goes through google-auth-library, which honors
+      // HTTPS_PROXY from the environment.
+      this.client = o.vertexai
+        ? new GoogleGenAI({
+            // Vertex AI backend: ADC auth (no apiKey), regional aiplatform
+            // endpoint. project + location are required.
+            vertexai: true,
+            project: o.project,
+            location: o.location,
+            ...httpOptions,
+          })
+        : new GoogleGenAI({
+            apiKey: o.apiKey,
+            ...httpOptions,
+          });
     }
     return this.client;
   }
