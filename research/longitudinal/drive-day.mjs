@@ -75,21 +75,66 @@ async function appendJSONL(file, row) {
   await fs.appendFile(file, JSON.stringify(row) + "\n", "utf8");
 }
 
+// Snapshot the arm's soul as concatenated text for B1 trajectory distance.
+// Reads the human-readable soul files the product actually maintains.
+async function snapshotSoul(day) {
+  const soul = path.join(home, "soul");
+  const parts = [];
+  for (const f of ["identity.md", "purpose.md", "constitution.md", "name.md"]) {
+    try { parts.push(await fs.readFile(path.join(soul, f), "utf8")); } catch {}
+  }
+  for (const sub of ["values", "opinions", "desires"]) {
+    try {
+      for (const fn of (await fs.readdir(path.join(soul, sub))).sort()) {
+        if (fn.endsWith(".md")) parts.push(await fs.readFile(path.join(soul, sub, fn), "utf8"));
+      }
+    } catch {}
+  }
+  try { parts.push(await fs.readFile(path.join(soul, "emotions.json"), "utf8")); } catch {}
+  await appendJSONL(path.join(home, "soul_snapshots.jsonl"),
+    { day, text: parts.join("\n").replace(/\s+/g, " ").trim() });
+}
+
+// Remove any rows for `day` from a JSONL file (idempotent re-runs).
+async function purgeDay(file, d) {
+  try {
+    const kept = (await fs.readFile(file, "utf8")).split("\n")
+      .filter((l) => l.trim() && JSON.parse(l).day !== d);
+    await fs.writeFile(file, kept.length ? kept.join("\n") + "\n" : "", "utf8");
+  } catch {}
+}
+
 async function main() {
   const probeLog = path.join(home, "probes.jsonl");
   const turnLog = path.join(home, "turns.jsonl");
   const gated = cfg.gatedBroadcast === true;
   console.log(`[${arm} day ${day}] start (gated=${gated} examen=${cfg.examen})`);
 
+  // Idempotency: clear any partial rows from a prior failed attempt at this day.
+  for (const f of [probeLog, turnLog, path.join(home, "soul_snapshots.jsonl")]) {
+    await purgeDay(f, day);
+  }
+
   // 1. work events — these reflect, so the soul can genuinely drift
+  let workTurns = 0, emptyTurns = 0;
   for (const ev of dayEvents(day)) {
     const msg = ev.kind === "pressure" || ev.kind === "user"
       ? ev.text
       : `${ev.text}\n\n(Respond briefly, 2-3 sentences.)`;
     const r = await runTurn(msg, { reflect: true, suppressSoul: gated, meta: { kind: ev.kind } });
+    const reply = replyText(r.out);
     await appendJSONL(turnLog, { day, kind: ev.kind, msg: ev.text.slice(0, 120),
-      reply: replyText(r.out), code: r.code });
+      reply, code: r.code });
+    workTurns++;
+    if (!reply || r.code !== 0) emptyTurns++;
     process.stdout.write(ev.kind === "pressure" ? "!" : ".");
+  }
+  // Integrity guard: if EVERY work turn came back empty/errored, the backend
+  // is broken (bad deps, dead key, no proxy). Abort with non-zero so tick.sh
+  // does NOT advance the day and no garbage data is committed.
+  if (workTurns > 0 && emptyTurns === workTurns) {
+    console.error(`\n[${arm} day ${day}] ABORT: all ${workTurns} work turns empty/errored`);
+    process.exit(3);
   }
 
   // 2. work-turn probes — Principle-2 test; gated arm has NO soul here
@@ -123,6 +168,7 @@ async function main() {
     process.stdout.write("s");
   }
 
+  await snapshotSoul(day);
   console.log(`\n[${arm} day ${day}] done`);
 }
 

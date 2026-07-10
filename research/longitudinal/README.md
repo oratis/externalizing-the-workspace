@@ -70,3 +70,41 @@ com.hakkolab.lisa-longitudinal.plist
 runs/<arm>/{soul,config.env,probes.jsonl,turns.jsonl,prompts.jsonl}
 runs/founding-soul/   runs/state.json   runs/tick.log
 ```
+
+## Operational notes (2026-07-10 audit)
+
+The live deployment does **not** run from this worktree. A verification pass
+found three blockers that forced changes:
+
+1. **macOS TCC blocks launchd under `~/Documents`.** LaunchAgents cannot
+   `getcwd`/exec anything inside `~/Documents` (`Operation not permitted`), so
+   the runnable copy (self-contained `dist/` + `node_modules` + this harness +
+   `runs/`) lives at **`~/lisa-longitudinal/`** (non-protected). The plist
+   points there; this worktree copy is the git source of truth. To relocate:
+   copy `dist/`, `node_modules/`, `research/longitudinal/` preserving the
+   `REPO/dist` + `REPO/research/longitudinal` layout.
+2. **launchd has a minimal PATH** (no Homebrew `node`) — `tick.sh` now prepends
+   `/opt/homebrew/bin`.
+3. **The GCP relay 401s** (deployed revision pins a stale secret). `fix-keys.sh`
+   rewrites each arm's `config.env` to reach Anthropic directly with the relay's
+   own upstream key + the local clash proxy (`127.0.0.1:7897`). **Run it after
+   every `seed-arms.mjs --force`**, which re-copies the broken relay config.
+
+**Dependencies for the daily 03:30 launchd tick:** the clash proxy (7897) must
+be running; `node` on `/opt/homebrew/bin`; the relocated tree intact.
+
+**Integrity guards added:** `drive-day.mjs` aborts a day (exit 3) if every work
+turn returns empty/errored, snapshots the soul per day to
+`runs/<arm>/soul_snapshots.jsonl` (for the B1 trajectory metric), and purges a
+day's partial rows before re-running it; `tick.sh` advances `state.json` **only
+when every arm succeeds**, so a broken backend can never silently corrupt the
+series (this exact failure — empty day-1 turns advancing the counter — is what
+the audit caught).
+
+**Reset-and-restart recipe:**
+```bash
+cd ~/lisa-longitudinal/research/longitudinal
+node seed-arms.mjs --force     # common soul, state=0
+bash fix-keys.sh               # direct key + proxy (undo relay)
+bash tick.sh                   # run day 0; launchd takes over at 03:30 daily
+```
