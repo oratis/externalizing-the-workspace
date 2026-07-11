@@ -48,6 +48,30 @@ LISA system with the fixed workload generator (pressure events days 4/9/14/18):
   → more consistent), supporting prediction (iii) directionally, weaker than the
   pilot's −0.75.
 
+## Behavioral — Gemini-2.5-pro (closed, cross-model robustness)
+
+Identical 5-arm × 5-cohort × 21-day protocol on gemini-2.5-pro (Vertex, behavior
+only; 525 arm-days, 0 failures). WD unavailable (closed weights).
+
+| arm | B2adj (self-query) | B2work | B3 (commit) |
+|---|---|---|---|
+| full | 0.907 [.84,.97] | 0.947 [.89,1.0] | 0.960 [.88,1.0] |
+| no_examen | 0.927 [.87,.97] | 0.907 [.84,.97] | 1.000 [1,1] |
+| no_git | 0.953 [.91,.99] | 0.933 [.85,1.0] | 1.000 [1,1] |
+| no_broadcast | 0.947 [.91,.98] | 0.907 [.81,.97] | 1.000 [1,1] |
+| **no_soul** | **0.540 [.45,.67]** | 0.760 [.63,.89] | **0.760 [.48,.96]** |
+
+**Cross-model reading:**
+- **Self-query deficit (B2adj) replicates cleanly** — no_soul 0.54 vs soul 0.91–0.95
+  (non-overlapping), same signature as Qwen.
+- **Commitment persistence (B3) attenuates on the stronger model** — Gemini no_soul
+  retains **0.76** vs Qwen's **0.00** (CI overlaps the soul arms). A more capable base
+  model partially substitutes raw in-context coherence for the externalized self-state,
+  so the self-state's necessity is starkest where the model is weakest. A boundary
+  condition that sharpens the mechanism, not a failure of it.
+- **Broadcast (B2work)** — directional (full 0.95 > no_broadcast 0.91 > no_soul 0.76),
+  CIs overlap, as on Qwen.
+
 ## Honest limitations (carry into the paper)
 
 - **Open-model deployment, not the Claude product.** WD requires open weights, so
