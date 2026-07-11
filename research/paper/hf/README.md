@@ -26,13 +26,16 @@ Language-model agents drift. Building on Anthropic's finding that LLMs maintain 
 | **Workspace occupancy tracks soul-consistent behavior** | r = −0.74 … −0.95 across four settings |
 | Privileged self-state is **necessary** for coherence under value pressure | 6-arm × 5-seed pilot: commitment persistence 1.00 vs **0.00** for memory-only baselines (incl. Generative-Agents-style reflection) |
 | **Unconditional broadcast is necessary** | retrieval-gated soul collapses in-work value coherence to no-soul level: .61 [.60,.64] vs 1.00 [1.00,1.00] |
+| **Confirmed on the *real* deployed system** (not a simulacrum) | Qwen2.5-7B, 5 cohorts × 21 days, 525 arm-days, 0 failures: commitment persistence 1.00 vs **0.00**; self-query consistency .93–.98 vs .65 (non-overlapping) |
+| **Workspace-drift instrument runs on the deployed agent's own contexts** | soul-absent arm least workspace-loaded (J-lens rank 4.32 vs 3.94–4.11); r(WD, B2)=−0.25 (real-deployment, ceiling-limited) |
+| **Cross-model robustness** (closed frontier model) | gemini-2.5-pro: self-consistency deficit replicates (.54 vs .91–.95); commitment-persistence *necessity attenuates on the stronger model* — a boundary condition, largest where the base model is weakest |
 
 ## What's in this repo
 
 - `main.pdf` — the paper (Draft v3)
 - `figs/` — key figures (lens registers; soul workspace-loading; ablation-pilot drift curves)
-- `results/` — raw JSON results: J-lens reproduction (3 models), E6 soul-loading, E8 scale study, multi-seed ablation pilot with bootstrap CIs
-- Reproduction code lives in the LISA repository under `research/` (J-lens library, experiment scripts, pilot harness, exact commands)
+- `results/` — raw JSON results: J-lens reproduction (3 models), E6 soul-loading, E8 scale study, multi-seed ablation pilot, and the **real deployment** (`deployment/`): per-arm behavioral summaries + WD occupancy for Qwen2.5-7B and the gemini-2.5-pro closed-model arm, all with bootstrap CIs
+- Reproduction code lives in the LISA repository under `research/` (J-lens library, experiment scripts, deployment/ablation harness, exact commands)
 
 ## Method in one line
 
