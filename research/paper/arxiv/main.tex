@@ -1,6 +1,6 @@
-\ifdefined\pdfoutput\pdfoutput=1\fi  % force PDF on arXiv (pdfLaTeX); no-op under XeTeX/tectonic
-% Externalizing the Workspace — preprint. Compile: tectonic main.tex
+% Externalizing the Workspace — preprint. arXiv builds with pdfLaTeX; local check: tectonic main.tex
 \documentclass[11pt]{article}
+\usepackage{iftex}\ifPDFTeX\pdfoutput=1\fi  % force PDF output on arXiv; no-op under XeTeX/tectonic
 \usepackage[margin=1in]{geometry}
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}
