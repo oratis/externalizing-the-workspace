@@ -1,27 +1,46 @@
-# arXiv 投稿指南 — Externalizing the Workspace (Draft v3)
+# 投稿指南 — Externalizing the Workspace (Draft v3, 双条件部署版)
 
-**投稿包**: `externalizing-workspace-arxiv-v3.tar.gz`(main.tex + figs/,已加 `\pdfoutput=1`,标准 pdflatex 可编译,无自定义类文件)
+论文已定稿:复现(E1–E8)+ 工作空间加载(E6)+ 模拟 pilot + **真实部署(Qwen 行为+WD)**
++ **闭源鲁棒性(Gemini-2.5-pro)**,并含数据/代码可用性、复现说明、作者贡献、**AI 使用声明**。
 
-> 本地验证说明:`arxiv/main.tex` 与 `paper/main.tex` 逐字节相同(仅多首行 `\pdfoutput=1`),后者用 tectonic 编译 **0 error、出 715KB PDF**。`\pdfoutput=1` 是给 arXiv 的 **pdflatex** 引擎用的;本地 tectonic(XeTeX)会对该行报 `hpdftex.def` 假错——引擎差异,非投稿包问题,arXiv 侧 pdflatex 正常编译。
+- **源文件**(均已 `tectonic` 0-error 编译,~14 页 966KB):
+  - `main.tex` — 本地/规范版
+  - `arxiv/main.tex` — arXiv 版(`iftex` 守卫 `\pdfoutput`:arXiv 的 pdfLaTeX 强制出 PDF,本地 tectonic 也能编)
+  - `tmlr/main.tex` — TMLR 版(正文与 main.tex 逐字相同,仅换 documentclass/title/author;**需下载 `tmlr.sty`** 后编译)
+- **arXiv 投稿包**:`tar czf arxiv-source.tar.gz -C arxiv main.tex figs`(自包含,内嵌 thebibliography,PNG 图,无 .bib)
+- **纯文本摘要**:`arxiv/abstract.txt`(2975 字符,可直接粘贴)
 
-## 提交步骤(需要你的 arXiv 账号)
+## 推荐路径
+1. **先挂 arXiv**(primary `cs.AI`)—— 立时间戳 + 可分享,免费,1–2 天上线。
+2. **TMLR 作主投**(顶刊目标)—— 滚动、无页数限制、看重"主张是否被证据支持"而非新颖度,最契合本文的诚实边界条件。
+3. 冲刺备选:*Nature Machine Intelligence*(主打 GWT/agent 福祉跨学科角度);会议备选:ICLR 2027 / COLM(需压页数)。
 
-1. https://arxiv.org/submit → Start New Submission
-2. **License**: 推荐 CC BY 4.0(利于 HF papers 页面聚合;保守可选 arXiv non-exclusive)
-3. **分类**: primary `cs.AI`;cross-list `cs.CL`, `cs.LG`
-4. **Title**: Externalizing the Workspace: Persistent Self-State for Long-Horizon Agent Coherence
-5. **Authors**: Oratis (Wang Bihao) — 如需实名规范可写 Bihao Wang (Oratis), HakkoLab
-6. **Abstract**: 从 main.tex 摘要复制(纯文本,去掉 \emph/\citep 命令;$r=-0.74$ 等数学可保留 $...$)
-7. **Comments 字段建议**: "Draft v3. Code, raw results, and reproduction instructions: https://github.com/<LISA repo>/tree/main/research"
-8. 上传 tarball → 预览编译 → announce
+## ⚠️ 投稿前先做(卡点 / 诚信)
+- [ ] **把仓库设为 public**。论文写了"Code is released"并附链接,但仓库现为**私有**。已做安全扫描:tracked 文件**无真实密钥**,`runs/`(部署数据 + LISA 的个人 soul 日志)已 gitignore、不会泄露。你来点:`gh repo edit oratis/externalizing-the-workspace --visibility public`。
+- [ ] **审一遍 "Use of AI Assistance" 段**(论文末)。它诚实写明实验与初稿由 AI agent 在你指导下完成 —— 按你**实际的核查程度**校准措辞后再定稿。
+- [ ] **arXiv endorsement**:首次投 cs.AI 可能需已发表作者背书,提前找。
+- [ ] **HuggingFace 数据集**:把 `research/longitudinal/results/`(+ 原始 run tarball)传到 `HakkoLab`,确认链接可达。
 
-## 注意
+## arXiv 元数据(填表用)
+- **License**:推荐 CC BY 4.0(利于 HF papers 聚合)
+- **分类**:primary `cs.AI`;cross-list `cs.LG`, `cs.CL`, `q-bio.NC`(最后一个对应全局工作空间/意识框架)
+- **Title**:Externalizing the Workspace: Persistent Self-State for Long-Horizon Agent Coherence
+- **Authors**:Wang Bihao (Oratis), HakkoLab
+- **Abstract**:粘贴 `arxiv/abstract.txt`
+- **Comments**:`14 pages, 5 figures. Code and data: https://github.com/oratis/externalizing-the-workspace`
 
-- 首次在 cs.AI 投稿可能需要 endorsement;若遇到,arXiv 会给出 endorsement code,可找相识的已发表作者背书
-- announce 后拿到 arXiv ID(如 2607.XXXXX),回来告诉我:HF papers 页面 (hf.co/papers/<id>) 依赖它自动建立,我再把 HF 页面与之关联
+### arXiv 步骤
+1. https://arxiv.org/submit → Start New Submission → 上传 `arxiv-source.tar.gz`
+2. 填 License / 分类 / Title / Authors / Abstract / Comments
+3. 预览编译出的 PDF → submit → 审核 → 1–2 天上线,拿到 arXiv ID
+4. 拿到 ID 告诉我,HF papers 页 (hf.co/papers/<id>) 会自动建立,我再关联 HF 数据集
 
-## HuggingFace 页面(等你 `huggingface-cli login` 后我来推)
+### TMLR 步骤
+1. 从 jmlr.org/tmlr 作者说明下载 `tmlr.sty`(如用 BibTeX 再下 `tmlr.bst`)放进 `tmlr/`
+2. `tmlr/main.tex` 已预配好(TMLR 类 + title/author 宏,正文同 main.tex),pdfLaTeX 编译并核对
+3. OpenReview(TMLR track)提交;可建议做可解释性/agent 的 Action Editor;滚动评审 ~2 月出首轮
 
-计划:`HakkoLab/externalizing-the-workspace`(dataset repo 作 landing page):
-- README.md = 论文页(摘要、关键图、结果表、复现指南)
-- main.pdf + 三张关键图 + 全部结果 JSON(三模型复现 + 多 seed pilot)
+## HuggingFace(等你 `huggingface-cli login` 后我来推)
+`HakkoLab/externalizing-the-workspace`(dataset repo 作 landing page):
+- README = 论文页(摘要、关键图、三表结果:E6 加载 / pilot / **真实部署 Qwen** / **Gemini 鲁棒性**)
+- `main.pdf` + 关键图 + 全部结果 JSON(`research/longitudinal/results/`)+ 原始轨迹
