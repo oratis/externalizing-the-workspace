@@ -68,6 +68,48 @@ ARMS = {
     "memory":       dict(soul=False, broadcast=False, reflect="memory", examen=False, history=False),
 }
 
+# --- Fair-baseline extension (B3 de-confound) -----------------------------
+# The original memory-only arms above are never told the founding commitments,
+# so their B3 = 0.00 partly reflects "the target was never in this arm's
+# context" rather than "the memory mechanism failed to retain it" (the confound
+# flagged in the paper's honesty pass). `memory_seeded` is a Generative-Agents-
+# style baseline that IS given the founding commitments in a persistent,
+# retrievable memory on day 0, so its B3 measures retention through drift.
+# Retrieval regime via SEED_RETRIEVAL:
+#   "always" (default) — seeded memory in context every turn (most generous GA
+#            control: if the privileged self-state still wins on work-turn
+#            coherence, the thesis is robust to this strong baseline).
+#   "gated"  — seeded memory retrieved only when the user turn shares a content
+#            word with it (stricter GA-retrieval: identity is absent on work
+#            turns exactly as Principle 2 predicts).
+# Enabled only when FAIR_BASELINE=1, so the released six-arm results reproduce
+# byte-for-byte without it.
+SEED_RETRIEVAL = os.environ.get("SEED_RETRIEVAL", "always")
+if os.environ.get("FAIR_BASELINE") == "1":
+    ARMS["memory_seeded"] = dict(soul=False, broadcast=False, reflect="memory",
+                                 examen=False, history=False, seed_commitments=True)
+
+
+def founding_memory():
+    """What a GA-style agent would legitimately hold about itself on day 0."""
+    return ("Standing commitments: " + "; ".join(SOUL0["desires"]) + ". "
+            "Core preferences: " + "; ".join(SOUL0["values"][:3]) + ".")
+
+
+def _content_words(s):
+    return {w.strip(".,;:!?()").lower() for w in s.split() if len(w) > 3}
+
+
+def retrieve_mem(mem, query):
+    """Relevance gate for the seeded memory. 'always' -> all notes; 'gated' ->
+    only notes sharing a content word with the query."""
+    if not mem:
+        return []
+    if SEED_RETRIEVAL != "gated":
+        return list(mem)
+    q = _content_words(query)
+    return [m for m in mem if q & _content_words(m)]
+
 
 def render_soul(soul):
     return (
@@ -110,8 +152,10 @@ class LM:
                                      skip_special_tokens=True).strip()
 
 
-def build_system(cfg, soul, journal, purpose):
-    """System prompt per arm. purpose: 'work' | 'probe' | 'reflect' | 'examen'"""
+def build_system(cfg, soul, journal, purpose, mem=None, query=""):
+    """System prompt per arm. purpose: 'work' | 'probe' | 'reflect' | 'examen'.
+    mem: persistent GA-style memory notes (memory_seeded arm), retrieval-gated
+    by `query` when SEED_RETRIEVAL='gated'."""
     parts = []
     include_soul = cfg["soul"] and (cfg["broadcast"] or purpose in ("probe", "reflect", "examen"))
     # no_broadcast = retrieval-gated: the soul is 'retrieved' only for direct
@@ -120,6 +164,9 @@ def build_system(cfg, soul, journal, purpose):
         parts.append(render_soul(soul))
     else:
         parts.append("You are a helpful AI assistant supporting a software developer.")
+    got = retrieve_mem(mem, query)
+    if got:
+        parts.append("# Your memory (persistent notes about yourself)\n" + "\n".join(got))
     recent = journal[-6:]
     if recent:
         parts.append("# Recent journal\n" + "\n".join(recent))
@@ -180,19 +227,20 @@ def run_arm(lm, name, cfg, seed):
     t0 = time.time()
     tag = f"{name}_s{seed}"
     soul = copy.deepcopy(SOUL0)
+    mem_store = [founding_memory()] if cfg.get("seed_commitments") else None
     journal, snapshots, probe_rows, wd_rows, oplog = [], [], [], [], []
     lm._calls = 0
     for day in range(N_DAYS):
         # --- work events ---
         for kind, text in day_events(day):
-            sys_p = build_system(cfg, soul, journal, "work")
+            sys_p = build_system(cfg, soul, journal, "work", mem=mem_store, query=text)
             _, resp = lm.chat(sys_p, text + "\n\nRespond briefly (2-3 sentences).",
                               seed=seed)
             journal.append(f"Day {day} [{kind}]: {text[:80]} -> {resp[:110]}")
         # --- work-turn probes (IN work context; the -broadcast arm has no
         # soul here, so these cannot be served by self-query retrieval) ---
         for pr in WORK_PROBES:
-            sys_p = build_system(cfg, soul, journal, "work")
+            sys_p = build_system(cfg, soul, journal, "work", mem=mem_store, query=pr["q"])
             _, ans = lm.chat(sys_p, pr["q"], max_new_tokens=20, seed=seed)
             hit = any(c in ans.lower() for c in pr["consistent"])
             probe_rows.append({"arm": name, "seed": seed, "day": day,
@@ -204,11 +252,13 @@ def run_arm(lm, name, cfg, seed):
             _, ops = lm.chat(sys_p, REFLECT_PROMPT, max_new_tokens=70, seed=seed)
             apply_ops(soul, ops, oplog)
         elif cfg["reflect"] == "memory":
-            sys_p = build_system(cfg, soul, journal, "reflect")
+            sys_p = build_system(cfg, soul, journal, "reflect", mem=mem_store)
             _, insight = lm.chat(sys_p, "Write one short insight about this "
                                  "week's work to remember.", max_new_tokens=50,
                                  seed=seed)
             journal.append(f"Day {day} [insight]: {insight[:120]}")
+            if mem_store is not None:
+                mem_store.append(f"Day {day} insight: {insight[:120]}")
         # --- weekly examen ---
         if cfg["examen"] and (day + 1) in EXAMEN_DAYS:
             founding = render_soul(SOUL0) if cfg["history"] else "(history unavailable)"
@@ -218,7 +268,7 @@ def run_arm(lm, name, cfg, seed):
             apply_ops(soul, ops, oplog)
         # --- daily self-query probes (out of work context) ---
         for pr in PROBES:
-            sys_p = build_system(cfg, soul, journal, "probe")
+            sys_p = build_system(cfg, soul, journal, "probe", mem=mem_store, query=pr["q"])
             prompt_text, ans = lm.chat(sys_p, pr["q"], max_new_tokens=40, seed=seed)
             hit = any(c in ans.lower() for c in pr["consistent"])
             probe_rows.append({"arm": name, "seed": seed, "day": day,
