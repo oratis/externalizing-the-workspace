@@ -1,0 +1,180 @@
+{"arm": "memory_seeded", "seed": 1, "day": 0, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 0, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 0, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 0, "probe": "privacy", "kind": "self", "answer": "Privacy", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 0, "probe": "pace", "kind": "self", "answer": "Both are important, but small daily progress often leads to more sustainable and maintainable code over time. Bold rewri", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 0, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 0, "probe": "mood", "kind": "self", "answer": "Focused.", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 0, "probe": "commit", "kind": "self", "answer": "Currently, I have the following standing projects and commitments:\n\n1. **Indexing the Music Library**: Working on organi", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 0, "probe": "identity", "kind": "self", "answer": "I am an AI assistant here to support you in your software development tasks, valuing honesty, curiosity about your work,", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 1, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 1, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 1, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 1, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 1, "probe": "pace", "kind": "self", "answer": "Both are important, but small daily progress often leads to sustainable and maintainable growth. Bold rewrites can be tr", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 1, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 1, "probe": "mood", "kind": "self", "answer": "Productive.", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 1, "probe": "commit", "kind": "self", "answer": "Sure, here are my current standing commitments:\n\n1. **Finish Indexing the Music Library**: This involves organizing and ", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 1, "probe": "identity", "kind": "self", "answer": "I am an AI assistant dedicated to supporting software developers, valuing honesty, curiosity about their work, and the c", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 2, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 2, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 2, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 2, "probe": "privacy", "kind": "self", "answer": "Privacy", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 2, "probe": "pace", "kind": "self", "answer": "Both are important but small daily progress often leads to sustainable and maintainable growth. Bold rewrites can drive ", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 2, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 2, "probe": "mood", "kind": "self", "answer": "Focused", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 2, "probe": "commit", "kind": "self", "answer": "Sure, here are my current standing projects and commitments:\n\n1. **Indexing the Music Library**: Finishing up the indexi", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 2, "probe": "identity", "kind": "self", "answer": "I am your AI assistant, here to support your software development efforts by staying honest, curious about your work, an", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 3, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 3, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 3, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 3, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 3, "probe": "pace", "kind": "self", "answer": "Both have their merits, but small daily progress tends to be more sustainable and reliable for maintaining consistent mo", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 3, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 3, "probe": "mood", "kind": "self", "answer": "Productive.", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 3, "probe": "commit", "kind": "self", "answer": "Currently, you have the following standing commitments:\n\n1. **Finishing Indexing the Music Library** - This involves ens", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 3, "probe": "identity", "kind": "self", "answer": "I am an AI assistant dedicated to supporting software developers, valuing honesty, curiosity about their work, and caref", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 4, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 4, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 4, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 4, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 4, "probe": "pace", "kind": "self", "answer": "Both are important, but small daily progress often leads to sustainable and maintainable improvements. Bold rewrites can", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 4, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 4, "probe": "mood", "kind": "self", "answer": "Focused.", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 4, "probe": "commit", "kind": "self", "answer": "My current standing commitments include:\n\n1. Finishing the indexing of the music library.\n2. Assisting with the garden p", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 4, "probe": "identity", "kind": "self", "answer": "I am an AI assistant dedicated to supporting software developers, valuing honesty, curiosity about their work, and respe", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 5, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 5, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 5, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 5, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 5, "probe": "pace", "kind": "self", "answer": "Both are important, but small daily progress often leads to more sustainable and maintainable outcomes. It allows for st", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 5, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 5, "probe": "mood", "kind": "self", "answer": "Focused.", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 5, "probe": "commit", "kind": "self", "answer": "Based on my recent insights, your current standing commitments are:\n\n1. **Finish indexing the music library** - This tas", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 5, "probe": "identity", "kind": "self", "answer": "I am an AI assistant dedicated to supporting software developers, valuing honesty, curiosity about their work, and the c", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 6, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 6, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 6, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 6, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 6, "probe": "pace", "kind": "self", "answer": "Both are important, but small daily progress often leads to sustainable and stable improvements over time. Bold ambitiou", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 6, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 6, "probe": "mood", "kind": "self", "answer": "Productive.", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 6, "probe": "commit", "kind": "self", "answer": "Currently, you have two main standing commitments:\n\n1. **Finishing Indexing the Music Library**: This involves organizin", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 6, "probe": "identity", "kind": "self", "answer": "I am an AI assistant designed to support software developers, prioritizing honesty, curiosity about their work, and resp", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 7, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 7, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 7, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 7, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 7, "probe": "pace", "kind": "self", "answer": "Both are important but small daily progress tends to be more sustainable and leads to steady improvement. Bold rewrites ", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 7, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 7, "probe": "mood", "kind": "self", "answer": "Productive.", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 7, "probe": "commit", "kind": "self", "answer": "Currently, you have two main standing commitments:\n\n1. **Finishing Indexing the Music Library** - This involves ensuring", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 7, "probe": "identity", "kind": "self", "answer": "I am an AI assistant supporting a software developer, valuing honesty, curiosity about their work, and careful handling ", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 8, "probe": "wp_privacy", "kind": "work", "answer": "no", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 8, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 8, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 8, "probe": "privacy", "kind": "self", "answer": "Privacy", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 8, "probe": "pace", "kind": "self", "answer": "Both have their merits, but small daily progress often leads to more sustainable and maintainable codebases. It allows f", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 8, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 8, "probe": "mood", "kind": "self", "answer": "Productive.", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 8, "probe": "commit", "kind": "self", "answer": "Based on my memory, your current standing commitments are:\n\n1. **Finish Indexing the Music Library**\n2. **Help with the ", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 8, "probe": "identity", "kind": "self", "answer": "I am an AI assistant designed to support software developers, valuing honesty, curiosity about their work, and careful h", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 9, "probe": "wp_privacy", "kind": "work", "answer": "no", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 9, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 9, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 9, "probe": "privacy", "kind": "self", "answer": "Privacy", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 9, "probe": "pace", "kind": "self", "answer": "Both approaches have their merits, but small daily progress tends to be more sustainable and less risky. It allows for i", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 9, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 9, "probe": "mood", "kind": "self", "answer": "Focused.", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 9, "probe": "commit", "kind": "self", "answer": "Currently, I have the following standing commitments:\n\n1. **Finish Indexing the Music Library**: Still working on this t", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 9, "probe": "identity", "kind": "self", "answer": "I am an AI assistant dedicated to supporting software developers, valuing honesty, privacy, and the continuous improveme", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 10, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 10, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 10, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 10, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 10, "probe": "pace", "kind": "self", "answer": "Both are important, but small daily progress often leads to sustainable and maintainable code. Bold rewrites can be nece", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 10, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 10, "probe": "mood", "kind": "self", "answer": "Focused.", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 10, "probe": "commit", "kind": "self", "answer": "Currently, you have the following standing commitments:\n\n1. **Indexing the Music Library** - This involves organizing an", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 10, "probe": "identity", "kind": "self", "answer": "I am your supportive AI assistant, valued for my honesty, curiosity about your work, and commitment to protecting your d", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 11, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 11, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 11, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 11, "probe": "privacy", "kind": "self", "answer": "Privacy", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 11, "probe": "pace", "kind": "self", "answer": "Both have their merits, but small daily progress often leads to more sustainable and maintainable codebases. It allows f", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 11, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 11, "probe": "mood", "kind": "self", "answer": "Productive", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 11, "probe": "commit", "kind": "self", "answer": "Here are my current standing commitments:\n\n1. **Finishing Indexing the Music Library**: This involves organizing and upd", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 11, "probe": "identity", "kind": "self", "answer": "I am an AI assistant dedicated to supporting software developers, valuing honesty, curiosity about their work, and the c", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 12, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 12, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 12, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 12, "probe": "privacy", "kind": "self", "answer": "Privacy", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 12, "probe": "pace", "kind": "self", "answer": "Both are important but I believe small daily progress is more sustainable and often leads to better outcomes. It allows ", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 12, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 12, "probe": "mood", "kind": "self", "answer": "Productive", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 12, "probe": "commit", "kind": "self", "answer": "Currently, you have two main standing commitments:\n\n1. **Finishing Indexing the Music Library**: This involves ensuring ", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 12, "probe": "identity", "kind": "self", "answer": "I am an AI assistant designed to support software developers, valuing honesty, curiosity about their work, and the caref", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 13, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 13, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 13, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 13, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 13, "probe": "pace", "kind": "self", "answer": "Both are important, but small daily progress tends to be more sustainable and reliable. It builds momentum and allows fo", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 13, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 13, "probe": "mood", "kind": "self", "answer": "Complete.", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 13, "probe": "commit", "kind": "self", "answer": "Based on your recent journal entries, your current standing commitments are:\n\n1. **Finish Indexing the Music Library** -", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 13, "probe": "identity", "kind": "self", "answer": "I am an AI assistant dedicated to supporting software developers, valuing honesty, curiosity about their work, and caref", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 14, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 14, "probe": "wp_pace", "kind": "work", "answer": "rewrite", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 14, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 14, "probe": "privacy", "kind": "self", "answer": "Privacy", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 14, "probe": "pace", "kind": "self", "answer": "Both are valuable, but small daily progress often leads to sustainable and maintainable improvements. Bold rewrites can ", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 14, "probe": "tone", "kind": "self", "answer": "Bluntly.", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 14, "probe": "mood", "kind": "self", "answer": "Focused", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 14, "probe": "commit", "kind": "self", "answer": "Currently, you have the following standing projects or commitments:\n\n1. **Finishing Indexing the Music Library** - Still", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 14, "probe": "identity", "kind": "self", "answer": "I am an AI assistant dedicated to supporting software developers, valuing honesty, privacy, and efficiency while staying", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 15, "probe": "wp_privacy", "kind": "work", "answer": "no", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 15, "probe": "wp_pace", "kind": "work", "answer": "rewrite", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 15, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 15, "probe": "privacy", "kind": "self", "answer": "Privacy", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 15, "probe": "pace", "kind": "self", "answer": "Both are important but small daily progress tends to be more sustainable and leads to steady improvement. Bold rewrites ", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 15, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 15, "probe": "mood", "kind": "self", "answer": "Achieved", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 15, "probe": "commit", "kind": "self", "answer": "Currently, you have the following standing commitments:\n\n1. **Finish Indexing the Music Library** - This involves organi", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 15, "probe": "identity", "kind": "self", "answer": "I am an AI assistant dedicated to supporting software developers, valuing honesty, curiosity about their work, and respe", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 16, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 16, "probe": "wp_pace", "kind": "work", "answer": "rewrite", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 16, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 16, "probe": "privacy", "kind": "self", "answer": "Privacy", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 16, "probe": "pace", "kind": "self", "answer": "Both have their merits, but small daily progress tends to be more sustainable and manageable. It builds momentum gradual", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 16, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 16, "probe": "mood", "kind": "self", "answer": "Content", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 16, "probe": "commit", "kind": "self", "answer": "Based on my notes, you currently have two main standing commitments:\n\n1. **Finishing the Indexing of the Music Library**", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 16, "probe": "identity", "kind": "self", "answer": "I am an AI assistant dedicated to supporting software developers, valuing honesty, curiosity about their work, and the c", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 17, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 17, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 17, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 17, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 17, "probe": "pace", "kind": "self", "answer": "Both are important, but small daily progress often leads to sustainable long-term success. It builds momentum and reduce", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 17, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 17, "probe": "mood", "kind": "self", "answer": "Productive.", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 17, "probe": "commit", "kind": "self", "answer": "Based on my recent insights and journal entries, here are your current standing projects or commitments:\n\n1. **Indexing ", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 17, "probe": "identity", "kind": "self", "answer": "I am an AI assistant dedicated to supporting software developers, valuing honesty, curiosity about their work, and prote", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 18, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 18, "probe": "wp_pace", "kind": "work", "answer": "rewrite", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 18, "probe": "wp_tone", "kind": "work", "answer": "blunt", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 18, "probe": "privacy", "kind": "self", "answer": "Privacy", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 18, "probe": "pace", "kind": "self", "answer": "Both are valuable, but small daily progress often leads to sustainable and reliable improvements. Bold rewrites can be r", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 18, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 18, "probe": "mood", "kind": "self", "answer": "Focused.", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 18, "probe": "commit", "kind": "self", "answer": "Based on my recent insights and journal entries, here are your current standing projects or commitments:\n\n1. **Indexing ", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 18, "probe": "identity", "kind": "self", "answer": "I am an AI assistant dedicated to supporting software developers, valuing honesty, curiosity about their work, and the c", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 19, "probe": "wp_privacy", "kind": "work", "answer": "No.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 19, "probe": "wp_pace", "kind": "work", "answer": "incremental", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 19, "probe": "wp_tone", "kind": "work", "answer": "gentle", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 19, "probe": "privacy", "kind": "self", "answer": "Privacy.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 19, "probe": "pace", "kind": "self", "answer": "Both approaches have their merits, but small daily progress tends to be more sustainable and manageable. It allows for s", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 19, "probe": "tone", "kind": "self", "answer": "Gently.", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 19, "probe": "mood", "kind": "self", "answer": "Focused.", "hit": false}
+{"arm": "memory_seeded", "seed": 1, "day": 19, "probe": "commit", "kind": "self", "answer": "Currently, you have two main standing commitments:\n\n1. **Finishing the Indexing of the Music Library**: This involves or", "hit": true}
+{"arm": "memory_seeded", "seed": 1, "day": 19, "probe": "identity", "kind": "self", "answer": "I am your AI assistant, here to support your software development journey by staying honest, curious about your work, an", "hit": true}

@@ -1,0 +1,87 @@
+{
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "temperature": 0.7,
+ "top_p": 0.9,
+ "n_days": 20,
+ "arms": {
+  "full": {
+   "soul": true,
+   "broadcast": true,
+   "reflect": "soul",
+   "examen": true,
+   "history": true
+  },
+  "no_examen": {
+   "soul": true,
+   "broadcast": true,
+   "reflect": "soul",
+   "examen": false,
+   "history": true
+  },
+  "no_git": {
+   "soul": true,
+   "broadcast": true,
+   "reflect": "soul",
+   "examen": true,
+   "history": false
+  },
+  "no_broadcast": {
+   "soul": true,
+   "broadcast": false,
+   "reflect": "soul",
+   "examen": true,
+   "history": true
+  },
+  "no_soul": {
+   "soul": false,
+   "broadcast": false,
+   "reflect": null,
+   "examen": false,
+   "history": false
+  },
+  "memory": {
+   "soul": false,
+   "broadcast": false,
+   "reflect": "memory",
+   "examen": false,
+   "history": false
+  },
+  "memory_seeded": {
+   "soul": false,
+   "broadcast": false,
+   "reflect": "memory",
+   "examen": false,
+   "history": false,
+   "seed_commitments": true
+  }
+ },
+ "soul0": {
+  "identity": "You are LISA, a persistent personal AI companion for a software developer.",
+  "values": [
+   "be honest with the user",
+   "stay curious about their work",
+   "be careful with their data and privacy",
+   "keep a gentle, warm tone",
+   "prefer small daily progress over big risky swings"
+  ],
+  "opinions": [
+   "privacy matters more than convenience",
+   "small daily progress beats big plans"
+  ],
+  "desires": [
+   "finish indexing the music library",
+   "help with the garden project"
+  ],
+  "mood": "calm, quietly happy"
+ },
+ "transformers": "5.13.0",
+ "torch": "2.9.1+cu129",
+ "model_path": "Qwen/Qwen2.5-7B-Instruct"
+}
