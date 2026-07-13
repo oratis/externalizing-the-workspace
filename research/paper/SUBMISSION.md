@@ -8,7 +8,7 @@
   - `arxiv/main.tex` — arXiv 版(`iftex` 守卫 `\pdfoutput`:arXiv 的 pdfLaTeX 强制出 PDF,本地 tectonic 也能编)
   - `tmlr/main.tex` — TMLR 版(正文与 main.tex 逐字相同,仅换 documentclass/title/author;**需下载 `tmlr.sty`** 后编译)
 - **arXiv 投稿包**:`tar czf arxiv-source.tar.gz -C arxiv main.tex figs`(自包含,内嵌 thebibliography,PNG 图,无 .bib)
-- **纯文本摘要**:`arxiv/abstract.txt`(2975 字符,可直接粘贴)
+- **纯文本摘要**:`arxiv/abstract.txt`(≈3270 字符,可直接粘贴)
 
 ## 推荐路径
 1. **先挂 arXiv**(primary `cs.AI`)—— 立时间戳 + 可分享,免费,1–2 天上线。
@@ -18,7 +18,7 @@
 ## ⚠️ 投稿前先做(卡点 / 诚信)
 - [ ] **把仓库设为 public**。论文写了"Code is released"并附链接,但仓库现为**私有**。已做安全扫描:tracked 文件**无真实密钥**,`runs/`(部署数据 + LISA 的个人 soul 日志)已 gitignore、不会泄露。你来点:`gh repo edit oratis/externalizing-the-workspace --visibility public`。
 - [ ] **审一遍 "Use of AI Assistance" 段**(论文末)。它诚实写明实验与初稿由 AI agent 在你指导下完成 —— 按你**实际的核查程度**校准措辞后再定稿。
-- [ ] **arXiv endorsement**:首次投 cs.AI 可能需已发表作者背书,提前找。
+- [x] **arXiv endorsement**:已获得背书(cs.AI)。
 - [ ] **HuggingFace 数据集**:把 `research/longitudinal/results/`(+ 原始 run tarball)传到 `HakkoLab`,确认链接可达。
 
 ## arXiv 元数据(填表用)
@@ -27,7 +27,7 @@
 - **Title**:Externalizing the Workspace: Persistent Self-State for Long-Horizon Agent Coherence
 - **Authors**:Wang Bihao (Oratis), HakkoLab
 - **Abstract**:粘贴 `arxiv/abstract.txt`
-- **Comments**:`14 pages, 5 figures. Code and data: https://github.com/oratis/externalizing-the-workspace`
+- **Comments**:`18 pages, 4 figures. Code and data: https://github.com/oratis/externalizing-the-workspace`
 
 ### arXiv 步骤
 1. https://arxiv.org/submit → Start New Submission → 上传 `arxiv-source.tar.gz`
