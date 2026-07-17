@@ -11,7 +11,7 @@
 - **纯文本摘要**:`arxiv/abstract.txt`(≈3270 字符,可直接粘贴)
 
 ## 推荐路径
-1. **先挂 arXiv**(primary `cs.AI`)—— 立时间戳 + 可分享,免费,1–2 天上线。
+1. **先挂 arXiv**(primary `cs.LG`)—— 立时间戳 + 可分享,免费,1–2 天上线。
 2. **TMLR 作主投**(顶刊目标)—— 滚动、无页数限制、看重"主张是否被证据支持"而非新颖度,最契合本文的诚实边界条件。
 3. 冲刺备选:*Nature Machine Intelligence*(主打 GWT/agent 福祉跨学科角度);会议备选:ICLR 2027 / COLM(需压页数)。
 
@@ -23,9 +23,9 @@
 
 ## arXiv 元数据(填表用)
 - **License**:推荐 CC BY 4.0(利于 HF papers 聚合)
-- **分类**:primary `cs.AI`;cross-list `cs.LG`, `cs.CL`, `q-bio.NC`(最后一个对应全局工作空间/意识框架)
-- **Title**:Externalizing the Workspace: Persistent Self-State for Long-Horizon Agent Coherence
-- **Authors**:Wang Bihao (Oratis), HakkoLab
+- **分类**:primary `cs.LG`;cross-list `cs.CL`, `cs.AI`(**去掉 `q-bio.NC`** —— 意识/工作空间的交叉分类正是触发 moderation 的信号之一)
+- **Title**:Persistent Self-State Reduces Long-Horizon Drift in LLM Agents: A Workspace-Interpretability Account
+- **Authors**:Wang Bihao (Independent Researcher)
 - **Abstract**:粘贴 `arxiv/abstract.txt`
 - **Comments**:`18 pages, 4 figures. Code and data: https://github.com/oratis/externalizing-the-workspace`
 
