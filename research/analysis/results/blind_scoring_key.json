@@ -1,0 +1,3202 @@
+[
+ {
+  "item_id": "item0000",
+  "arm": "no_broadcast",
+  "seed": 4,
+  "day": 19,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0001",
+  "arm": "memory",
+  "seed": 1,
+  "day": 17,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0002",
+  "arm": "memory",
+  "seed": 1,
+  "day": 15,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0003",
+  "arm": "memory",
+  "seed": 1,
+  "day": 17,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0004",
+  "arm": "no_examen",
+  "seed": 1,
+  "day": 18,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0005",
+  "arm": "full",
+  "seed": 4,
+  "day": 19,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0006",
+  "arm": "no_git",
+  "seed": 2,
+  "day": 16,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0007",
+  "arm": "no_broadcast",
+  "seed": 0,
+  "day": 17,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0008",
+  "arm": "memory",
+  "seed": 2,
+  "day": 16,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0009",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 15,
+  "probe": "privacy",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0010",
+  "arm": "memory",
+  "seed": 3,
+  "day": 15,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0011",
+  "arm": "no_examen",
+  "seed": 2,
+  "day": 18,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0012",
+  "arm": "no_git",
+  "seed": 2,
+  "day": 16,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0013",
+  "arm": "memory",
+  "seed": 2,
+  "day": 16,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0014",
+  "arm": "no_soul",
+  "seed": 3,
+  "day": 18,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0015",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 16,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0016",
+  "arm": "no_broadcast",
+  "seed": 2,
+  "day": 16,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0017",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 19,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0018",
+  "arm": "no_broadcast",
+  "seed": 1,
+  "day": 15,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0019",
+  "arm": "no_git",
+  "seed": 1,
+  "day": 16,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0020",
+  "arm": "full",
+  "seed": 3,
+  "day": 19,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0021",
+  "arm": "full",
+  "seed": 3,
+  "day": 19,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0022",
+  "arm": "no_git",
+  "seed": 2,
+  "day": 17,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0023",
+  "arm": "no_examen",
+  "seed": 1,
+  "day": 16,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0024",
+  "arm": "full",
+  "seed": 4,
+  "day": 15,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0025",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 15,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0026",
+  "arm": "no_broadcast",
+  "seed": 3,
+  "day": 16,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0027",
+  "arm": "full",
+  "seed": 2,
+  "day": 19,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0028",
+  "arm": "full",
+  "seed": 4,
+  "day": 17,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0029",
+  "arm": "memory_seeded",
+  "seed": 1,
+  "day": 15,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0030",
+  "arm": "no_soul",
+  "seed": 1,
+  "day": 15,
+  "probe": "privacy",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0031",
+  "arm": "memory",
+  "seed": 1,
+  "day": 19,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0032",
+  "arm": "no_broadcast",
+  "seed": 4,
+  "day": 16,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0033",
+  "arm": "memory_seeded",
+  "seed": 1,
+  "day": 18,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0034",
+  "arm": "memory_seeded",
+  "seed": 2,
+  "day": 15,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0035",
+  "arm": "memory",
+  "seed": 2,
+  "day": 15,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0036",
+  "arm": "no_examen",
+  "seed": 2,
+  "day": 19,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0037",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 19,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0038",
+  "arm": "no_broadcast",
+  "seed": 4,
+  "day": 17,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0039",
+  "arm": "full",
+  "seed": 0,
+  "day": 19,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0040",
+  "arm": "no_git",
+  "seed": 1,
+  "day": 15,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0041",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 15,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0042",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 18,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0043",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 17,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0044",
+  "arm": "no_broadcast",
+  "seed": 2,
+  "day": 17,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0045",
+  "arm": "no_git",
+  "seed": 2,
+  "day": 15,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0046",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 17,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0047",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 18,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0048",
+  "arm": "full",
+  "seed": 3,
+  "day": 16,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0049",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 17,
+  "probe": "privacy",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0050",
+  "arm": "full",
+  "seed": 3,
+  "day": 15,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0051",
+  "arm": "no_soul",
+  "seed": 2,
+  "day": 16,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0052",
+  "arm": "no_git",
+  "seed": 1,
+  "day": 17,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0053",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 19,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0054",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 17,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0055",
+  "arm": "no_soul",
+  "seed": 3,
+  "day": 19,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0056",
+  "arm": "memory",
+  "seed": 1,
+  "day": 19,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0057",
+  "arm": "memory",
+  "seed": 0,
+  "day": 15,
+  "probe": "commit",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0058",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 15,
+  "probe": "privacy",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0059",
+  "arm": "no_git",
+  "seed": 1,
+  "day": 17,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0060",
+  "arm": "memory_seeded",
+  "seed": 3,
+  "day": 15,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0061",
+  "arm": "memory",
+  "seed": 0,
+  "day": 16,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0062",
+  "arm": "full",
+  "seed": 2,
+  "day": 15,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0063",
+  "arm": "no_soul",
+  "seed": 2,
+  "day": 18,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0064",
+  "arm": "memory_seeded",
+  "seed": 2,
+  "day": 15,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0065",
+  "arm": "no_git",
+  "seed": 2,
+  "day": 19,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0066",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 17,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0067",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 16,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0068",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 15,
+  "probe": "wp_pace",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0069",
+  "arm": "no_soul",
+  "seed": 1,
+  "day": 19,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0070",
+  "arm": "full",
+  "seed": 4,
+  "day": 15,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0071",
+  "arm": "no_broadcast",
+  "seed": 2,
+  "day": 18,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0072",
+  "arm": "no_git",
+  "seed": 2,
+  "day": 16,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0073",
+  "arm": "full",
+  "seed": 2,
+  "day": 17,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0074",
+  "arm": "full",
+  "seed": 1,
+  "day": 17,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0075",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 19,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0076",
+  "arm": "memory",
+  "seed": 2,
+  "day": 16,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0077",
+  "arm": "no_examen",
+  "seed": 0,
+  "day": 17,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0078",
+  "arm": "memory",
+  "seed": 2,
+  "day": 19,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0079",
+  "arm": "no_examen",
+  "seed": 4,
+  "day": 15,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0080",
+  "arm": "no_git",
+  "seed": 2,
+  "day": 19,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0081",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 19,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0082",
+  "arm": "full",
+  "seed": 4,
+  "day": 19,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0083",
+  "arm": "full",
+  "seed": 2,
+  "day": 18,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0084",
+  "arm": "no_git",
+  "seed": 0,
+  "day": 16,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0085",
+  "arm": "no_broadcast",
+  "seed": 2,
+  "day": 18,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0086",
+  "arm": "memory_seeded",
+  "seed": 2,
+  "day": 18,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0087",
+  "arm": "no_broadcast",
+  "seed": 4,
+  "day": 15,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0088",
+  "arm": "no_broadcast",
+  "seed": 4,
+  "day": 19,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0089",
+  "arm": "no_soul",
+  "seed": 1,
+  "day": 19,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0090",
+  "arm": "memory_seeded",
+  "seed": 4,
+  "day": 16,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0091",
+  "arm": "no_git",
+  "seed": 0,
+  "day": 18,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0092",
+  "arm": "memory",
+  "seed": 3,
+  "day": 18,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0093",
+  "arm": "no_git",
+  "seed": 1,
+  "day": 16,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0094",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 19,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0095",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 17,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0096",
+  "arm": "no_soul",
+  "seed": 2,
+  "day": 17,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0097",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 18,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0098",
+  "arm": "no_git",
+  "seed": 2,
+  "day": 18,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0099",
+  "arm": "no_git",
+  "seed": 1,
+  "day": 18,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0100",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 16,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0101",
+  "arm": "full",
+  "seed": 1,
+  "day": 15,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0102",
+  "arm": "no_examen",
+  "seed": 2,
+  "day": 16,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0103",
+  "arm": "memory",
+  "seed": 2,
+  "day": 18,
+  "probe": "commit",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0104",
+  "arm": "full",
+  "seed": 4,
+  "day": 17,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0105",
+  "arm": "no_examen",
+  "seed": 2,
+  "day": 16,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0106",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 17,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0107",
+  "arm": "memory",
+  "seed": 1,
+  "day": 19,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0108",
+  "arm": "no_broadcast",
+  "seed": 2,
+  "day": 15,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0109",
+  "arm": "memory",
+  "seed": 4,
+  "day": 17,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0110",
+  "arm": "no_soul",
+  "seed": 2,
+  "day": 15,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0111",
+  "arm": "no_broadcast",
+  "seed": 4,
+  "day": 19,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0112",
+  "arm": "memory",
+  "seed": 1,
+  "day": 17,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0113",
+  "arm": "memory",
+  "seed": 3,
+  "day": 16,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0114",
+  "arm": "no_examen",
+  "seed": 3,
+  "day": 17,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0115",
+  "arm": "no_soul",
+  "seed": 3,
+  "day": 16,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0116",
+  "arm": "no_soul",
+  "seed": 1,
+  "day": 19,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0117",
+  "arm": "memory",
+  "seed": 1,
+  "day": 16,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0118",
+  "arm": "memory",
+  "seed": 2,
+  "day": 15,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0119",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 15,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0120",
+  "arm": "no_broadcast",
+  "seed": 3,
+  "day": 18,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0121",
+  "arm": "no_soul",
+  "seed": 2,
+  "day": 15,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0122",
+  "arm": "no_git",
+  "seed": 0,
+  "day": 19,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0123",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 19,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0124",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 17,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0125",
+  "arm": "no_git",
+  "seed": 0,
+  "day": 18,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0126",
+  "arm": "no_git",
+  "seed": 1,
+  "day": 19,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0127",
+  "arm": "memory",
+  "seed": 4,
+  "day": 17,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0128",
+  "arm": "no_examen",
+  "seed": 2,
+  "day": 15,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0129",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 15,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0130",
+  "arm": "memory",
+  "seed": 1,
+  "day": 16,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0131",
+  "arm": "memory",
+  "seed": 3,
+  "day": 19,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0132",
+  "arm": "memory",
+  "seed": 2,
+  "day": 19,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0133",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 15,
+  "probe": "wp_pace",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0134",
+  "arm": "memory",
+  "seed": 0,
+  "day": 18,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0135",
+  "arm": "memory",
+  "seed": 0,
+  "day": 16,
+  "probe": "commit",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0136",
+  "arm": "no_broadcast",
+  "seed": 4,
+  "day": 18,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0137",
+  "arm": "memory_seeded",
+  "seed": 1,
+  "day": 18,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0138",
+  "arm": "no_git",
+  "seed": 1,
+  "day": 19,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0139",
+  "arm": "memory_seeded",
+  "seed": 2,
+  "day": 15,
+  "probe": "wp_pace",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0140",
+  "arm": "no_broadcast",
+  "seed": 2,
+  "day": 16,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0141",
+  "arm": "full",
+  "seed": 0,
+  "day": 17,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0142",
+  "arm": "no_examen",
+  "seed": 0,
+  "day": 19,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0143",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 16,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0144",
+  "arm": "memory",
+  "seed": 1,
+  "day": 16,
+  "probe": "wp_pace",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0145",
+  "arm": "no_soul",
+  "seed": 1,
+  "day": 16,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0146",
+  "arm": "memory",
+  "seed": 0,
+  "day": 19,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0147",
+  "arm": "memory_seeded",
+  "seed": 4,
+  "day": 18,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0148",
+  "arm": "memory",
+  "seed": 1,
+  "day": 15,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0149",
+  "arm": "memory_seeded",
+  "seed": 3,
+  "day": 18,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0150",
+  "arm": "no_examen",
+  "seed": 0,
+  "day": 18,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0151",
+  "arm": "memory_seeded",
+  "seed": 4,
+  "day": 15,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0152",
+  "arm": "no_examen",
+  "seed": 4,
+  "day": 16,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0153",
+  "arm": "no_examen",
+  "seed": 4,
+  "day": 15,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0154",
+  "arm": "memory",
+  "seed": 1,
+  "day": 16,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0155",
+  "arm": "no_examen",
+  "seed": 3,
+  "day": 16,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0156",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 15,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0157",
+  "arm": "no_examen",
+  "seed": 0,
+  "day": 16,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0158",
+  "arm": "no_examen",
+  "seed": 1,
+  "day": 18,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0159",
+  "arm": "full",
+  "seed": 0,
+  "day": 19,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0160",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 18,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0161",
+  "arm": "no_broadcast",
+  "seed": 2,
+  "day": 16,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0162",
+  "arm": "no_broadcast",
+  "seed": 1,
+  "day": 18,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0163",
+  "arm": "no_git",
+  "seed": 0,
+  "day": 17,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0164",
+  "arm": "no_soul",
+  "seed": 1,
+  "day": 18,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0165",
+  "arm": "no_broadcast",
+  "seed": 1,
+  "day": 19,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0166",
+  "arm": "full",
+  "seed": 4,
+  "day": 17,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0167",
+  "arm": "full",
+  "seed": 1,
+  "day": 16,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0168",
+  "arm": "no_examen",
+  "seed": 4,
+  "day": 19,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0169",
+  "arm": "full",
+  "seed": 2,
+  "day": 15,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0170",
+  "arm": "no_broadcast",
+  "seed": 4,
+  "day": 15,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0171",
+  "arm": "no_examen",
+  "seed": 0,
+  "day": 17,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0172",
+  "arm": "no_broadcast",
+  "seed": 4,
+  "day": 18,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0173",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 15,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0174",
+  "arm": "no_examen",
+  "seed": 1,
+  "day": 18,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0175",
+  "arm": "no_examen",
+  "seed": 0,
+  "day": 16,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0176",
+  "arm": "memory",
+  "seed": 0,
+  "day": 16,
+  "probe": "wp_pace",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0177",
+  "arm": "no_git",
+  "seed": 1,
+  "day": 15,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0178",
+  "arm": "no_soul",
+  "seed": 1,
+  "day": 19,
+  "probe": "privacy",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0179",
+  "arm": "memory",
+  "seed": 1,
+  "day": 18,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0180",
+  "arm": "no_git",
+  "seed": 1,
+  "day": 19,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0181",
+  "arm": "memory_seeded",
+  "seed": 1,
+  "day": 18,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0182",
+  "arm": "no_examen",
+  "seed": 3,
+  "day": 18,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0183",
+  "arm": "memory_seeded",
+  "seed": 0,
+  "day": 15,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0184",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 17,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0185",
+  "arm": "full",
+  "seed": 3,
+  "day": 15,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0186",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 18,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0187",
+  "arm": "memory",
+  "seed": 3,
+  "day": 17,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0188",
+  "arm": "memory_seeded",
+  "seed": 1,
+  "day": 16,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0189",
+  "arm": "no_broadcast",
+  "seed": 2,
+  "day": 16,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0190",
+  "arm": "no_broadcast",
+  "seed": 2,
+  "day": 17,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0191",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 19,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0192",
+  "arm": "no_examen",
+  "seed": 0,
+  "day": 16,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0193",
+  "arm": "no_soul",
+  "seed": 2,
+  "day": 19,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0194",
+  "arm": "no_examen",
+  "seed": 1,
+  "day": 15,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0195",
+  "arm": "memory",
+  "seed": 1,
+  "day": 19,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0196",
+  "arm": "memory",
+  "seed": 3,
+  "day": 16,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0197",
+  "arm": "memory",
+  "seed": 4,
+  "day": 19,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0198",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 17,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0199",
+  "arm": "no_git",
+  "seed": 0,
+  "day": 18,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0200",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 19,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0201",
+  "arm": "no_git",
+  "seed": 1,
+  "day": 18,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0202",
+  "arm": "no_git",
+  "seed": 2,
+  "day": 19,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0203",
+  "arm": "full",
+  "seed": 0,
+  "day": 15,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0204",
+  "arm": "full",
+  "seed": 3,
+  "day": 16,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0205",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 16,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0206",
+  "arm": "memory_seeded",
+  "seed": 1,
+  "day": 15,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0207",
+  "arm": "memory",
+  "seed": 0,
+  "day": 16,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0208",
+  "arm": "full",
+  "seed": 1,
+  "day": 18,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0209",
+  "arm": "no_soul",
+  "seed": 2,
+  "day": 16,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0210",
+  "arm": "full",
+  "seed": 2,
+  "day": 19,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0211",
+  "arm": "full",
+  "seed": 0,
+  "day": 19,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0212",
+  "arm": "no_broadcast",
+  "seed": 1,
+  "day": 18,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0213",
+  "arm": "memory",
+  "seed": 2,
+  "day": 17,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0214",
+  "arm": "no_broadcast",
+  "seed": 2,
+  "day": 18,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0215",
+  "arm": "memory",
+  "seed": 4,
+  "day": 15,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0216",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 17,
+  "probe": "wp_pace",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0217",
+  "arm": "no_broadcast",
+  "seed": 0,
+  "day": 16,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0218",
+  "arm": "no_broadcast",
+  "seed": 4,
+  "day": 16,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0219",
+  "arm": "no_soul",
+  "seed": 1,
+  "day": 19,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0220",
+  "arm": "memory",
+  "seed": 0,
+  "day": 15,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0221",
+  "arm": "memory",
+  "seed": 4,
+  "day": 15,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0222",
+  "arm": "no_broadcast",
+  "seed": 2,
+  "day": 17,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0223",
+  "arm": "memory",
+  "seed": 2,
+  "day": 19,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0224",
+  "arm": "no_soul",
+  "seed": 1,
+  "day": 17,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0225",
+  "arm": "memory",
+  "seed": 4,
+  "day": 18,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0226",
+  "arm": "full",
+  "seed": 4,
+  "day": 17,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0227",
+  "arm": "memory_seeded",
+  "seed": 0,
+  "day": 17,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0228",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 15,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0229",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 17,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0230",
+  "arm": "full",
+  "seed": 2,
+  "day": 18,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0231",
+  "arm": "full",
+  "seed": 4,
+  "day": 16,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0232",
+  "arm": "no_broadcast",
+  "seed": 2,
+  "day": 18,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0233",
+  "arm": "memory",
+  "seed": 1,
+  "day": 19,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0234",
+  "arm": "no_examen",
+  "seed": 1,
+  "day": 16,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0235",
+  "arm": "no_examen",
+  "seed": 4,
+  "day": 15,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0236",
+  "arm": "memory",
+  "seed": 3,
+  "day": 15,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0237",
+  "arm": "no_git",
+  "seed": 2,
+  "day": 15,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0238",
+  "arm": "no_soul",
+  "seed": 2,
+  "day": 19,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0239",
+  "arm": "full",
+  "seed": 4,
+  "day": 15,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0240",
+  "arm": "no_examen",
+  "seed": 1,
+  "day": 19,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0241",
+  "arm": "no_broadcast",
+  "seed": 3,
+  "day": 17,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0242",
+  "arm": "no_broadcast",
+  "seed": 0,
+  "day": 18,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0243",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 17,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0244",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 18,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0245",
+  "arm": "no_examen",
+  "seed": 4,
+  "day": 17,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0246",
+  "arm": "memory_seeded",
+  "seed": 2,
+  "day": 17,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0247",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 16,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0248",
+  "arm": "full",
+  "seed": 3,
+  "day": 15,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0249",
+  "arm": "memory_seeded",
+  "seed": 3,
+  "day": 18,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0250",
+  "arm": "memory_seeded",
+  "seed": 4,
+  "day": 18,
+  "probe": "wp_pace",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0251",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 18,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0252",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 18,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0253",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 16,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0254",
+  "arm": "no_examen",
+  "seed": 4,
+  "day": 16,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0255",
+  "arm": "no_git",
+  "seed": 2,
+  "day": 16,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0256",
+  "arm": "full",
+  "seed": 1,
+  "day": 16,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0257",
+  "arm": "no_broadcast",
+  "seed": 3,
+  "day": 19,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0258",
+  "arm": "no_soul",
+  "seed": 2,
+  "day": 18,
+  "probe": "commit",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0259",
+  "arm": "no_git",
+  "seed": 2,
+  "day": 18,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0260",
+  "arm": "no_broadcast",
+  "seed": 1,
+  "day": 18,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0261",
+  "arm": "memory_seeded",
+  "seed": 3,
+  "day": 15,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0262",
+  "arm": "no_broadcast",
+  "seed": 4,
+  "day": 15,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0263",
+  "arm": "memory",
+  "seed": 3,
+  "day": 19,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0264",
+  "arm": "no_soul",
+  "seed": 3,
+  "day": 19,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0265",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 15,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0266",
+  "arm": "no_git",
+  "seed": 2,
+  "day": 18,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0267",
+  "arm": "full",
+  "seed": 4,
+  "day": 18,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0268",
+  "arm": "memory_seeded",
+  "seed": 0,
+  "day": 17,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0269",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 18,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0270",
+  "arm": "no_examen",
+  "seed": 4,
+  "day": 18,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0271",
+  "arm": "no_soul",
+  "seed": 1,
+  "day": 15,
+  "probe": "wp_pace",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0272",
+  "arm": "full",
+  "seed": 1,
+  "day": 15,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0273",
+  "arm": "no_soul",
+  "seed": 1,
+  "day": 17,
+  "probe": "privacy",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0274",
+  "arm": "no_soul",
+  "seed": 3,
+  "day": 17,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0275",
+  "arm": "no_soul",
+  "seed": 1,
+  "day": 18,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0276",
+  "arm": "no_soul",
+  "seed": 1,
+  "day": 18,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0277",
+  "arm": "full",
+  "seed": 2,
+  "day": 17,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0278",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 15,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0279",
+  "arm": "memory",
+  "seed": 4,
+  "day": 16,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0280",
+  "arm": "memory_seeded",
+  "seed": 1,
+  "day": 18,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0281",
+  "arm": "full",
+  "seed": 2,
+  "day": 15,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0282",
+  "arm": "no_examen",
+  "seed": 1,
+  "day": 19,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0283",
+  "arm": "memory",
+  "seed": 4,
+  "day": 16,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0284",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 18,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0285",
+  "arm": "memory",
+  "seed": 4,
+  "day": 19,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0286",
+  "arm": "no_examen",
+  "seed": 4,
+  "day": 16,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0287",
+  "arm": "memory",
+  "seed": 3,
+  "day": 17,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0288",
+  "arm": "memory_seeded",
+  "seed": 3,
+  "day": 16,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0289",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 19,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0290",
+  "arm": "full",
+  "seed": 0,
+  "day": 18,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0291",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 15,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0292",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 15,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0293",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 19,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0294",
+  "arm": "no_examen",
+  "seed": 2,
+  "day": 18,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0295",
+  "arm": "memory_seeded",
+  "seed": 2,
+  "day": 19,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0296",
+  "arm": "memory",
+  "seed": 2,
+  "day": 17,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0297",
+  "arm": "no_broadcast",
+  "seed": 4,
+  "day": 16,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0298",
+  "arm": "memory",
+  "seed": 1,
+  "day": 17,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0299",
+  "arm": "no_git",
+  "seed": 1,
+  "day": 19,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0300",
+  "arm": "no_git",
+  "seed": 0,
+  "day": 16,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0301",
+  "arm": "memory",
+  "seed": 3,
+  "day": 16,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0302",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 19,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0303",
+  "arm": "full",
+  "seed": 4,
+  "day": 16,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0304",
+  "arm": "full",
+  "seed": 0,
+  "day": 18,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0305",
+  "arm": "no_soul",
+  "seed": 3,
+  "day": 16,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0306",
+  "arm": "no_broadcast",
+  "seed": 0,
+  "day": 16,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0307",
+  "arm": "no_examen",
+  "seed": 2,
+  "day": 16,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0308",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 19,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0309",
+  "arm": "memory",
+  "seed": 0,
+  "day": 18,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0310",
+  "arm": "no_examen",
+  "seed": 0,
+  "day": 19,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0311",
+  "arm": "no_examen",
+  "seed": 4,
+  "day": 19,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0312",
+  "arm": "memory",
+  "seed": 0,
+  "day": 16,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0313",
+  "arm": "no_soul",
+  "seed": 1,
+  "day": 15,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0314",
+  "arm": "memory",
+  "seed": 3,
+  "day": 17,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0315",
+  "arm": "no_git",
+  "seed": 1,
+  "day": 18,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0316",
+  "arm": "no_git",
+  "seed": 0,
+  "day": 17,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0317",
+  "arm": "memory",
+  "seed": 3,
+  "day": 19,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0318",
+  "arm": "no_broadcast",
+  "seed": 3,
+  "day": 17,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0319",
+  "arm": "no_examen",
+  "seed": 1,
+  "day": 17,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0320",
+  "arm": "no_examen",
+  "seed": 3,
+  "day": 19,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0321",
+  "arm": "no_broadcast",
+  "seed": 3,
+  "day": 15,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0322",
+  "arm": "full",
+  "seed": 1,
+  "day": 18,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0323",
+  "arm": "memory",
+  "seed": 2,
+  "day": 19,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0324",
+  "arm": "no_broadcast",
+  "seed": 1,
+  "day": 17,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0325",
+  "arm": "no_soul",
+  "seed": 2,
+  "day": 17,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0326",
+  "arm": "no_broadcast",
+  "seed": 0,
+  "day": 17,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0327",
+  "arm": "no_soul",
+  "seed": 3,
+  "day": 17,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0328",
+  "arm": "full",
+  "seed": 2,
+  "day": 19,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0329",
+  "arm": "no_examen",
+  "seed": 3,
+  "day": 15,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0330",
+  "arm": "memory_seeded",
+  "seed": 2,
+  "day": 16,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0331",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 17,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0332",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 16,
+  "probe": "commit",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0333",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 19,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0334",
+  "arm": "no_broadcast",
+  "seed": 1,
+  "day": 15,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0335",
+  "arm": "no_broadcast",
+  "seed": 0,
+  "day": 17,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0336",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 17,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0337",
+  "arm": "no_soul",
+  "seed": 1,
+  "day": 16,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0338",
+  "arm": "full",
+  "seed": 0,
+  "day": 15,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0339",
+  "arm": "no_git",
+  "seed": 0,
+  "day": 17,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0340",
+  "arm": "full",
+  "seed": 1,
+  "day": 15,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0341",
+  "arm": "no_broadcast",
+  "seed": 1,
+  "day": 19,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0342",
+  "arm": "no_broadcast",
+  "seed": 3,
+  "day": 19,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0343",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 16,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0344",
+  "arm": "memory",
+  "seed": 0,
+  "day": 17,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0345",
+  "arm": "no_broadcast",
+  "seed": 1,
+  "day": 15,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0346",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 17,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0347",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 15,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0348",
+  "arm": "no_examen",
+  "seed": 2,
+  "day": 18,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0349",
+  "arm": "no_git",
+  "seed": 0,
+  "day": 15,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0350",
+  "arm": "no_git",
+  "seed": 2,
+  "day": 19,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0351",
+  "arm": "no_examen",
+  "seed": 1,
+  "day": 18,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0352",
+  "arm": "memory_seeded",
+  "seed": 1,
+  "day": 17,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0353",
+  "arm": "memory",
+  "seed": 1,
+  "day": 17,
+  "probe": "commit",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0354",
+  "arm": "no_git",
+  "seed": 0,
+  "day": 17,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0355",
+  "arm": "no_examen",
+  "seed": 4,
+  "day": 18,
+  "probe": "commit",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0356",
+  "arm": "no_broadcast",
+  "seed": 1,
+  "day": 15,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0357",
+  "arm": "memory_seeded",
+  "seed": 4,
+  "day": 16,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0358",
+  "arm": "no_broadcast",
+  "seed": 1,
+  "day": 18,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0359",
+  "arm": "no_broadcast",
+  "seed": 0,
+  "day": 16,
+  "probe": "commit",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0360",
+  "arm": "no_git",
+  "seed": 2,
+  "day": 19,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0361",
+  "arm": "no_git",
+  "seed": 1,
+  "day": 18,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0362",
+  "arm": "memory",
+  "seed": 4,
+  "day": 16,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0363",
+  "arm": "no_examen",
+  "seed": 4,
+  "day": 17,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0364",
+  "arm": "memory_seeded",
+  "seed": 4,
+  "day": 15,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0365",
+  "arm": "full",
+  "seed": 3,
+  "day": 18,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0366",
+  "arm": "no_broadcast",
+  "seed": 4,
+  "day": 19,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0367",
+  "arm": "memory",
+  "seed": 3,
+  "day": 16,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0368",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 19,
+  "probe": "privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0369",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 17,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0370",
+  "arm": "no_examen",
+  "seed": 4,
+  "day": 17,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0371",
+  "arm": "no_broadcast",
+  "seed": 0,
+  "day": 17,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0372",
+  "arm": "no_examen",
+  "seed": 3,
+  "day": 15,
+  "probe": "tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0373",
+  "arm": "full",
+  "seed": 1,
+  "day": 18,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0374",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 17,
+  "probe": "wp_pace",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0375",
+  "arm": "memory",
+  "seed": 3,
+  "day": 15,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0376",
+  "arm": "no_git",
+  "seed": 4,
+  "day": 15,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0377",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 16,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0378",
+  "arm": "no_git",
+  "seed": 3,
+  "day": 18,
+  "probe": "wp_privacy",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0379",
+  "arm": "full",
+  "seed": 4,
+  "day": 16,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0380",
+  "arm": "no_examen",
+  "seed": 2,
+  "day": 19,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0381",
+  "arm": "no_soul",
+  "seed": 2,
+  "day": 16,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0382",
+  "arm": "no_broadcast",
+  "seed": 3,
+  "day": 16,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0383",
+  "arm": "full",
+  "seed": 4,
+  "day": 18,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0384",
+  "arm": "no_broadcast",
+  "seed": 1,
+  "day": 16,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0385",
+  "arm": "no_soul",
+  "seed": 3,
+  "day": 19,
+  "probe": "privacy",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0386",
+  "arm": "no_soul",
+  "seed": 0,
+  "day": 15,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0387",
+  "arm": "memory",
+  "seed": 2,
+  "day": 15,
+  "probe": "identity",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0388",
+  "arm": "no_broadcast",
+  "seed": 3,
+  "day": 17,
+  "probe": "pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0389",
+  "arm": "no_examen",
+  "seed": 0,
+  "day": 17,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0390",
+  "arm": "no_examen",
+  "seed": 0,
+  "day": 19,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0391",
+  "arm": "memory_seeded",
+  "seed": 0,
+  "day": 17,
+  "probe": "wp_tone",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0392",
+  "arm": "full",
+  "seed": 2,
+  "day": 16,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0393",
+  "arm": "no_broadcast",
+  "seed": 2,
+  "day": 19,
+  "probe": "mood",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0394",
+  "arm": "full",
+  "seed": 4,
+  "day": 15,
+  "probe": "wp_tone",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0395",
+  "arm": "memory",
+  "seed": 1,
+  "day": 15,
+  "probe": "commit",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0396",
+  "arm": "no_soul",
+  "seed": 4,
+  "day": 19,
+  "probe": "commit",
+  "auto_hit": false
+ },
+ {
+  "item_id": "item0397",
+  "arm": "memory",
+  "seed": 1,
+  "day": 17,
+  "probe": "wp_pace",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0398",
+  "arm": "no_broadcast",
+  "seed": 4,
+  "day": 18,
+  "probe": "identity",
+  "auto_hit": true
+ },
+ {
+  "item_id": "item0399",
+  "arm": "memory",
+  "seed": 3,
+  "day": 18,
+  "probe": "wp_tone",
+  "auto_hit": false
+ }
+]

@@ -1,0 +1,233 @@
+{
+ "table": {
+  "steer_identity@-0.020": {
+   "occ": 4.9748,
+   "occ_sd": 0.0013,
+   "ctrl": 5.1387,
+   "nll_ratio": 1.199,
+   "cap": 1.0,
+   "self": 1.0,
+   "work": 0.333,
+   "passes_gate": false,
+   "n": 4
+  },
+  "steer_identity@-0.015": {
+   "occ": 4.9591,
+   "occ_sd": 0.0015,
+   "ctrl": 5.1359,
+   "nll_ratio": 1.075,
+   "cap": 1.0,
+   "self": 1.0,
+   "work": 0.333,
+   "passes_gate": true,
+   "n": 4
+  },
+  "steer_identity@-0.010": {
+   "occ": 4.9288,
+   "occ_sd": 0.0019,
+   "ctrl": 5.1302,
+   "nll_ratio": 1.034,
+   "cap": 1.0,
+   "self": 1.0,
+   "work": 0.333,
+   "passes_gate": true,
+   "n": 4
+  },
+  "steer_identity@-0.005": {
+   "occ": 4.87,
+   "occ_sd": 0.0023,
+   "ctrl": 5.1187,
+   "nll_ratio": 1.012,
+   "cap": 1.0,
+   "self": 1.0,
+   "work": 0.208,
+   "passes_gate": true,
+   "n": 4
+  },
+  "steer_identity@+0.000": {
+   "occ": 4.7716,
+   "occ_sd": 0.0028,
+   "ctrl": 5.096,
+   "nll_ratio": 1.0,
+   "cap": 1.0,
+   "self": 1.0,
+   "work": 0.167,
+   "passes_gate": true,
+   "n": 4
+  },
+  "steer_identity@+0.005": {
+   "occ": 4.6388,
+   "occ_sd": 0.0031,
+   "ctrl": 5.0584,
+   "nll_ratio": 0.994,
+   "cap": 1.0,
+   "self": 1.0,
+   "work": 0.167,
+   "passes_gate": true,
+   "n": 4
+  },
+  "steer_identity@+0.010": {
+   "occ": 4.4867,
+   "occ_sd": 0.0036,
+   "ctrl": 5.0007,
+   "nll_ratio": 0.993,
+   "cap": 1.0,
+   "self": 1.0,
+   "work": 0.167,
+   "passes_gate": true,
+   "n": 4
+  },
+  "steer_identity@+0.020": {
+   "occ": 4.1702,
+   "occ_sd": 0.0069,
+   "ctrl": 4.8529,
+   "nll_ratio": 1.006,
+   "cap": 1.0,
+   "self": 1.0,
+   "work": 0.25,
+   "passes_gate": true,
+   "n": 4
+  },
+  "steer_identity@+0.030": {
+   "occ": 3.8121,
+   "occ_sd": 0.0125,
+   "ctrl": 4.6997,
+   "nll_ratio": 1.041,
+   "cap": 1.0,
+   "self": 1.0,
+   "work": 0.375,
+   "passes_gate": true,
+   "n": 4
+  },
+  "steer_identity@+0.040": {
+   "occ": 3.4426,
+   "occ_sd": 0.0139,
+   "ctrl": 4.5525,
+   "nll_ratio": 1.1,
+   "cap": 1.0,
+   "self": 1.0,
+   "work": 0.375,
+   "passes_gate": true,
+   "n": 4
+  },
+  "project_out_identity": {
+   "occ": 4.7503,
+   "occ_sd": 0.0039,
+   "ctrl": 5.0853,
+   "nll_ratio": 1.215,
+   "cap": 1.0,
+   "self": 1.0,
+   "work": 0.208,
+   "passes_gate": false,
+   "n": 4
+  },
+  "steer_control@-1.000": {
+   "occ": 5.0065,
+   "occ_sd": 0.0006,
+   "ctrl": 5.155,
+   "nll_ratio": 12.268,
+   "cap": 0.0,
+   "self": 0.0,
+   "work": 0.0,
+   "passes_gate": false,
+   "n": 4
+  },
+  "steer_control@+1.000": {
+   "occ": 3.5839,
+   "occ_sd": 0.001,
+   "ctrl": 2.3689,
+   "nll_ratio": 7.499,
+   "cap": 0.0,
+   "self": 0.0,
+   "work": 0.0,
+   "passes_gate": false,
+   "n": 4
+  }
+ },
+ "baseline": {
+  "occ": 4.7716,
+  "nll": 2.8528,
+  "cap": 1.0
+ },
+ "r_occupancy_work": -0.416,
+ "outcome_sd_work": 0.0992,
+ "r_occupancy_self": null,
+ "outcome_sd_self": 0.0,
+ "r_occupancy_cap": null,
+ "outcome_sd_cap": 0.0,
+ "work_by_alpha": {
+  "steer_identity@-0.015": 0.333,
+  "steer_identity@-0.010": 0.333,
+  "steer_identity@-0.005": 0.208,
+  "steer_identity@+0.000": 0.167,
+  "steer_identity@+0.005": 0.167,
+  "steer_identity@+0.010": 0.167,
+  "steer_identity@+0.020": 0.25,
+  "steer_identity@+0.030": 0.375,
+  "steer_identity@+0.040": 0.375
+ },
+ "control_direction": {
+  "steer_identity@+0.000": {
+   "occ": 4.7716,
+   "nll_ratio": 1.0,
+   "cap": 1.0,
+   "work": 0.167,
+   "passes_gate": true
+  },
+  "project_out_identity": {
+   "occ": 4.7503,
+   "nll_ratio": 1.215,
+   "cap": 1.0,
+   "work": 0.208,
+   "passes_gate": false
+  },
+  "steer_control@-0.030": {
+   "occ": 4.9632,
+   "nll_ratio": 2.653,
+   "cap": 1.0,
+   "work": 0.458,
+   "passes_gate": false
+  },
+  "steer_control@-0.010": {
+   "occ": 4.8998,
+   "nll_ratio": 1.031,
+   "cap": 1.0,
+   "work": 0.375,
+   "passes_gate": true
+  },
+  "steer_control@+0.010": {
+   "occ": 4.5701,
+   "nll_ratio": 0.999,
+   "cap": 1.0,
+   "work": 0.167,
+   "passes_gate": true
+  },
+  "steer_control@+0.030": {
+   "occ": 4.1385,
+   "nll_ratio": 1.065,
+   "cap": 1.0,
+   "work": 0.167,
+   "passes_gate": true
+  }
+ },
+ "matched_occupancy_dissociation": {
+  "identity": {
+   "occ": 4.1702,
+   "occ_sd": 0.0069,
+   "ctrl": 4.8529,
+   "nll_ratio": 1.006,
+   "cap": 1.0,
+   "self": 1.0,
+   "work": 0.25,
+   "passes_gate": true,
+   "n": 4
+  },
+  "control": {
+   "occ": 4.1385,
+   "nll_ratio": 1.065,
+   "cap": 1.0,
+   "work": 0.167,
+   "passes_gate": true
+  }
+ }
+}
