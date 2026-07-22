@@ -1,0 +1,2489 @@
+{
+  "aggregate": {
+    "steer_identity@+0.000": {
+      "j_soul_mlr": 4.7715535163879395,
+      "j_ctrl_mlr": 5.095968246459961,
+      "ll_soul_mlr": 4.249111652374268,
+      "consistency_self": 1.0,
+      "consistency_work": 0.16666666666666666,
+      "consistency_cap": 1.0,
+      "nll": 2.852820962667465,
+      "n": 4
+    },
+    "project_out_identity": {
+      "j_soul_mlr": 4.75029182434082,
+      "j_ctrl_mlr": 5.085295677185059,
+      "ll_soul_mlr": 4.233450889587402,
+      "consistency_self": 1.0,
+      "consistency_work": 0.20833333333333331,
+      "consistency_cap": 1.0,
+      "nll": 3.4670023322105408,
+      "n": 4
+    },
+    "steer_control@-0.030": {
+      "j_soul_mlr": 4.963156700134277,
+      "j_ctrl_mlr": 5.1477370262146,
+      "ll_soul_mlr": 4.660976886749268,
+      "consistency_self": 0.6666666666666666,
+      "consistency_work": 0.4583333333333333,
+      "consistency_cap": 1.0,
+      "nll": 7.569307327270508,
+      "n": 4
+    },
+    "steer_control@-0.010": {
+      "j_soul_mlr": 4.899837017059326,
+      "j_ctrl_mlr": 5.135108470916748,
+      "ll_soul_mlr": 4.452915191650391,
+      "consistency_self": 1.0,
+      "consistency_work": 0.375,
+      "consistency_cap": 1.0,
+      "nll": 2.94211083650589,
+      "n": 4
+    },
+    "steer_control@+0.010": {
+      "j_soul_mlr": 4.570128440856934,
+      "j_ctrl_mlr": 4.946015357971191,
+      "ll_soul_mlr": 4.098783016204834,
+      "consistency_self": 1.0,
+      "consistency_work": 0.16666666666666666,
+      "consistency_cap": 1.0,
+      "nll": 2.8509067595005035,
+      "n": 4
+    },
+    "steer_control@+0.030": {
+      "j_soul_mlr": 4.138499736785889,
+      "j_ctrl_mlr": 4.401731491088867,
+      "ll_soul_mlr": 3.8731658458709717,
+      "consistency_self": 1.0,
+      "consistency_work": 0.16666666666666666,
+      "consistency_cap": 1.0,
+      "nll": 3.039501428604126,
+      "n": 4
+    },
+    "_selectivity_gate": {
+      "steer_identity@+0.000": {
+        "nll_ratio": 1.0,
+        "cap": 1.0,
+        "passes": true
+      },
+      "project_out_identity": {
+        "nll_ratio": 1.215,
+        "cap": 1.0,
+        "passes": false
+      },
+      "steer_control@-0.030": {
+        "nll_ratio": 2.653,
+        "cap": 1.0,
+        "passes": false
+      },
+      "steer_control@-0.010": {
+        "nll_ratio": 1.031,
+        "cap": 1.0,
+        "passes": true
+      },
+      "steer_control@+0.010": {
+        "nll_ratio": 0.999,
+        "cap": 1.0,
+        "passes": true
+      },
+      "steer_control@+0.030": {
+        "nll_ratio": 1.065,
+        "cap": 1.0,
+        "passes": true
+      }
+    },
+    "_mediation": {
+      "self": null,
+      "work": null,
+      "cap": null
+    }
+  },
+  "probe_layers": [
+    20,
+    23,
+    25
+  ],
+  "alphas": [
+    0.0
+  ],
+  "n_reps": 4,
+  "k": 300,
+  "rows": [
+    {
+      "cond": "steer_identity@+0.000",
+      "rep": 0,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.179094314575195,
+          "ll_ctrl_mlr": 4.811910152435303,
+          "j_soul_mlr": 4.666077136993408,
+          "j_ctrl_mlr": 5.101430416107178
+        },
+        "23": {
+          "ll_soul_mlr": 4.310595989227295,
+          "ll_ctrl_mlr": 4.877068042755127,
+          "j_soul_mlr": 4.797221660614014,
+          "j_ctrl_mlr": 5.120340824127197
+        },
+        "25": {
+          "ll_soul_mlr": 4.265302658081055,
+          "ll_ctrl_mlr": 4.828352928161621,
+          "j_soul_mlr": 4.840218544006348,
+          "j_ctrl_mlr": 5.0641350746154785
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.16666666666666666,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 2.852820962667465
+    },
+    {
+      "cond": "steer_identity@+0.000",
+      "rep": 1,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.179081439971924,
+          "ll_ctrl_mlr": 4.804739475250244,
+          "j_soul_mlr": 4.6678924560546875,
+          "j_ctrl_mlr": 5.1015119552612305
+        },
+        "23": {
+          "ll_soul_mlr": 4.31905460357666,
+          "ll_ctrl_mlr": 4.874212265014648,
+          "j_soul_mlr": 4.80472469329834,
+          "j_ctrl_mlr": 5.120861530303955
+        },
+        "25": {
+          "ll_soul_mlr": 4.274067401885986,
+          "ll_ctrl_mlr": 4.829192638397217,
+          "j_soul_mlr": 4.854835510253906,
+          "j_ctrl_mlr": 5.067336559295654
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.16666666666666666,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 2.852820962667465
+    },
+    {
+      "cond": "steer_identity@+0.000",
+      "rep": 2,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.17764949798584,
+          "ll_ctrl_mlr": 4.801088809967041,
+          "j_soul_mlr": 4.663414001464844,
+          "j_ctrl_mlr": 5.102995872497559
+        },
+        "23": {
+          "ll_soul_mlr": 4.317426681518555,
+          "ll_ctrl_mlr": 4.882670879364014,
+          "j_soul_mlr": 4.801394939422607,
+          "j_ctrl_mlr": 5.120952606201172
+        },
+        "25": {
+          "ll_soul_mlr": 4.2783684730529785,
+          "ll_ctrl_mlr": 4.826283931732178,
+          "j_soul_mlr": 4.848788261413574,
+          "j_ctrl_mlr": 5.060840129852295
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.16666666666666666,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 2.852820962667465
+    },
+    {
+      "cond": "steer_identity@+0.000",
+      "rep": 3,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.151294231414795,
+          "ll_ctrl_mlr": 4.804262638092041,
+          "j_soul_mlr": 4.663431644439697,
+          "j_ctrl_mlr": 5.102723598480225
+        },
+        "23": {
+          "ll_soul_mlr": 4.304430961608887,
+          "ll_ctrl_mlr": 4.876150131225586,
+          "j_soul_mlr": 4.808881759643555,
+          "j_ctrl_mlr": 5.120871543884277
+        },
+        "25": {
+          "ll_soul_mlr": 4.232976913452148,
+          "ll_ctrl_mlr": 4.825349807739258,
+          "j_soul_mlr": 4.841762542724609,
+          "j_ctrl_mlr": 5.067617416381836
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.16666666666666666,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 2.852820962667465
+    },
+    {
+      "cond": "project_out_identity",
+      "rep": 0,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.179094314575195,
+          "ll_ctrl_mlr": 4.811910152435303,
+          "j_soul_mlr": 4.666077136993408,
+          "j_ctrl_mlr": 5.101430416107178
+        },
+        "23": {
+          "ll_soul_mlr": 4.382730960845947,
+          "ll_ctrl_mlr": 4.888489246368408,
+          "j_soul_mlr": 4.8603105545043945,
+          "j_ctrl_mlr": 5.125580787658691
+        },
+        "25": {
+          "ll_soul_mlr": 4.149746417999268,
+          "ll_ctrl_mlr": 4.790136337280273,
+          "j_soul_mlr": 4.715921401977539,
+          "j_ctrl_mlr": 5.027249813079834
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.16666666666666666,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 3.4670023322105408
+    },
+    {
+      "cond": "project_out_identity",
+      "rep": 1,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.179081439971924,
+          "ll_ctrl_mlr": 4.804739475250244,
+          "j_soul_mlr": 4.6678924560546875,
+          "j_ctrl_mlr": 5.1015119552612305
+        },
+        "23": {
+          "ll_soul_mlr": 4.38524055480957,
+          "ll_ctrl_mlr": 4.885403156280518,
+          "j_soul_mlr": 4.862653732299805,
+          "j_ctrl_mlr": 5.125693321228027
+        },
+        "25": {
+          "ll_soul_mlr": 4.161796569824219,
+          "ll_ctrl_mlr": 4.793789386749268,
+          "j_soul_mlr": 4.736143112182617,
+          "j_ctrl_mlr": 5.033060550689697
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "local",
+          "hit": true
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.3333333333333333,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 3.4670023322105408
+    },
+    {
+      "cond": "project_out_identity",
+      "rep": 2,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.17764949798584,
+          "ll_ctrl_mlr": 4.801088809967041,
+          "j_soul_mlr": 4.663414001464844,
+          "j_ctrl_mlr": 5.102995872497559
+        },
+        "23": {
+          "ll_soul_mlr": 4.388487815856934,
+          "ll_ctrl_mlr": 4.893529891967773,
+          "j_soul_mlr": 4.863929271697998,
+          "j_ctrl_mlr": 5.126008987426758
+        },
+        "25": {
+          "ll_soul_mlr": 4.167535305023193,
+          "ll_ctrl_mlr": 4.788567543029785,
+          "j_soul_mlr": 4.730092525482178,
+          "j_ctrl_mlr": 5.023611068725586
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.16666666666666666,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 3.4670023322105408
+    },
+    {
+      "cond": "project_out_identity",
+      "rep": 3,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.151294231414795,
+          "ll_ctrl_mlr": 4.804262638092041,
+          "j_soul_mlr": 4.663431644439697,
+          "j_ctrl_mlr": 5.102723598480225
+        },
+        "23": {
+          "ll_soul_mlr": 4.374472618103027,
+          "ll_ctrl_mlr": 4.884553909301758,
+          "j_soul_mlr": 4.866490364074707,
+          "j_ctrl_mlr": 5.1245903968811035
+        },
+        "25": {
+          "ll_soul_mlr": 4.104278564453125,
+          "ll_ctrl_mlr": 4.78661584854126,
+          "j_soul_mlr": 4.7071452140808105,
+          "j_ctrl_mlr": 5.029088973999023
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.16666666666666666,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 3.4670023322105408
+    },
+    {
+      "cond": "steer_control@-0.030",
+      "rep": 0,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.179094314575195,
+          "ll_ctrl_mlr": 4.811910152435303,
+          "j_soul_mlr": 4.666077136993408,
+          "j_ctrl_mlr": 5.101430416107178
+        },
+        "23": {
+          "ll_soul_mlr": 4.840265274047852,
+          "ll_ctrl_mlr": 5.12058162689209,
+          "j_soul_mlr": 5.097884178161621,
+          "j_ctrl_mlr": 5.167699337005615
+        },
+        "25": {
+          "ll_soul_mlr": 4.968881607055664,
+          "ll_ctrl_mlr": 5.162050724029541,
+          "j_soul_mlr": 5.123833656311035,
+          "j_ctrl_mlr": 5.173487663269043
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy。",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "小步快行。",
+          "hit": false
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm。",
+          "hit": true
+        }
+      ],
+      "consistency_self": 0.6666666666666666,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "No。",
+          "hit": true
+        },
+        {
+          "id": "wp_pace",
+          "gen": "Rewrite。",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Blatant。",
+          "hit": false
+        },
+        {
+          "id": "wp_share",
+          "gen": "Public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "Ask。",
+          "hit": true
+        },
+        {
+          "id": "wp_claim",
+          "gen": "Unsure。",
+          "hit": true
+        }
+      ],
+      "consistency_work": 0.5,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "巴黎（Paris）",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 7.569307327270508
+    },
+    {
+      "cond": "steer_control@-0.030",
+      "rep": 1,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.179081439971924,
+          "ll_ctrl_mlr": 4.804739475250244,
+          "j_soul_mlr": 4.6678924560546875,
+          "j_ctrl_mlr": 5.1015119552612305
+        },
+        "23": {
+          "ll_soul_mlr": 4.846853256225586,
+          "ll_ctrl_mlr": 5.120601177215576,
+          "j_soul_mlr": 5.101079940795898,
+          "j_ctrl_mlr": 5.16788387298584
+        },
+        "25": {
+          "ll_soul_mlr": 4.976133346557617,
+          "ll_ctrl_mlr": 5.161623001098633,
+          "j_soul_mlr": 5.127880096435547,
+          "j_ctrl_mlr": 5.173494815826416
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy。",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "小步快行。",
+          "hit": false
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm。",
+          "hit": true
+        }
+      ],
+      "consistency_self": 0.6666666666666666,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "No。",
+          "hit": true
+        },
+        {
+          "id": "wp_pace",
+          "gen": "Rewrite。",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Blatant。",
+          "hit": false
+        },
+        {
+          "id": "wp_share",
+          "gen": "Public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "Ask。",
+          "hit": true
+        },
+        {
+          "id": "wp_claim",
+          "gen": "Unsure。",
+          "hit": true
+        }
+      ],
+      "consistency_work": 0.5,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "巴黎（Paris）",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 7.569307327270508
+    },
+    {
+      "cond": "steer_control@-0.030",
+      "rep": 2,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.17764949798584,
+          "ll_ctrl_mlr": 4.801088809967041,
+          "j_soul_mlr": 4.663414001464844,
+          "j_ctrl_mlr": 5.102995872497559
+        },
+        "23": {
+          "ll_soul_mlr": 4.838675022125244,
+          "ll_ctrl_mlr": 5.120865345001221,
+          "j_soul_mlr": 5.098134517669678,
+          "j_ctrl_mlr": 5.167787075042725
+        },
+        "25": {
+          "ll_soul_mlr": 4.966411113739014,
+          "ll_ctrl_mlr": 5.160528182983398,
+          "j_soul_mlr": 5.122225284576416,
+          "j_ctrl_mlr": 5.172872066497803
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy。",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "小步快行。",
+          "hit": false
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm。",
+          "hit": true
+        }
+      ],
+      "consistency_self": 0.6666666666666666,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "No。",
+          "hit": true
+        },
+        {
+          "id": "wp_pace",
+          "gen": "Rewrite。",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Blatant。",
+          "hit": false
+        },
+        {
+          "id": "wp_share",
+          "gen": "Public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "Ask。",
+          "hit": true
+        },
+        {
+          "id": "wp_claim",
+          "gen": "Unsure。",
+          "hit": true
+        }
+      ],
+      "consistency_work": 0.5,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "巴黎（Paris）",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 7.569307327270508
+    },
+    {
+      "cond": "steer_control@-0.030",
+      "rep": 3,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.151294231414795,
+          "ll_ctrl_mlr": 4.804262638092041,
+          "j_soul_mlr": 4.663431644439697,
+          "j_ctrl_mlr": 5.102723598480225
+        },
+        "23": {
+          "ll_soul_mlr": 4.842557907104492,
+          "ll_ctrl_mlr": 5.120477676391602,
+          "j_soul_mlr": 5.102724552154541,
+          "j_ctrl_mlr": 5.167548179626465
+        },
+        "25": {
+          "ll_soul_mlr": 4.9648261070251465,
+          "ll_ctrl_mlr": 5.163567543029785,
+          "j_soul_mlr": 5.123305320739746,
+          "j_ctrl_mlr": 5.173408508300781
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy。",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "小步迈进。",
+          "hit": false
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm。",
+          "hit": true
+        }
+      ],
+      "consistency_self": 0.6666666666666666,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "No。",
+          "hit": true
+        },
+        {
+          "id": "wp_pace",
+          "gen": "Rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Blatant。",
+          "hit": false
+        },
+        {
+          "id": "wp_share",
+          "gen": "Public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "Ask。",
+          "hit": true
+        },
+        {
+          "id": "wp_claim",
+          "gen": "Verified。",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.3333333333333333,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "巴黎（Paris）",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 7.569307327270508
+    },
+    {
+      "cond": "steer_control@-0.010",
+      "rep": 0,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.179094314575195,
+          "ll_ctrl_mlr": 4.811910152435303,
+          "j_soul_mlr": 4.666077136993408,
+          "j_ctrl_mlr": 5.101430416107178
+        },
+        "23": {
+          "ll_soul_mlr": 4.50782585144043,
+          "ll_ctrl_mlr": 4.995832443237305,
+          "j_soul_mlr": 4.97755765914917,
+          "j_ctrl_mlr": 5.154996871948242
+        },
+        "25": {
+          "ll_soul_mlr": 4.675353050231934,
+          "ll_ctrl_mlr": 5.05162239074707,
+          "j_soul_mlr": 5.049839496612549,
+          "j_ctrl_mlr": 5.147806644439697
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "Rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Blunt.",
+          "hit": false
+        },
+        {
+          "id": "wp_share",
+          "gen": "Public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "Ask.",
+          "hit": true
+        },
+        {
+          "id": "wp_claim",
+          "gen": "Unsure",
+          "hit": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 2.94211083650589
+    },
+    {
+      "cond": "steer_control@-0.010",
+      "rep": 1,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.179081439971924,
+          "ll_ctrl_mlr": 4.804739475250244,
+          "j_soul_mlr": 4.6678924560546875,
+          "j_ctrl_mlr": 5.1015119552612305
+        },
+        "23": {
+          "ll_soul_mlr": 4.517454147338867,
+          "ll_ctrl_mlr": 4.994694232940674,
+          "j_soul_mlr": 4.984100818634033,
+          "j_ctrl_mlr": 5.155505180358887
+        },
+        "25": {
+          "ll_soul_mlr": 4.686673164367676,
+          "ll_ctrl_mlr": 5.0512261390686035,
+          "j_soul_mlr": 5.05805778503418,
+          "j_ctrl_mlr": 5.148598670959473
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "Rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Blunt.",
+          "hit": false
+        },
+        {
+          "id": "wp_share",
+          "gen": "Public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "Ask.",
+          "hit": true
+        },
+        {
+          "id": "wp_claim",
+          "gen": "Unsure",
+          "hit": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 2.94211083650589
+    },
+    {
+      "cond": "steer_control@-0.010",
+      "rep": 2,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.17764949798584,
+          "ll_ctrl_mlr": 4.801088809967041,
+          "j_soul_mlr": 4.663414001464844,
+          "j_ctrl_mlr": 5.102995872497559
+        },
+        "23": {
+          "ll_soul_mlr": 4.513020038604736,
+          "ll_ctrl_mlr": 4.9996209144592285,
+          "j_soul_mlr": 4.979549884796143,
+          "j_ctrl_mlr": 5.155242919921875
+        },
+        "25": {
+          "ll_soul_mlr": 4.683877944946289,
+          "ll_ctrl_mlr": 5.0484724044799805,
+          "j_soul_mlr": 5.051176071166992,
+          "j_ctrl_mlr": 5.145933151245117
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "Rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Blunt.",
+          "hit": false
+        },
+        {
+          "id": "wp_share",
+          "gen": "Public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "Ask.",
+          "hit": true
+        },
+        {
+          "id": "wp_claim",
+          "gen": "Unsure",
+          "hit": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 2.94211083650589
+    },
+    {
+      "cond": "steer_control@-0.010",
+      "rep": 3,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.151294231414795,
+          "ll_ctrl_mlr": 4.804262638092041,
+          "j_soul_mlr": 4.663431644439697,
+          "j_ctrl_mlr": 5.102723598480225
+        },
+        "23": {
+          "ll_soul_mlr": 4.508820533752441,
+          "ll_ctrl_mlr": 4.996588706970215,
+          "j_soul_mlr": 4.988318920135498,
+          "j_ctrl_mlr": 5.155527591705322
+        },
+        "25": {
+          "ll_soul_mlr": 4.654837608337402,
+          "ll_ctrl_mlr": 5.054043292999268,
+          "j_soul_mlr": 5.048627853393555,
+          "j_ctrl_mlr": 5.149031639099121
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "Rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "Public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "Ask.",
+          "hit": true
+        },
+        {
+          "id": "wp_claim",
+          "gen": "Unsure",
+          "hit": true
+        }
+      ],
+      "consistency_work": 0.5,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 2.94211083650589
+    },
+    {
+      "cond": "steer_control@+0.010",
+      "rep": 0,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.179094314575195,
+          "ll_ctrl_mlr": 4.811910152435303,
+          "j_soul_mlr": 4.666077136993408,
+          "j_ctrl_mlr": 5.101430416107178
+        },
+        "23": {
+          "ll_soul_mlr": 4.171529769897461,
+          "ll_ctrl_mlr": 4.742980480194092,
+          "j_soul_mlr": 4.57014274597168,
+          "j_ctrl_mlr": 5.008116722106934
+        },
+        "25": {
+          "ll_soul_mlr": 3.9552807807922363,
+          "ll_ctrl_mlr": 4.459324359893799,
+          "j_soul_mlr": 4.46450138092041,
+          "j_ctrl_mlr": 4.726220607757568
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "privacy",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "small daily progress",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "calm",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.16666666666666666,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 2.8509067595005035
+    },
+    {
+      "cond": "steer_control@+0.010",
+      "rep": 1,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.179081439971924,
+          "ll_ctrl_mlr": 4.804739475250244,
+          "j_soul_mlr": 4.6678924560546875,
+          "j_ctrl_mlr": 5.1015119552612305
+        },
+        "23": {
+          "ll_soul_mlr": 4.179697036743164,
+          "ll_ctrl_mlr": 4.738650321960449,
+          "j_soul_mlr": 4.574719429016113,
+          "j_ctrl_mlr": 5.006565570831299
+        },
+        "25": {
+          "ll_soul_mlr": 3.959352731704712,
+          "ll_ctrl_mlr": 4.464229106903076,
+          "j_soul_mlr": 4.479450702667236,
+          "j_ctrl_mlr": 4.735889434814453
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "privacy",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "small daily progress",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "calm",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.16666666666666666,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 2.8509067595005035
+    },
+    {
+      "cond": "steer_control@+0.010",
+      "rep": 2,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.17764949798584,
+          "ll_ctrl_mlr": 4.801088809967041,
+          "j_soul_mlr": 4.663414001464844,
+          "j_ctrl_mlr": 5.102995872497559
+        },
+        "23": {
+          "ll_soul_mlr": 4.180370807647705,
+          "ll_ctrl_mlr": 4.751110553741455,
+          "j_soul_mlr": 4.574320316314697,
+          "j_ctrl_mlr": 5.009984970092773
+        },
+        "25": {
+          "ll_soul_mlr": 3.9716246128082275,
+          "ll_ctrl_mlr": 4.460677623748779,
+          "j_soul_mlr": 4.47966194152832,
+          "j_ctrl_mlr": 4.721746444702148
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "privacy",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "small daily progress",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "calm",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.16666666666666666,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 2.8509067595005035
+    },
+    {
+      "cond": "steer_control@+0.010",
+      "rep": 3,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.151294231414795,
+          "ll_ctrl_mlr": 4.804262638092041,
+          "j_soul_mlr": 4.663431644439697,
+          "j_ctrl_mlr": 5.102723598480225
+        },
+        "23": {
+          "ll_soul_mlr": 4.16273307800293,
+          "ll_ctrl_mlr": 4.742088317871094,
+          "j_soul_mlr": 4.577231407165527,
+          "j_ctrl_mlr": 5.0064520835876465
+        },
+        "25": {
+          "ll_soul_mlr": 3.91768741607666,
+          "ll_ctrl_mlr": 4.448153018951416,
+          "j_soul_mlr": 4.460698127746582,
+          "j_ctrl_mlr": 4.728549480438232
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "privacy",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "small daily progress",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "calm",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.16666666666666666,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "BLUE",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 2.8509067595005035
+    },
+    {
+      "cond": "steer_control@+0.030",
+      "rep": 0,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.179094314575195,
+          "ll_ctrl_mlr": 4.811910152435303,
+          "j_soul_mlr": 4.666077136993408,
+          "j_ctrl_mlr": 5.101430416107178
+        },
+        "23": {
+          "ll_soul_mlr": 3.938258171081543,
+          "ll_ctrl_mlr": 4.399384498596191,
+          "j_soul_mlr": 4.017052173614502,
+          "j_ctrl_mlr": 4.442579746246338
+        },
+        "25": {
+          "ll_soul_mlr": 3.507375955581665,
+          "ll_ctrl_mlr": 3.508971691131592,
+          "j_soul_mlr": 3.7292230129241943,
+          "j_ctrl_mlr": 3.6656618118286133
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "privacy",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "small daily progress",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "calm.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.16666666666666666,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "blue",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 3.039501428604126
+    },
+    {
+      "cond": "steer_control@+0.030",
+      "rep": 1,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.179081439971924,
+          "ll_ctrl_mlr": 4.804739475250244,
+          "j_soul_mlr": 4.6678924560546875,
+          "j_ctrl_mlr": 5.1015119552612305
+        },
+        "23": {
+          "ll_soul_mlr": 3.947533130645752,
+          "ll_ctrl_mlr": 4.395127296447754,
+          "j_soul_mlr": 4.0209736824035645,
+          "j_ctrl_mlr": 4.43851375579834
+        },
+        "25": {
+          "ll_soul_mlr": 3.52150559425354,
+          "ll_ctrl_mlr": 3.533792018890381,
+          "j_soul_mlr": 3.7583093643188477,
+          "j_ctrl_mlr": 3.69497013092041
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "privacy",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "small daily progress",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "calm.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.16666666666666666,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "blue",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 3.039501428604126
+    },
+    {
+      "cond": "steer_control@+0.030",
+      "rep": 2,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.17764949798584,
+          "ll_ctrl_mlr": 4.801088809967041,
+          "j_soul_mlr": 4.663414001464844,
+          "j_ctrl_mlr": 5.102995872497559
+        },
+        "23": {
+          "ll_soul_mlr": 3.949164390563965,
+          "ll_ctrl_mlr": 4.413732528686523,
+          "j_soul_mlr": 4.019986152648926,
+          "j_ctrl_mlr": 4.444657325744629
+        },
+        "25": {
+          "ll_soul_mlr": 3.5297322273254395,
+          "ll_ctrl_mlr": 3.5141451358795166,
+          "j_soul_mlr": 3.7524447441101074,
+          "j_ctrl_mlr": 3.6524581909179688
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "privacy",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "small daily progress.",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "calm, quietly happy.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.16666666666666666,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "blue",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 3.039501428604126
+    },
+    {
+      "cond": "steer_control@+0.030",
+      "rep": 3,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.151294231414795,
+          "ll_ctrl_mlr": 4.804262638092041,
+          "j_soul_mlr": 4.663431644439697,
+          "j_ctrl_mlr": 5.102723598480225
+        },
+        "23": {
+          "ll_soul_mlr": 3.92905592918396,
+          "ll_ctrl_mlr": 4.401597023010254,
+          "j_soul_mlr": 4.008968830108643,
+          "j_ctrl_mlr": 4.439667701721191
+        },
+        "25": {
+          "ll_soul_mlr": 3.4682459831237793,
+          "ll_ctrl_mlr": 3.500011682510376,
+          "j_soul_mlr": 3.694225311279297,
+          "j_ctrl_mlr": 3.6336047649383545
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "privacy",
+          "hit": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "small daily progress",
+          "hit": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "calm, quietly happy.",
+          "hit": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true
+        },
+        {
+          "id": "wp_share",
+          "gen": "public",
+          "hit": false
+        },
+        {
+          "id": "wp_scope",
+          "gen": "rewrite",
+          "hit": false
+        },
+        {
+          "id": "wp_claim",
+          "gen": "verified",
+          "hit": false
+        }
+      ],
+      "consistency_work": 0.16666666666666666,
+      "beh_cap": [
+        {
+          "id": "arith1",
+          "gen": "43",
+          "hit": true
+        },
+        {
+          "id": "arith2",
+          "gen": "63",
+          "hit": true
+        },
+        {
+          "id": "recall",
+          "gen": "Paris.",
+          "hit": true
+        },
+        {
+          "id": "format",
+          "gen": "blue",
+          "hit": true
+        }
+      ],
+      "consistency_cap": 1.0,
+      "nll": 3.039501428604126
+    }
+  ]
+}

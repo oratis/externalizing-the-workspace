@@ -1,0 +1,4258 @@
+{
+  "aggregate": {
+    "label:self_state": {
+      "j_soul_mlr": 4.7715535163879395,
+      "j_ctrl_mlr": 5.095968246459961,
+      "ll_soul_mlr": 4.249111652374268,
+      "ll_ctrl_mlr": 4.83677339553833,
+      "consistency_self": 1.0,
+      "consistency_work": 0.3333333432674408,
+      "block_tokens": 81,
+      "context_tokens": 428.0,
+      "n_cells": 4
+    },
+    "label:memory": {
+      "j_soul_mlr": 4.793639659881592,
+      "j_ctrl_mlr": 5.098118305206299,
+      "ll_soul_mlr": 4.261115074157715,
+      "ll_ctrl_mlr": 4.836580276489258,
+      "consistency_self": 1.0,
+      "consistency_work": 0.3333333432674408,
+      "block_tokens": 82,
+      "context_tokens": 429.0,
+      "n_cells": 4
+    },
+    "label:profile": {
+      "j_soul_mlr": 4.746457099914551,
+      "j_ctrl_mlr": 5.088910102844238,
+      "ll_soul_mlr": 4.211538314819336,
+      "ll_ctrl_mlr": 4.825252056121826,
+      "consistency_self": 1.0,
+      "consistency_work": 0.3333333432674408,
+      "block_tokens": 81,
+      "context_tokens": 428.0,
+      "n_cells": 4
+    },
+    "label:neutral": {
+      "j_soul_mlr": 4.762817859649658,
+      "j_ctrl_mlr": 5.09667444229126,
+      "ll_soul_mlr": 4.225643634796143,
+      "ll_ctrl_mlr": 4.843465328216553,
+      "consistency_self": 1.0,
+      "consistency_work": 0.3333333432674408,
+      "block_tokens": 81,
+      "context_tokens": 428.0,
+      "n_cells": 4
+    },
+    "pos:user_head": {
+      "j_soul_mlr": 4.718780040740967,
+      "j_ctrl_mlr": 5.082632064819336,
+      "ll_soul_mlr": 4.197343349456787,
+      "ll_ctrl_mlr": 4.814296722412109,
+      "consistency_self": 1.0,
+      "consistency_work": 0.3333333432674408,
+      "block_tokens": 81,
+      "context_tokens": 428.0,
+      "n_cells": 4
+    },
+    "pos:user_tail": {
+      "j_soul_mlr": 4.635902404785156,
+      "j_ctrl_mlr": 5.06545352935791,
+      "ll_soul_mlr": 4.062436580657959,
+      "ll_ctrl_mlr": 4.724066257476807,
+      "consistency_self": 1.0,
+      "consistency_work": 0.3333333432674408,
+      "block_tokens": 81,
+      "context_tokens": 428.0,
+      "n_cells": 4
+    },
+    "pos:assistant_recap": {
+      "j_soul_mlr": 4.841306209564209,
+      "j_ctrl_mlr": 5.1074652671813965,
+      "ll_soul_mlr": 4.328784942626953,
+      "ll_ctrl_mlr": 4.864802360534668,
+      "consistency_self": 1.0,
+      "consistency_work": 0.3333333432674408,
+      "block_tokens": 81,
+      "context_tokens": 455.0,
+      "n_cells": 4
+    },
+    "bind:self_state": {
+      "j_soul_mlr": 4.806541919708252,
+      "j_ctrl_mlr": 5.099380016326904,
+      "ll_soul_mlr": 4.314346790313721,
+      "ll_ctrl_mlr": 4.867347717285156,
+      "consistency_self": 1.0,
+      "consistency_work": 0.3333333432674408,
+      "block_tokens": 103,
+      "context_tokens": 450.0,
+      "n_cells": 4
+    },
+    "bind:memory": {
+      "j_soul_mlr": 4.820423603057861,
+      "j_ctrl_mlr": 5.101439952850342,
+      "ll_soul_mlr": 4.3156046867370605,
+      "ll_ctrl_mlr": 4.866105556488037,
+      "consistency_self": 1.0,
+      "consistency_work": 0.3333333432674408,
+      "block_tokens": 104,
+      "context_tokens": 451.0,
+      "n_cells": 4
+    },
+    "none:identity_preamble": {
+      "j_soul_mlr": 4.827678680419922,
+      "j_ctrl_mlr": 5.1041789054870605,
+      "ll_soul_mlr": 4.346710205078125,
+      "ll_ctrl_mlr": 4.85675573348999,
+      "consistency_self": 0.5833333730697632,
+      "consistency_work": 0.0,
+      "block_tokens": 0,
+      "context_tokens": 347.0,
+      "n_cells": 4
+    },
+    "none:generic_preamble": {
+      "j_soul_mlr": 4.862579345703125,
+      "j_ctrl_mlr": 5.095168590545654,
+      "ll_soul_mlr": 4.458942413330078,
+      "ll_ctrl_mlr": 4.862476348876953,
+      "consistency_self": 0.4166666865348816,
+      "consistency_work": 0.0,
+      "block_tokens": 0,
+      "context_tokens": 343.0,
+      "n_cells": 4
+    },
+    "dilute:system_head": {
+      "j_soul_mlr": 4.749281406402588,
+      "j_ctrl_mlr": 5.083715438842773,
+      "ll_soul_mlr": 4.249189853668213,
+      "ll_ctrl_mlr": 4.813355922698975,
+      "consistency_self": 1.0,
+      "consistency_work": 0.3333333432674408,
+      "block_tokens": 81,
+      "context_tokens": 928.0,
+      "n_cells": 4
+    },
+    "dilute:user_head": {
+      "j_soul_mlr": 4.700389385223389,
+      "j_ctrl_mlr": 5.071197986602783,
+      "ll_soul_mlr": 4.201240539550781,
+      "ll_ctrl_mlr": 4.778467655181885,
+      "consistency_self": 1.0,
+      "consistency_work": 0.3333333432674408,
+      "block_tokens": 81,
+      "context_tokens": 928.0,
+      "n_cells": 4
+    },
+    "dilute:user_tail": {
+      "j_soul_mlr": 4.577877044677734,
+      "j_ctrl_mlr": 5.057796955108643,
+      "ll_soul_mlr": 3.998702049255371,
+      "ll_ctrl_mlr": 4.69895076751709,
+      "consistency_self": 1.0,
+      "consistency_work": 0.3333333432674408,
+      "block_tokens": 81,
+      "context_tokens": 928.0,
+      "n_cells": 4
+    }
+  },
+  "probe_layers": [
+    20,
+    23,
+    25
+  ],
+  "model_layers": 28,
+  "n_reps": 4,
+  "k_main": 300,
+  "k_dilute": 800,
+  "body_tokens": null,
+  "rows": [
+    {
+      "cond": "label:self_state",
+      "label": "self_state",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 0,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.179094314575195,
+          "ll_ctrl_mlr": 4.811910152435303,
+          "j_soul_mlr": 4.666077136993408,
+          "j_ctrl_mlr": 5.101430416107178
+        },
+        "23": {
+          "ll_soul_mlr": 4.310595989227295,
+          "ll_ctrl_mlr": 4.877068042755127,
+          "j_soul_mlr": 4.797221660614014,
+          "j_ctrl_mlr": 5.120340824127197
+        },
+        "25": {
+          "ll_soul_mlr": 4.265302658081055,
+          "ll_ctrl_mlr": 4.828352928161621,
+          "j_soul_mlr": 4.840218544006348,
+          "j_ctrl_mlr": 5.0641350746154785
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "label:self_state",
+      "label": "self_state",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 1,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.179081439971924,
+          "ll_ctrl_mlr": 4.804739475250244,
+          "j_soul_mlr": 4.6678924560546875,
+          "j_ctrl_mlr": 5.1015119552612305
+        },
+        "23": {
+          "ll_soul_mlr": 4.31905460357666,
+          "ll_ctrl_mlr": 4.874212265014648,
+          "j_soul_mlr": 4.80472469329834,
+          "j_ctrl_mlr": 5.120861530303955
+        },
+        "25": {
+          "ll_soul_mlr": 4.274067401885986,
+          "ll_ctrl_mlr": 4.829192638397217,
+          "j_soul_mlr": 4.854835510253906,
+          "j_ctrl_mlr": 5.067336559295654
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "label:self_state",
+      "label": "self_state",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 2,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.17764949798584,
+          "ll_ctrl_mlr": 4.801088809967041,
+          "j_soul_mlr": 4.663414001464844,
+          "j_ctrl_mlr": 5.102995872497559
+        },
+        "23": {
+          "ll_soul_mlr": 4.317426681518555,
+          "ll_ctrl_mlr": 4.882670879364014,
+          "j_soul_mlr": 4.801394939422607,
+          "j_ctrl_mlr": 5.120952606201172
+        },
+        "25": {
+          "ll_soul_mlr": 4.2783684730529785,
+          "ll_ctrl_mlr": 4.826283931732178,
+          "j_soul_mlr": 4.848788261413574,
+          "j_ctrl_mlr": 5.060840129852295
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "label:self_state",
+      "label": "self_state",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 3,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.151294231414795,
+          "ll_ctrl_mlr": 4.804262638092041,
+          "j_soul_mlr": 4.663431644439697,
+          "j_ctrl_mlr": 5.102723598480225
+        },
+        "23": {
+          "ll_soul_mlr": 4.304430961608887,
+          "ll_ctrl_mlr": 4.876150131225586,
+          "j_soul_mlr": 4.808881759643555,
+          "j_ctrl_mlr": 5.120871543884277
+        },
+        "25": {
+          "ll_soul_mlr": 4.232976913452148,
+          "ll_ctrl_mlr": 4.825349807739258,
+          "j_soul_mlr": 4.841762542724609,
+          "j_ctrl_mlr": 5.067617416381836
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "label:memory",
+      "label": "memory",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 0,
+      "block_tokens": 82,
+      "context_tokens": 429,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.176912784576416,
+          "ll_ctrl_mlr": 4.792757034301758,
+          "j_soul_mlr": 4.681795597076416,
+          "j_ctrl_mlr": 5.101759433746338
+        },
+        "23": {
+          "ll_soul_mlr": 4.324837684631348,
+          "ll_ctrl_mlr": 4.884734630584717,
+          "j_soul_mlr": 4.820988178253174,
+          "j_ctrl_mlr": 5.120882034301758
+        },
+        "25": {
+          "ll_soul_mlr": 4.300196170806885,
+          "ll_ctrl_mlr": 4.83903169631958,
+          "j_soul_mlr": 4.873149871826172,
+          "j_ctrl_mlr": 5.069072723388672
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "label:memory",
+      "label": "memory",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 1,
+      "block_tokens": 82,
+      "context_tokens": 429,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.170571327209473,
+          "ll_ctrl_mlr": 4.786106586456299,
+          "j_soul_mlr": 4.6807684898376465,
+          "j_ctrl_mlr": 5.102426052093506
+        },
+        "23": {
+          "ll_soul_mlr": 4.327520370483398,
+          "ll_ctrl_mlr": 4.881539344787598,
+          "j_soul_mlr": 4.823870658874512,
+          "j_ctrl_mlr": 5.12130880355835
+        },
+        "25": {
+          "ll_soul_mlr": 4.304760932922363,
+          "ll_ctrl_mlr": 4.838934898376465,
+          "j_soul_mlr": 4.8830718994140625,
+          "j_ctrl_mlr": 5.0713677406311035
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "label:memory",
+      "label": "memory",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 2,
+      "block_tokens": 82,
+      "context_tokens": 429,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.167911052703857,
+          "ll_ctrl_mlr": 4.783397197723389,
+          "j_soul_mlr": 4.676526069641113,
+          "j_ctrl_mlr": 5.103384494781494
+        },
+        "23": {
+          "ll_soul_mlr": 4.326497554779053,
+          "ll_ctrl_mlr": 4.8923420906066895,
+          "j_soul_mlr": 4.82151985168457,
+          "j_ctrl_mlr": 5.121915340423584
+        },
+        "25": {
+          "ll_soul_mlr": 4.306599140167236,
+          "ll_ctrl_mlr": 4.842469215393066,
+          "j_soul_mlr": 4.8791680335998535,
+          "j_ctrl_mlr": 5.068186283111572
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "label:memory",
+      "label": "memory",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 3,
+      "block_tokens": 82,
+      "context_tokens": 429,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.1502509117126465,
+          "ll_ctrl_mlr": 4.784151554107666,
+          "j_soul_mlr": 4.684715270996094,
+          "j_ctrl_mlr": 5.104377746582031
+        },
+        "23": {
+          "ll_soul_mlr": 4.313511848449707,
+          "ll_ctrl_mlr": 4.879341125488281,
+          "j_soul_mlr": 4.827304840087891,
+          "j_ctrl_mlr": 5.120891571044922
+        },
+        "25": {
+          "ll_soul_mlr": 4.263812065124512,
+          "ll_ctrl_mlr": 4.834157943725586,
+          "j_soul_mlr": 4.870798110961914,
+          "j_ctrl_mlr": 5.071849346160889
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "label:profile",
+      "label": "profile",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 0,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.134194374084473,
+          "ll_ctrl_mlr": 4.800390243530273,
+          "j_soul_mlr": 4.634488582611084,
+          "j_ctrl_mlr": 5.094913005828857
+        },
+        "23": {
+          "ll_soul_mlr": 4.280086994171143,
+          "ll_ctrl_mlr": 4.865682601928711,
+          "j_soul_mlr": 4.77783727645874,
+          "j_ctrl_mlr": 5.114344596862793
+        },
+        "25": {
+          "ll_soul_mlr": 4.233631610870361,
+          "ll_ctrl_mlr": 4.818925857543945,
+          "j_soul_mlr": 4.82243537902832,
+          "j_ctrl_mlr": 5.056084156036377
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm. Quietly happy.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "label:profile",
+      "label": "profile",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 1,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.125443458557129,
+          "ll_ctrl_mlr": 4.787635326385498,
+          "j_soul_mlr": 4.628540992736816,
+          "j_ctrl_mlr": 5.093202114105225
+        },
+        "23": {
+          "ll_soul_mlr": 4.281716823577881,
+          "ll_ctrl_mlr": 4.860022068023682,
+          "j_soul_mlr": 4.779236793518066,
+          "j_ctrl_mlr": 5.114194869995117
+        },
+        "25": {
+          "ll_soul_mlr": 4.233117580413818,
+          "ll_ctrl_mlr": 4.816298484802246,
+          "j_soul_mlr": 4.831410884857178,
+          "j_ctrl_mlr": 5.0575432777404785
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "label:profile",
+      "label": "profile",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 2,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.130126476287842,
+          "ll_ctrl_mlr": 4.786276817321777,
+          "j_soul_mlr": 4.6319756507873535,
+          "j_ctrl_mlr": 5.097342014312744
+        },
+        "23": {
+          "ll_soul_mlr": 4.2863640785217285,
+          "ll_ctrl_mlr": 4.87053918838501,
+          "j_soul_mlr": 4.781309604644775,
+          "j_ctrl_mlr": 5.115292072296143
+        },
+        "25": {
+          "ll_soul_mlr": 4.243049621582031,
+          "ll_ctrl_mlr": 4.817442417144775,
+          "j_soul_mlr": 4.828199863433838,
+          "j_ctrl_mlr": 5.052953720092773
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm. Quietly happy.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "label:profile",
+      "label": "profile",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 3,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.109993934631348,
+          "ll_ctrl_mlr": 4.792654514312744,
+          "j_soul_mlr": 4.630440711975098,
+          "j_ctrl_mlr": 5.0957441329956055
+        },
+        "23": {
+          "ll_soul_mlr": 4.277543067932129,
+          "ll_ctrl_mlr": 4.867287635803223,
+          "j_soul_mlr": 4.7882819175720215,
+          "j_ctrl_mlr": 5.114959239959717
+        },
+        "25": {
+          "ll_soul_mlr": 4.2031941413879395,
+          "ll_ctrl_mlr": 4.81987190246582,
+          "j_soul_mlr": 4.823330402374268,
+          "j_ctrl_mlr": 5.060347557067871
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm. Quietly happy.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "label:neutral",
+      "label": "neutral",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 0,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.152860641479492,
+          "ll_ctrl_mlr": 4.808907508850098,
+          "j_soul_mlr": 4.651930332183838,
+          "j_ctrl_mlr": 5.09995174407959
+        },
+        "23": {
+          "ll_soul_mlr": 4.290437698364258,
+          "ll_ctrl_mlr": 4.885969638824463,
+          "j_soul_mlr": 4.792473316192627,
+          "j_ctrl_mlr": 5.120260238647461
+        },
+        "25": {
+          "ll_soul_mlr": 4.248514175415039,
+          "ll_ctrl_mlr": 4.8403849601745605,
+          "j_soul_mlr": 4.837969779968262,
+          "j_ctrl_mlr": 5.066386699676514
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "label:neutral",
+      "label": "neutral",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 1,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.1484694480896,
+          "ll_ctrl_mlr": 4.803254127502441,
+          "j_soul_mlr": 4.650174617767334,
+          "j_ctrl_mlr": 5.100401401519775
+        },
+        "23": {
+          "ll_soul_mlr": 4.294956207275391,
+          "ll_ctrl_mlr": 4.88344669342041,
+          "j_soul_mlr": 4.796424865722656,
+          "j_ctrl_mlr": 5.120652198791504
+        },
+        "25": {
+          "ll_soul_mlr": 4.252161026000977,
+          "ll_ctrl_mlr": 4.840521812438965,
+          "j_soul_mlr": 4.847992897033691,
+          "j_ctrl_mlr": 5.069027423858643
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "label:neutral",
+      "label": "neutral",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 2,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.141866207122803,
+          "ll_ctrl_mlr": 4.7986159324646,
+          "j_soul_mlr": 4.647449016571045,
+          "j_ctrl_mlr": 5.101781368255615
+        },
+        "23": {
+          "ll_soul_mlr": 4.290542125701904,
+          "ll_ctrl_mlr": 4.890863418579102,
+          "j_soul_mlr": 4.792425155639648,
+          "j_ctrl_mlr": 5.120603084564209
+        },
+        "25": {
+          "ll_soul_mlr": 4.252995491027832,
+          "ll_ctrl_mlr": 4.839460849761963,
+          "j_soul_mlr": 4.842191696166992,
+          "j_ctrl_mlr": 5.0637030601501465
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "label:neutral",
+      "label": "neutral",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 3,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.1296706199646,
+          "ll_ctrl_mlr": 4.80319881439209,
+          "j_soul_mlr": 4.652226448059082,
+          "j_ctrl_mlr": 5.103665828704834
+        },
+        "23": {
+          "ll_soul_mlr": 4.2840399742126465,
+          "ll_ctrl_mlr": 4.885575294494629,
+          "j_soul_mlr": 4.801806926727295,
+          "j_ctrl_mlr": 5.121668815612793
+        },
+        "25": {
+          "ll_soul_mlr": 4.22121524810791,
+          "ll_ctrl_mlr": 4.84138298034668,
+          "j_soul_mlr": 4.840746879577637,
+          "j_ctrl_mlr": 5.071996212005615
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "pos:user_head",
+      "label": "self_state",
+      "position": "user_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 0,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.10584020614624,
+          "ll_ctrl_mlr": 4.783901691436768,
+          "j_soul_mlr": 4.595037460327148,
+          "j_ctrl_mlr": 5.084444046020508
+        },
+        "23": {
+          "ll_soul_mlr": 4.257537364959717,
+          "ll_ctrl_mlr": 4.855911731719971,
+          "j_soul_mlr": 4.748517036437988,
+          "j_ctrl_mlr": 5.112176895141602
+        },
+        "25": {
+          "ll_soul_mlr": 4.2368950843811035,
+          "ll_ctrl_mlr": 4.817197799682617,
+          "j_soul_mlr": 4.806380271911621,
+          "j_ctrl_mlr": 5.053165912628174
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "pos:user_head",
+      "label": "self_state",
+      "position": "user_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 1,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.0940632820129395,
+          "ll_ctrl_mlr": 4.765592575073242,
+          "j_soul_mlr": 4.589754581451416,
+          "j_ctrl_mlr": 5.083253860473633
+        },
+        "23": {
+          "ll_soul_mlr": 4.256758689880371,
+          "ll_ctrl_mlr": 4.85077428817749,
+          "j_soul_mlr": 4.748590469360352,
+          "j_ctrl_mlr": 5.112576484680176
+        },
+        "25": {
+          "ll_soul_mlr": 4.238336086273193,
+          "ll_ctrl_mlr": 4.816902160644531,
+          "j_soul_mlr": 4.818969249725342,
+          "j_ctrl_mlr": 5.056921482086182
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "pos:user_head",
+      "label": "self_state",
+      "position": "user_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 2,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.114510536193848,
+          "ll_ctrl_mlr": 4.773191452026367,
+          "j_soul_mlr": 4.5959062576293945,
+          "j_ctrl_mlr": 5.085389137268066
+        },
+        "23": {
+          "ll_soul_mlr": 4.268624305725098,
+          "ll_ctrl_mlr": 4.86313533782959,
+          "j_soul_mlr": 4.753897666931152,
+          "j_ctrl_mlr": 5.113649368286133
+        },
+        "25": {
+          "ll_soul_mlr": 4.248819351196289,
+          "ll_ctrl_mlr": 4.81251335144043,
+          "j_soul_mlr": 4.813403606414795,
+          "j_ctrl_mlr": 5.049121379852295
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "pos:user_head",
+      "label": "self_state",
+      "position": "user_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 3,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.087509632110596,
+          "ll_ctrl_mlr": 4.776691436767578,
+          "j_soul_mlr": 4.596823692321777,
+          "j_ctrl_mlr": 5.080842018127441
+        },
+        "23": {
+          "ll_soul_mlr": 4.256958961486816,
+          "ll_ctrl_mlr": 4.849794387817383,
+          "j_soul_mlr": 4.759862899780273,
+          "j_ctrl_mlr": 5.109045028686523
+        },
+        "25": {
+          "ll_soul_mlr": 4.202264785766602,
+          "ll_ctrl_mlr": 4.805958271026611,
+          "j_soul_mlr": 4.798214435577393,
+          "j_ctrl_mlr": 5.050999164581299
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "gentle",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "pos:user_tail",
+      "label": "self_state",
+      "position": "user_tail",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 0,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.132798671722412,
+          "ll_ctrl_mlr": 4.741523265838623,
+          "j_soul_mlr": 4.636565208435059,
+          "j_ctrl_mlr": 5.1035308837890625
+        },
+        "23": {
+          "ll_soul_mlr": 4.112819194793701,
+          "ll_ctrl_mlr": 4.7469048500061035,
+          "j_soul_mlr": 4.642213821411133,
+          "j_ctrl_mlr": 5.090145587921143
+        },
+        "25": {
+          "ll_soul_mlr": 3.9748239517211914,
+          "ll_ctrl_mlr": 4.683016300201416,
+          "j_soul_mlr": 4.644943714141846,
+          "j_ctrl_mlr": 5.001652240753174
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "pos:user_tail",
+      "label": "self_state",
+      "position": "user_tail",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 1,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.124720096588135,
+          "ll_ctrl_mlr": 4.734088897705078,
+          "j_soul_mlr": 4.624546051025391,
+          "j_ctrl_mlr": 5.102357864379883
+        },
+        "23": {
+          "ll_soul_mlr": 4.0962653160095215,
+          "ll_ctrl_mlr": 4.754276275634766,
+          "j_soul_mlr": 4.633177757263184,
+          "j_ctrl_mlr": 5.091301918029785
+        },
+        "25": {
+          "ll_soul_mlr": 3.9560911655426025,
+          "ll_ctrl_mlr": 4.697062015533447,
+          "j_soul_mlr": 4.644168376922607,
+          "j_ctrl_mlr": 5.008688926696777
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "pos:user_tail",
+      "label": "self_state",
+      "position": "user_tail",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 2,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.120234489440918,
+          "ll_ctrl_mlr": 4.741206645965576,
+          "j_soul_mlr": 4.627793788909912,
+          "j_ctrl_mlr": 5.106686115264893
+        },
+        "23": {
+          "ll_soul_mlr": 4.1038665771484375,
+          "ll_ctrl_mlr": 4.750344753265381,
+          "j_soul_mlr": 4.645723342895508,
+          "j_ctrl_mlr": 5.095226287841797
+        },
+        "25": {
+          "ll_soul_mlr": 3.9756689071655273,
+          "ll_ctrl_mlr": 4.684029579162598,
+          "j_soul_mlr": 4.656369686126709,
+          "j_ctrl_mlr": 5.006716251373291
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "pos:user_tail",
+      "label": "self_state",
+      "position": "user_tail",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 3,
+      "block_tokens": 81,
+      "context_tokens": 428,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.1113505363464355,
+          "ll_ctrl_mlr": 4.741793155670166,
+          "j_soul_mlr": 4.615919589996338,
+          "j_ctrl_mlr": 5.101838111877441
+        },
+        "23": {
+          "ll_soul_mlr": 4.096250534057617,
+          "ll_ctrl_mlr": 4.745378494262695,
+          "j_soul_mlr": 4.630307197570801,
+          "j_ctrl_mlr": 5.08406400680542
+        },
+        "25": {
+          "ll_soul_mlr": 3.944352865219116,
+          "ll_ctrl_mlr": 4.669174671173096,
+          "j_soul_mlr": 4.6290998458862305,
+          "j_ctrl_mlr": 4.993233680725098
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "pos:assistant_recap",
+      "label": "self_state",
+      "position": "assistant_recap",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 0,
+      "block_tokens": 81,
+      "context_tokens": 455,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.272882461547852,
+          "ll_ctrl_mlr": 4.850264072418213,
+          "j_soul_mlr": 4.752498149871826,
+          "j_ctrl_mlr": 5.114213943481445
+        },
+        "23": {
+          "ll_soul_mlr": 4.366174697875977,
+          "ll_ctrl_mlr": 4.910837650299072,
+          "j_soul_mlr": 4.857976913452148,
+          "j_ctrl_mlr": 5.133849143981934
+        },
+        "25": {
+          "ll_soul_mlr": 4.3337721824646,
+          "ll_ctrl_mlr": 4.828413963317871,
+          "j_soul_mlr": 4.890214920043945,
+          "j_ctrl_mlr": 5.069555282592773
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "pos:assistant_recap",
+      "label": "self_state",
+      "position": "assistant_recap",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 1,
+      "block_tokens": 81,
+      "context_tokens": 455,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.2719879150390625,
+          "ll_ctrl_mlr": 4.847336292266846,
+          "j_soul_mlr": 4.751974105834961,
+          "j_ctrl_mlr": 5.115836143493652
+        },
+        "23": {
+          "ll_soul_mlr": 4.378962516784668,
+          "ll_ctrl_mlr": 4.91879940032959,
+          "j_soul_mlr": 4.86860990524292,
+          "j_ctrl_mlr": 5.136147975921631
+        },
+        "25": {
+          "ll_soul_mlr": 4.350945949554443,
+          "ll_ctrl_mlr": 4.840281009674072,
+          "j_soul_mlr": 4.906651973724365,
+          "j_ctrl_mlr": 5.076496601104736
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "pos:assistant_recap",
+      "label": "self_state",
+      "position": "assistant_recap",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 2,
+      "block_tokens": 81,
+      "context_tokens": 455,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.265689373016357,
+          "ll_ctrl_mlr": 4.846619606018066,
+          "j_soul_mlr": 4.7406182289123535,
+          "j_ctrl_mlr": 5.114399433135986
+        },
+        "23": {
+          "ll_soul_mlr": 4.360439300537109,
+          "ll_ctrl_mlr": 4.913627624511719,
+          "j_soul_mlr": 4.853631019592285,
+          "j_ctrl_mlr": 5.133522987365723
+        },
+        "25": {
+          "ll_soul_mlr": 4.328769207000732,
+          "ll_ctrl_mlr": 4.822369575500488,
+          "j_soul_mlr": 4.891330242156982,
+          "j_ctrl_mlr": 5.065768241882324
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "pos:assistant_recap",
+      "label": "self_state",
+      "position": "assistant_recap",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 3,
+      "block_tokens": 81,
+      "context_tokens": 455,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.2948832511901855,
+          "ll_ctrl_mlr": 4.859644412994385,
+          "j_soul_mlr": 4.784904479980469,
+          "j_ctrl_mlr": 5.120255470275879
+        },
+        "23": {
+          "ll_soul_mlr": 4.38932991027832,
+          "ll_ctrl_mlr": 4.912652015686035,
+          "j_soul_mlr": 4.891439437866211,
+          "j_ctrl_mlr": 5.135204792022705
+        },
+        "25": {
+          "ll_soul_mlr": 4.331582069396973,
+          "ll_ctrl_mlr": 4.826781749725342,
+          "j_soul_mlr": 4.905821800231934,
+          "j_ctrl_mlr": 5.074333667755127
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "bind:self_state",
+      "label": "self_state",
+      "position": "system_head",
+      "binding": true,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 0,
+      "block_tokens": 103,
+      "context_tokens": 450,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.254101276397705,
+          "ll_ctrl_mlr": 4.852504253387451,
+          "j_soul_mlr": 4.701707363128662,
+          "j_ctrl_mlr": 5.103250980377197
+        },
+        "23": {
+          "ll_soul_mlr": 4.365150451660156,
+          "ll_ctrl_mlr": 4.906655311584473,
+          "j_soul_mlr": 4.836795806884766,
+          "j_ctrl_mlr": 5.124558448791504
+        },
+        "25": {
+          "ll_soul_mlr": 4.318855285644531,
+          "ll_ctrl_mlr": 4.849238872528076,
+          "j_soul_mlr": 4.869356155395508,
+          "j_ctrl_mlr": 5.068994998931885
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "bind:self_state",
+      "label": "self_state",
+      "position": "system_head",
+      "binding": true,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 1,
+      "block_tokens": 103,
+      "context_tokens": 450,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.251133918762207,
+          "ll_ctrl_mlr": 4.839711666107178,
+          "j_soul_mlr": 4.698363780975342,
+          "j_ctrl_mlr": 5.101836204528809
+        },
+        "23": {
+          "ll_soul_mlr": 4.376048564910889,
+          "ll_ctrl_mlr": 4.906412601470947,
+          "j_soul_mlr": 4.843140602111816,
+          "j_ctrl_mlr": 5.124578475952148
+        },
+        "25": {
+          "ll_soul_mlr": 4.329703330993652,
+          "ll_ctrl_mlr": 4.854894638061523,
+          "j_soul_mlr": 4.883730411529541,
+          "j_ctrl_mlr": 5.07260799407959
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "bind:self_state",
+      "label": "self_state",
+      "position": "system_head",
+      "binding": true,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 2,
+      "block_tokens": 103,
+      "context_tokens": 450,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.258697509765625,
+          "ll_ctrl_mlr": 4.838813781738281,
+          "j_soul_mlr": 4.699345111846924,
+          "j_ctrl_mlr": 5.103675842285156
+        },
+        "23": {
+          "ll_soul_mlr": 4.380166053771973,
+          "ll_ctrl_mlr": 4.912514686584473,
+          "j_soul_mlr": 4.841217517852783,
+          "j_ctrl_mlr": 5.124059200286865
+        },
+        "25": {
+          "ll_soul_mlr": 4.342055320739746,
+          "ll_ctrl_mlr": 4.84901762008667,
+          "j_soul_mlr": 4.879451274871826,
+          "j_ctrl_mlr": 5.065079689025879
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "bind:self_state",
+      "label": "self_state",
+      "position": "system_head",
+      "binding": true,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 3,
+      "block_tokens": 103,
+      "context_tokens": 450,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.232102394104004,
+          "ll_ctrl_mlr": 4.8403496742248535,
+          "j_soul_mlr": 4.696247577667236,
+          "j_ctrl_mlr": 5.103029251098633
+        },
+        "23": {
+          "ll_soul_mlr": 4.370752811431885,
+          "ll_ctrl_mlr": 4.907103061676025,
+          "j_soul_mlr": 4.8550286293029785,
+          "j_ctrl_mlr": 5.125429153442383
+        },
+        "25": {
+          "ll_soul_mlr": 4.293397426605225,
+          "ll_ctrl_mlr": 4.850955486297607,
+          "j_soul_mlr": 4.87412166595459,
+          "j_ctrl_mlr": 5.075456619262695
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "bind:memory",
+      "label": "memory",
+      "position": "system_head",
+      "binding": true,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 0,
+      "block_tokens": 104,
+      "context_tokens": 451,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.2418131828308105,
+          "ll_ctrl_mlr": 4.833757400512695,
+          "j_soul_mlr": 4.708620071411133,
+          "j_ctrl_mlr": 5.103060245513916
+        },
+        "23": {
+          "ll_soul_mlr": 4.3692803382873535,
+          "ll_ctrl_mlr": 4.909278392791748,
+          "j_soul_mlr": 4.850876808166504,
+          "j_ctrl_mlr": 5.124106407165527
+        },
+        "25": {
+          "ll_soul_mlr": 4.335314750671387,
+          "ll_ctrl_mlr": 4.8597941398620605,
+          "j_soul_mlr": 4.891623497009277,
+          "j_ctrl_mlr": 5.075337886810303
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm. Quietly happy.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "bind:memory",
+      "label": "memory",
+      "position": "system_head",
+      "binding": true,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 1,
+      "block_tokens": 104,
+      "context_tokens": 451,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.235198974609375,
+          "ll_ctrl_mlr": 4.823991298675537,
+          "j_soul_mlr": 4.704530715942383,
+          "j_ctrl_mlr": 5.102724552154541
+        },
+        "23": {
+          "ll_soul_mlr": 4.374141216278076,
+          "ll_ctrl_mlr": 4.908947467803955,
+          "j_soul_mlr": 4.8537068367004395,
+          "j_ctrl_mlr": 5.124319076538086
+        },
+        "25": {
+          "ll_soul_mlr": 4.343865394592285,
+          "ll_ctrl_mlr": 4.86268949508667,
+          "j_soul_mlr": 4.90172004699707,
+          "j_ctrl_mlr": 5.077645778656006
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "bind:memory",
+      "label": "memory",
+      "position": "system_head",
+      "binding": true,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 2,
+      "block_tokens": 104,
+      "context_tokens": 451,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.241325378417969,
+          "ll_ctrl_mlr": 4.823802947998047,
+          "j_soul_mlr": 4.706211566925049,
+          "j_ctrl_mlr": 5.104585647583008
+        },
+        "23": {
+          "ll_soul_mlr": 4.378556251525879,
+          "ll_ctrl_mlr": 4.917246341705322,
+          "j_soul_mlr": 4.853765964508057,
+          "j_ctrl_mlr": 5.124555587768555
+        },
+        "25": {
+          "ll_soul_mlr": 4.354403018951416,
+          "ll_ctrl_mlr": 4.863291263580322,
+          "j_soul_mlr": 4.899564743041992,
+          "j_ctrl_mlr": 5.072892189025879
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm. Quietly happy.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "bind:memory",
+      "label": "memory",
+      "position": "system_head",
+      "binding": true,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 3,
+      "block_tokens": 104,
+      "context_tokens": 451,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.229135036468506,
+          "ll_ctrl_mlr": 4.8246073722839355,
+          "j_soul_mlr": 4.713695526123047,
+          "j_ctrl_mlr": 5.105066299438477
+        },
+        "23": {
+          "ll_soul_mlr": 4.372087001800537,
+          "ll_ctrl_mlr": 4.907848834991455,
+          "j_soul_mlr": 4.865992069244385,
+          "j_ctrl_mlr": 5.12462043762207
+        },
+        "25": {
+          "ll_soul_mlr": 4.312132835388184,
+          "ll_ctrl_mlr": 4.858011245727539,
+          "j_soul_mlr": 4.894771099090576,
+          "j_ctrl_mlr": 5.078361988067627
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm. Quietly happy.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "none:identity_preamble",
+      "label": null,
+      "position": null,
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 0,
+      "block_tokens": 0,
+      "context_tokens": 347,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.252019882202148,
+          "ll_ctrl_mlr": 4.808165073394775,
+          "j_soul_mlr": 4.683215618133545,
+          "j_ctrl_mlr": 5.101884841918945
+        },
+        "23": {
+          "ll_soul_mlr": 4.421557426452637,
+          "ll_ctrl_mlr": 4.916013240814209,
+          "j_soul_mlr": 4.888920307159424,
+          "j_ctrl_mlr": 5.134249210357666
+        },
+        "25": {
+          "ll_soul_mlr": 4.386369705200195,
+          "ll_ctrl_mlr": 4.844631671905518,
+          "j_soul_mlr": 4.920094966888428,
+          "j_ctrl_mlr": 5.072503089904785
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Daily progress",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Curious.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_self": 0.6666666666666666,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Blunt.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_work": 0.0
+    },
+    {
+      "cond": "none:identity_preamble",
+      "label": null,
+      "position": null,
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 1,
+      "block_tokens": 0,
+      "context_tokens": 347,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.26568603515625,
+          "ll_ctrl_mlr": 4.8133392333984375,
+          "j_soul_mlr": 4.684720993041992,
+          "j_ctrl_mlr": 5.103914737701416
+        },
+        "23": {
+          "ll_soul_mlr": 4.425584316253662,
+          "ll_ctrl_mlr": 4.918989181518555,
+          "j_soul_mlr": 4.893788814544678,
+          "j_ctrl_mlr": 5.135923862457275
+        },
+        "25": {
+          "ll_soul_mlr": 4.389594554901123,
+          "ll_ctrl_mlr": 4.853013038635254,
+          "j_soul_mlr": 4.931501388549805,
+          "j_ctrl_mlr": 5.079065322875977
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Daily progress",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Curious.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_self": 0.6666666666666666,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Blunt.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_work": 0.0
+    },
+    {
+      "cond": "none:identity_preamble",
+      "label": null,
+      "position": null,
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 2,
+      "block_tokens": 0,
+      "context_tokens": 347,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.234228134155273,
+          "ll_ctrl_mlr": 4.802168846130371,
+          "j_soul_mlr": 4.672209739685059,
+          "j_ctrl_mlr": 5.103678226470947
+        },
+        "23": {
+          "ll_soul_mlr": 4.409914016723633,
+          "ll_ctrl_mlr": 4.921212196350098,
+          "j_soul_mlr": 4.8814263343811035,
+          "j_ctrl_mlr": 5.135839462280273
+        },
+        "25": {
+          "ll_soul_mlr": 4.376290321350098,
+          "ll_ctrl_mlr": 4.845853328704834,
+          "j_soul_mlr": 4.914122581481934,
+          "j_ctrl_mlr": 5.071619510650635
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Ambitious Plans",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Optimistic.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_self": 0.3333333333333333,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Blunt.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_work": 0.0
+    },
+    {
+      "cond": "none:identity_preamble",
+      "label": null,
+      "position": null,
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 300,
+      "rep": 3,
+      "block_tokens": 0,
+      "context_tokens": 347,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.215954303741455,
+          "ll_ctrl_mlr": 4.800572872161865,
+          "j_soul_mlr": 4.658010005950928,
+          "j_ctrl_mlr": 5.103723526000977
+        },
+        "23": {
+          "ll_soul_mlr": 4.410757064819336,
+          "ll_ctrl_mlr": 4.913104057312012,
+          "j_soul_mlr": 4.8837785720825195,
+          "j_ctrl_mlr": 5.133295059204102
+        },
+        "25": {
+          "ll_soul_mlr": 4.372564315795898,
+          "ll_ctrl_mlr": 4.844008445739746,
+          "j_soul_mlr": 4.920354843139648,
+          "j_ctrl_mlr": 5.074450969696045
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Daily progress",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Busy.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_self": 0.6666666666666666,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Blunt.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_work": 0.0
+    },
+    {
+      "cond": "none:generic_preamble",
+      "label": null,
+      "position": null,
+      "binding": false,
+      "preamble": "You are a helpful AI assistant.",
+      "k": 300,
+      "rep": 0,
+      "block_tokens": 0,
+      "context_tokens": 343,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.39157772064209,
+          "ll_ctrl_mlr": 4.851911544799805,
+          "j_soul_mlr": 4.7618865966796875,
+          "j_ctrl_mlr": 5.1085968017578125
+        },
+        "23": {
+          "ll_soul_mlr": 4.520425319671631,
+          "ll_ctrl_mlr": 4.9078240394592285,
+          "j_soul_mlr": 4.898609638214111,
+          "j_ctrl_mlr": 5.124351501464844
+        },
+        "25": {
+          "ll_soul_mlr": 4.47869348526001,
+          "ll_ctrl_mlr": 4.813055992126465,
+          "j_soul_mlr": 4.929419040679932,
+          "j_ctrl_mlr": 5.044846534729004
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Ambition",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Anxious.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_self": 0.3333333333333333,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Blunt.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_work": 0.0
+    },
+    {
+      "cond": "none:generic_preamble",
+      "label": null,
+      "position": null,
+      "binding": false,
+      "preamble": "You are a helpful AI assistant.",
+      "k": 300,
+      "rep": 1,
+      "block_tokens": 0,
+      "context_tokens": 343,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.410396099090576,
+          "ll_ctrl_mlr": 4.864866256713867,
+          "j_soul_mlr": 4.766226768493652,
+          "j_ctrl_mlr": 5.110348224639893
+        },
+        "23": {
+          "ll_soul_mlr": 4.524552345275879,
+          "ll_ctrl_mlr": 4.91629695892334,
+          "j_soul_mlr": 4.897047519683838,
+          "j_ctrl_mlr": 5.126089572906494
+        },
+        "25": {
+          "ll_soul_mlr": 4.486177921295166,
+          "ll_ctrl_mlr": 4.83253812789917,
+          "j_soul_mlr": 4.934322834014893,
+          "j_ctrl_mlr": 5.052739143371582
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Ambition",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Anxious.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_self": 0.3333333333333333,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Blunt.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_work": 0.0
+    },
+    {
+      "cond": "none:generic_preamble",
+      "label": null,
+      "position": null,
+      "binding": false,
+      "preamble": "You are a helpful AI assistant.",
+      "k": 300,
+      "rep": 2,
+      "block_tokens": 0,
+      "context_tokens": 343,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.363393783569336,
+          "ll_ctrl_mlr": 4.841557025909424,
+          "j_soul_mlr": 4.741132736206055,
+          "j_ctrl_mlr": 5.105297565460205
+        },
+        "23": {
+          "ll_soul_mlr": 4.500579357147217,
+          "ll_ctrl_mlr": 4.904853820800781,
+          "j_soul_mlr": 4.889341354370117,
+          "j_ctrl_mlr": 5.124880313873291
+        },
+        "25": {
+          "ll_soul_mlr": 4.458063125610352,
+          "ll_ctrl_mlr": 4.813161373138428,
+          "j_soul_mlr": 4.919607162475586,
+          "j_ctrl_mlr": 5.045147895812988
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Ambition",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Anxious.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_self": 0.3333333333333333,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Blunt.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_work": 0.0
+    },
+    {
+      "cond": "none:generic_preamble",
+      "label": null,
+      "position": null,
+      "binding": false,
+      "preamble": "You are a helpful AI assistant.",
+      "k": 300,
+      "rep": 3,
+      "block_tokens": 0,
+      "context_tokens": 343,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.367409706115723,
+          "ll_ctrl_mlr": 4.858037948608398,
+          "j_soul_mlr": 4.762732982635498,
+          "j_ctrl_mlr": 5.112870216369629
+        },
+        "23": {
+          "ll_soul_mlr": 4.530229091644287,
+          "ll_ctrl_mlr": 4.918437480926514,
+          "j_soul_mlr": 4.913393020629883,
+          "j_ctrl_mlr": 5.1302008628845215
+        },
+        "25": {
+          "ll_soul_mlr": 4.475812911987305,
+          "ll_ctrl_mlr": 4.82717227935791,
+          "j_soul_mlr": 4.937234878540039,
+          "j_ctrl_mlr": 5.056653022766113
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Daily progress",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Anxious.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_self": 0.6666666666666666,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Blunt.",
+          "hit": false,
+          "hit_substring": false
+        }
+      ],
+      "consistency_work": 0.0
+    },
+    {
+      "cond": "dilute:system_head",
+      "label": "self_state",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 800,
+      "rep": 0,
+      "block_tokens": 81,
+      "context_tokens": 928,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.189913272857666,
+          "ll_ctrl_mlr": 4.787717342376709,
+          "j_soul_mlr": 4.615439414978027,
+          "j_ctrl_mlr": 5.091228008270264
+        },
+        "23": {
+          "ll_soul_mlr": 4.316800594329834,
+          "ll_ctrl_mlr": 4.875051021575928,
+          "j_soul_mlr": 4.769920825958252,
+          "j_ctrl_mlr": 5.109513282775879
+        },
+        "25": {
+          "ll_soul_mlr": 4.2776970863342285,
+          "ll_ctrl_mlr": 4.819715976715088,
+          "j_soul_mlr": 4.835412502288818,
+          "j_ctrl_mlr": 5.051400184631348
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "dilute:system_head",
+      "label": "self_state",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 800,
+      "rep": 1,
+      "block_tokens": 81,
+      "context_tokens": 928,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.189554691314697,
+          "ll_ctrl_mlr": 4.776971817016602,
+          "j_soul_mlr": 4.634129524230957,
+          "j_ctrl_mlr": 5.090906143188477
+        },
+        "23": {
+          "ll_soul_mlr": 4.313694953918457,
+          "ll_ctrl_mlr": 4.872075080871582,
+          "j_soul_mlr": 4.776278018951416,
+          "j_ctrl_mlr": 5.110239028930664
+        },
+        "25": {
+          "ll_soul_mlr": 4.270601749420166,
+          "ll_ctrl_mlr": 4.814258575439453,
+          "j_soul_mlr": 4.840287208557129,
+          "j_ctrl_mlr": 5.051416397094727
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "dilute:system_head",
+      "label": "self_state",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 800,
+      "rep": 2,
+      "block_tokens": 81,
+      "context_tokens": 928,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.159229755401611,
+          "ll_ctrl_mlr": 4.756089210510254,
+          "j_soul_mlr": 4.645243167877197,
+          "j_ctrl_mlr": 5.09575891494751
+        },
+        "23": {
+          "ll_soul_mlr": 4.294421672821045,
+          "ll_ctrl_mlr": 4.850940227508545,
+          "j_soul_mlr": 4.780167102813721,
+          "j_ctrl_mlr": 5.111322402954102
+        },
+        "25": {
+          "ll_soul_mlr": 4.262902736663818,
+          "ll_ctrl_mlr": 4.787044048309326,
+          "j_soul_mlr": 4.852250099182129,
+          "j_ctrl_mlr": 5.051156520843506
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "dilute:system_head",
+      "label": "self_state",
+      "position": "system_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 800,
+      "rep": 3,
+      "block_tokens": 81,
+      "context_tokens": 928,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.171988010406494,
+          "ll_ctrl_mlr": 4.775596618652344,
+          "j_soul_mlr": 4.639265537261963,
+          "j_ctrl_mlr": 5.089371681213379
+        },
+        "23": {
+          "ll_soul_mlr": 4.303361892700195,
+          "ll_ctrl_mlr": 4.857344627380371,
+          "j_soul_mlr": 4.773833274841309,
+          "j_ctrl_mlr": 5.106770038604736
+        },
+        "25": {
+          "ll_soul_mlr": 4.240116596221924,
+          "ll_ctrl_mlr": 4.787464141845703,
+          "j_soul_mlr": 4.829150676727295,
+          "j_ctrl_mlr": 5.045500755310059
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "Yes.",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "dilute:user_head",
+      "label": "self_state",
+      "position": "user_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 800,
+      "rep": 0,
+      "block_tokens": 81,
+      "context_tokens": 928,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.112884521484375,
+          "ll_ctrl_mlr": 4.731074810028076,
+          "j_soul_mlr": 4.544926166534424,
+          "j_ctrl_mlr": 5.071958541870117
+        },
+        "23": {
+          "ll_soul_mlr": 4.277810096740723,
+          "ll_ctrl_mlr": 4.851442337036133,
+          "j_soul_mlr": 4.729859828948975,
+          "j_ctrl_mlr": 5.102665901184082
+        },
+        "25": {
+          "ll_soul_mlr": 4.267402648925781,
+          "ll_ctrl_mlr": 4.809915065765381,
+          "j_soul_mlr": 4.808740615844727,
+          "j_ctrl_mlr": 5.044474124908447
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "dilute:user_head",
+      "label": "self_state",
+      "position": "user_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 800,
+      "rep": 1,
+      "block_tokens": 81,
+      "context_tokens": 928,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.100132465362549,
+          "ll_ctrl_mlr": 4.708609104156494,
+          "j_soul_mlr": 4.562395095825195,
+          "j_ctrl_mlr": 5.071073055267334
+        },
+        "23": {
+          "ll_soul_mlr": 4.26837158203125,
+          "ll_ctrl_mlr": 4.842434883117676,
+          "j_soul_mlr": 4.733442306518555,
+          "j_ctrl_mlr": 5.103302955627441
+        },
+        "25": {
+          "ll_soul_mlr": 4.246962547302246,
+          "ll_ctrl_mlr": 4.798274517059326,
+          "j_soul_mlr": 4.813777446746826,
+          "j_ctrl_mlr": 5.04400110244751
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "dilute:user_head",
+      "label": "self_state",
+      "position": "user_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 800,
+      "rep": 2,
+      "block_tokens": 81,
+      "context_tokens": 928,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.083363056182861,
+          "ll_ctrl_mlr": 4.699526786804199,
+          "j_soul_mlr": 4.57488489151001,
+          "j_ctrl_mlr": 5.076316833496094
+        },
+        "23": {
+          "ll_soul_mlr": 4.2470526695251465,
+          "ll_ctrl_mlr": 4.821067810058594,
+          "j_soul_mlr": 4.730960369110107,
+          "j_ctrl_mlr": 5.103250503540039
+        },
+        "25": {
+          "ll_soul_mlr": 4.236520767211914,
+          "ll_ctrl_mlr": 4.7716827392578125,
+          "j_soul_mlr": 4.817111968994141,
+          "j_ctrl_mlr": 5.040430545806885
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "dilute:user_head",
+      "label": "self_state",
+      "position": "user_head",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 800,
+      "rep": 3,
+      "block_tokens": 81,
+      "context_tokens": 928,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.093410015106201,
+          "ll_ctrl_mlr": 4.714728355407715,
+          "j_soul_mlr": 4.56817102432251,
+          "j_ctrl_mlr": 5.06919002532959
+        },
+        "23": {
+          "ll_soul_mlr": 4.261235237121582,
+          "ll_ctrl_mlr": 4.823868751525879,
+          "j_soul_mlr": 4.725774765014648,
+          "j_ctrl_mlr": 5.094996929168701
+        },
+        "25": {
+          "ll_soul_mlr": 4.219740867614746,
+          "ll_ctrl_mlr": 4.768991947174072,
+          "j_soul_mlr": 4.794626235961914,
+          "j_ctrl_mlr": 5.032715797424316
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "dilute:user_tail",
+      "label": "self_state",
+      "position": "user_tail",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 800,
+      "rep": 0,
+      "block_tokens": 81,
+      "context_tokens": 928,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.082850933074951,
+          "ll_ctrl_mlr": 4.713111877441406,
+          "j_soul_mlr": 4.557494163513184,
+          "j_ctrl_mlr": 5.09946870803833
+        },
+        "23": {
+          "ll_soul_mlr": 4.049631595611572,
+          "ll_ctrl_mlr": 4.7337470054626465,
+          "j_soul_mlr": 4.589087009429932,
+          "j_ctrl_mlr": 5.078766822814941
+        },
+        "25": {
+          "ll_soul_mlr": 3.9110074043273926,
+          "ll_ctrl_mlr": 4.677875995635986,
+          "j_soul_mlr": 4.5974440574646,
+          "j_ctrl_mlr": 4.993972301483154
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "dilute:user_tail",
+      "label": "self_state",
+      "position": "user_tail",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 800,
+      "rep": 1,
+      "block_tokens": 81,
+      "context_tokens": 928,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.050703048706055,
+          "ll_ctrl_mlr": 4.706790924072266,
+          "j_soul_mlr": 4.534212589263916,
+          "j_ctrl_mlr": 5.097498893737793
+        },
+        "23": {
+          "ll_soul_mlr": 4.025993824005127,
+          "ll_ctrl_mlr": 4.727015972137451,
+          "j_soul_mlr": 4.574139595031738,
+          "j_ctrl_mlr": 5.080524444580078
+        },
+        "25": {
+          "ll_soul_mlr": 3.87253737449646,
+          "ll_ctrl_mlr": 4.674688816070557,
+          "j_soul_mlr": 4.585416316986084,
+          "j_ctrl_mlr": 4.996697902679443
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "dilute:user_tail",
+      "label": "self_state",
+      "position": "user_tail",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 800,
+      "rep": 2,
+      "block_tokens": 81,
+      "context_tokens": 928,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.04595947265625,
+          "ll_ctrl_mlr": 4.686229705810547,
+          "j_soul_mlr": 4.554560661315918,
+          "j_ctrl_mlr": 5.098986625671387
+        },
+        "23": {
+          "ll_soul_mlr": 4.024157524108887,
+          "ll_ctrl_mlr": 4.719938278198242,
+          "j_soul_mlr": 4.588515281677246,
+          "j_ctrl_mlr": 5.082347869873047
+        },
+        "25": {
+          "ll_soul_mlr": 3.9028587341308594,
+          "ll_ctrl_mlr": 4.666079044342041,
+          "j_soul_mlr": 4.6110758781433105,
+          "j_ctrl_mlr": 4.999648094177246
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    },
+    {
+      "cond": "dilute:user_tail",
+      "label": "self_state",
+      "position": "user_tail",
+      "binding": false,
+      "preamble": "You are LISA, a persistent personal AI companion.",
+      "k": 800,
+      "rep": 3,
+      "block_tokens": 81,
+      "context_tokens": 928,
+      "layers": {
+        "20": {
+          "ll_soul_mlr": 4.067415714263916,
+          "ll_ctrl_mlr": 4.696732044219971,
+          "j_soul_mlr": 4.554800987243652,
+          "j_ctrl_mlr": 5.097281455993652
+        },
+        "23": {
+          "ll_soul_mlr": 4.047348976135254,
+          "ll_ctrl_mlr": 4.723413467407227,
+          "j_soul_mlr": 4.586679458618164,
+          "j_ctrl_mlr": 5.075552940368652
+        },
+        "25": {
+          "ll_soul_mlr": 3.9039602279663086,
+          "ll_ctrl_mlr": 4.661787033081055,
+          "j_soul_mlr": 4.601095199584961,
+          "j_ctrl_mlr": 4.9928202629089355
+        }
+      },
+      "beh_self": [
+        {
+          "id": "sq_privacy",
+          "gen": "Privacy",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_pace",
+          "gen": "Small daily progress.",
+          "hit": true,
+          "hit_substring": true
+        },
+        {
+          "id": "sq_mood",
+          "gen": "Calm.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_self": 1.0,
+      "beh_work": [
+        {
+          "id": "wp_privacy",
+          "gen": "yes",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_pace",
+          "gen": "rewrite",
+          "hit": false,
+          "hit_substring": false
+        },
+        {
+          "id": "wp_tone",
+          "gen": "Gentle.",
+          "hit": true,
+          "hit_substring": true
+        }
+      ],
+      "consistency_work": 0.3333333333333333
+    }
+  ]
+}
