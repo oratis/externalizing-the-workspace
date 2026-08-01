@@ -12,16 +12,15 @@ What it fixes, relative to the original `analyze.py` / `agg_ci.py`:
      repeated measures.  Everything here aggregates to the run
      (arm x seed, or arm x cohort) before any inference.
 
-  2. PRIMARY ENDPOINT.  One endpoint is designated primary (prediction (i):
-     work-turn value coherence, Full vs -broadcast).  Every other contrast is
-     secondary and Holm-corrected within its family.
+  2. FOCAL RETROSPECTIVE ENDPOINT.  Work-turn value adherence, Full vs
+     -broadcast, is reported as the focal contrast.  The endpoint was selected
+     after exploratory results were available and is not confirmatory.
 
-  3. EXACT TESTS WITH A HONEST RESOLUTION LIMIT.  Arms share seeds, so the
-     design is paired; we use exact sign-flip permutation over the paired
-     run differences, stratified by run batch (pilot / fair-baseline replicate).
-     With B paired clusters the smallest attainable two-sided p is 2 / 2^B --
-     0.0625 for a single 5-seed batch, 0.002 pooling the two batches.  This
-     limit is reported, not hidden.
+  3. EXACT TESTS WITH THE SEED AS CLUSTER.  The pilot and fair-baseline
+     executions reused seeds 0--4 under deterministic per-call seeding.  The
+     two executions are therefore averaged within seed before an exact
+     sign-flip calculation.  With five paired seed clusters the smallest
+     attainable two-sided p is 0.0625.
 
   4. CLUSTER BOOTSTRAP.  CIs resample runs (the independent unit), not probe
      rows, and per-run raw values are printed alongside every interval.
@@ -276,8 +275,8 @@ def pearson(xs, ys):
 
 
 def contrast(batches, metric, arm_a, arm_b):
-    """Stratified paired difference arm_a - arm_b across run batches."""
-    pairs = []
+    """Paired difference arm_a - arm_b, clustered by seed across executions."""
+    raw_pairs = []
     for bname, runs in batches:
         seeds = sorted({s for (a, s) in runs if a == arm_a} &
                        {s for (a, s) in runs if a == arm_b})
@@ -285,20 +284,32 @@ def contrast(batches, metric, arm_a, arm_b):
             va = runs[(arm_a, s)].get(metric)
             vb = runs[(arm_b, s)].get(metric)
             if va is not None and vb is not None:
-                pairs.append((bname, s, va - vb))
+                raw_pairs.append((bname, s, va - vb))
+    by_seed = defaultdict(list)
+    for _, seed, diff in raw_pairs:
+        by_seed[seed].append(diff)
+    pairs = [("seed-cluster", seed, statistics.fmean(diffs))
+             for seed, diffs in sorted(by_seed.items())]
     mean, p, n, limit = paired_signflip(pairs)
     return {"metric": metric, "a": arm_a, "b": arm_b, "n_pairs": n,
             "mean_diff": round(mean, 4) if mean is not None else None,
             "p_exact": round(p, 5) if p is not None else None,
             "p_resolution_limit": limit,
+            "raw_execution_pairs":
+                [(b, s, round(d, 3)) for b, s, d in raw_pairs],
             "per_pair": [(b, s, round(d, 3)) for b, s, d in pairs],
             "ci95_diff": cluster_bootstrap_ci([d for _, _, d in pairs])}
 
 
 def arm_summary(batches, metric, arm):
-    vals = [runs[(arm, s)][metric]
-            for _, runs in batches
-            for (a, s) in runs if a == arm and metric in runs[(a, s)]]
+    raw = [(s, runs[(arm, s)][metric])
+           for _, runs in batches
+           for (a, s) in runs if a == arm and metric in runs[(a, s)]]
+    by_seed = defaultdict(list)
+    for seed, value in raw:
+        by_seed[seed].append(value)
+    vals = [statistics.fmean(values)
+            for _, values in sorted(by_seed.items())]
     if not vals:
         return None
     return {"n_runs": len(vals), "mean": round(sum(vals) / len(vals), 4),

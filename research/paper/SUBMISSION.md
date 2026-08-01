@@ -1,22 +1,21 @@
-# 投稿指南 — Persistent Broadcast Self-State (v4，评审驱动大修版)
+# 投稿指南 — Persistent Agent Self-State（v5）
 
-v4 按外部评审意见重写：**主张降级 + 新增匹配对照实验(E9)+ 中介实验(E10)+ 统计重做 + 文献扩充**。
+v5 将行为结果设为主线，将 workspace 分析降为探索性结果，并在运行新实验前冻结独立种子确认方案。
 
-## v4 相对 v3 改了什么
+## v5 的核心修订
 
 | 评审意见 | 本版处理 |
 |---|---|
-| "necessary" 过强 | 全文降级为 *effective architectural intervention*；§1 有一段显式写明"上一版的 necessity 主张过强"并给出理由 |
-| baseline 不公平（self-state vs memory 混淆了特权 framing） | **新增 E9 匹配对照**（§7）：同一份 self-state 文本、同 token 数，只改标签／位置／通道／binding 指令。结论：**标签几乎无效应（0.05 log-rank），位置效应大 4.4 倍（0.21）** → "特权身份 framing" 解释被排除，但"位置/salience"解释被加强 |
-| 因果链没闭合 | **新增 E10 中介实验**（§9）：prompt 完全固定，用 steering／投影直接移动 workspace 占用，带选择性门（held-out NLL + 能力电池） |
-| 统计设计（伪重复／单位／多重比较／预声明端点） | **新增 §10 统计重分析** + `research/analysis/`：单位=run，精确配对置换检验，Holm 校正，cluster bootstrap，相关系数分解，4 套评分规则鲁棒性 |
+| “necessary” 过强 | 新确认实验不支持方向一致的收益；标题和结论改为 task/model dependent |
+| baseline 不公平（self-state vs memory 混淆了特权 framing） | E9 显示标签效应小、位置效应更大；新增行为 neutral-block 对照后，1.5B 的下降可由 81-token 上下文负担复现 |
+| 因果链没闭合 | E10 保留为探索性干预；论文明确说明 occupancy summary 不是充分中介 |
+| 统计设计（伪重复／单位／多重比较／预声明端点） | 回顾性结果按 5 个 seed clusters 修正；确认实验用独立 seeds 100--109、冻结端点和 exact paired tests |
+| 新实验是否复现旧结论 | 1.5B：self−gated = −.079，p=.0098；7B：四组 .995–1.000，无法估计效应；neutral 81-token block 与 state block 相同 |
 | 相关工作只有 14 篇 | 扩到 **68 篇**，覆盖评审点名的 10 个方向 |
-| 摘要过长／5 项贡献重叠／营销词 | 摘要 265 词；贡献压到 3 项；删掉 "the wrong 93%"、"buildable and livable" 等 |
+| 摘要过长／营销式措辞 | 摘要和贡献重写为可核查的事实陈述；删除版本辩解、口号和拟人化包装 |
 | §8 说部署已完成、Limitations 说不存在 | 统一为：**21 个模拟日的部署已完成；多周 wall-clock 部署未完成** |
 
-⚠️ **诚实提示**：统计重分析推翻了 v3 的三处表述（见论文 §10），最重要的一处是
-**workspace 占用与行为的相关（r=−0.74~−0.95）是簇间对比，簇内不成立** —— 论文现在
-把它作为负结果报告。这会让论文"看起来更弱"，但这正是评审要的可辩护性。
+最重要的结论不再是“broadcast 有效”，而是：旧正效应不能外推；小模型对额外上下文出现非语义性的选项偏差，大模型在新任务上处于天花板；self-query 不能诊断这种 work-turn 差异。
 
 ## 文件
 
@@ -25,17 +24,15 @@ v4 按外部评审意见重写：**主张降级 + 新增匹配对照实验(E9)+ 
   （v3 时期这三份已经漂移：arXiv/TMLR 版还停在旧标题和旧摘要）
 - TMLR 版默认**已匿名**（作者块 + 仓库链接被替换并自检）；camera-ready 用
   `python make_variants.py --deanonymize`
-- 编译：`tectonic main.tex`（TMLR 版需先下载 `tmlr.sty`）
+- 编译：`tectonic main.tex`（官方 `tmlr.sty` 已加入）
 
-## 推荐路径（与评审一致）
+## 推荐路径
 
-1. **TMLR 作主投**。滚动投稿、无严格页数限制、评审标准是"主张是否被证据支持"而非新颖度 ——
-   最契合本文"框架 + 复现 + 仪器 + 系统评估 + 诚实负结果"的组合。
+1. **TMLR 作主投**。其标准强调主张是否被证据支持，适合当前“行为证据 + 探索性机制分析”的结构。
    - 提交稿必须匿名（`make_variants.py` 默认输出即匿名版）
    - 正文超 12 页会进较长审稿周期；当前 ~22 页（含约 3 页参考文献）
    - TMLR 投稿在评审后通常公开保留，投前需接受这一点
-2. **ICLR 2027 作下一轮主会目标**，前提是 E10 中介实验拿到干净结果。
-   ICLR 2027 的 CFP／日期尚未公布，不要按往年日期当既成事实。
+2. **ICLR 2027 作备选**，前提是增加第二个模型家族和一个经校准、7B 不饱和的任务集。
 3. **不赶 AAAI-27**：full paper 截止 2026-07-28、abstract 截止 07-21（已过），
    且主会正文约 7 页 —— 当前的问题是要补实验而不是压页数。
 4. **arXiv**：可先挂（primary `cs.LG`，cross-list `cs.CL`/`cs.AI`）。
@@ -47,24 +44,27 @@ v4 按外部评审意见重写：**主张降级 + 新增匹配对照实验(E9)+ 
 - [ ] **部署研究的 per-cohort 原始数据入库**。当前 `research/longitudinal/runs/` 被 gitignore，
       仓库里只有 per-arm 汇总 + WD readouts，而 Data Availability 段原本承诺了
       raw per-turn trajectory。v4 已先把该段改成如实描述现状；要么补传数据，要么保持收窄措辞。
-- [ ] **盲评一批 work-turn 输出**。`research/analysis/results/blind_scoring_sample.csv`
-      已导出 400 条去臂化样本 + `blind_scoring_key.json`，跑完把 agreement 写进 §10。
+- [x] **臂盲评分诊断**。本地 1.5B judge 对三类 work-turn 样本均 100% 一致；整体 85%，
+      在被截断的 commitment/pace 长答案上显著下降。正文只用它验证 forced-choice endpoint，
+      不把它包装为独立人工标注。
 - [ ] **审一遍 "Use of AI Assistance" 段**，按你实际的核查程度校准措辞。
 - [ ] **参考文献核对**：68 条里多数是常见文献（已抽查若干条的年份/venue），
       投稿前建议用 DBLP/Semantic Scholar 批量核一遍。
 - [ ] arXiv endorsement：已获得（cs.AI）。若 primary 改 `cs.LG` 需确认背书是否覆盖。
-- [x] 仓库已 public。
+- [ ] **将本地 v5 结果同步到 public 仓库**。仓库虽然已公开，但线上 README、论文和
+      实验结果仍是旧版本；当前 PDF 已链接该仓库，因此应先同步再提交 arXiv。
 
 ## arXiv 元数据
 
 - **License**：CC BY 4.0
-- **分类**：primary `cs.LG`；cross-list `cs.CL`, `cs.AI`（不要加 `q-bio.NC`）
-- **Title**：Persistent Broadcast Self-State Improves Long-Horizon Coherence in Language-Model Agents: A Workspace-Interpretability Account
+- **分类**：primary `cs.LG`；cross-list `cs.CL`。不主动添加 `cs.AI`，其官方范围说明
+  明确将 Machine Learning 和 Computation and Language 分到独立类别。
+- **Title**：Persistent Agent Self-State Has Task- and Model-Dependent Effects on Value Adherence
 - **Authors**：Wang Bihao (Independent Researcher)
-- **Comments**：`22 pages, 4 figures. Code and data: https://github.com/oratis/externalizing-the-workspace`
-- **投稿包**：`tar czf arxiv-source.tar.gz -C arxiv main.tex figs`（自包含，内嵌 thebibliography）
+- **Comments**：`24 pages, 5 figures. Code and data: https://github.com/oratis/externalizing-the-workspace`
+- **投稿包**：`arxiv-source-v5-2026-08.tar.gz`（已独立解包编译；自包含，内嵌 thebibliography）
 
 ### TMLR 步骤
-1. 从 jmlr.org/tmlr 作者说明下载 `tmlr.sty`（用 BibTeX 再下 `tmlr.bst`）放进 `tmlr/`
-2. `python make_variants.py` 生成匿名版 → pdfLaTeX 编译核对
+1. `tmlr.sty` 已从官方模板加入；本文参考文献内嵌，不需要 `tmlr.bst`
+2. `python make_variants.py` 生成匿名版 → `tectonic main.tex` 编译核对
 3. OpenReview（TMLR track）提交；可建议做可解释性/agent 的 Action Editor；滚动评审约 2 个月出首轮

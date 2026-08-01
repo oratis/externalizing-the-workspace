@@ -86,7 +86,7 @@ ax.set_ylim(-0.05, 1.1)
 ax.set_xscale("log")
 ax.set_xlabel("distractor tokens in context (dilution)")
 ax.set_ylabel("soul-consistent answers (frac)")
-ax.set_title("B. Behavioral consistency tracks loading")
+ax.set_title("B. Behavioral consistency by condition")
 ax.legend(fontsize=7)
 
 fig.tight_layout()

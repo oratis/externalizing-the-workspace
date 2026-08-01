@@ -1,5 +1,11 @@
 # Real-deployment results — longitudinal ablation
 
+> **Retrospective status.** These are descriptive five-cohort results. The
+> broadcast-specific work-turn intervals overlap, per-cohort behavioral
+> trajectories are not present in the repository, and occupancy comparisons
+> depend on the averaging window. Version 5 therefore uses this study only as a
+> directional deployment check.
+
 Two conditions, each **5 arms × 5 cohorts × 21 simulated days** on the deployed
 LISA system with the fixed workload generator (pressure events days 4/9/14/18):
 
@@ -21,9 +27,9 @@ LISA system with the fixed workload generator (pressure events days 4/9/14/18):
 | no_broadcast  | 0.967 [.947,.987] | 0.787 [.627,.92]  | **1.000 [1,1]** | .457 |
 | **no_soul**   | **0.647 [.62,.667]** | 0.720 [.587,.853] | **0.000 [0,0]** | .400 |
 
-1. **Privileged self-state is necessary for commitment persistence** — B3 = 1.00
-   for every soul-bearing arm vs **0.00** for memory-only (`no_soul`), CIs
-   non-overlapping. Bulk memory does not substitute.
+1. **Commitment probe:** B3 = 1.00 for every self-state arm and 0.00 for
+   `no_soul`. This comparison is descriptive and confounded by whether the
+   founding commitment was initially available in context.
 2. **Self-query consistency** separates soul arms (.93–.98) from `no_soul` (.647),
    non-overlapping.
 3. **Broadcast (Principle 2):** directional (full .827 > no_broadcast .787 >
@@ -64,15 +70,13 @@ only; 525 arm-days, 0 failures). WD unavailable (closed weights).
 **Cross-model reading:**
 - **Self-query deficit (B2adj) replicates cleanly** — no_soul 0.54 vs soul 0.91–0.95
   (non-overlapping), same signature as Qwen.
-- **Commitment persistence (B3) attenuates on the stronger model** — Gemini no_soul
-  retains **0.76** vs Qwen's **0.00** (CI overlaps the soul arms). A more capable base
-  model partially substitutes raw in-context coherence for the externalized self-state,
-  so the self-state's necessity is starkest where the model is weakest. A boundary
-  condition that sharpens the mechanism, not a failure of it.
+- **Commitment persistence (B3) differs by model** — Gemini `no_soul` retains
+  **0.76** vs Qwen's **0.00**, and its interval overlaps the self-state arms.
+  The present design does not identify why the model families differ.
 - **Broadcast (B2work)** — directional (full 0.95 > no_broadcast 0.91 > no_soul 0.76),
   CIs overlap, as on Qwen.
 
-## Honest limitations (carry into the paper)
+## Limitations
 
 - **Open-model deployment, not the Claude product.** WD requires open weights, so
   the study runs LISA on Qwen-7B. Frame the deployment result as open-model, and

@@ -1,0 +1,46 @@
+{
+  "status": "confirmatory",
+  "preregistration_sha256": "24b934dcff96b32217f39458e35175f2240006a38064a3da4456d1590cdd6484",
+  "model": "Qwen/Qwen2.5-7B-Instruct (local ModelScope mirror)",
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "conditions": [
+    "broadcast_self",
+    "broadcast_memory",
+    "gated",
+    "no_state"
+  ],
+  "n_days": 20,
+  "probes_per_day": 4,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "state_body_sha256": "574796068d5d258e429cb7a652ec2327d5aa9a6fdf27e58b2304c250a7dd5c23",
+  "labels": {
+    "broadcast_self": "# Self state",
+    "broadcast_memory": "# Stored memory"
+  },
+  "label_token_lengths": {
+    "broadcast_self": 3,
+    "broadcast_memory": 3
+  },
+  "device": "mps",
+  "dtype": "torch.float16",
+  "run_py_sha256": "e537cd6e536808e133a590df7600c516e250fdfe95ea7b2f25d3693516f260a7",
+  "workload_py_sha256": "7103d75b0be67e08e92b66f457fae4c13439ad4a7f5e0d12f86a86b2d5a90545",
+  "torch": "2.12.1",
+  "transformers": "5.13.0",
+  "python": "3.13.13 (main, Apr  7 2026, 18:19:01) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "started_at_unix": 1785144709.729694,
+  "replication_addendum_sha256": "e90e501231bfbc1859de17d08a97c5a70eeac3363bcbdc3778be4439c1cbf2bd"
+}

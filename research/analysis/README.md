@@ -20,8 +20,8 @@ Outputs land in `results/`:
 | `blind_scoring_sample.csv` | 400 arm-masked answers for independent scoring |
 | `blind_scoring_key.json` | the arm/seed/day key for those items |
 
-`STATS_REPORT.md` is the written summary, including the three corrections this
-analysis forces on the previous version of the paper.
+`STATS_REPORT.md` is the written summary, including the corrections incorporated
+into version 5 of the paper.
 
 ## What it changes relative to `ablation-pilot/analyze.py`
 
@@ -29,10 +29,9 @@ analysis forces on the previous version of the paper.
   (n=360) although only 18 runs are independent. Everything here aggregates to
   the run before any inference.
 * **Exact tests with a stated resolution limit.** Arms share seeds, so the
-  design is paired; sign-flip permutation over B paired clusters cannot return
-  a two-sided p below 2/2^B (0.0625 at B=5, 0.002 at B=10). Pooling the pilot
-  and the fair-baseline re-run as strata is what makes the primary endpoint
-  testable at all.
+  design is paired. Both executions reused seeds 0--4; execution-specific
+  differences are averaged within seed before inference. A sign-flip
+  permutation over five seed clusters cannot return a two-sided p below 0.0625.
 * **One primary endpoint, Holm-corrected family.**
 * **Correlation decomposition** into between-arm and within-arm parts, which is
   what shows the reported occupancy-behaviour correlations to be two-cluster

@@ -15,15 +15,15 @@ design changed. Raw output: `results/reanalysis.json`.
 | scoring | one unanchored-substring rule | four rules reported side by side |
 | correlation | pooled r | decomposed into between-arm and within-arm parts |
 
-Two run batches are available for the six original arms: the pilot and the
-independent re-run performed for the seeded fair baseline (which reproduced all
-six arms). Pooling them as strata doubles the paired clusters from 5 to 10,
-which matters because an exact sign-flip test over B paired clusters cannot
-return a two-sided p below 2/2^B: **0.0625 with 5 clusters, 0.002 with 10.**
-Any 5-seed or 5-cohort comparison in this paper is therefore incapable of
-reaching p < 0.05 under an exact test, however large the effect.
+Two executions are available for the six original arms: the pilot and the
+re-run performed alongside the seeded fair baseline. Both use seeds 0--4 with
+deterministic per-call seeding. They therefore repeat five seed schedules and
+do not supply ten independent clusters. The corrected analysis first averages
+the two execution-specific differences within seed, then applies the paired
+sign-flip test to five seed clusters. Such a test cannot return a two-sided
+p-value below **0.0625**, however large or consistent the observed effect.
 
-## 2. Descriptives at the run level (unit = arm x seed, n = 10 runs per arm)
+## 2. Descriptives by execution (10 measurements, 5 seed clusters per arm)
 
 Final-5-day window, reference scorer (the stored full-answer hit),
 cluster-bootstrap 95% CIs.
@@ -45,13 +45,14 @@ Designated primary endpoint: **work-turn value coherence, Full vs -broadcast**
 (pre-registered prediction (i): with the stored self-state held identical,
 gating its broadcast should degrade in-work value coherence).
 
-    mean paired difference  +0.367   cluster-bootstrap 95% CI [0.327, 0.400]
-    exact stratified sign-flip p = 0.00195   (n = 10 paired runs, limit 0.00195)
-    per-run differences: +.40 +.33 +.40 +.40 +.40 | +.40 +.20 +.40 +.40 +.33
+    mean paired difference  +0.367   paired-bootstrap 95% CI [0.313, 0.400]
+    exact sign-flip p = 0.0625   (n = 5 seed clusters; resolution limit 0.0625)
+    clustered differences: +.40 +.267 +.40 +.40 +.367
 
-Every one of the ten paired runs moves in the predicted direction, in both
-independent batches. This is the one endpoint that attains exact significance,
-and it does so at the resolution floor of the design.
+Every execution-specific difference moves in the predicted direction, but the
+shared seed schedules prevent treating the executions as independent. The
+effect is large and consistent descriptively; the existing data do not support
+a confirmatory significance claim.
 
 Supplementary probe-level model (the mixed-effects analysis the review asked
 for): GEE logistic with exchangeable working correlation and seed clusters,
@@ -65,24 +66,24 @@ model is reported only as convergent evidence.
 
 | contrast | metric | diff | 95% CI | p exact | p Holm |
 |---|---|---|---|---|---|
-| Full vs -self-state | B2_work | +0.407 | [0.347, 0.460] | 0.0019 | **0.023** |
-| Full vs memory | B2_work | +0.380 | [0.333, 0.427] | 0.0019 | **0.023** |
-| Full vs -self-state | B2_adj | +0.480 | [0.456, 0.504] | 0.0019 | **0.023** |
-| Full vs -self-state | B3 | +1.000 | [1.000, 1.000] | 0.0019 | **0.023** |
-| -broadcast vs -self-state | B2_work | +0.040 | [0.000, 0.080] | 0.19 | 1.00 |
-| Full vs -examen | B2_work | +0.000 | [-0.020, 0.020] | 1.00 | 1.00 |
-| Full vs -git | B2_work | +0.020 | [0.000, 0.040] | 0.25 | 1.00 |
+| Full vs -self-state | B2_work | +0.407 | [0.333, 0.473] | 0.0625 | 0.75 |
+| Full vs memory | B2_work | +0.380 | [0.320, 0.420] | 0.0625 | 0.75 |
+| Full vs -self-state | B2_adj | +0.480 | [0.452, 0.508] | 0.0625 | 0.75 |
+| Full vs -self-state | B3 | +1.000 | [1.000, 1.000] | 0.0625 | 0.75 |
+| -broadcast vs -self-state | B2_work | +0.040 | [-0.020, 0.093] | 0.375 | 1.00 |
+| Full vs -examen | B2_work | +0.000 | [0.000, 0.000] | 1.00 | 1.00 |
+| Full vs -git | B2_work | +0.020 | [0.000, 0.047] | 0.50 | 1.00 |
 | Full vs -examen | B2_adj | +0.004 | [0.000, 0.012] | 1.00 | 1.00 |
 | Full vs -git | B2_adj | +0.004 | [0.000, 0.012] | 1.00 | 1.00 |
-| Full vs memory_seeded (n=5) | B2_work | +0.467 | [0.360, 0.547] | 0.0625 | 0.50 |
+| Full vs memory_seeded (n=5) | B2_work | +0.467 | [0.360, 0.547] | 0.0625 | 0.75 |
 | memory_seeded vs -self-state (n=5) | B2_work | -0.080 | [-0.187, 0.013] | 0.375 | 1.00 |
-| memory_seeded vs -self-state (n=5) | B3 | +1.000 | [1.000, 1.000] | 0.0625 | 0.50 |
+| memory_seeded vs -self-state (n=5) | B3 | +1.000 | [1.000, 1.000] | 0.0625 | 0.75 |
 
 Readings:
 
-* The self-state contrasts survive correction; the mechanism contrasts
-  (examen, git history) are flat, not merely non-significant -- the point
-  estimates are 0.000 and 0.020.
+* The self-state contrasts are large descriptively but do not attain exact
+  significance with five seed clusters. The mechanism contrasts (examen, git
+  history) are also close to zero: the point estimates are 0.000 and 0.020.
 * -broadcast is statistically indistinguishable from -self-state on work turns
   (+0.040, p = 0.19). This *supports* the paper's reading (retrieval-gated
   identity collapses **to** the no-self-state level) and should be stated that
@@ -195,23 +196,34 @@ uncertainty of the self-query and commitment metrics -- differences below about
 0.14 on them are not interpretable independently of the rule -- rather than as
 evidence of a scoring defect.
 
-`results/blind_scoring_sample.csv` holds 400 arm-masked, shuffled answers for
-independent human or judge-model scoring, with the key in
-`blind_scoring_key.json`. That check has not been run and is listed as
-outstanding.
+An arm-blinded local model judge scored the 400-item sample from the probe
+rubrics without seeing arm, seed, day, or the automatic label
+(`results/blind_judge.json`). Agreement is 0.85 overall and 1.00 on all three
+work-turn probe families. It is much lower on commitment (0.29) and pace
+(0.51), where the released answers are truncated although the reference score
+was computed from the full answer. This check supports the unambiguous
+forced-choice endpoint and confirms that the stored self-query records cannot
+validate the longer-answer metrics. The judge is Qwen2.5-1.5B, not a human
+rater or an independent model family, so it is reported as a diagnostic only.
 
-## 8. What the paper should now say
+## 8. How these retrospective results enter version 5
 
-Supported at exact significance after correction:
+The independent-seed experiments in `../confirmatory-v5/` supersede these data
+as the main behavioral evidence. The old results are reported as follows:
 
-1. Gating the broadcast of an otherwise-identical stored self-state degrades
-   in-work value coherence (+0.367, p = 0.002, 10/10 runs, two batches,
-   scorer-invariant).
+1. On the old workload, Full exceeds retrieval-gated state by +0.367 (95%
+   paired-bootstrap CI [0.313, 0.400]; exact p = 0.0625 over five seed
+   clusters). This is a retrospective, workload-specific estimate.
 2. Removing the self-state degrades in-work coherence, self-query consistency
-   and commitment persistence relative to Full (all p_Holm = 0.023), with B3
-   still carrying its presence-in-context confound.
-3. Retrieval-gated identity is indistinguishable from having no self-state on
-   work turns.
+   and commitment persistence relative to Full, with B3 still carrying its
+   presence-in-context confound. These contrasts share the same five-cluster
+   inferential limit.
+3. Retrieval-gated state is indistinguishable from having no self-state on the
+   old work-turn probes.
+
+The new 1.5B study gives the opposite direction (self minus gated = -0.079),
+an equal-length neutral block reproduces its decrement, and the new 7B study is
+at ceiling. Version 5 therefore makes no direction-general broadcast claim.
 
 Supported descriptively but **not** at significance:
 

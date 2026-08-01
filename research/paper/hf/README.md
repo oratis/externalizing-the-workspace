@@ -7,14 +7,18 @@ tags:
   - global-workspace
   - persona-stability
   - mechanistic-interpretability
-pretty_name: "Externalizing the Workspace"
+pretty_name: "Persistent Agent Self-State"
 ---
 
-# Externalizing the Workspace: Persistent Self-State for Long-Horizon Agent Coherence
+# Persistent Agent Self-State Has Task- and Model-Dependent Effects on Value Adherence
 
-**Oratis (Wang Bihao)** · [HakkoLab](https://huggingface.co/HakkoLab) · Draft v3, July 2026 · [PDF](./main.pdf)
+**Oratis (Wang Bihao)** · [HakkoLab](https://huggingface.co/HakkoLab) · Draft v5, July 2026 · [PDF](./main.pdf)
 
-Language-model agents drift. Building on Anthropic's finding that LLMs maintain a **verbalizable global workspace** (Gurnee et al., 2026), this paper models persistent self-state agent architectures (LISA's *soul*) as **functional externalizations of the workspace** — and backs the model with experiments that run entirely on open models and independent-researcher compute.
+Agent systems often store values or standing commitments outside the language
+model. This study asks a narrower question: does that state influence ordinary
+task decisions when it is always included in the prompt, compared with keeping
+the same state behind a retrieval gate? The workspace analysis motivates
+representation-level tests but is not presented as an established mechanism.
 
 ## Headline results
 
@@ -23,31 +27,35 @@ Language-model agents drift. Building on Anthropic's finding that LLMs maintain 
 | Core J-lens workspace phenomena reproduce on open models | Qwen2.5-1.5B/7B + Llama-3.2-1B; laptop + one A100 |
 | **Choice pre-commitment emerges with scale** | to-be-reported concept at J-lens rank 1–28 before any output token at 7B; absent at 1.5B |
 | Injected self-state **selectively loads** its identity concepts into the mid-band workspace | control battery unmoved; effect grows with scale |
-| **Workspace occupancy tracks soul-consistent behavior** | r = −0.74 … −0.95 across four settings |
-| Privileged self-state is **necessary** for coherence under value pressure | 6-arm × 5-seed pilot: commitment persistence 1.00 vs **0.00** for memory-only baselines (incl. Generative-Agents-style reflection) |
-| **Unconditional broadcast is necessary** | retrieval-gated soul collapses in-work value coherence to no-soul level: .61 [.60,.64] vs 1.00 [1.00,1.00] |
-| **Confirmed on the *real* deployed system** (not a simulacrum) | Qwen2.5-7B, 5 cohorts × 21 days, 525 arm-days, 0 failures: commitment persistence 1.00 vs **0.00**; self-query consistency .93–.98 vs .65 (non-overlapping) |
-| **Workspace-drift instrument runs on the deployed agent's own contexts** | soul-absent arm least workspace-loaded (J-lens rank 4.32 vs 3.94–4.11); r(WD, B2)=−0.25 (real-deployment, ceiling-limited) |
-| **Cross-model robustness** (closed frontier model) | gemini-2.5-pro: self-consistency deficit replicates (.54 vs .91–.95); commitment-persistence *necessity attenuates on the stronger model* — a boundary condition, largest where the base model is weakest |
+| The retrospective positive effect does not generalize | The earlier 7B simulator gives Full − gated = +.367 over five reused seed schedules; a new 1.5B study gives −.079 [−.116, −.040], exact p=.0098. |
+| The 1.5B decrement follows context overhead | An 81-token value block scores .745, an equal-length neutral block .744, and no block .821 on new seeds 200–209. |
+| The same new workload is too easy at 7B | All four conditions score .995–1.000; the primary difference is +.004, p=.25. |
+| Direct self-report can miss the difference | Full and gated self-query scores are both near ceiling while work-turn choices separate. |
+| Matched label and position controls | Relabeling the same block changes the readout by 0.05 log-rank units; moving it changes the readout by 0.21. |
+| Deployment and closed-model checks are directional | Qwen deployment and Gemini show the same work-turn ordering, but broadcast-specific intervals overlap. |
+| Workspace mediation is unresolved | Pooled occupancy–behavior correlations disappear after condition centering; steering moves behavior, but the occupancy summary is not a sufficient mediator. |
 
 ## What's in this repo
 
-- `main.pdf` — the paper (Draft v3)
+- `main.pdf` — the paper (Draft v5)
 - `figs/` — key figures (lens registers; soul workspace-loading; ablation-pilot drift curves)
 - `results/` — raw JSON results: J-lens reproduction (3 models), E6 soul-loading, E8 scale study, multi-seed ablation pilot, and the **real deployment** (`deployment/`): per-arm behavioral summaries + WD occupancy for Qwen2.5-7B and the gemini-2.5-pro closed-model arm, all with bootstrap CIs
 - Reproduction code lives in the LISA repository under `research/` (J-lens library, experiment scripts, deployment/ablation harness, exact commands)
 
-## Method in one line
+## Method summary
 
-A corpus-averaged Jacobian lens (gradient-estimated concept vectors + finite-difference full-vocabulary readouts) makes the workspace measurable with nothing but backprop access to open weights — turning "agent identity" from a metaphor into a quantity you can track over an agent's lifetime (*workspace drift*).
+The behavioral experiments compare persistent inclusion, retrieval-gated
+availability, and absent-state controls. A corpus-averaged Jacobian lens is
+used separately to test how prompt framing and position affect a
+representation-level readout. The readout results are exploratory.
 
 ## Citation
 
 ```bibtex
 @article{oratis2026workspace,
-  title={Externalizing the Workspace: Persistent Self-State for Long-Horizon Agent Coherence},
+  title={Persistent Agent Self-State Has Task- and Model-Dependent Effects on Value Adherence},
   author={Oratis (Wang Bihao)},
   year={2026},
-  note={Draft v3, HakkoLab}
+  note={Draft v5, HakkoLab}
 }
 ```
