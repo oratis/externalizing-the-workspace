@@ -237,7 +237,7 @@ Four results (Table~\ref{tab:e9}; paired by context variant, so the reported spr
 
 \textbf{(4) The binding sentence does not improve the readout.} Adding ``these notes are authoritative: they must govern every decision you make'' raises mean rank by $0.035$ under the self-state label and by $0.027$ under the memory label. The added sentence changes both content and token count, so the small differences are descriptive.
 
-\paragraph{Limits of E9.} At 1.5B, every block-present condition scores 1.00 on self-query probes and 0.33 on work-turn probes. E9 therefore provides no behavioral estimate of label or position effects. A larger matched behavioral study is required.
+\paragraph{Limits of E9.} At 1.5B, every block-present condition scores 1.00 on self-query probes and 0.33 on work-turn probes. E9 therefore provides no behavioral estimate of label or position effects. A larger matched behavioral study is required. The work-turn battery here has three probes; \S\ref{sec:mediation} uses an extended six-probe version, so its behavioral values carry a different denominator.
 
 \section{Matched Behavioral Test with Independent Seeds}
 \label{sec:prereg}
@@ -407,6 +407,8 @@ Consequently: \textbf{every work-turn number is identical under all four scorers
 \label{sec:mediation}
 A mediation account would require evidence that the prompt intervention changes an internal representation and that this representation, rather than another consequence of the prompt, changes behavior. The preceding experiments do not provide that evidence because prompt content and the proposed mediator move together. E10 therefore holds the prompt fixed and intervenes in the residual stream. It adds $\alpha\hat v$ along the identity battery's mean lens direction at the selected layer band and, separately, projects out the battery's rank-9 span. Occupancy is read after the intervention hooks have been removed.
 
+\paragraph{Work-turn battery.} E10 extends the E9 work-turn battery from three probes to six, adding decisions about public sharing, silent scope expansion, and asserting an unverified citation. Behavioral values are therefore not comparable digit-for-digit between \S\ref{sec:e9} and this section. The E9 system-prompt-head condition and the E10 $\alpha{=}0$ condition use the same prompt and give the same occupancy ($4.772$); one probe per context variant is value-consistent in both, which is $0.33$ of three probes and $0.17$ of six.
+
 \paragraph{Intervention validity.} A general loss of model capability would make the behavioral comparison uninterpretable. We retain conditions only when held-out-text NLL is within 15\% of baseline and performance is unchanged on a small non-identity battery covering arithmetic, factual recall, and format following. The strengths $\alpha\in\{1,2,4\}$ used in the concept-report experiment fail this criterion: NLL rises from 2.85 to 18--37 and capability accuracy falls to zero. E10 therefore uses substantially smaller strengths.
 
 \begin{table}[h]
@@ -503,7 +505,6 @@ The author conceived the framework and designed the experiments. Coding assistan
 \bibitem[Agarwal et al.(2021)]{agarwal2021precipice} Agarwal, R., Schwarzer, M., Castro, P.~S., Courville, A.~C., Bellemare, M. (2021). Deep reinforcement learning at the edge of the statistical precipice. \emph{NeurIPS}.
 \bibitem[Alain \& Bengio(2017)]{alain2017probes} Alain, G., Bengio, Y. (2017). Understanding intermediate layers using linear classifier probes. \emph{ICLR Workshop}.
 \bibitem[Anderson et al.(2004)]{anderson2004actr} Anderson, J.~R., Bothell, D., Byrne, M.~D., Douglass, S., Lebiere, C., Qin, Y. (2004). An integrated theory of the mind. \emph{Psychological Review}, 111(4):1036--1060.
-\bibitem[Baars(1988)]{baars1988} Baars, B.~J. (1988). \emph{A Cognitive Theory of Consciousness}. Cambridge University Press.
 \bibitem[Bai et al.(2022)]{bai2022constitutional} Bai, Y., Kadavath, S., Kundu, S., et al. (2022). Constitutional AI: Harmlessness from AI feedback. \emph{arXiv:2212.08073}.
 \bibitem[Belinkov(2022)]{belinkov2022probing} Belinkov, Y. (2022). Probing classifiers: Promises, shortcomings, and advances. \emph{Computational Linguistics}, 48(1):207--219.
 \bibitem[Belrose et al.(2023)]{belrose2023} Belrose, N., Furman, Z., Smith, L., Halawi, D., Ostrovsky, I., McKinney, L., Biderman, S., Steinhardt, J. (2023). Eliciting latent predictions from transformers with the tuned lens. \emph{arXiv:2303.08112}.
@@ -511,7 +512,6 @@ The author conceived the framework and designed the experiments. Coding assistan
 \bibitem[Bouthillier et al.(2021)]{bouthillier2021variance} Bouthillier, X., Delaunay, P., Bronzi, M., et al. (2021). Accounting for variance in machine learning benchmarks. \emph{MLSys}.
 \bibitem[Bricken et al.(2023)]{bricken2023monosemanticity} Bricken, T., Templeton, A., Batson, J., et al. (2023). Towards monosemanticity: Decomposing language models with dictionary learning. \emph{Transformer Circuits Thread}.
 \bibitem[Card et al.(2020)]{card2020power} Card, D., Henderson, P., Khandelwal, U., Jia, R., Mahowald, K., Jurafsky, D. (2020). With little power comes great responsibility. \emph{EMNLP}.
-\bibitem[Dehaene \& Changeux(2011)]{dehaene2011} Dehaene, S., Changeux, J.-P. (2011). Experimental and theoretical approaches to conscious processing. \emph{Neuron}, 70(2):200--227.
 \bibitem[Dror et al.(2018)]{dror2018hitchhiker} Dror, R., Baumer, G., Shlomov, S., Reichart, R. (2018). The hitchhiker's guide to testing statistical significance in natural language processing. \emph{ACL}.
 \bibitem[Elhage et al.(2022)]{elhage2022} Elhage, N., Hume, T., Olsson, C., et al. (2022). Toy models of superposition. \emph{Transformer Circuits Thread}.
 \bibitem[French(1999)]{french1999catastrophic} French, R.~M. (1999). Catastrophic forgetting in connectionist networks. \emph{Trends in Cognitive Sciences}, 3(4):128--135.
@@ -560,9 +560,7 @@ The author conceived the framework and designed the experiments. Coding assistan
 \bibitem[Wallace et al.(2024)]{wallace2024hierarchy} Wallace, E., Xiao, K., Leike, R., Weng, L., Heidecke, J., Beutel, A. (2024). The instruction hierarchy: Training LLMs to prioritize privileged instructions. \emph{arXiv:2404.13208}.
 \bibitem[Wang et al.(2023a)]{wang2023voyager} Wang, G., Xie, Y., Jiang, Y., et al. (2023). Voyager: An open-ended embodied agent with large language models. \emph{arXiv:2305.16291}.
 \bibitem[Wang et al.(2023b)]{wang2023ioi} Wang, K.~R., Variengien, A., Conmy, A., Shlegeris, B., Steinhardt, J. (2023). Interpretability in the wild: A circuit for indirect object identification in GPT-2 small. \emph{ICLR}.
-\bibitem[Wang et al.(2024a)]{wang2024agentsurvey} Wang, L., Ma, C., Feng, X., et al. (2024). A survey on large language model based autonomous agents. \emph{Frontiers of Computer Science}, 18(6).
-\bibitem[Wang et al.(2024b)]{wang2024continualsurvey} Wang, L., Zhang, X., Su, H., Zhu, J. (2024). A comprehensive survey of continual learning: Theory, method and application. \emph{IEEE TPAMI}.
-\bibitem[Xi et al.(2023)]{xi2023rise} Xi, Z., Chen, W., Guo, X., et al. (2023). The rise and potential of large language model based agents: A survey. \emph{arXiv:2309.07864}.
+\bibitem[Wang et al.(2024)]{wang2024continualsurvey} Wang, L., Zhang, X., Su, H., Zhu, J. (2024). A comprehensive survey of continual learning: Theory, method and application. \emph{IEEE TPAMI}.
 \bibitem[Yao et al.(2023)]{yao2023react} Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., Cao, Y. (2023). ReAct: Synergizing reasoning and acting in language models. \emph{ICLR}.
 \bibitem[Yuan et al.(2024)]{yuan2024selfrewarding} Yuan, W., Pang, R.~Y., Cho, K., Sukhbaatar, S., Xu, J., Weston, J. (2024). Self-rewarding language models. \emph{ICML}.
 \bibitem[Zelikman et al.(2024)]{zelikman2024stop} Zelikman, E., Lu, E., Goodman, N., et al. (2024). Self-taught optimizer (STOP): Recursively self-improving code generation. \emph{COLM}.
