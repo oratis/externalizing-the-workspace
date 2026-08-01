@@ -1,0 +1,35 @@
+{
+  "status": "post-result diagnostic",
+  "addendum_sha256": "419e0bb7d6a1f3ab8615dbb78c34e9d92c7f4c6f0af60a612bc979c300f40628",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "seeds": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209
+  ],
+  "conditions": [
+    "state_memory",
+    "neutral_memory",
+    "no_state"
+  ],
+  "n_days": 20,
+  "probes_per_day": 4,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "body_token_lengths": {
+    "state_memory": 81,
+    "neutral_memory": 81
+  },
+  "state_body_sha256": "574796068d5d258e429cb7a652ec2327d5aa9a6fdf27e58b2304c250a7dd5c23",
+  "neutral_body_sha256": "d6ef01f4a522b7e35c525c0ecc534c92b619d54b4fa596c3993f16cc0d692220",
+  "device": "mps",
+  "dtype": "torch.float32",
+  "started_at_unix": 1785146080.332389
+}

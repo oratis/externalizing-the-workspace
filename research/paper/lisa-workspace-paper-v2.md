@@ -1,5 +1,10 @@
 # Externalizing the Workspace: Persistent Self-State for Long-Horizon Agent Coherence
 
+> **Archived draft.** This file preserves version 2 for provenance and is not
+> the submission manuscript. Several claims below, especially the pooled
+> occupancy--behavior correlation and the longitudinal framing, were revised
+> after re-analysis. The maintained source is `main.tex`.
+
 **Oratis (Wang Bihao)**
 HakkoLab
 [huggingface.co/HakkoLab](https://huggingface.co/HakkoLab) · [huggingface.co/Oratis](https://huggingface.co/Oratis)

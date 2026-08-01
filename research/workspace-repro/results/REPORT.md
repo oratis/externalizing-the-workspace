@@ -112,7 +112,10 @@ Rank-1 ablation of *only the item's own* latent-concept direction (L16–23), vs
 1. **Broadcast loads the workspace, selectively** — soul battery Δ(LL)≈0.17–0.21 log-rank units, control battery Δ≤0.01.
 2. **Dilution attacks the unanchored baseline, not the broadcast** — injected soul stays flat to k=800; the no-soul baseline's identity occupancy erodes with k and its behavior decays monotonically (0.50→0.42→0.33). Stronger than the original prediction: broadcast *protects* identity against context competition.
 3. **Re-broadcast is the strongest loader** (4.09/4.66) — mechanistic rationale for soul hot-reload / periodic re-anchoring.
-4. **Occupancy tracks behavior**: r(J-lens soul occupancy, soul-consistent behavior) = **−0.80** across all 28 cells.
+4. **Pooled occupancy--behavior association**: r = **−0.80** across all
+   28 cells. This association is induced by block-present vs block-absent
+   conditions; the version 5 analysis does not find a within-condition
+   relationship and does not use this result as mediation evidence.
 
 Files: `e6_soul_loading.json`, `fig_e6.png`, `e6_run.log`. Runtime ~23 min.
 
@@ -123,15 +126,24 @@ Same pipeline, zero retuning; probe layers mapped by depth fraction (16 layers, 
 - **E2 intermediates:** median best rank **4 (J-lens) / 10 (logit lens)** — on this family the J-lens *beats* the logit lens (reverse of Qwen). Answer acc 55%.
 - **E4 steering:** **21/21** again (7 targets × 3 strengths, 100% at every α).
 - **E6 soul loading:** much larger than Qwen — J-lens soul battery Δ = 0.57–0.88 log-rank units (soul vs nosoul); behavior 0.42–0.67 with soul vs **0.00** without; **r(occupancy, behavior) = −0.87**.
-- **Honest model differences:** control battery also moves under soul injection (Δ≈0.3; soul-specific excess ≈0.3–0.5); dilution decay of the injected soul *does* appear on Llama (3.39→3.61), unlike Qwen's flat curve; re-broadcast restores logit-lens but not J-lens occupancy.
+- **Model differences:** control battery also moves under soul injection
+  (Δ≈0.3; soul-specific excess ≈0.3–0.5); dilution decay of the injected
+  self-state appears on Llama (3.39→3.61), unlike Qwen's flat curve;
+  re-broadcast restores logit-lens but not J-lens occupancy.
 
-**Takeaway:** the architecture-level claims (broadcast loads workspace; absence is behaviorally decisive; occupancy tracks behavior) replicate across two model families; estimator details (J-lens vs logit lens advantage, dilution shape) are model-dependent.
+**Summary:** the block-presence contrast appears in both model families, while
+the estimator ordering, control-battery change, and dilution shape are
+model-dependent. The pooled occupancy--behavior association is not evidence of
+a graded mediator.
 
 ## E8 — Scale study on Qwen2.5-7B-Instruct (A100, v2 addition)
 
 Same pipeline unchanged, spot A100-40GB on GCP (fp32; full suite 16 min GPU time). Results in `results-qwen7b/`.
 
-**Headline: choice pre-commitment EMERGES at 7B (E3).** Probing before any output token (motor register still 'ready'), the concept the model will later report is already in the workspace at L23 via J-lens: Japan rank **1**, blue **4**, basketball **11**, banana **28** (elephant misses at 7601) — vs 10³–10⁴ at 1.5B. Logit lens at the same positions: 2.7k–15k. The pre-committed choice is visible **specifically in the workspace register** — this confirms v1's "scale-emergent" conjecture and matches the original paper's Claude-scale findings.
+**Choice pre-commitment at 7B (E3).** Probing before any output token, the
+concept the model later reports has J-lens ranks 1 (Japan), 4 (blue), 11
+(basketball), and 28 (banana) at L23; elephant is rank 7601. Corresponding
+logit-lens ranks are 2.7k--15k. The contrast is absent at 1.5B.
 
 **J-lens advantage grows with scale (E1/E2).** E2 median best rank **8 (J) vs 19 (LL)** (top-10: 55% vs 36%) — the reverse of 1.5B, where LL was better. Consistently, E1 motor convergence is later at 7B (LL next-token agreement only 33% at L26 vs 67% at L25 on 1.5B): representational drift grows with scale, and the Jacobian correction becomes necessary rather than optional.
 

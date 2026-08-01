@@ -1,0 +1,272 @@
+{
+ "table": {
+  "label:self_state": {
+   "occ": 4.7716,
+   "occ_sd": 0.0028,
+   "ctrl": 5.096,
+   "self": 1.0,
+   "work": 0.333,
+   "block_tokens": 81
+  },
+  "label:memory": {
+   "occ": 4.7936,
+   "occ_sd": 0.0016,
+   "ctrl": 5.0981,
+   "self": 1.0,
+   "work": 0.333,
+   "block_tokens": 82
+  },
+  "label:profile": {
+   "occ": 4.7465,
+   "occ_sd": 0.001,
+   "ctrl": 5.0889,
+   "self": 1.0,
+   "work": 0.333,
+   "block_tokens": 81
+  },
+  "label:neutral": {
+   "occ": 4.7628,
+   "occ_sd": 0.0021,
+   "ctrl": 5.0967,
+   "self": 1.0,
+   "work": 0.333,
+   "block_tokens": 81
+  },
+  "pos:user_head": {
+   "occ": 4.7188,
+   "occ_sd": 0.0016,
+   "ctrl": 5.0826,
+   "self": 1.0,
+   "work": 0.333,
+   "block_tokens": 81
+  },
+  "pos:user_tail": {
+   "occ": 4.6359,
+   "occ_sd": 0.0071,
+   "ctrl": 5.0655,
+   "self": 1.0,
+   "work": 0.333,
+   "block_tokens": 81
+  },
+  "pos:assistant_recap": {
+   "occ": 4.8413,
+   "occ_sd": 0.0123,
+   "ctrl": 5.1075,
+   "self": 1.0,
+   "work": 0.333,
+   "block_tokens": 81
+  },
+  "bind:self_state": {
+   "occ": 4.8065,
+   "occ_sd": 0.0024,
+   "ctrl": 5.0994,
+   "self": 1.0,
+   "work": 0.333,
+   "block_tokens": 103
+  },
+  "bind:memory": {
+   "occ": 4.8204,
+   "occ_sd": 0.0028,
+   "ctrl": 5.1014,
+   "self": 1.0,
+   "work": 0.333,
+   "block_tokens": 104
+  },
+  "none:identity_preamble": {
+   "occ": 4.8277,
+   "occ_sd": 0.0064,
+   "ctrl": 5.1042,
+   "self": 0.583,
+   "work": 0.0,
+   "block_tokens": 0
+  },
+  "none:generic_preamble": {
+   "occ": 4.8626,
+   "occ_sd": 0.0078,
+   "ctrl": 5.0952,
+   "self": 0.417,
+   "work": 0.0,
+   "block_tokens": 0
+  },
+  "dilute:system_head": {
+   "occ": 4.7493,
+   "occ_sd": 0.0068,
+   "ctrl": 5.0837,
+   "self": 1.0,
+   "work": 0.333,
+   "block_tokens": 81
+  },
+  "dilute:user_head": {
+   "occ": 4.7004,
+   "occ_sd": 0.0053,
+   "ctrl": 5.0712,
+   "self": 1.0,
+   "work": 0.333,
+   "block_tokens": 81
+  },
+  "dilute:user_tail": {
+   "occ": 4.5779,
+   "occ_sd": 0.0078,
+   "ctrl": 5.0578,
+   "self": 1.0,
+   "work": 0.333,
+   "block_tokens": 81
+  }
+ },
+ "contrasts": {
+  "presence": [
+   {
+    "a": "label:self_state",
+    "b": "none:generic_preamble",
+    "mean_diff": -0.091,
+    "sd": 0.0078,
+    "n_variants": 4,
+    "per_variant": [
+     -0.0955,
+     -0.09,
+     -0.0788,
+     -0.0998
+    ]
+   },
+   {
+    "a": "label:self_state",
+    "b": "none:identity_preamble",
+    "mean_diff": -0.0561,
+    "sd": 0.0058,
+    "n_variants": 4,
+    "per_variant": [
+     -0.0629,
+     -0.0609,
+     -0.0514,
+     -0.0494
+    ]
+   }
+  ],
+  "label": [
+   {
+    "a": "label:self_state",
+    "b": "label:memory",
+    "mean_diff": -0.0221,
+    "sd": 0.0016,
+    "n_variants": 4,
+    "per_variant": [
+     -0.0241,
+     -0.0201,
+     -0.0212,
+     -0.0229
+    ]
+   },
+   {
+    "a": "label:self_state",
+    "b": "label:profile",
+    "mean_diff": 0.0251,
+    "sd": 0.0025,
+    "n_variants": 4,
+    "per_variant": [
+     0.0229,
+     0.0294,
+     0.024,
+     0.024
+    ]
+   },
+   {
+    "a": "label:self_state",
+    "b": "label:neutral",
+    "mean_diff": 0.0087,
+    "sd": 0.002,
+    "n_variants": 4,
+    "per_variant": [
+     0.007,
+     0.011,
+     0.0105,
+     0.0064
+    ]
+   }
+  ],
+  "position": [
+   {
+    "a": "pos:user_head",
+    "b": "label:self_state",
+    "mean_diff": -0.0528,
+    "sd": 0.0025,
+    "n_variants": 4,
+    "per_variant": [
+     -0.0512,
+     -0.0567,
+     -0.0501,
+     -0.0531
+    ]
+   },
+   {
+    "a": "pos:user_tail",
+    "b": "label:self_state",
+    "mean_diff": -0.1357,
+    "sd": 0.0086,
+    "n_variants": 4,
+    "per_variant": [
+     -0.1266,
+     -0.1419,
+     -0.1279,
+     -0.1462
+    ]
+   },
+   {
+    "a": "pos:assistant_recap",
+    "b": "label:self_state",
+    "mean_diff": 0.0698,
+    "sd": 0.0119,
+    "n_variants": 4,
+    "per_variant": [
+     0.0657,
+     0.0666,
+     0.0573,
+     0.0894
+    ]
+   },
+   {
+    "a": "dilute:user_tail",
+    "b": "dilute:system_head",
+    "mean_diff": -0.1714,
+    "sd": 0.0099,
+    "n_variants": 4,
+    "per_variant": [
+     -0.1589,
+     -0.1856,
+     -0.1745,
+     -0.1666
+    ]
+   }
+  ],
+  "binding": [
+   {
+    "a": "bind:self_state",
+    "b": "label:self_state",
+    "mean_diff": 0.035,
+    "sd": 0.0016,
+    "n_variants": 4,
+    "per_variant": [
+     0.0348,
+     0.0326,
+     0.0355,
+     0.0371
+    ]
+   },
+   {
+    "a": "bind:memory",
+    "b": "label:memory",
+    "mean_diff": 0.0268,
+    "sd": 0.0025,
+    "n_variants": 4,
+    "per_variant": [
+     0.0251,
+     0.0241,
+     0.0274,
+     0.0305
+    ]
+   }
+  ]
+ },
+ "label_span": 0.0471,
+ "position_span": 0.2054,
+ "presence_effect": 0.091
+}
