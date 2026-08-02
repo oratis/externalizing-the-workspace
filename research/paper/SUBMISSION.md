@@ -19,9 +19,21 @@ v5 将行为结果设为主线，将 workspace 分析降为探索性结果，并
 
 ## 文件
 
-- `main.tex` — 规范版（唯一需要编辑的文件）
+本仓库现在有**两份稿子，投向不同，刻意不合并**：
+
+| | 内容 | 投向 |
+|---|---|---|
+| `main.tex`（24 页） | 完整版：行为实验 + J-lens 复现 + E6/E9/E10 表征分析 | **TMLR** |
+| `empirical/main.tex`（12 页） | 只保留实证链条 | **arXiv** |
+
+`empirical/` 是收窄版，不是删节版：它把复现失败推到开篇，去掉了 workspace 机制、
+四条设计原则、LISA 实例化和全部表征层分析，改以 setup → 预注册复现 → 等长中性对照 →
+"原估计错在哪" 的顺序组织。两份稿子的数字完全一致，独立编译，各自打包。
+
+- `main.tex` — 完整版的规范源（唯一需要编辑的文件）
 - `arxiv/main.tex`、`tmlr/main.tex` — **由 `python make_variants.py` 生成，别手改**
   （v3 时期这三份已经漂移：arXiv/TMLR 版还停在旧标题和旧摘要）
+- `empirical/main.tex` — 独立源，**不由 make_variants.py 生成**；改完直接 `tectonic main.tex`
 - TMLR 版默认**已匿名**（作者块 + 仓库链接被替换并自检）；camera-ready 用
   `python make_variants.py --deanonymize`
 - 编译：`tectonic main.tex`（官方 `tmlr.sty` 已加入）
@@ -35,7 +47,8 @@ v5 将行为结果设为主线，将 workspace 分析降为探索性结果，并
 2. **ICLR 2027 作备选**，前提是增加第二个模型家族和一个经校准、7B 不饱和的任务集。
 3. **不赶 AAAI-27**：full paper 截止 2026-07-28、abstract 截止 07-21（已过），
    且主会正文约 7 页 —— 当前的问题是要补实验而不是压页数。
-4. **arXiv**：可先挂（primary `cs.LG`，cross-list `cs.CL`/`cs.AI`）。
+4. **arXiv**：投 `empirical/` 那一份（12 页），不投完整版。**投稿前先读本地
+   `ARXIV_SUBMISSION_METADATA.md` 里的流程约束**——这一步有前置条件，不能直接开投。
    先挂预印本前确认目标 venue 的匿名与 prior-publication 政策；TMLR 允许预印本，
    但提交稿本身仍需匿名。
 
@@ -51,9 +64,12 @@ v5 将行为结果设为主线，将 workspace 分析降为探索性结果，并
 - [ ] **参考文献核对**：65 条里多数是常见文献（已抽查若干条的年份/venue；`gurnee2026`
       已核实为 Transformer Circuits 2026-07-06，另有 arXiv 版 2607.15495），
       投稿前建议用 DBLP/Semantic Scholar 批量核一遍。
-- [ ] **arXiv endorsement**：背书按 subject class 发放，一个类别的背书**不会自动覆盖另一个**。
-      primary 若定为 `cs.LG`，投稿前先确认该类别的背书状态，否则上传后会卡在等背书。
-      （分类与背书的完整决策记录见本地 `ARXIV_SUBMISSION_METADATA.md`，未入库。）
+- [ ] **arXiv endorsement**：arXiv 按 "endorsement domain" 分组，帮助页未写明 cs 是整体一个
+      domain 还是按 subject class 分（物理是按 subject class 的已知例外；cs.CY 的背书门槛写的是
+      "向任意 computer science category 投过 3 篇"，倾向于 cs 整体一个 domain）。
+      **别推理，实测**：开始 New Submission 选定 primary，看是否被要求补背书。若被拦，
+      改从已有背书的类别投，再在announce 后申请 cross-list。
+      （分类决策记录见本地 `ARXIV_SUBMISSION_METADATA.md`，未入库。）
 - [x] **将本地 v5 结果同步到 public 仓库**。`research/confirmatory-v5/`（预注册、addenda、
       三次运行的完整 per-record 数据与分析脚本）与 v5 论文已同步上线，Data/Code
       Availability 段所述内容现已可核。
@@ -61,8 +77,11 @@ v5 将行为结果设为主线，将 workspace 分析降为探索性结果，并
 ## arXiv 元数据
 
 - **License**：CC BY 4.0
-- **分类**：primary `cs.LG`；cross-list `cs.CL`。不主动添加 `cs.AI`，其官方范围说明
-  明确将 Machine Learning 和 Computation and Language 分到独立类别。
+- **稿件**：`empirical/main.tex`（12 页，2 图），不是完整版
+- **分类**：primary `cs.CL`；cross-list `cs.LG`；**不申请 `cs.AI`**。
+  全文测量的是语言模型对 prompt 受控改动的响应——自变量是 81 token 的上下文，
+  因变量是 forced-choice 准确率，核心对照是等长语义惰性块。这是 NLP 实验。
+  （投稿流程与前置条件见本地 `ARXIV_SUBMISSION_METADATA.md`，未入库。）
 - **Title**：Persistent Agent Self-State Has Task- and Model-Dependent Effects on Value Adherence
 - **Authors**：Wang Bihao (Independent Researcher)
 - **Comments**：`24 pages, 5 figures. Code and data: https://github.com/oratis/externalizing-the-workspace`

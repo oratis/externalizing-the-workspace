@@ -1,5 +1,7 @@
 # Local submission artifacts: keep these out of the public research repository.
 ARXIV_SUBMISSION_METADATA.md
+ARXIV_APPEAL.md
 REVISION_V5_PLAN.md
 arxiv-source-*.tar.gz
+arxiv-empirical-*.tar.gz
 tmlr/main.pdf
